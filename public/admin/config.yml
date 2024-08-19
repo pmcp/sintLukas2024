@@ -1,0 +1,512 @@
+i18n:
+  structure: multiple_files
+  locales: [nl, fr]
+
+backend:
+  name: git-gateway
+  branch: content
+  repo: pmcp/sintLukasNuxt
+  squash_merges: true
+
+media_folder: /public/assets/uploads
+public_folder: /assets/uploads
+
+#publish_mode: editorial_workflow
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+
+collections:
+  - label: 'Settings'
+    name: 'site'
+    files:
+      - label: 'Info'
+        name: 'info'
+        file: 'content/site/info.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - { label: Site Name, name: sitename, widget: string, hint: 'This is used for the site title' }
+          - {
+            label: Site Description,
+            name: sitedescription,
+            widget: string,
+            hint: 'This is used as descriptive text for links that link to this site',
+          }
+          - {
+            label: Site Language,
+            name: sitelang,
+            widget: string,
+            pattern: [ '^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")' ],
+          }
+      - label: 'Translations'
+        name: 'translations'
+        file: 'content.translations.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - label: "Translations"
+            name: "translations"
+            widget: "list"
+            summary: '{{fields.fr}} - {{fields.nl}}'
+            fields:
+              - { label: FR, name: fr, widget: string }
+              - { label: NL, name: nl, widget: string }
+      - label: 'Categories'
+        name: 'categories'
+        file: 'content/site/categories.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - label: "ateliers"
+            name: "ateliers"
+            widget: "list"
+            summary: '{{fields.nl}}'
+            fields:
+              - { label: NL, name: nl, widget: string }
+              - { label: FR, name: fr, widget: string, required: false }
+              - { label: ID, name: id, widget: uuid}
+              - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+      - label: 'Navigation'
+        name: 'navigation'
+        file: 'content/site/navigation.json'
+        format: 'json'
+        i18n: true
+        editor:
+          preview: false
+        fields:
+          - label: 'Navigation item'
+            name: 'navigation'
+            widget: 'list'
+            summary: '{{fields.page}}'
+            collapsed: false
+            fields:
+              - label: "Label Fr"
+                name: "labelfr"
+                widget: "string"
+              - label: "Label Nl"
+                name: "labelnl"
+                widget: "string"
+              - label: "Page"
+                name: "page"
+                widget: "relation"
+                collection: "pages"
+                search_fields: [ "{{title}}" ]
+                value_field: "{{slug}}"
+                display_fields: [ "{{title}}" ]
+  - name: 'pages'
+    i18n: true
+    label: 'Pages'
+    label_singular: 'Page'
+    folder: 'content'
+    create: true
+    format: 'frontmatter'
+    editor:
+       preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
+      - { label: 'Intro', name: 'intro', widget: 'text', i18n: true, required: false }
+      - label: 'Content'
+        required: false
+        i18n: true
+        name: 'elements'
+        label_singular: 'Element'
+        widget: 'list'
+        summary: "{{fields.title}}"
+        types:
+          - label: 'Text'
+            name: 'text'
+            widget: object
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            fields:
+              - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
+              - { label: text, name: markdown, widget: markdown }
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
+          - label: 'Locations'
+            name: 'locations'
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - label: "Location"
+                multiple: true
+                name: "location"
+                widget: "relation"
+                collection: "locations"
+                search_fields: [ "{{name}}" ]
+                value_field: "{{slug}}"
+                display_fields: [ "{{name}}" ]
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
+          - label: 'Teachers'
+            name: 'teachers'
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - label: "Teacher"
+                multiple: true
+                name: "teacher"
+                widget: "relation"
+                collection: "teachers"
+                search_fields: [ "{{firstName}}", "{{lastName}}" ]
+                value_field: "{{slug}}"
+                display_fields: [ "{{firstName}} {{lastName}}" ]
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
+          - label: 'Images'
+            name: 'images'
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - label: "Layout"
+                name: "layout"
+                widget: "select"
+                options:
+                  - { label: "Masonry", value: 1 }
+                  - { label: "Frame", value: 2 }
+                  - { label: "Justified", value: 3 }
+                  - { label: "Full Width", value: 4 }
+              - widget: list
+                name: 'image'
+                fields:
+                  - label: "Description"
+                    name: "description"
+                    widget: "string"
+                    required: true
+                    i18n: true
+                  - label: "Image"
+                    required: true
+                    name: "image"
+                    widget: "image"
+                    choose_url: true
+                    media_library:
+                      config:
+                        multiple: false
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
+          - label: 'Buttons'
+            name: 'buttons'
+            widget: object
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - widget: list
+                name: 'button'
+                fields:
+                  - label: "label"
+                    name: "label"
+                    widget: "string"
+                    required: true
+                  - label: "Link"
+                    name: "link"
+                    required: false
+                    widget: "string"
+                  - label: "Download"
+                    required: false
+                    name: "download"
+                    widget: "file"
+                    media_library:
+                      config:
+                        multiple: false
+                        max_file_size: 1024000 # in bytes, only for default media library
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
+          - label: 'Ateliers'
+            name: 'ateliers'
+            widget: object
+            fields:
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+              - widget: list
+                name: 'category'
+                fields:
+                  - label: "Category"
+                    name: "category"
+                    widget: "relation"
+                    collection: "site"
+                    file: "categories"
+                    search_fields: [ "ateliers.*.nl" ]
+                    display_fields: [ "ateliers.*.nl" ]
+                    value_field: "ateliers.*.id"
+      - label: "Featured Image"
+        required: false
+        name: "image"
+        widget: "image"
+        choose_url: true
+        i18n: true
+        media_library:
+          config:
+            multiple: false
+  - name: 'locations'
+    i18n: true
+    label: 'Locations'
+    label_singular: 'Location'
+    folder: 'content/locations'
+    create: true
+    format: 'frontmatter'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string', required: true, i18n: true }
+      - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
+      - { label: 'Street & number', name: 'street', widget: 'string', i18n: true, required: false }
+      - { label: 'Zip code', name: 'zip', widget: 'string', i18n: true, required: false }
+      - { label: 'City', name: 'city', widget: 'string', i18n: true, required: false }
+      - {label: "Location", name: "location", widget: "map" }
+  - name: 'ateliers'
+    i18n: true
+    label: 'Ateliers'
+    label_singular: 'Atelier'
+    folder: 'content/ateliers'
+    create: true
+    format: 'frontmatter'
+    summary: '{{title}} - {{age}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
+      - { label: 'Age', name: 'age', widget: 'string', required: true, i18n: true }
+      - { label: 'Intro', name: 'intro', widget: 'markdown', i18n: true, required: false }
+      - label: "Category"
+        name: "categories"
+        widget: "relation"
+        collection: "site"
+        file: "categories"
+        search_fields: [ "ateliers.*.nl" ]
+        display_fields: [ "ateliers.*.nl" ]
+        value_field: "ateliers.*.id"
+      - label: "Featured Image"
+        name: "mainImage"
+        widget: "image"
+        choose_url: true
+        media_library:
+          config:
+            multiple: false
+      - label: 'Content'
+        required: false
+        i18n: true
+        name: 'elements'
+        label_singular: 'Element'
+        widget: 'list'
+        summary: "{{fields.title}}"
+        types:
+          - label: 'Text'
+            name: 'text'
+            widget: object
+            summary: "Width: {{fields.width}}/2"
+            fields:
+              - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
+              - { label: text, name: markdown, widget: markdown }
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+          - label: 'Locations'
+            name: 'locations'
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - label: "Location"
+                multiple: true
+                name: "location"
+                widget: "relation"
+                collection: "locations"
+                search_fields: [ "{{name}}" ]
+                value_field: "{{slug}}"
+                display_fields: [ "{{name}}" ]
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+          - label: 'Teachers'
+            name: 'teachers'
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - label: "Teacher"
+                multiple: true
+                name: "teacher"
+                widget: "relation"
+                collection: "teachers"
+                search_fields: [ "{{firstName}}", "{{lastName}}" ]
+                value_field: "{{slug}}"
+                display_fields: [ "{{firstName}} {{lastName}}" ]
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+          - label: 'Images'
+            name: 'images'
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            widget: object
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - label: "Layout"
+                name: "layout"
+                widget: "select"
+                options:
+                  - { label: "Masonry", value: 1 }
+                  - { label: "Frame", value: 2 }
+                  - { label: "Justified", value: 3 }
+                  - { label: "Full Width", value: 4 }
+              - widget: list
+                name: 'image'
+                fields:
+                  - label: "Description"
+                    name: "description"
+                    widget: "string"
+                    required: true
+                    i18n: true
+                  - label: "Image"
+                    required: true
+                    name: "image"
+                    widget: "image"
+                    choose_url: true
+                    media_library:
+                      config:
+                        multiple: false
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+          - label: 'Buttons'
+            name: 'buttons'
+            widget: object
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
+              - widget: list
+                name: 'button'
+                fields:
+                  - label: "label"
+                    name: "label"
+                    widget: "string"
+                    required: true
+                  - label: "Link"
+                    name: "link"
+                    required: false
+                    widget: "string"
+                  - label: "Download"
+                    required: false
+                    name: "download"
+                    widget: "file"
+                    media_library:
+                      config:
+                        multiple: false
+                        max_file_size: 1024000 # in bytes, only for default media library
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+          - label: 'Ateliers'
+            name: 'ateliers'
+            widget: object
+            fields:
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+              - widget: list
+                name: 'category'
+                fields:
+                  - label: "Category"
+                    name: "category"
+                    widget: "relation"
+                    collection: "site"
+                    file: "categories"
+                    search_fields: [ "ateliers.*.nl" ]
+                    display_fields: [ "ateliers.*.nl" ]
+                    value_field: "ateliers.*.id"
+  - name: 'teachers'
+    i18n: true
+    label: 'Teachers'
+    label_singular: 'Teacher'
+    folder: 'content/teachers'
+    create: true
+    format: 'frontmatter'
+    fields:
+      - { label: 'First Name', name: 'firstName', widget: 'string', required: true, i18n: false }
+      - { label: 'Last Name', name: 'lastName', widget: 'string', required: true, i18n: false }
+      - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
+      - { label: 'Video', name: 'video', widget: 'string', i18n: true, required: false }
+      - label: "Photo"
+        required: false
+        name: "image"
+        widget: "image"
+        choose_url: true
+        i18n: true
+        media_library:
+          config:
+            multiple: false
+  - label: "News"
+    name: "news"
+    folder: "content/news"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", time_format: false}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
