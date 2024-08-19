@@ -1,0 +1,38 @@
+.background-grid {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 1;
+    background-image:  linear-gradient(hsla(0, 0%, 0%, 0.2) 1px, transparent 1px), linear-gradient(to right, hsla(0, 0%, 0%, 0.2) 1px, #fff 1px);
+    background-size: 24px 24px;
+    background-position-x: -10px;
+    background-position-y: -10px;
+    padding: 14px 18px;
+}
+
+
+@container (min-width: 300px) and (max-width: 800px) {
+    .pmcp-teacher_container {
+        gap: 3%;
+        /*background-color: blue;*/
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .pmcp-teacher_element {
+        /*background-color: red;*/
+        grid-column: span 1;
+    }
+}
+
+@container (min-width: 550px) {
+    .pmcp-teacher_container {
+        gap: 3%;
+        /*background-color: yellow;*/
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    }
+
+    .pmcp-teacher_element {
+        /*background-color: green;*/
+        grid-column: span 1;
+    }
+}
