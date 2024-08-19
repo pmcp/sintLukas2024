@@ -1,0 +1,3 @@
+<template>
+  Ateliers
+</template>
