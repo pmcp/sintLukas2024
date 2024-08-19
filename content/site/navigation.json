@@ -1,0 +1,14 @@
+{
+  "navigation": [
+    {
+      "page": "testpage-1",
+      "labelnl": "Testpage 1 NL",
+      "labelfr": "Testpage 1 FR"
+    },
+    {
+      "labelfr": "Pagina 2",
+      "labelnl": "Pagina 2",
+      "page": "test-article-2"
+    }
+  ]
+}
