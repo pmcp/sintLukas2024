@@ -4,8 +4,8 @@ i18n:
 
 backend:
   name: git-gateway
-  branch: content
-  repo: pmcp/sintLukasNuxt
+  branch: main
+  repo: pmcp/sintLukas2024
   squash_merges: true
 
 media_folder: /public/assets/uploads
