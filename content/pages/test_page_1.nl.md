@@ -9,5 +9,13 @@ elements:
     alt: Verschillende vormen in tekenstijl, als achtergrond voor de titel.
     image: /assets/uploads/vormen_header.png
     squares: true
+  - type: categories
+    width: 3
+    squares: false
+    categories:
+      - 90iJn1gwW8MuR2-xvbPDj
+      - TL9yAVIYU-VSuRiIo-Wvf
+      - 4r3Gdjll2uIxKn_19qYRp
+    title: Aanbod
 image: /assets/uploads/vormen_header.png
 ---
