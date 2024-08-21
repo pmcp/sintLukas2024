@@ -9,6 +9,10 @@ elements:
     alt: Verschillende vormen in tekenstijl, als achtergrond voor de titel.
     image: /assets/uploads/vormen_header.png
     squares: true
+  - type: news
+    width: 1
+    squares: false
+    title: Nieuws
   - type: categories
     width: 1
     squares: false
@@ -16,9 +20,5 @@ elements:
     title: Aanbod
     description: Ontmoetingsplaats tussen disciplines, artistieke processen,
       leeftijden en culturen.
-  - type: news
-    width: 1
-    squares: false
-    title: Nieuws
 image: /assets/uploads/vormen_header.png
 ---
