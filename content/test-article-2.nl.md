@@ -12,7 +12,7 @@ elements:
     width: 1
     squares: true
     articles:
-      - news test A
+      - h0EJFT_XpyQkhjdM5wEJV
     title: Nieuws
 ---
 second page
