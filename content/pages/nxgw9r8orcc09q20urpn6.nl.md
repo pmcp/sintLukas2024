@@ -13,6 +13,10 @@ elements:
       - category: _CjrAc9jGjz9N8KjUjcYV
       - category: 90iJn1gwW8MuR2-xvbPDj
       - category: TL9yAVIYU-VSuRiIo-Wvf
+    categories:
+      - 90iJn1gwW8MuR2-xvbPDj
+      - TL9yAVIYU-VSuRiIo-Wvf
+      - 4r3Gdjll2uIxKn_19qYRp
   - type: teachers
     width: 2
     squares: true
