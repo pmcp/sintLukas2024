@@ -8,5 +8,6 @@ elements:
     title: Dé academie voor beeldende kunsten  in hartje Brussel!
     alt: Verschillende vormen in tekenstijl, als achtergrond voor de titel.
     image: /assets/uploads/vormen_header.png
+    squares: true
 image: /assets/uploads/vormen_header.png
 ---
