@@ -1,17 +1,15 @@
 ---
-title: Ateliers
-age: 6-12 jaar
+intro: ""
+mainImage: /assets/uploads/4.jpg
 info: "Je maakt op een ludieke manier kennis met verschillende technieken:
   schilderen, tekenen, collages maken, sculpturen kneden in klei, fotograferen,
   etsen, ... Laat je verwonderen door de rijke wereld van materialen, technieken
   en kunststromingen. Je wordt geprikkeld om te doen, te experimenteren en
   prikkels al spelend om te zetten in sprekende beelden!"
-image:
-  - image: /assets/uploads/1.jpg
-    description: explanation
-intro: ""
+id: hrGYbToyHGpFDTjKl1Mjr
+title: Ateliers
+age: 6-12 jaar
 categories: 90iJn1gwW8MuR2-xvbPDj
-mainImage: /assets/uploads/4.jpg
 elements:
   - type: text
     markdown: >-
@@ -67,4 +65,7 @@ elements:
     title: Leerkrachten
     width: 1
     squares: true
+image:
+  - image: /assets/uploads/1.jpg
+    description: explanation
 ---
