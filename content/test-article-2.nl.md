@@ -11,7 +11,8 @@ elements:
   - type: news
     width: 1
     squares: true
-    articles: news test A
+    articles:
+      - news test A
     title: Nieuws
 ---
 second page
