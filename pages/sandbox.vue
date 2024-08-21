@@ -2,9 +2,8 @@
 <!--    <div class="fixed p-2 bottom-0 left-0 z-100 bg-main-300 h-10 font-bold w-full">-->
 <!--      <dev-screen />-->
 <!--    </div>-->
-<dev-container class="w-full h-screen">
-  <dev-content />
-</dev-container>
+
+  <elements-news />
 
 <!--    <elements-banner class="bg-primary-100"/>-->
 
