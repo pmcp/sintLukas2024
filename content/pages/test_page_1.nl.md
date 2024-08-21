@@ -9,6 +9,7 @@ elements:
     alt: Verschillende vormen in tekenstijl, als achtergrond voor de titel.
     image: /assets/uploads/vormen_header.png
     squares: true
+    width: 1
   - type: news
     width: 1
     squares: false
