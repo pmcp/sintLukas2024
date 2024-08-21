@@ -13,9 +13,11 @@ elements:
     width: 1
     squares: false
     categories:
-      - 90iJn1gwW8MuR2-xvbPDj
+      - _CjrAc9jGjz9N8KjUjcYV
       - TL9yAVIYU-VSuRiIo-Wvf
       - 4r3Gdjll2uIxKn_19qYRp
+      - xpPziZiLaZZdEtlcXPYnV
+      - 90iJn1gwW8MuR2-xvbPDj
     title: Aanbod
     description: Ontmoetingsplaats tussen disciplines, artistieke processen,
       leeftijden en culturen.
