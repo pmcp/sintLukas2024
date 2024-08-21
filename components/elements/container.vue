@@ -1,13 +1,14 @@
 <template>
-  <div>
+  <div class="mt-6">
     <UPageGrid :ui="{wrapper: 'grid grid-cols-1 xl:grid-cols-2 gap-8'}">
       <div v-for="(element, key) in elements" :key="`el${key}`" class="pmcp-container" :class="getContainerClasses(element)">
         <!-- TITLE-->
         <h2 v-if="element.title && element.type !== 'banner'" class="text-md uppercase font-bold pt-2 pb-4">{{ element.title}}</h2>
         <!-- BANNER -->
         <elements-banner v-if="element.type === 'banner'" :data="element" />
-        <!-- MARKDOWN -->
-        <elements-markdown v-if="element.type === 'text'" class="prose lg:prose-md" :markdownString="element.markdown" />
+        <!-- TEXT -->
+
+        <elements-text v-if="element.type === 'text'" :text="element.markdown" :side1="element.side1" :side2="element.side2" />
         <!-- IMAGES -->
         <elements-images v-if="element.type === 'images'" :images="element.image" :layout="element.layout" />
         <!-- LOCATION -->

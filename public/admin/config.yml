@@ -190,7 +190,9 @@ collections:
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
             fields:
               - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
-              - { label: text, name: markdown, widget: markdown }
+              - { label: "Text", name: markdown, widget: markdown }
+              - { label: "Side 1", name: side1, widget: markdown }
+              - { label: "Side 2", name: side2, widget: markdown }
               - label: "Width"
                 name: "width"
                 widget: "select"
