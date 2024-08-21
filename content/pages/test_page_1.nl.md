@@ -21,5 +21,9 @@ elements:
     title: Aanbod
     description: Ontmoetingsplaats tussen disciplines, artistieke processen,
       leeftijden en culturen.
+  - type: news
+    width: 1
+    squares: false
+    title: Nieuws
 image: /assets/uploads/vormen_header.png
 ---
