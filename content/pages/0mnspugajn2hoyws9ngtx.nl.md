@@ -25,4 +25,25 @@ elements:
       venenatis ligula, eu rutrum nunc. Pellentesque ultricies, dolor eu varius
       mollis, augue libero faucibus lorem, sit amet blandit libero tortor vitae
       enim.
+    side1: |-
+      **WANNEER**
+
+      ma 15:50-17:30
+
+      di 15:50-17:30 
+
+      wo 13:30-15:20
+
+      do 15:50-17:30
+    side2: >-
+      **WAAR**
+
+
+      Verschillende locaties.
+
+
+      Meer info in verband met de planning en de locatie? info.academie@sintlukas.brussels of 02/217 77 00
+
+
+      :dispatch{:data='{"label":"Vestigingen bekijken","type":2}' type='button'}
 ---
