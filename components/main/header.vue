@@ -7,9 +7,6 @@
     </template>
     <template #center >
       <div class="hidden lg:flex grow gap-8">
-        <nuxtLink to="/test-article-2.nl">
-          Test
-        </nuxtLink>
         <UHorizontalNavigation :links="navItems" :ui="{
   wrapper: 'relative w-full flex items-center justify-between',
   container: 'flex items-center min-w-0',
@@ -56,7 +53,6 @@
 
 <script setup>
 const { data } = await useAsyncData('navigation', () => queryContent('site/navigation').findOne())
-// console.log(data.value)
 // TODO: Lang
 const lang = 'nl'
 const navItems = data.value.navigation.map(n => ({ 'label': n[`label${lang}`], to: `/${n.page}.nl`}))

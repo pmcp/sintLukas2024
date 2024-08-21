@@ -1,13 +1,14 @@
 <template>
-  <div class="flex w-full h-20">
-    <div class=" flex-1">
-      Dé academie voor beeldende kunsten in hartje Brussel!
+  <div class="flex w-full">
+    <div class="absolute text-4xl pt-2 pb-4 max-w-md top-12">
+      {{ data.title }}
     </div>
-    <div class="flex-grow flex flex-row gap-2">
-
-        <svg-eyes :type="i" v-for="i in 3"></svg-eyes>
-
-    </div>
-
+    <img  class=" object-cover w-full h-full	 top-0 left-0" :src="data.image" :alt="data.alt">
   </div>
 </template>
+
+<script setup>
+const props = defineProps({
+  data: Object
+});
+</script>

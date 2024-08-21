@@ -51,11 +51,10 @@ let articles;
 
 // TODO: add "where date -> after today"
 
-if(props.articles.length === 0) {
+if(props.articles) {
   const { data } = await useAsyncData('news', () => queryContent('news')
-      .where({ _draft: false, },
-          { id: { $in: props.articles }}
-      )
+      .where({ _draft: false, })
+      .where({ id: { $in: props.articles }})
       .find())
   articles = data;
 } else {

@@ -2,6 +2,8 @@ i18n:
   structure: multiple_files
   locales: [nl, fr]
 
+locale: 'nl'
+
 backend:
   name: git-gateway
   branch: main
@@ -89,6 +91,13 @@ collections:
               - { label: FR, name: fr, widget: string, required: false }
               - { label: ID, name: id, widget: uuid }
               - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+              - label: "Background"
+                required: false
+                name: "background"
+                widget: "image"
+                media_library:
+                  config:
+                    multiple: false
       - label: 'Navigation'
         name: 'navigation'
         file: 'content/site/navigation.json'
@@ -117,15 +126,26 @@ collections:
                 value_field: "{{slug}}"
                 display_fields: [ "{{title}}" ]
   - name: 'pages'
+    summary: "{{title}} - {{created}}"
+    sortable_fields: [ 'created', 'title' ]
     i18n: true
     label: 'Pages'
     label_singular: 'Page'
-    folder: 'content'
+    folder: 'content/pages'
     create: true
     format: 'frontmatter'
+    identifier_field: id
     editor:
        preview: true
     fields:
+      - label: "Created at"
+        name: "created"
+        widget: "datetime"
+        default: "{{now}}"
+        date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm" # e.g. 21:07
+        format: "LLL"
+        picker_utc: false
       - { label: ID, name: id, widget: uuid }
       - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
       - { label: 'Intro', name: 'intro', widget: 'text', i18n: true, required: false }
@@ -137,6 +157,33 @@ collections:
         widget: 'list'
         summary: "{{fields.title}}"
         types:
+          - label: 'Banner'
+            name: 'banner'
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
+              - label: "Alt"
+                name: "alt"
+                widget: "string"
+                required: true
+                i18n: true
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - label: "Image"
+                required: true
+                name: "image"
+                widget: "image"
+                choose_url: true
+                media_library:
+                  config:
+                    multiple: false
+              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
           - label: 'Text'
             name: 'text'
             widget: object
@@ -277,17 +324,16 @@ collections:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
               - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
-              - widget: list
-                name: 'category'
-                fields:
-                  - label: "Category"
-                    name: "category"
-                    widget: "relation"
-                    collection: "site"
-                    file: "categories"
-                    search_fields: [ "ateliers.*.nl" ]
-                    display_fields: [ "ateliers.*.nl" ]
-                    value_field: "ateliers.*.id"
+              - label: "Categories"
+                name: "categories"
+                widget: "relation"
+                collection: "site"
+                file: "categories"
+                multiple: true
+                required: false
+                search_fields: [ "ateliers.*.nl" ]
+                display_fields: [ "ateliers.*.nl" ]
+                value_field: "ateliers.*.id"
           - label: 'News'
             name: 'news'
             widget: object
@@ -305,13 +351,44 @@ collections:
                 widget: "string"
               - label: "Articles"
                 name: "articles"
+                required: false
                 widget: "relation"
                 collection: "news"
                 multiple: true
                 search_fields: [ "title", "text" ]
                 display_fields: [ "title" ]
                 value_field: "id"
-      - label: "Featured Image"
+          - label: 'Categories'
+            name: 'categories'
+            widget: object
+            fields:
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+              - label: "title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+                required: true
+                i18n: true
+              - label: "Categories"
+                name: "categories"
+                widget: "relation"
+                collection: "site"
+                file: "categories"
+                multiple: true
+                required: false
+                search_fields: [ "ateliers.*.nl" ]
+                display_fields: [ "ateliers.*.nl" ]
+                value_field: "ateliers.*.id"
+      - label: "Social Image"
         required: false
         name: "image"
         widget: "image"
@@ -321,6 +398,7 @@ collections:
           config:
             multiple: false
   - name: 'locations'
+    identifier_field: id
     i18n: true
     label: 'Locations'
     label_singular: 'Location'
@@ -339,6 +417,7 @@ collections:
     i18n: true
     label: 'Ateliers'
     label_singular: 'Atelier'
+    identifier_field: id
     folder: 'content/ateliers'
     create: true
     format: 'frontmatter'
@@ -523,6 +602,7 @@ collections:
                     display_fields: [ "ateliers.*.nl" ]
                     value_field: "ateliers.*.id"
   - name: 'teachers'
+    identifier_field: id
     i18n: true
     label: 'Teachers'
     label_singular: 'Teacher'
@@ -545,6 +625,7 @@ collections:
           config:
             multiple: false
   - label: "News"
+    identifier_field: id
     name: "news"
     folder: "content/news"
     create: true

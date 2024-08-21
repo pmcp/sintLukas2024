@@ -1,9 +1,11 @@
 <template>
   <div>
-    <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-8'}">
+    <UPageGrid :ui="{wrapper: 'grid grid-cols-1 xl:grid-cols-2 gap-8'}">
       <div v-for="(element, key) in elements" :key="`el${key}`" class="pmcp-container" :class="getContainerClasses(element)">
         <!-- TITLE-->
-        <h2 v-if="element.title" class="text-lg uppercase font-bold pt-2 pb-4">{{ element.title}}</h2>
+        <h2 v-if="element.title && element.type !== 'banner'" class="text-md uppercase font-bold pt-2 pb-4">{{ element.title}}</h2>
+        <!-- BANNER -->
+        <elements-banner v-if="element.type === 'banner'" :data="element" />
         <!-- MARKDOWN -->
         <elements-markdown v-if="element.type === 'text'" class="prose lg:prose-md" :markdownString="element.markdown" />
         <!-- IMAGES -->
@@ -13,9 +15,11 @@
         <!-- TEACHERS -->
         <elements-teachers v-if="element.type === 'teachers'" :teachers="element.teacher" />
         <!-- COURSES -->
-        <elements-courses v-if="element.type === 'ateliers'" :courses="element.category" />
+        <elements-courses v-if="element.type === 'ateliers'" :categories="element.category" />
         <!-- NEWS -->
         <elements-news v-if="element.type === 'news'" :articles="element.articles"/>
+        <!-- CATEGORIES -->
+        <elements-categories v-if="element.type === 'categories'" :categories="element.categories"/>
       </div>
     </UPageGrid>
   </div>
