@@ -43,6 +43,21 @@ collections:
             widget: string,
             pattern: [ '^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")' ],
           }
+      - label: 'Homepage'
+        name: 'homepage'
+        file: 'content/site/homepage.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - label: "Page"
+            name: "page"
+            widget: "relation"
+            collection: "pages"
+            multiple: false
+            search_fields: [ "title" ]
+            display_fields: [ "title" ]
+            value_field: "id"
       - label: 'Translations'
         name: 'translations'
         file: 'content.translations.json'
@@ -55,6 +70,7 @@ collections:
             widget: "list"
             summary: '{{fields.fr}} - {{fields.nl}}'
             fields:
+              - { label: ID, name: id, widget: uuid }
               - { label: FR, name: fr, widget: string }
               - { label: NL, name: nl, widget: string }
       - label: 'Categories'
@@ -71,7 +87,7 @@ collections:
             fields:
               - { label: NL, name: nl, widget: string }
               - { label: FR, name: fr, widget: string, required: false }
-              - { label: ID, name: id, widget: uuid}
+              - { label: ID, name: id, widget: uuid }
               - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
       - label: 'Navigation'
         name: 'navigation'
@@ -110,6 +126,7 @@ collections:
     editor:
        preview: true
     fields:
+      - { label: ID, name: id, widget: uuid }
       - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
       - { label: 'Intro', name: 'intro', widget: 'text', i18n: true, required: false }
       - label: 'Content'
@@ -271,6 +288,29 @@ collections:
                     search_fields: [ "ateliers.*.nl" ]
                     display_fields: [ "ateliers.*.nl" ]
                     value_field: "ateliers.*.id"
+          - label: 'News'
+            name: 'news'
+            widget: object
+            fields:
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
+              - label: "title"
+                name: "title"
+                widget: "string"
+              - label: "Articles"
+                name: "articles"
+                widget: "relation"
+                collection: "news"
+                multiple: true
+                search_fields: [ "title", "text" ]
+                display_fields: [ "title" ]
+                value_field: "id"
       - label: "Featured Image"
         required: false
         name: "image"
@@ -288,6 +328,7 @@ collections:
     create: true
     format: 'frontmatter'
     fields:
+      - { label: ID, name: id, widget: uuid }
       - { label: 'Name', name: 'name', widget: 'string', required: true, i18n: true }
       - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
       - { label: 'Street & number', name: 'street', widget: 'string', i18n: true, required: false }
@@ -303,6 +344,7 @@ collections:
     format: 'frontmatter'
     summary: '{{title}} - {{age}}'
     fields:
+      - { label: ID, name: id, widget: uuid }
       - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
       - { label: 'Age', name: 'age', widget: 'string', required: true, i18n: true }
       - { label: 'Intro', name: 'intro', widget: 'markdown', i18n: true, required: false }
@@ -488,6 +530,7 @@ collections:
     create: true
     format: 'frontmatter'
     fields:
+      - { label: ID, name: id, widget: uuid }
       - { label: 'First Name', name: 'firstName', widget: 'string', required: true, i18n: false }
       - { label: 'Last Name', name: 'lastName', widget: 'string', required: true, i18n: false }
       - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
@@ -506,9 +549,10 @@ collections:
     folder: "content/news"
     create: true
     fields:
+      - { label: ID, name: id, widget: uuid }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", time_format: false}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Image Description", name: "alt", widget: "text"}
+      - {label: "Image Description", name: "alt", widget: "string"}
       - {label: "Text", name: "text", widget: "text"}
-      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Link", name: "link", widget: "string", required: false }

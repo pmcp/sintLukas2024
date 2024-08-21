@@ -1,18 +1,18 @@
 <template>
-<!--  <ContentList path="/" v-slot="{ list }">-->
-<!--    <div v-for="article in list" :key="article._path">-->
-<!--      <ULink :to="article._path">{{ article.title }}</ULink>-->
-<!--      <p>{{ article.description }}</p>-->
-<!--    </div>-->
-<!--  </ContentList>-->
+
+  <pre>{{ data }}</pre>
 </template>
 
-<!--<script setup>-->
 
-<!--useHead({-->
-<!--  script: [-->
-<!--    { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },-->
-<!--  ],-->
-<!--});-->
 
-<!--</script>-->
+<script setup>
+const { data: page } = await useAsyncData('homepage', () => queryContent('site/homepage').findOne())
+
+
+//
+
+console.log(page.value.page)
+const { data } = await useAsyncData('home', () => queryContent('pages')
+    .where({ id: page.value.page })
+    .findOne())
+</script>

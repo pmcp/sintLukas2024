@@ -8,6 +8,9 @@ dependencies:
   '@egjs/vue-grid':
     specifier: ^1.15.0
     version: 1.16.0(vue@3.4.38)
+  '@formkit/tempo':
+    specifier: ^0.1.2
+    version: 0.1.2
   '@nuxt/content':
     specifier: ^2.13.1
     version: 2.13.2(nuxt@3.12.4)(vue@3.4.38)
@@ -1037,6 +1040,10 @@ packages:
   /@fastify/busboy@2.1.1:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
+    dev: false
+
+  /@formkit/tempo@0.1.2:
+    resolution: {integrity: sha512-jNPPbjL8oj7hK3eHX++CwbR6X4GKQt+x00/q4yeXkwynXHGKL27dylYhpEgwrmediPP4y7s0XtN1if/M/JYujg==}
     dev: false
 
   /@headlessui/tailwindcss@0.2.1(tailwindcss@3.4.10):

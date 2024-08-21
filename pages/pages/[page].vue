@@ -1,11 +1,7 @@
 <template>
   <main>
-    HALLO
 
-    {{ $route.path}} - {{ '/pages'+$route.path }}
-
-    <pre>{{ data }}</pre>
-
+<!--    {{ setDevPreContent(data)}}-->
   </main>
 </template>
 <script setup>
