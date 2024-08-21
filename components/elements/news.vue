@@ -1,20 +1,13 @@
 <template>
-  <div v-for="(a, key) in data" :key="`news-${key}`" class="flex flex-row">
-
-    <div>
-      <nuxt-img :src="a.thumbnail" :alt="a.alt" class="aspect-square"/>
-    </div>
-    <div>
-      <h1>{{ a. title }}</h1>
-      <p>{{ a.description}}</p>
-    </div>
-  </div>
-
-  <br><br><br><br>
-
-  <pre>{{ data }}</pre>
-
-
+  <UBlogList orientation="vertical">
+    <UBlogPost v-for="(a, key) in data" :key="`news-${key}`"
+      orientation="horizontal"
+      :title="a.title"
+      :description="a.text"
+      :image="{ src: a.thumbnail, alt: a.alt }"
+      :ui="UiConfig"
+    />
+  </UBlogList>
 </template>
 <script setup>
 // TODO: add "where date -> after today"
