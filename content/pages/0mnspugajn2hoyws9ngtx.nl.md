@@ -70,4 +70,9 @@ elements:
 
 
       :dispatch{:data='{"label":"Vestigingen bekijken","type":2}' type='button'}
+  - type: locations
+    width: 2
+    squares: true
+    location:
+      - map-name-asdf-location-type-point-coordinates-78-046875-27-8390761
 ---
