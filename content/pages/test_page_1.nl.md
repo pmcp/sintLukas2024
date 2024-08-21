@@ -10,12 +10,14 @@ elements:
     image: /assets/uploads/vormen_header.png
     squares: true
   - type: categories
-    width: 3
+    width: 1
     squares: false
     categories:
       - 90iJn1gwW8MuR2-xvbPDj
       - TL9yAVIYU-VSuRiIo-Wvf
       - 4r3Gdjll2uIxKn_19qYRp
     title: Aanbod
+    description: Ontmoetingsplaats tussen disciplines, artistieke processen,
+      leeftijden en culturen.
 image: /assets/uploads/vormen_header.png
 ---
