@@ -6,7 +6,7 @@ intro: |-
   Vind jouw atelier.
   Ontdek onze extra muros projecten.
 elements:
-  - type: nvm use --ltsnvm use --ltsntl
+  - type: bg
     style: 1
   - type: banner
     width: 2
