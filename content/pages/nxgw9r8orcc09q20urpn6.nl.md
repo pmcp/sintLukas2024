@@ -11,7 +11,9 @@ elements:
   - type: banner
     width: 2
     squares: false
-    title: Vind jouw atelier. Ontdek onze extra muros projecten.
+    title: |-
+      Vind jouw atelier.
+      Ontdek onze extra muros projecten.
     alt: ""
     image: ""
   - type: ateliers
