@@ -24,15 +24,14 @@ const props = defineProps({
     type: String
   },
   download: {
-    type: String
+    type: String,
+    default: ''
   },
 });
 
 let url = props.to
-if(props.download) {
+if(props.download.length > 0) {
   url = props.download
 }
-
-console.log(url)
 
 </script>
