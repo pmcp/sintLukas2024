@@ -1,9 +1,12 @@
 <template>
-  <div class="flex w-full">
-    <div class="absolute text-4xl pt-2 pb-4 max-w-md top-12">
+  <div class="w-full pb-24 pt-8 relative ">
+    <div class="w-full h-full absolute object-cover top-0 left-0">
+      <img v-if="data.image" class="z-0 absolute object-cover w-full h-full	 top-0 left-0" :src="data.image" :alt="data.alt">
+    </div>
+    <div class="relative text-3xl max-w-md h-auto whitespace-pre-line	">
       {{ data.title }}
     </div>
-    <img  class=" object-cover w-full h-full	 top-0 left-0" :src="data.image" :alt="data.alt">
+
   </div>
 </template>
 

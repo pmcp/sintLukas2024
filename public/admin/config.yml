@@ -189,7 +189,7 @@ collections:
                     multiple: false
                     max_file_size: 1024000 # in bytes, only for default media library
   - name: 'pages'
-    summary: "{{title}} - {{created}}"
+    summary: "{{title}}"
     sortable_fields: [ 'created', 'title' ]
     i18n: true
     label: 'Pages'
@@ -225,12 +225,7 @@ collections:
             widget: object
             summary: "{{fields.title}}"
             fields:
-              - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
-              - label: "Alt"
-                name: "alt"
-                widget: "string"
-                required: true
-                i18n: true
+              - { label: "Title", name: "title", widget: "text", required: false, i18n: true }
               - label: "Width"
                 name: "width"
                 widget: "select"
@@ -238,8 +233,13 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
+              - label: "Alt"
+                name: "alt"
+                widget: "string"
+                required: false
+                i18n: true
               - label: "Image"
-                required: true
+                required: false
                 name: "image"
                 widget: "image"
                 choose_url: true
