@@ -70,6 +70,8 @@ elements:
 
 
       :dispatch{:data='{"label":"Vestigingen bekijken","type":2}' type='button'}
+  - type: bg
+    style: 1
   - type: locations
     width: 2
     squares: true
