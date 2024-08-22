@@ -60,7 +60,6 @@ const props = defineProps({
 
 // TODO: lang
 
-console.log(props.location)
 const { data } = await useAsyncData('location', () => queryContent(`locations/${props.location}.nl`).findOne())
 
 const dropdown = ref() // we need a DOM node

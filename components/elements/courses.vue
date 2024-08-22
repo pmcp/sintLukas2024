@@ -13,11 +13,8 @@ const props = defineProps({
   }
 });
 
-
-console.log(props.categories)
 // flatten categories
 const flatCats = props.categories.map(x => x.category)
-console.log(flatCats)
 // Get categories info
 const { data: expandedCategories } = await useAsyncData('categories', () => queryContent('site/categories')
     .findOne())

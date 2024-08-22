@@ -2,6 +2,11 @@ import type { Config } from 'tailwindcss'
 import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
+    safelist: [
+        'col-span-1',
+        'col-span-2',
+        'col-span-3',
+    ],
     theme: {
         extend: {
             fontFamily: {

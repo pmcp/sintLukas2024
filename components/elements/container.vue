@@ -1,6 +1,6 @@
 <template>
   <div class="mt-6">
-    <UPageGrid :ui="{wrapper: 'grid grid-cols-1 xl:grid-cols-2 gap-8'}">
+    <UPageGrid :ui="{wrapper: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8'}">
       <div v-for="(element, key) in elements" :key="`el${key}`" class="pmcp-container" :class="getContainerClasses(element)">
         <!-- BACKGROUND --> <elements-background v-if="element.type === 'bg'" :data="element" />
         <!-- TITLE-->       <h2 v-if="element.title && element.type !== 'banner'" class="text-md uppercase font-bold pt-2 pb-4">{{ element.title}}</h2>

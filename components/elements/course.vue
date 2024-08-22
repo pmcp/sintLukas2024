@@ -26,7 +26,7 @@
         }
       }">
 
-           <div class="overflow-hidden">
+           <div class="overflow-hidden h-24">
              <div class="relative" v-if="course.mainImage">
                <nuxt-img class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all" :src="course.mainImage" />
                <div class="w-full h-full group-hover:opacity-10 transition-all  absolute top-0 left-0 mix-blend-overlay" :style="`background-color: ${course.cat.color}`"></div>

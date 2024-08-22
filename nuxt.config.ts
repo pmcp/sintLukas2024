@@ -23,7 +23,8 @@ export default defineNuxtConfig({
   },
   image: {
     provider: 'netlify'
-  }
+  },
+  compatibilityDate: '2024-08-22',
   // content: {
   //   navigation: {
   //     fields: ['title']

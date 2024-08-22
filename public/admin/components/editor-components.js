@@ -74,11 +74,9 @@ const createEditorComponent = function(editorComponent) {
         fromBlock: function(match) {
             const data = JSON.parse(match[1]);
             const components = editorComponent.fields.reduce((acc ,item) => {
-                console.log(item.name, {data}, {acc})
                 acc[item.name] = data[item.name]
                 return acc
             }, {});
-            console.log(components)
             return components;
         },
         // This is used to serialize the data from the custom widget to the
