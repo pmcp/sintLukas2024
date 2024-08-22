@@ -60,6 +60,14 @@ collections:
             search_fields: [ "title" ]
             display_fields: [ "title" ]
             value_field: "id"
+      - label: 'Footer'
+        name: 'footer'
+        file: 'content/site/footer.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - { label: "Text", name: markdown, widget: markdown }
       - label: 'Translations'
         name: 'translations'
         file: 'content.translations.json'

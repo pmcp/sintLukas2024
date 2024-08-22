@@ -1,36 +1,7 @@
 <template>
   <UFooter class="bg-primary-200 border-b-4 border-accent-800 mt-24">
     <template #top>
-      <UFooterColumns :links="links">
-        <template #right>
-          <form @submit.prevent="onSubmit">
-            <UFormGroup
-                label="Subscribe to our newsletter"
-                :ui="{ container: 'mt-3' }"
-            >
-              <UInput
-                  v-model="email"
-                  type="email"
-                  placeholder="Enter your email"
-                  :ui="{ icon: { trailing: { pointer: '' } } }"
-                  required
-                  size="xl"
-                  autocomplete="off"
-                  class="max-w-sm"
-              >
-                <template #trailing>
-                  <UButton
-                      type="submit"
-                      size="xs"
-                      :label="loading ? 'Subscribing' : 'Subscribe'"
-                      :loading="loading"
-                  />
-                </template>
-              </UInput>
-            </UFormGroup>
-          </form>
-        </template>
-      </UFooterColumns>
+      <elements-markdown :markdownString="data.markdown" class="" />
     </template>
 
     <template #left>
@@ -55,56 +26,6 @@
 </template>
 
 <script setup>
-const links = [{
-  label: 'Resources',
-  children: [{
-    label: 'Help center'
-  }, {
-    label: 'Docs'
-  }, {
-    label: 'Roadmap'
-  }, {
-    label: 'Changelog'
-  }]
-}, {
-  label: 'Features',
-  children: [{
-    label: 'Affiliates'
-  }, {
-    label: 'Portal'
-  }, {
-    label: 'Jobs'
-  }, {
-    label: 'Sponsors'
-  }]
-}, {
-  label: 'Company',
-  children: [{
-    label: 'About'
-  }, {
-    label: 'Pricing'
-  }, {
-    label: 'Careers'
-  }, {
-    label: 'Blog'
-  }]
-}]
-
-const toast = useToast()
-
-const email = ref('')
-const loading = ref(false)
-
-function onSubmit() {
-  loading.value = true
-
-  setTimeout(() => {
-    toast.add({
-      title: 'Subscribed!',
-      description: 'You\'ve been subscribed to our newsletter.'
-    })
-
-    loading.value = false
-  }, 1000)
-}
+const { data } = await useAsyncData('footer', () => queryContent('site/footer').findOne())
+console.log(data)
 </script>
