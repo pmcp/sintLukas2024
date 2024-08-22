@@ -1,6 +1,6 @@
 <template>
 
-  <div class=" grid grid-cols-1 md:grid-cols-2 w-full items-end gap-2">
+  <div class=" grid grid-cols-1 md:grid-cols-2 w-full items-end gap-8">
     <elements-course v-for="(c, key) in flattenedAts" :key="`courses_${c.cat.id}${key}`" :course="c" class="grow mb-2"/>
   </div>
 </template>
