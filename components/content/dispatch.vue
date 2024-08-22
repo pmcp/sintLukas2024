@@ -2,7 +2,8 @@
 
 <!--  <pre>{{ props }}</pre>-->
   <div v-if="props.type === 'button'" class="inline mr-1">
-    <elements-button :style="2" :to="props.data.link" :download="props.data.download" >
+    {{ props.data.type.typeof }}
+    <elements-button :flavor="props.data.type" :to="props.data.link" :download="props.data.download" >
       {{ props.data.label}}
     </elements-button>
   </div>

@@ -9,8 +9,8 @@
 </template>
 <script setup>
 const props = defineProps({
-  text: Object,
-  side1: Object,
-  side2: Object
+  text: String,
+  side1: String,
+  side2: String
 });
 </script>

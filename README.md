@@ -2,7 +2,6 @@
 
 
 ## DOING
-- Preview flow
 - Change "teachers" to people
 - Add Plausible
 

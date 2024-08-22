@@ -391,7 +391,7 @@ collections:
                 display_fields: [ "ateliers.*.nl" ]
                 value_field: "ateliers.*.id"
           - label: 'Background Style'
-            name: 'bg'
+            name: 'nvm use --ltsnvm use --ltsntl'
             widget: object
             fields:
               - label: "Style"
