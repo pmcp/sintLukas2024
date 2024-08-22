@@ -2,7 +2,29 @@
   <!--  TODO: Make Date Nice-->
   <UBlogList orientation="vertical">
     <UCard
-        :ui="cardConfig"
+        :ui="{
+  base: 'flex flex-row border-0 ',
+  background: 'bg-white',
+  divide: 'divide-y divide-gray-200 dark:divide-gray-800',
+  ring: 'ring-0 border-b',
+  rounded: 'rounded-none',
+  shadow: 'shadow-none',
+  body: {
+    base: 'border-none',
+    background: '',
+    padding: 'px-4 py-5 sm:p-6',
+  },
+  header: {
+    base: '',
+    background: '',
+    padding: '',
+  },
+  footer: {
+    base: '',
+    background: '',
+    padding: 'px-4 py-4 sm:px-6',
+  },
+}"
         v-for="(a, key) in articles"
         :key="`news-${key}`">
       <template #header>
@@ -63,29 +85,5 @@ if(props.articles) {
       .where({ id: { $in: props.articles }})
       .find())
   articles = data;
-}
-
-const cardConfig = {
-  base: 'flex flex-row border-0 ',
-  background: 'bg-white',
-  divide: 'divide-y divide-gray-200 dark:divide-gray-800',
-  ring: 'ring-0 border-b',
-  rounded: 'rounded-none',
-  shadow: 'shadow-none',
-  body: {
-    base: 'border-none',
-    background: '',
-    padding: 'px-4 py-5 sm:p-6',
-  },
-  header: {
-    base: '',
-    background: '',
-    padding: '',
-  },
-  footer: {
-    base: '',
-    background: '',
-    padding: 'px-4 py-4 sm:px-6',
-  },
 }
 </script>
