@@ -160,6 +160,34 @@ collections:
                 search_fields: [ "{{title}}" ]
                 value_field: "{{slug}}"
                 display_fields: [ "{{title}}" ]
+          - widget: list
+            name: 'buttons'
+            fields:
+              - label: "label"
+                name: "label"
+                widget: "string"
+                required: true
+              - label: "Link"
+                name: "link"
+                required: false
+                widget: "string"
+              - label: "Pages"
+                name: "pageLink"
+                widget: "relation"
+                collection: "pages"
+                multiple: false
+                required: false
+                search_fields: [ "title" ]
+                display_fields: [ "title" ]
+                value_field: "id"
+              - label: "Download"
+                required: false
+                name: "download"
+                widget: "file"
+                media_library:
+                  config:
+                    multiple: false
+                    max_file_size: 1024000 # in bytes, only for default media library
   - name: 'pages'
     summary: "{{title}} - {{created}}"
     sortable_fields: [ 'created', 'title' ]

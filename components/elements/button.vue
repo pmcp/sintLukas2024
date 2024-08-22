@@ -1,14 +1,13 @@
 <template>
-  <!--  TODO: add download -->
-  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : false" class="hover:bg-primary-100" v-if="flavor === 0" color="black" variant="outline" :ui="{ rounded: 'rounded-none' }">
+  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" class="hover:bg-primary-100" v-if="flavor === 0" color="black" variant="outline" :ui="{ rounded: 'rounded-none' }">
     <svg-icon-download v-if="download" class=" w-4 h-4"/>
     <slot />
   </UButton>
-  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : false" v-if="flavor === 1"  color="black" :ui="{ rounded: 'rounded-none'}">
+  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" v-if="flavor === 1"  color="black" :ui="{ rounded: 'rounded-none'}">
     <svg-icon-download v-if="download" class=" w-4 h-4"/>
     <slot />
   </UButton>
-  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : false" v-if="flavor === 2"  color="primary" :ui="{ rounded: 'rounded-none' }">
+  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" v-if="flavor === 2"  color="primary" :ui="{ rounded: 'rounded-none' }">
     <svg-icon-download v-if="download" class=" w-4 h-4"/>
     <slot />
   </UButton>
@@ -27,11 +26,20 @@ const props = defineProps({
     type: String,
     default: ''
   },
+  pageLink: {
+    type: String,
+    default: ''
+  },
 });
-
+// TODO: Lang
+let lang = 'nl'
 let url = props.to
 if(props.download.length > 0) {
   url = props.download
+}
+
+if(props.pageLink.length > 0) {
+  url = `/${props.pageLink}.${lang}`
 }
 
 </script>

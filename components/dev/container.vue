@@ -1,12 +1,12 @@
 <template>
   <UPopover :popper="{ placement: 'top-end' }">
-    <elements-button :style="0">
+    <UButton class="hover:bg-primary-100" color="black" variant="outline" :ui="{ rounded: 'rounded-none' }">
       <div class="inline sm:inline md:hidden lg:hidden xl:hidden 2xl:hidden">SM</div>
       <div class="hidden sm:hidden md:inline lg:hidden xl:hidden 2xl:hidden">MD</div>
       <div class="hidden sm:hidden md:hidden lg:inline xl:hidden 2xl:hidden">LG</div>
       <div class="hidden sm:hidden md:hidden lg:hidden xl:inline 2xl:hidden">XL</div>
       <div class="hidden sm:hidden md:hidden lg:hidden xl:hidden 2xl:inline">2XL</div>
-    </elements-button>
+    </UButton>
 
     <template #panel>
       <div class="p-4 w-full">

@@ -1,5 +1,5 @@
 <template>
-  <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl " :elements="data.elements"/>
+  <elements-container v-if="data" class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl " :elements="data.elements"/>
 </template>
 
 

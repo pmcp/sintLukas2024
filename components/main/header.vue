@@ -21,9 +21,8 @@
     </template>
 
     <template #right>
-      <!-- TODO: To CMS-->
-      <elements-button :style="0">
-        Inschrijven
+      <elements-button v-for="(button, key) in data.buttons" :key="`navButtons-${key}`" :flavor="1" :to="button.link" :pageLink="button.pageLink" :download="button.download">
+        {{ button.label }}
       </elements-button>
     </template>
 

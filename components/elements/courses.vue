@@ -8,7 +8,7 @@
 <script setup>
 const props = defineProps({
   categories: {
-    type: String,
+    type: Object,
     required: true,
   }
 });
