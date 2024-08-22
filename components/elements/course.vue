@@ -28,7 +28,8 @@
 
            <div class="overflow-hidden h-24">
              <div class="relative" v-if="course.mainImage">
-               <nuxtImg class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all h-24" :src="course.mainImage" />
+               <nuxtImg class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all h-24 object-cover	" :src="course.mainImage" />
+<!--               <img class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all h-24 object-cover	" :src="course.mainImage" />-->
                <div class="w-full h-full group-hover:opacity-10 transition-all  absolute top-0 left-0 mix-blend-overlay" :style="`background-color: ${course.cat.color}`"></div>
                <div class="w-full h-full  group-hover:opacity-10 transition-all absolute top-0 left-0 mix-blend-lighten opacity-50" :style="`background-color: ${course.cat.color}`"></div>
              </div>
