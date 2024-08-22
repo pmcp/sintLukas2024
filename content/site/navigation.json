@@ -13,8 +13,8 @@
   ],
   "buttons": [
     {
-      "label": "Inschrijvingen",
-      "link": "inschrijvingen"
+      "label": "Inschrijven",
+      "link": "inschrijven"
     }
   ]
 }
