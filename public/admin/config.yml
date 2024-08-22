@@ -390,6 +390,17 @@ collections:
                 search_fields: [ "ateliers.*.nl" ]
                 display_fields: [ "ateliers.*.nl" ]
                 value_field: "ateliers.*.id"
+          - label: 'Background Style'
+            name: 'bg'
+            widget: object
+            fields:
+              - label: "Style"
+                name: "style"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "Grid", value: 1 }
+                  - { label: "Normal", value: 2 }
       - label: "Social Image"
         required: false
         name: "image"

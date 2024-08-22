@@ -1,42 +1,19 @@
-# Content v2 Minimal Starter
+# TODO
 
-Look at the [Content documentation](https://content.nuxt.com/) to learn more.
 
-## Setup
+## DOING
+- Preview flow
+- Change "teachers" to people
+- Add Plausible
 
-Make sure to install the dependencies:
+## BEFORE MONDAY
+- Footer + cms area
+- Design Mobile Menu
 
-```bash
-# yarn
-yarn install
 
-# npm
-npm install
+## AFTER MONDAY
+- Research: Change pages to Payload, so they work in generate
+- Set up Preview Links
+- Set up Content Branch Flow
+- Research Nuxt Hub
 
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

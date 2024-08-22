@@ -2,12 +2,18 @@
   <div class="mt-6">
     <UPageGrid :ui="{wrapper: 'grid grid-cols-1 xl:grid-cols-2 gap-8'}">
       <div v-for="(element, key) in elements" :key="`el${key}`" class="pmcp-container" :class="getContainerClasses(element)">
+        <!-- BACKGROUND STYLE -->
+        <div v-if="element.type === 'bg' && element.style === 1 " class="background-grid" style="width: 300vw; position: absolute; left: -100vw; height: 99999px;">
+          {{  element }}
+        </div>
+        <div v-if="element.type === 'bg' && element.style === 2 " class="bg-white" style="width: 300vw; position: absolute; left: -100vw; height: 99999px;">
+          {{  element }}
+        </div>
         <!-- TITLE-->
         <h2 v-if="element.title && element.type !== 'banner'" class="text-md uppercase font-bold pt-2 pb-4">{{ element.title}}</h2>
         <!-- BANNER -->
         <elements-banner v-if="element.type === 'banner'" :data="element" />
         <!-- TEXT -->
-
         <elements-text v-if="element.type === 'text'" :text="element.markdown" :side1="element.side1" :side2="element.side2" />
         <!-- IMAGES -->
         <elements-images v-if="element.type === 'images'" :images="element.image" :layout="element.layout" />
@@ -34,7 +40,7 @@ const props = defineProps({
 
 function getContainerClasses(element){
   let squares = ''
-  if(element.squares) squares = 'background-grid'
+  // if(element.squares) squares = 'background-grid'
   return `col-span-${element.width || 2} ${squares}`
 }
 
