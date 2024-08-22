@@ -10,5 +10,11 @@
       "labelnl": "Test page",
       "page": "0mnspugajn2hoyws9ngtx"
     }
+  ],
+  "buttons": [
+    {
+      "label": "Inschrijvingen",
+      "link": "inschrijvingen"
+    }
   ]
 }
