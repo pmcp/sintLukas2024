@@ -6,6 +6,8 @@
 - Add Plausible
 
 ## BEFORE MONDAY
+- Add social icons + links
+- Add Mail widget
 - Footer + cms area
 - Design Mobile Menu
 
