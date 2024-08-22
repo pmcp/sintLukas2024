@@ -10,14 +10,11 @@
 <!--    <nuxt-img v-for="i in images" class="object-cover" :src="i.image" />-->
 <!--  </frame-grid>-->
   <div v-if="layout === 4" class="grid grid-cols-3 xl:grid-cols-4 gap-8 ">
-
-    <img v-for="i in images" @click="openImageInModal(i.image)" class="col-span-1 h-40 w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="i.image">
-
-
+    <img v-for="i in images" @click="openImageInModal(i.image, i.description)" class="col-span-1 h-40 w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="i.image" :alt="i.description">
   </div>
   <UModal v-model="isOpen" :ui="{rounded: 'rounded-none', background: 'bg-primary-200', overlay: {background: 'bg-white opacity-80'}, shadow: 'shadow-none'}">
     <div class="p-4">
-      <img class="col-span-1 h-auto w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="imageInModal">
+      <img class="col-span-1 h-auto w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="imageInModal" :alt="descriptionInModal">
     </div>
   </UModal>
 </template>
@@ -61,9 +58,13 @@ const props = defineProps({
 });
 const isOpen = ref(false)
 const imageInModal = ref('')
+const descriptionInModal = ref('')
 
-const openImageInModal = (image) => {
+const openImageInModal = (image, alt) => {
   imageInModal.value = image
+  descriptionInModal.value = alt
   isOpen.value = true
+
+
 }
 </script>
