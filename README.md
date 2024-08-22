@@ -1,5 +1,6 @@
 # TODO
-
+- Remove all Intro fiels
+- Remove all Squares option
 
 ## DOING
 - Change "teachers" to people
