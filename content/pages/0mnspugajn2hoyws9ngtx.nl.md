@@ -77,4 +77,23 @@ elements:
     squares: true
     location:
       - map-name-asdf-location-type-point-coordinates-78-046875-27-8390761
+  - type: images
+    width: 2
+    squares: false
+    title: asdf
+    image:
+      - image: /assets/uploads/1.jpg
+        description: sadf
+      - image: /assets/uploads/8.jpg
+        description: adfs
+      - image: /assets/uploads/6.jpg
+        description: asdf
+    layout: 4
+  - type: bg
+    style: 2
+  - type: locations
+    width: 1
+    squares: false
+    location:
+      - map-name-asdf-location-type-point-coordinates-78-046875-27-8390761
 ---
