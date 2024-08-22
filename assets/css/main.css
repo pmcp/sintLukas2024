@@ -1,7 +1,7 @@
 .background-grid {
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: white;
     opacity: 1;
     background-image:  linear-gradient(hsla(0, 0%, 0%, 0.2) 1px, transparent 1px), linear-gradient(to right, hsla(0, 0%, 0%, 0.2) 1px, #fff 1px);
     background-size: 24px 24px;
