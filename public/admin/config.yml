@@ -211,7 +211,6 @@ collections:
         picker_utc: false
       - { label: ID, name: id, widget: uuid }
       - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
-      - { label: 'Intro', name: 'intro', widget: 'text', i18n: true, required: false }
       - label: 'Content'
         required: false
         i18n: true
@@ -502,7 +501,6 @@ collections:
       - { label: ID, name: id, widget: uuid }
       - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
       - { label: 'Age', name: 'age', widget: 'string', required: true, i18n: true }
-      - { label: 'Intro', name: 'intro', widget: 'markdown', i18n: true, required: false }
       - label: "Category"
         name: "categories"
         widget: "relation"
