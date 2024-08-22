@@ -12,8 +12,8 @@ elements:
     width: 2
     squares: false
     title: Vind jouw atelier. Ontdek onze extra muros projecten.
-    alt: sdf
-    image: /assets/uploads/2.jpg
+    alt: ""
+    image: ""
   - type: ateliers
     width: 2
     squares: false
