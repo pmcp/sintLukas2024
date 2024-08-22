@@ -11,7 +11,7 @@
   wrapper: 'relative w-full flex items-center justify-between',
   container: 'flex items-center min-w-0',
   inner: 'min-w-0',
-  base: 'group relative w-full flex items-center gap-1.5 px-2.5 py-0 rounded-none font-medium text-sm focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 disabled:cursor-not-allowed disabled:opacity-75',
+  base: 'group relative w-full flex items-center gap-1.5 px-2.5 py-0 rounded-none font-medium text-md focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 disabled:cursor-not-allowed disabled:opacity-75',
   before: 'hover:before:rounded-none hover:before:bg-transparent dark:hover:before:bg-primary-100/50',
   after: 'after:absolute after:bottom-0 after:inset-x-2 after:block after:h-[1px] after:mt-2 hover:after:bg-primary-500',
   active: 'text-gray-900 dark:text-white  after:bg-black-100 dark:after:bg-black-100 ',
@@ -30,20 +30,20 @@
     <template #panel>
 
       <UVerticalNavigation :links="navItems" :ui="{
-  wrapper: 'relative ',
-  base: 'text-center group relative flex items-center gap-1.5 focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-1 focus-visible:before:ring-primary-500 dark:focus-visible:before:ring-primary-400 before:absolute before:inset-px before:rounded-md disabled:cursor-not-allowed disabled:opacity-75',
+  wrapper: 'relative flex justify-center',
+  base: 'group relative flex justify-center gap-1.5 focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-1 focus-visible:before:ring-primary-500 dark:focus-visible:before:ring-primary-400 before:absolute before:inset-px before:rounded-md disabled:cursor-not-allowed disabled:opacity-75',
   ring: 'focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',
-  padding: 'px-2.5 py-1.5',
-  width: 'w-fit',
+  padding: 'px-2.5 py-1.5 my-16',
+  width: 'w-full',
   rounded: 'rounded-none',
   font: 'font-medium',
-  size: 'text-sm',
+  size: 'text-xl',
   active: 'text-black dark:text-white before:bg-transparent border-b dark:before:bg-gray-800',
   inactive: 'text-black dark:text-gray-400 hover:text-black dark:hover:text-white hover:before:bg-transparent dark:hover:before:bg-transparent',
   label: 'truncate relative',
   divider: {
     wrapper: {
-      base: 'p-2',
+      base: 'p-8',
     },
   },
 }"/>
