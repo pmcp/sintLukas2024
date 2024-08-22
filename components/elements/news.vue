@@ -10,12 +10,12 @@
   rounded: 'rounded-none',
   shadow: 'shadow-none',
   body: {
-    base: 'border-none',
+    base: 'border-none w-full',
     background: '',
     padding: 'px-4 py-5 sm:p-6',
   },
   header: {
-    base: '',
+    base: 'w-full',
     background: '',
     padding: '',
   },
