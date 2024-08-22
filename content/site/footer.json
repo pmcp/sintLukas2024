@@ -1,3 +1,10 @@
 {
-  "markdown": "Sint-Lukas Academie Groenstraat 156, 1030 Brussel (Schaarbeek)\n\ninfo.academie@sintlukas.brussels\n\nT. +32 2 217 77 00"
+  "markdown": "Sint-Lukas Academie Groenstraat 156, 1030 Brussel (Schaarbeek)\n\ninfo.academie@sintlukas.brussels\n\nT. +32 2 217 77 00",
+  "links": [
+    {
+      "labelnl": "test",
+      "page": "nxgw9r8orcc09q20urpn6",
+      "labelfr": "asdf"
+    }
+  ]
 }
