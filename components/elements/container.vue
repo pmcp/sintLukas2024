@@ -1,7 +1,7 @@
 <template>
   <div>
     <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8'}">
-      <div v-for="(element, key) in elements" :key="`el${key}`" class="pmcp-container relative z-1g" :class="getContainerClasses(element)">
+      <div v-for="(element, key) in elements" :key="`el${key}`" class="pmcp-container relative z-1g" :class="element.width === 1 ? 'col-span-1' : 'col-span-full'">
         <!-- BACKGROUND --> <div><elements-background v-if="element.type === 'bg'" :data="element" /></div>
         <!-- TITLE-->       <div><h2 v-if="element.title && element.type !== 'banner'" class="text-md uppercase font-bold pt-2 pb-4">{{ element.title}}</h2></div>
         <!-- BANNER -->     <div><elements-banner v-if="element.type === 'banner'" :data="element" /></div>
@@ -22,14 +22,4 @@
 const props = defineProps({
   elements: Array,
 });
-
-
-// add classes to element
-
-function getContainerClasses(element){
-  let squares = ''
-  // if(element.squares) squares = 'background-grid'
-  return `col-span-1 md:col-span-${element.width || 'full'} ${squares}`
-}
-
 </script>
