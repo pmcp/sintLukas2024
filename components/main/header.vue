@@ -1,9 +1,21 @@
 <template>
   <dev-container class="fixed bottom-2 right-2 z-20 bg-white"/>
-  <UHeader :ui="{ wrapper: 'bg-background/100 backdrop-blur-none border-b border-second-300 pt-2 pb-4 sticky -top-0 z-10', container: 'items-end', left: 'lg:flex-none mr-4', button: { base: 'lg:hidden rounded-none bg-transparent hover:bg-primary-500', icon: { open: 'i-heroicons-bars-3-20-solid ', close: 'i-heroicons-x-mark-20-solid ' } } }">
+  <UHeader
+      to="/"
+      :ui="{
+        wrapper: 'bg-background/100 backdrop-blur-none border-b border-second-300 pt-2 pb-4 sticky -top-0 z-10',
+        container: 'items-end', left: 'lg:flex-none mr-4',
+        button: {
+          base: 'lg:hidden rounded-none bg-transparent hover:bg-primary-500',
+          icon: {
+            open: 'i-heroicons-bars-3-20-solid ',
+            close: 'i-heroicons-x-mark-20-solid '
+          }
+        }
+      }"
+  >
     <template #logo>
-      <svg-logo />
-
+        <svg-logo />
     </template>
     <template #center >
       <div class="hidden lg:flex grow gap-8">
