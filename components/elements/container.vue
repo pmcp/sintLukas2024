@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-x-hidden">
     <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8'}">
       <div v-for="(element, key) in elements" :key="`el${key}`" class="pmcp-container relative z-1g" :class="element.width === 1 ? 'col-span-1' : 'col-span-full'">
         <!-- BACKGROUND --> <div><elements-background v-if="element.type === 'bg'" :data="element" /></div>
