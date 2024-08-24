@@ -10,6 +10,9 @@
     padding: 14px 18px;
 }
 
+.pmcp-conainer {
+    container-type: inline-size;
+}
 
 @container (min-width: 300px) and (max-width: 800px) {
     .pmcp-teacher_container {
