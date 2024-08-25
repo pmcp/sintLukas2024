@@ -2,8 +2,6 @@ i18n:
   structure: multiple_folders
   locales: [nl, fr]
 
-locale: 'nl'
-
 backend:
   name: git-gateway
   branch: main
@@ -126,11 +124,8 @@ collections:
             summary: '{{fields.page}}'
             collapsed: false
             fields:
-              - label: "Label Fr"
-                name: "labelfr"
-                widget: "string"
-              - label: "Label Nl"
-                name: "labelnl"
+              - label: "Label"
+                name: "label"
                 widget: "string"
               - label: "Page"
                 name: "page"
@@ -154,8 +149,8 @@ collections:
         editor:
           preview: false
         fields:
-          - label: "ateliers"
-            name: "ateliers"
+          - label: "Courses"
+            name: "courses"
             widget: "list"
             summary: '{{fields.nl}}'
             fields:
@@ -264,16 +259,16 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-          - label: 'Teachers'
-            name: 'teachers'
+          - label: 'People'
+            name: 'people'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
             fields:
               - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
-              - label: "Teacher"
+              - label: "Person"
                 multiple: true
-                name: "teacher"
+                name: "people"
                 widget: "relation"
-                collection: "teachers"
+                collection: "people"
                 search_fields: [ "{{firstName}}", "{{lastName}}" ]
                 value_field: "{{slug}}"
                 display_fields: [ "{{firstName}} {{lastName}}" ]
@@ -353,8 +348,8 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-          - label: 'Ateliers'
-            name: 'ateliers'
+          - label: 'Courses'
+            name: 'courses'
             widget: object
             fields:
               - label: "Width"
@@ -371,9 +366,9 @@ collections:
                 file: "categories"
                 multiple: true
                 required: false
-                search_fields: [ "ateliers.*.nl" ]
-                display_fields: [ "ateliers.*.nl" ]
-                value_field: "ateliers.*.id"
+                search_fields: [ "courses.*.nl" ]
+                display_fields: [ "courses.*.nl" ]
+                value_field: "courses.*.id"
           - label: 'News'
             name: 'news'
             widget: object
@@ -423,9 +418,9 @@ collections:
                 file: "categories"
                 multiple: true
                 required: false
-                search_fields: [ "ateliers.*.nl" ]
-                display_fields: [ "ateliers.*.nl" ]
-                value_field: "ateliers.*.id"
+                search_fields: [ "courses.*.nl" ]
+                display_fields: [ "courses.*.nl" ]
+                value_field: "courses.*.id"
           - label: 'Background Style'
             name: 'bg'
             widget: object
@@ -462,12 +457,12 @@ collections:
       - { label: 'Zip code', name: 'zip', widget: 'string', i18n: true, required: false }
       - { label: 'City', name: 'city', widget: 'string', i18n: true, required: false }
       - {label: "Location", name: "location", widget: "map" }
-  - name: 'ateliers'
+  - name: 'courses'
     i18n: true
-    label: 'Ateliers'
-    label_singular: 'Atelier'
+    label: 'Courses'
+    label_singular: 'Course'
     identifier_field: id
-    folder: 'content/ateliers'
+    folder: 'content/courses'
     create: true
     format: 'frontmatter'
     summary: '{{title}} - {{age}}'
@@ -480,9 +475,9 @@ collections:
         widget: "relation"
         collection: "site"
         file: "categories"
-        search_fields: [ "ateliers.*.nl" ]
-        display_fields: [ "ateliers.*.nl" ]
-        value_field: "ateliers.*.id"
+        search_fields: [ "courses.*.nl" ]
+        display_fields: [ "courses.*.nl" ]
+        value_field: "courses.*.id"
       - label: "Featured Image"
         name: "mainImage"
         widget: "image"
@@ -532,16 +527,16 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-          - label: 'Teachers'
-            name: 'teachers'
+          - label: 'People'
+            name: 'people'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
             fields:
               - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
-              - label: "Teacher"
+              - label: "Person"
                 multiple: true
-                name: "teacher"
+                name: "person"
                 widget: "relation"
-                collection: "teachers"
+                collection: "people"
                 search_fields: [ "{{firstName}}", "{{lastName}}" ]
                 value_field: "{{slug}}"
                 display_fields: [ "{{firstName}} {{lastName}}" ]
@@ -621,8 +616,8 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-          - label: 'Ateliers'
-            name: 'ateliers'
+          - label: 'Courses'
+            name: 'courses'
             widget: object
             fields:
               - label: "Width"
@@ -640,15 +635,15 @@ collections:
                     widget: "relation"
                     collection: "site"
                     file: "categories"
-                    search_fields: [ "ateliers.*.nl" ]
-                    display_fields: [ "ateliers.*.nl" ]
-                    value_field: "ateliers.*.id"
-  - name: 'teachers'
+                    search_fields: [ "courses.*.nl" ]
+                    display_fields: [ "courses.*.nl" ]
+                    value_field: "courses.*.id"
+  - name: 'people'
     identifier_field: id
     i18n: true
-    label: 'Teachers'
-    label_singular: 'Teacher'
-    folder: 'content/teachers'
+    label: 'People'
+    label_singular: 'Person'
+    folder: 'content/people'
     create: true
     format: 'frontmatter'
     fields:

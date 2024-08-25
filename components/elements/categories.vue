@@ -21,14 +21,14 @@ const props = defineProps({
   categories: Object
 });
 
-let categories = []
+let categories;
 const { data } = await useAsyncData('categories', () => queryContent('site/categories')
     .find())
 
 if(props.categories.length > 0) {
-  categories = data.value[0].ateliers.filter(i => props.categories.includes(i.id))
+  categories = data.value[0].courses.filter(i => props.categories.includes(i.id))
 } else {
-  categories = data.value[0].ateliers
+  categories = data.value[0].courses
 }
 
 

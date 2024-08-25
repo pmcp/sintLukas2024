@@ -1,6 +1,6 @@
 <template>
-  <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 p-0 pmcp-teacher_container'}">
-<div v-for="t in props.teachers" :key="t._path">
+  <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 p-0 pmcp-people_container'}">
+<div v-for="t in props.people" :key="t._path">
 
 <!--  {{ t._path.replace('/teachers/', '') }}-->
 <!--  <elements-teacher :teacher="t._path.replace('/teachers/', '')" />-->
@@ -16,7 +16,7 @@
 
 <script setup>
 const props = defineProps({
-  teachers: {
+  people: {
     type: Array,
     required: true,
   }

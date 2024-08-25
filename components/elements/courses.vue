@@ -19,20 +19,20 @@ const flatCats = props.categories.map(x => x.category)
 const { data: expandedCategories } = await useAsyncData('categories', () => queryContent('site/categories')
     .findOne())
 // Filter out only the ones we need
-const activeCats = expandedCategories.value.ateliers.filter(x => flatCats.includes(x.id))
-// Get all ateliers within these categories
-const { data: allAteliers } = await useAsyncData('ateliers', () => queryContent('ateliers')
+const activeCats = expandedCategories.value.courses.filter(x => flatCats.includes(x.id))
+// Get all courses within these categories
+const { data: allAteliers } = await useAsyncData('courses', () => queryContent('courses')
     .where({ categories: { $in: flatCats }})
     .where({ _path: { $contains: '.nl' } })
     .find())
 // Now create better data structure
 let flattenedAts = []
 for (const cat in activeCats) {
-  // Find all ateliers of this cat
-  const ateliersOfThisCat = allAteliers.value.filter(x => x.categories === activeCats[cat].id)
-  ateliersOfThisCat[0].first = true
-  // loop ateliers and add cat info
-  const atheliersWithCatInfo = ateliersOfThisCat.map(x => {
+  // Find all courses of this cat
+  const coursesOfThisCat = allAteliers.value.filter(x => x.categories === activeCats[cat].id)
+  coursesOfThisCat[0].first = true
+  // loop courses and add cat info
+  const atheliersWithCatInfo = coursesOfThisCat.map(x => {
     return {...x, cat: {...activeCats[cat]}}
   })
   flattenedAts = [...flattenedAts, ...atheliersWithCatInfo]
