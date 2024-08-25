@@ -2,15 +2,7 @@
   "navigation": [
     {
       "page": "test_pagina_nl_1",
-      "labelnl": "Test",
-      "labelfr": "Test fr"
-    }
-  ],
-  "buttons": [
-    {
-      "label": "Inschrijven",
-      "link": "inschrijven",
-      "pageLink": []
+      "label": "Test"
     }
   ]
 }

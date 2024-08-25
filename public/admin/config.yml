@@ -60,79 +60,6 @@ collections:
             search_fields: [ "title" ]
             display_fields: [ "title" ]
             value_field: "id"
-      - label: 'Footer'
-        name: 'footer'
-        file: 'content/site/footer.json'
-        format: 'json'
-        editor:
-          preview: false
-        fields:
-          - { label: "Text", name: markdown, widget: markdown }
-          - label: 'Footer Links'
-            name: 'links'
-            widget: 'list'
-            summary: '{{fields.page}}'
-            collapsed: false
-            fields:
-              - label: "Label Fr"
-                name: "labelfr"
-                widget: "string"
-              - label: "Label Nl"
-                name: "labelnl"
-                widget: "string"
-              - label: "Page"
-                name: "page"
-                widget: "relation"
-                collection: "pages"
-                search_fields: [ "{{title}}" ]
-                value_field: "{{slug}}"
-                display_fields: [ "{{title}}" ]
-          - label: "logo"
-            required: false
-            name: "logo"
-            widget: "file"
-            media_library:
-              config:
-                multiple: false
-                max_file_size: 1024000 # in bytes, only for default media library
-      - label: 'Translations'
-        name: 'translations'
-        file: 'content.translations.json'
-        format: 'json'
-        editor:
-          preview: false
-        fields:
-          - label: "Translations"
-            name: "translations"
-            widget: "list"
-            summary: '{{fields.fr}} - {{fields.nl}}'
-            fields:
-              - { label: ID, name: id, widget: uuid }
-              - { label: FR, name: fr, widget: string }
-              - { label: NL, name: nl, widget: string }
-      - label: 'Categories'
-        name: 'categories'
-        file: 'content/site/categories.json'
-        format: 'json'
-        editor:
-          preview: false
-        fields:
-          - label: "ateliers"
-            name: "ateliers"
-            widget: "list"
-            summary: '{{fields.nl}}'
-            fields:
-              - { label: NL, name: nl, widget: string }
-              - { label: FR, name: fr, widget: string, required: false }
-              - { label: ID, name: id, widget: uuid }
-              - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
-              - label: "Background"
-                required: false
-                name: "background"
-                widget: "image"
-                media_library:
-                  config:
-                    multiple: false
       - label: 'Navigation'
         name: 'navigation'
         file: 'content/site/navigation.json'
@@ -144,14 +71,11 @@ collections:
           - label: 'Navigation item'
             name: 'navigation'
             widget: 'list'
-            summary: '{{fields.page}}'
+            summary: '{{fields.label}} ({{fields.page}})'
             collapsed: false
             fields:
-              - label: "Label Fr"
-                name: "labelfr"
-                widget: "string"
-              - label: "Label Nl"
-                name: "labelnl"
+              - label: "Label"
+                name: "label"
                 widget: "string"
               - label: "Page"
                 name: "page"
@@ -188,6 +112,64 @@ collections:
                   config:
                     multiple: false
                     max_file_size: 1024000 # in bytes, only for default media library
+      - label: 'Footer'
+        name: 'footer'
+        file: 'content/site/footer.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - { label: "Text", name: markdown, widget: markdown }
+          - label: 'Footer Links'
+            name: 'links'
+            widget: 'list'
+            summary: '{{fields.page}}'
+            collapsed: false
+            fields:
+              - label: "Label Fr"
+                name: "labelfr"
+                widget: "string"
+              - label: "Label Nl"
+                name: "labelnl"
+                widget: "string"
+              - label: "Page"
+                name: "page"
+                widget: "relation"
+                collection: "pages"
+                search_fields: [ "{{title}}" ]
+                value_field: "{{slug}}"
+                display_fields: [ "{{title}}" ]
+          - label: "logo"
+            required: false
+            name: "logo"
+            widget: "file"
+            media_library:
+              config:
+                multiple: false
+                max_file_size: 1024000 # in bytes, only for default media library
+      - label: 'Categories'
+        name: 'categories'
+        file: 'content/site/categories.json'
+        format: 'json'
+        editor:
+          preview: false
+        fields:
+          - label: "ateliers"
+            name: "ateliers"
+            widget: "list"
+            summary: '{{fields.nl}}'
+            fields:
+              - { label: NL, name: nl, widget: string }
+              - { label: FR, name: fr, widget: string, required: false }
+              - { label: ID, name: id, widget: uuid }
+              - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+              - label: "Background"
+                required: false
+                name: "background"
+                widget: "image"
+                media_library:
+                  config:
+                    multiple: false
   - name: 'pages'
     summary: "{{title}}"
     sortable_fields: [ 'created', 'title' ]
@@ -211,6 +193,7 @@ collections:
         picker_utc: false
       - { label: ID, name: id, widget: uuid }
       - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
+      - {label: "Beschikbaar in Frans", name: "french", widget: "boolean", default: false, required: false}
       - label: 'Content'
         required: false
         i18n: true
@@ -245,7 +228,6 @@ collections:
                 media_library:
                   config:
                     multiple: false
-              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
           - label: 'Text'
             name: 'text'
             widget: object
@@ -262,7 +244,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
           - label: 'Locations'
             name: 'locations'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
@@ -283,7 +264,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
           - label: 'Teachers'
             name: 'teachers'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
@@ -304,7 +284,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
           - label: 'Images'
             name: 'images'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
@@ -342,7 +321,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
           - label: 'Buttons'
             name: 'buttons'
             widget: object
@@ -375,7 +353,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - {label: "Squares", name: "squares", widget: "boolean", default: false, required: false}
           - label: 'Ateliers'
             name: 'ateliers'
             widget: object
@@ -387,7 +364,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
               - label: "Categories"
                 name: "categories"
                 widget: "relation"
@@ -409,7 +385,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
               - label: "title"
                 name: "title"
                 widget: "string"
@@ -433,7 +408,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
               - label: "title"
                 name: "title"
                 widget: "string"
@@ -538,7 +512,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
           - label: 'Locations'
             name: 'locations'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
@@ -559,7 +532,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
           - label: 'Teachers'
             name: 'teachers'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
@@ -580,7 +552,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
           - label: 'Images'
             name: 'images'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
@@ -618,7 +589,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
           - label: 'Buttons'
             name: 'buttons'
             widget: object
@@ -651,7 +621,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
           - label: 'Ateliers'
             name: 'ateliers'
             widget: object
@@ -663,7 +632,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - { label: "Squares", name: "squares", widget: "boolean", default: false, required: false }
               - widget: list
                 name: 'category'
                 fields:
