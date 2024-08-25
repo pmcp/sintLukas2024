@@ -495,13 +495,41 @@ collections:
         widget: 'list'
         summary: "{{fields.title}}"
         types:
+          - label: 'Banner'
+            name: 'banner'
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "text", required: false, i18n: true }
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - label: "Alt"
+                name: "alt"
+                widget: "string"
+                required: false
+                i18n: true
+              - label: "Image"
+                required: false
+                name: "image"
+                widget: "image"
+                choose_url: true
+                media_library:
+                  config:
+                    multiple: false
           - label: 'Text'
             name: 'text'
             widget: object
-            summary: "Width: {{fields.width}}/2"
+            summary: "{{fields.title}} - Width: {{fields.width}}/2"
             fields:
               - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
-              - { label: text, name: markdown, widget: markdown }
+              - { label: "Text", name: markdown, widget: markdown }
+              - { label: "Side 1", name: side1, widget: markdown, required: false }
+              - { label: "Side 2", name: side2, widget: markdown, required: false }
               - label: "Width"
                 name: "width"
                 widget: "select"
@@ -536,7 +564,7 @@ collections:
               - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
               - label: "Person"
                 multiple: true
-                name: "person"
+                name: "people"
                 widget: "relation"
                 collection: "people"
                 search_fields: [ "{{firstName}}", "{{lastName}}" ]
@@ -629,17 +657,79 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - widget: list
-                name: 'category'
-                fields:
-                  - label: "Category"
-                    name: "category"
-                    widget: "relation"
-                    collection: "site"
-                    file: "categories"
-                    search_fields: [ "courses.*.nl" ]
-                    display_fields: [ "courses.*.nl" ]
-                    value_field: "courses.*.id"
+              - label: "Categories"
+                name: "categories"
+                widget: "relation"
+                collection: "site"
+                file: "categories"
+                multiple: true
+                required: false
+                search_fields: [ "courses.*.nl" ]
+                display_fields: [ "courses.*.nl" ]
+                value_field: "courses.*.id"
+          - label: 'News'
+            name: 'news'
+            widget: object
+            fields:
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - label: "title"
+                name: "title"
+                widget: "string"
+              - label: "Articles"
+                name: "articles"
+                required: false
+                widget: "relation"
+                collection: "news"
+                multiple: true
+                search_fields: [ "title", "text" ]
+                display_fields: [ "title" ]
+                value_field: "id"
+          - label: 'Categories'
+            name: 'categories'
+            widget: object
+            fields:
+              - label: "Width"
+                name: "width"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "1/2", value: 1 }
+                  - { label: "Full", value: 2 }
+              - label: "title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+                required: true
+                i18n: true
+              - label: "Categories"
+                name: "categories"
+                widget: "relation"
+                collection: "site"
+                file: "categories"
+                multiple: true
+                required: false
+                search_fields: [ "courses.*.nl" ]
+                display_fields: [ "courses.*.nl" ]
+                value_field: "courses.*.id"
+          - label: 'Background Style'
+            name: 'bg'
+            widget: object
+            fields:
+              - label: "Style"
+                name: "style"
+                widget: "select"
+                default: 3
+                options:
+                  - { label: "Grid", value: 1 }
+                  - { label: "Normal", value: 2 }
   - name: 'people'
     identifier_field: id
     i18n: true
