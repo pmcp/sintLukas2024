@@ -28,6 +28,7 @@
 
 <script setup>
 const { data } = await useAsyncData('footer', () => queryContent('site/footer').findOne())
-const navItems = data.value.links.map(n => ({ 'label': n.label, to: `/pages/nl/${n.page}`}))
+let navItems = []
+if(data.value.links) navItems = data.value.links.map(n => ({ 'label': n.label, to: `/pages/nl/${n.page}`}))
 
 </script>

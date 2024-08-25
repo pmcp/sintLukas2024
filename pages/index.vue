@@ -8,9 +8,9 @@
 
 <script setup>
 // Get the Homepage Id
-// const { data: page } = await useAsyncData('homepage', () => queryContent('site/homepage').findOne())
-// // Get the Homepage Content
-// const { data } = await useAsyncData('home', () => queryContent('pages')
-//     .where({ id: page.value.page })
-//     .findOne())
+const { data: page } = await useAsyncData('homepage', () => queryContent('site/homepage').findOne())
+// Get the Homepage Content
+const { data } = await useAsyncData('home', () => queryContent('pages')
+    .where({ id: page.value.page })
+    .findOne())
 </script>
