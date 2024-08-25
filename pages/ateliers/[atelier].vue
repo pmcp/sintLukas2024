@@ -1,6 +1,7 @@
 <template >
+  <NuxtLayout>
+
   <div class="grid grid-cols-1 gap-8">
-    {{ setDevPreContent(data)}}
     <template v-if="data.mainImage">
       <img :src="data.mainImage" class="h-80 w-full object-cover"/>
     </template>
@@ -10,9 +11,10 @@
         <elements-container :elements="data.elements"/>
       </div>
   </div>
+  </NuxtLayout>
 </template>
 
 <script setup>
-const route = useRoute()
-const { data } = await useAsyncData('atelier', () => queryContent(route.path).findOne())
+// const route = useRoute()
+// const { data } = await useAsyncData('atelier', () => queryContent(route.path).findOne())
 </script>

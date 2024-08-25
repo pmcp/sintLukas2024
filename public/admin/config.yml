@@ -1,5 +1,5 @@
 i18n:
-  structure: multiple_files
+  structure: multiple_folders
   locales: [nl, fr]
 
 locale: 'nl'
@@ -253,8 +253,8 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
               - { label: "Text", name: markdown, widget: markdown }
-              - { label: "Side 1", name: side1, widget: markdown }
-              - { label: "Side 2", name: side2, widget: markdown }
+              - { label: "Side 1", name: side1, widget: markdown, required: false }
+              - { label: "Side 2", name: side2, widget: markdown, required: false }
               - label: "Width"
                 name: "width"
                 widget: "select"

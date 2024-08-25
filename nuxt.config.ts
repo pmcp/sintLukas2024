@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@egjs/vue-grid']
   },
+  content: {
+    documentDriven: true
+  },
   devtools: { enabled: true },
   extends: ['@nuxt/ui-pro'],
   modules: [

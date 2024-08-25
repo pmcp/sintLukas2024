@@ -1,6 +1,7 @@
 # TODO
-- Remove all Intro fiels
+- Remove all Intro field
 - Remove all Squares option
+- move layout to pages
 
 ## DOING
 - Change "teachers" to people
