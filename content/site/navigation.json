@@ -1,21 +1,16 @@
 {
   "navigation": [
     {
-      "page": "nxgw9r8orcc09q20urpn6",
-      "labelnl": "Aanbod",
-      "labelfr": "Aanbod"
-    },
-    {
-      "labelfr": "asdf",
-      "labelnl": "Test page",
-      "page": "0mnspugajn2hoyws9ngtx"
+      "page": "test_pagina_nl_1",
+      "labelnl": "Test",
+      "labelfr": "Test"
     }
   ],
   "buttons": [
     {
       "label": "Inschrijven",
       "link": "inschrijven",
-      "pageLink": "NXgW9R8ORcC09Q20Urpn6"
+      "pageLink": []
     }
   ]
 }
