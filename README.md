@@ -1,4 +1,5 @@
 # TODO
+- Fix value fields
 
 ## DOING
 - Add Plausible

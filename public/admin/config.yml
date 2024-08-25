@@ -57,7 +57,7 @@ collections:
             multiple: false
             search_fields: [ "title" ]
             display_fields: [ "title" ]
-            value_field: "id"
+            value_field: "{{title}}"
       - label: 'Navigation'
         name: 'navigation'
         file: 'content/site/navigation.json'
@@ -80,7 +80,7 @@ collections:
                 widget: "relation"
                 collection: "pages"
                 search_fields: [ "{{title}}" ]
-                value_field: "{{slug}}"
+                value_field: "{{title}}"
                 display_fields: [ "{{title}}" ]
           - widget: list
             name: 'buttons'
@@ -132,7 +132,7 @@ collections:
                 widget: "relation"
                 collection: "pages"
                 search_fields: [ "{{title}}" ]
-                value_field: "{{slug}}"
+                value_field: "title"
                 display_fields: [ "{{title}}" ]
           - label: "logo"
             required: false
@@ -250,7 +250,7 @@ collections:
                 widget: "relation"
                 collection: "locations"
                 search_fields: [ "{{name}}" ]
-                value_field: "{{slug}}"
+                value_field: "title"
                 display_fields: [ "{{name}}" ]
               - label: "Width"
                 name: "width"
