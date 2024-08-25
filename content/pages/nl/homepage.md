@@ -1,5 +1,5 @@
 ---
-created: "{{now}}"
+created: "August 25, 2024 6:48 PM"
 id: lhO8RyLubvKDPSTpV0qMg
 title: Homepage
 elements:
