@@ -197,7 +197,7 @@ collections:
     folder: 'content/pages'
     create: true
     format: 'frontmatter'
-    identifier_field: id
+#    identifier_field: id
     editor:
        preview: true
     fields:
