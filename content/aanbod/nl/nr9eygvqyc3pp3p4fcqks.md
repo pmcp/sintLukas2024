@@ -1,6 +1,7 @@
 ---
 nl: Kinderen
 id: nr9EYgVQYC3pP3P4fCQks
+order: 1
 color: "#cb1313"
 ateliers:
   - id: q_L1bMIeoqyuCKjyrY9k5
