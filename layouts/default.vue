@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-clip w-full">
     <main-header />
     <UPage :class="grid ? 'background-grid' : ''">
       <UPageBody :ui="{ wrapper: 'mt-0 '}">

@@ -3,6 +3,7 @@
     <div v-for="(t,key) in props.persons" :key="`persons_${key}`">
       <elements-person :person="t" />
     </div>
+
     </UPageGrid>
 </template>
 
