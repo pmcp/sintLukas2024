@@ -487,6 +487,7 @@ collections:
         media_library:
           config:
             multiple: false
+      - {label: "Image Description", name: "alt", widget: "string"}
       - label: 'Content'
         required: false
         i18n: true
@@ -508,11 +509,6 @@ collections:
                 options:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
-              - label: "Alt"
-                name: "alt"
-                widget: "string"
-                required: false
-                i18n: true
               - label: "Image"
                 required: false
                 name: "image"
@@ -521,6 +517,7 @@ collections:
                 media_library:
                   config:
                     multiple: false
+              - {label: "Image Description", name: "alt", widget: "string"}
           - label: 'Text'
             name: 'text'
             widget: object
