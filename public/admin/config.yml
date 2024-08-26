@@ -3,7 +3,7 @@ i18n:
   locales: [nl, fr, en]
   default_locale: nl
 
-logo_url: https://sintlukas.netlify.app/site/logo.svg
+logo_url: https://sintlukas.netlify.app/assets/site/logo.svg
 locale: 'nl'
 
 backend:
