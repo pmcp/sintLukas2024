@@ -442,7 +442,7 @@ collections:
           config:
             multiple: false
   - name: 'locations'
-    identifier_field: id
+    identifier_field: 'name'
     i18n: true
     editor:
       preview: true
