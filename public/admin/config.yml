@@ -548,7 +548,7 @@ collections:
                 widget: "relation"
                 collection: "locations"
                 search_fields: [ "{{name}}" ]
-                value_field: "{{slug}}"
+                value_field: "title"
                 display_fields: [ "{{name}}" ]
               - label: "Width"
                 name: "width"
