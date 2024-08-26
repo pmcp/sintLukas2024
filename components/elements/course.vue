@@ -1,7 +1,7 @@
 <template>
      <div>
        <h2 v-if="course.first" class="text-xl uppercase font-bold pt-2">{{ course.cat.nl}}</h2>
-       <nuxt-link :to="`${course._path}`"  :key="course.id">
+<!--       <nuxt-link :to="`${course._path}`"  :key="course.id">-->
          <UCard :ui="{
         divide: 'divide-none',
         ring: 'ring-0',
@@ -41,7 +41,7 @@
              </div>
            </template>
          </UCard>
-       </nuxt-link>
+<!--       </nuxt-link>-->
      </div>
 
 

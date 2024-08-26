@@ -18,9 +18,7 @@ const { data } = await useAsyncData('courses', () => queryContent('/aanbod/nl')
     .find())
 
 // loop through all courses, add the info of the course to the atelier
-
 let courses = [];
-
 for (const cat in data.value) {
   // Add first = true to first course
   data.value[cat].ateliers[0].first = true
@@ -35,6 +33,4 @@ for (const cat in data.value) {
     return x;
   })]
 }
-console.log(courses)
-
 </script>
