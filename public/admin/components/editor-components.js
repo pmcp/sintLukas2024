@@ -1,5 +1,20 @@
 const editorComponents = [
     {
+        component: 'download',
+        fields: [
+            {
+                name: 'download',
+                label: 'download',
+                widget: 'relation',
+                collection: "pages",
+                multiple: false,
+                search_fields: [ "{{file}}" ],
+                display_fields: [ "{{file}}" ],
+                value_field: "{{id}}"
+            },
+        ]
+    },
+    {
         component: 'button',
         fields: [
             {

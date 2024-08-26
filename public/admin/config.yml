@@ -601,7 +601,7 @@ collections:
       - { label: "Url", name: "url", widget: "string" }
 
 
-  # DOWLOADS
+  # DOWNLOADS
   - label: "Downloads"
     identifier_field: id
     name: "downloads"
