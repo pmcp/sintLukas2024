@@ -1,21 +1,21 @@
 const editorComponents = [
     {
-        component: 'download',
+        component: 'downloads',
         fields: [
             {
                 name: 'download',
                 label: 'download',
                 widget: 'relation',
-                collection: "pages",
-                multiple: false,
-                search_fields: [ "{{file}}" ],
-                display_fields: [ "{{file}}" ],
+                collection: "downloads",
+                multiple: true,
+                search_fields: [ "buttonLabel" ],
+                display_fields: [ "{{buttonLabel}}" ],
                 value_field: "{{id}}"
             },
         ]
     },
     {
-        component: 'button',
+        component: 'Link',
         fields: [
             {
                 name: 'label',
@@ -27,43 +27,22 @@ const editorComponents = [
                 label: 'link',
                 widget: 'string'
             },
-            {
-                name: 'type',
-                label: 'type',
-                widget: 'select',
-                options: [
-                    {label: "White", value: 0},
-                    {label: "Black", value: 1},
-                    {label: "Primary", value: 2}
-                ]
-            },
-            {
-                name: 'download',
-                label: 'link',
-                widget: 'file',
-                media_library: {
-                    config: {
-                        multiple: false,
-                        max_file_size: 1024000
-                    }
-                }
-            },
-        ]
-    },
-    {
-        component: 'person',
-        fields: [
-            {
-            multiple: true,
-            name: "person",
-            widget: "relation",
-            collection: "persons",
-            search_fields: [ "{{firstName}}", "{{lastName}}" ],
-            value_field: "{{slug}}",
-            display_fields: [ "{{firstName}} {{lastName}}" ]
-            }
         ]
     }
+    // {
+    //     component: 'person',
+    //     fields: [
+    //         {
+    //         multiple: true,
+    //         name: "person",
+    //         widget: "relation",
+    //         collection: "persons",
+    //         search_fields: [ "{{firstName}}", "{{lastName}}" ],
+    //         value_field: "{{slug}}",
+    //         display_fields: [ "{{firstName}} {{lastName}}" ]
+    //         }
+    //     ]
+    // }
 ]
 
 
