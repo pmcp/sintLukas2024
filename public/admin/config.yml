@@ -3,10 +3,8 @@ i18n:
   locales: [nl, fr, en]
   default_locale: nl
 
-logo_url: https://sintlukas.netlify.app/
-
-
-
+logo_url: https://sintlukas.netlify.app/site/logo.svg
+locale: 'nl'
 
 backend:
   name: git-gateway
@@ -14,22 +12,25 @@ backend:
   repo: pmcp/sintLukas2024
   squash_merges: true
 
+
 media_folder: /public/assets/uploads
 public_folder: /assets/uploads
 
+
 #publish_mode: editorial_workflow
+
 
 slug:
   encoding: "ascii"
   clean_accents: true
-  sanitize_replacement: "_"
+  sanitize_replacement: "-"
 
 
 collections:
 
 
   # SETTINGS
-  - label: 'Settings'
+  - label: 'Instellingen'
     name: 'site'
     files:
       - label: 'Info'
