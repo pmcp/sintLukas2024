@@ -20,6 +20,7 @@ slug:
 
 
 collections:
+  # SETTINGS
   - label: 'Settings'
     name: 'site'
     files:
@@ -165,12 +166,13 @@ collections:
                 media_library:
                   config:
                     multiple: false
+  # PAGES
   - name: 'pages'
     summary: "{{title}}"
     sortable_fields: [ 'created', 'title' ]
     i18n: true
-    label: 'Pages'
-    label_singular: 'Page'
+    label: 'Paginas'
+    label_singular: 'Pagina'
     folder: 'content/pages'
     create: true
     format: 'frontmatter'
@@ -178,7 +180,7 @@ collections:
     editor:
        preview: true
     fields:
-      - label: "Created at"
+      - label: "Gemaakt op"
         name: "created"
         widget: "datetime"
         default: "{{now}}"
@@ -187,7 +189,7 @@ collections:
         format: "LLL"
         picker_utc: false
       - { label: ID, name: id, widget: uuid }
-      - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
+      - { label: 'Titel', name: 'title', widget: 'string', required: true, i18n: true }
       - {label: "Beschikbaar in Frans", name: "french", widget: "boolean", default: false, required: false}
       - label: 'Content'
         required: false
@@ -441,307 +443,83 @@ collections:
         media_library:
           config:
             multiple: false
+  # AANBOD
+  - name: 'aanbod'
+    i18n: true
+    label: 'Aanbod'
+    label_singular: 'aanbod'
+    identifier_field: id
+    folder: 'content/aanbod'
+    create: true
+    format: 'frontmatter'
+    summary: '{{nl}}'
+    fields:
+      - { label: NL, name: nl, widget: string }
+      - { label: FR, name: fr, widget: string, required: false }
+      - { label: ID, name: id, widget: uuid }
+      - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+      - label: "Background"
+        required: false
+        name: "background"
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+      - label: "Ateliers & Andere activiteiten"
+        identifier_field: id
+        name: "ateliers"
+        widget: "list"
+        summary: '{{fields.quote}} - {{fields.author.name}}'
+        fields:
+          - { label: ID, name: id, widget: uuid }
+          - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
+          - { label: 'Age', name: 'age', widget: 'string', required: true, i18n: true }
+          - { label: "Text", name: markdown, widget: markdown }
+          - { label: "Side 1", name: side1, widget: markdown, required: false }
+          - { label: "Side 2", name: side2, widget: markdown, required: false }
+          - label: "Persons"
+            multiple: true
+            name: "persons"
+            widget: "relation"
+            collection: "persons"
+            search_fields: [ "{{firstName}}", "{{lastName}}" ]
+            value_field: "{{slug}}"
+            display_fields: [ "{{firstName}} {{lastName}}" ]
+  # LOCATIONS
   - name: 'locations'
     identifier_field: 'name'
     i18n: true
     editor:
       preview: true
-    label: 'Locations'
-    label_singular: 'Location'
+    label: 'Locaties'
+    label_singular: 'Locatie'
     folder: 'content/locations'
     create: true
     format: 'frontmatter'
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: 'Name', name: 'name', widget: 'string', required: true, i18n: true }
+      - { label: 'Naam', name: 'name', widget: 'string', required: true, i18n: true }
       - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
-      - { label: 'Street & number', name: 'street', widget: 'string', i18n: true, required: false }
-      - { label: 'Zip code', name: 'zip', widget: 'string', i18n: true, required: false }
-      - { label: 'City', name: 'city', widget: 'string', i18n: true, required: false }
-      - {label: "Location", name: "location", widget: "map" }
-  - name: 'courses'
-    i18n: true
-    label: 'Courses'
-    label_singular: 'Course'
-    identifier_field: id
-    folder: 'content/courses'
-    create: true
-    format: 'frontmatter'
-    summary: '{{title}} - {{age}}'
-    fields:
-      - { label: ID, name: id, widget: uuid }
-      - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
-      - { label: 'Age', name: 'age', widget: 'string', required: true, i18n: true }
-      - label: "Category"
-        name: "categories"
-        widget: "relation"
-        collection: "site"
-        file: "categories"
-        search_fields: [ "courses.*.nl" ]
-        display_fields: [ "courses.*.nl" ]
-        value_field: "courses.*.id"
-      - label: "Featured Image"
-        name: "mainImage"
-        widget: "image"
-        choose_url: true
-        media_library:
-          config:
-            multiple: false
-      - {label: "Image Description", name: "alt", widget: "string"}
-      - label: 'Content'
-        required: false
-        i18n: true
-        name: 'elements'
-        label_singular: 'Element'
-        widget: 'list'
-        summary: "{{fields.title}}"
-        types:
-          - label: 'Banner'
-            name: 'banner'
-            widget: object
-            summary: "{{fields.title}}"
-            fields:
-              - { label: "Title", name: "title", widget: "text", required: false, i18n: true }
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-              - label: "Image"
-                required: false
-                name: "image"
-                widget: "image"
-                choose_url: true
-                media_library:
-                  config:
-                    multiple: false
-              - {label: "Image Description", name: "alt", widget: "string"}
-          - label: 'Text'
-            name: 'text'
-            widget: object
-            summary: "{{fields.title}} - Width: {{fields.width}}/2"
-            fields:
-              - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
-              - { label: "Text", name: markdown, widget: markdown }
-              - { label: "Side 1", name: side1, widget: markdown, required: false }
-              - { label: "Side 2", name: side2, widget: markdown, required: false }
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-          - label: 'Locations'
-            name: 'locations'
-            summary: "{{fields.title}} - Width: {{fields.width}}/2"
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
-              - label: "Location"
-                multiple: true
-                name: "location"
-                widget: "relation"
-                collection: "locations"
-                search_fields: [ "{{name}}" ]
-                value_field: "title"
-                display_fields: [ "{{name}}" ]
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-          - label: 'People'
-            name: 'persons'
-            summary: "{{fields.title}} - Width: {{fields.width}}/2"
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
-              - label: "Person"
-                multiple: true
-                name: "persons"
-                widget: "relation"
-                collection: "persons"
-                search_fields: [ "{{firstName}}", "{{lastName}}" ]
-                value_field: "{{slug}}"
-                display_fields: [ "{{firstName}} {{lastName}}" ]
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-          - label: 'Images'
-            name: 'images'
-            summary: "{{fields.title}} - Width: {{fields.width}}/2"
-            widget: object
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
-              - label: "Layout"
-                name: "layout"
-                widget: "select"
-                options:
-                  - { label: "Masonry", value: 1 }
-                  - { label: "Frame", value: 2 }
-                  - { label: "Justified", value: 3 }
-                  - { label: "Full Width", value: 4 }
-              - widget: list
-                name: 'image'
-                fields:
-                  - label: "Description"
-                    name: "description"
-                    widget: "string"
-                    required: true
-                    i18n: true
-                  - label: "Image"
-                    required: true
-                    name: "image"
-                    widget: "image"
-                    choose_url: true
-                    media_library:
-                      config:
-                        multiple: false
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-          - label: 'Buttons'
-            name: 'buttons'
-            widget: object
-            summary: "{{fields.title}} - Width: {{fields.width}}/2"
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
-              - widget: list
-                name: 'button'
-                fields:
-                  - label: "label"
-                    name: "label"
-                    widget: "string"
-                    required: true
-                  - label: "Link"
-                    name: "link"
-                    required: false
-                    widget: "string"
-                  - label: "Download"
-                    required: false
-                    name: "download"
-                    widget: "file"
-                    media_library:
-                      config:
-                        multiple: false
-                        max_file_size: 1024000 # in bytes, only for default media library
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-          - label: 'Courses'
-            name: 'courses'
-            widget: object
-            fields:
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-              - label: "Categories"
-                name: "categories"
-                widget: "relation"
-                collection: "site"
-                file: "categories"
-                multiple: true
-                required: false
-                search_fields: [ "courses.*.nl" ]
-                display_fields: [ "courses.*.nl" ]
-                value_field: "courses.*.id"
-          - label: 'News'
-            name: 'news'
-            widget: object
-            fields:
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-              - label: "title"
-                name: "title"
-                widget: "string"
-              - label: "Articles"
-                name: "articles"
-                required: false
-                widget: "relation"
-                collection: "news"
-                multiple: true
-                search_fields: [ "title", "text" ]
-                display_fields: [ "title" ]
-                value_field: "id"
-          - label: 'Categories'
-            name: 'categories'
-            widget: object
-            fields:
-              - label: "Width"
-                name: "width"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "1/2", value: 1 }
-                  - { label: "Full", value: 2 }
-              - label: "title"
-                name: "title"
-                widget: "string"
-              - label: "Description"
-                name: "description"
-                widget: "string"
-                required: true
-                i18n: true
-              - label: "Categories"
-                name: "categories"
-                widget: "relation"
-                collection: "site"
-                file: "categories"
-                multiple: true
-                required: false
-                search_fields: [ "courses.*.nl" ]
-                display_fields: [ "courses.*.nl" ]
-                value_field: "courses.*.id"
-          - label: 'Background Style'
-            name: 'bg'
-            widget: object
-            fields:
-              - label: "Style"
-                name: "style"
-                widget: "select"
-                default: 3
-                options:
-                  - { label: "Grid", value: 1 }
-                  - { label: "Normal", value: 2 }
+      - { label: 'Straat en huisnummer', name: 'street', widget: 'string', i18n: true, required: false }
+      - { label: 'Postcode', name: 'zip', widget: 'string', i18n: true, required: false }
+      - { label: 'Stad', name: 'city', widget: 'string', i18n: true, required: false }
+      - {label: "Kaart", name: "location", widget: "map" }
+  # PERSONS
   - name: 'persons'
     identifier_field: id
     i18n: true
-    label: 'People'
-    label_singular: 'Person'
+    label: 'Medewerkers'
+    label_singular: 'Medewerker'
     folder: 'content/persons'
     create: true
     format: 'frontmatter'
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: 'First Name', name: 'firstName', widget: 'string', required: true, i18n: false }
-      - { label: 'Last Name', name: 'lastName', widget: 'string', required: true, i18n: false }
+      - { label: 'Voornaam', name: 'firstName', widget: 'string', required: true, i18n: false }
+      - { label: 'Achternaam', name: 'lastName', widget: 'string', required: true, i18n: false }
       - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
       - { label: 'Video', name: 'video', widget: 'string', i18n: true, required: false }
-      - label: "Photo"
+      - label: "Foto"
         required: false
         name: "image"
         widget: "image"
@@ -750,16 +528,32 @@ collections:
         media_library:
           config:
             multiple: false
-  - label: "News"
+  # NEWS
+  - label: "Nieuws"
     identifier_field: id
     name: "news"
     folder: "content/news"
     create: true
     fields:
       - { label: ID, name: id, widget: uuid }
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", time_format: false}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false}
+      - {label: "Afbeelding", name: "thumbnail", widget: "image"}
       - {label: "Image Description", name: "alt", widget: "string"}
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Link", name: "link", widget: "string", required: false }
+  - label: "Media"
+    identifier_field: id
+    name: "images"
+    folder: "content/media"
+    label_singular: 'Afbeelding'
+#    create: true
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    fields:
+      - { label: ID, name: id, widget: uuid }
+      - {label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false}
+      - {label: "Afbeelding", name: "thumbnail", widget: "image"}
+      - {label: "Image Description", name: "alt", widget: "string"}
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
