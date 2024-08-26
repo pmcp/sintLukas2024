@@ -4,7 +4,6 @@
       <elements-banner :data="{ title: 'Vind jouw atelier. \nOntdek onze extra muros projecten.'}" class="col-span-2"/>
       <div class="grid grid-cols-1 md:grid-cols-2 w-full items-end gap-8">
         <nuxt-link v-for="c in courses" :key="`courses_${c.cat.id}`" :to="`/aanbod/${c.cat.id}/${c.id}`" class="grow mb-2">
-          {{ c.cat.id }}
           <elements-course :course="c" class="grow mb-2"/>
         </nuxt-link>
       </div>
