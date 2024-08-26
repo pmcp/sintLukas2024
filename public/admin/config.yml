@@ -260,15 +260,15 @@ collections:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
           - label: 'People'
-            name: 'people'
+            name: 'persons'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
             fields:
               - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
               - label: "Person"
                 multiple: true
-                name: "people"
+                name: "persons"
                 widget: "relation"
-                collection: "people"
+                collection: "persons"
                 search_fields: [ "{{firstName}}", "{{lastName}}" ]
                 value_field: "{{slug}}"
                 display_fields: [ "{{firstName}} {{lastName}}" ]
@@ -558,15 +558,15 @@ collections:
                   - { label: "1/2", value: 1 }
                   - { label: "Full", value: 2 }
           - label: 'People'
-            name: 'people'
+            name: 'persons'
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
             fields:
               - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
               - label: "Person"
                 multiple: true
-                name: "people"
+                name: "persons"
                 widget: "relation"
-                collection: "people"
+                collection: "persons"
                 search_fields: [ "{{firstName}}", "{{lastName}}" ]
                 value_field: "{{slug}}"
                 display_fields: [ "{{firstName}} {{lastName}}" ]
@@ -730,12 +730,12 @@ collections:
                 options:
                   - { label: "Grid", value: 1 }
                   - { label: "Normal", value: 2 }
-  - name: 'people'
+  - name: 'persons'
     identifier_field: id
     i18n: true
     label: 'People'
     label_singular: 'Person'
-    folder: 'content/people'
+    folder: 'content/persons'
     create: true
     format: 'frontmatter'
     fields:

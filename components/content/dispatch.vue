@@ -10,11 +10,11 @@
 
 
 
-  <div v-else-if="props.type === 'person'" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 p-0 pmcp-people_container">
+  <div v-else-if="props.type === 'person'" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 p-0 pmcp-persons_container">
     <elements-person
-        v-for="t in props.data.people"
+        v-for="t in props.data.persons"
         :person="t"
-        class="pmcp-people_element"
+        class="pmcp-persons_element"
     />
   </div>
 

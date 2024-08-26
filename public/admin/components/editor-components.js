@@ -40,9 +40,9 @@ const editorComponents = [
         fields: [
             {
             multiple: true,
-            name: "teacher",
+            name: "person",
             widget: "relation",
-            collection: "teachers",
+            collection: "persons",
             search_fields: [ "{{firstName}}", "{{lastName}}" ],
             value_field: "{{slug}}",
             display_fields: [ "{{firstName}} {{lastName}}" ]
@@ -73,11 +73,10 @@ const createEditorComponent = function(editorComponent) {
         pattern: new RegExp(`^:dispatch{:data='(.*?)' type='${editorComponent.component}'}$`, `ms`),
         fromBlock: function(match) {
             const data = JSON.parse(match[1]);
-            const components = editorComponent.fields.reduce((acc ,item) => {
+            return editorComponent.fields.reduce((acc ,item) => {
                 acc[item.name] = data[item.name]
                 return acc
             }, {});
-            return components;
         },
         // This is used to serialize the data from the custom widget to the
         // markdown document

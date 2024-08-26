@@ -8,7 +8,7 @@
         <!-- TEXT -->       <div><elements-text v-if="element.type === 'text'" :text="element.markdown" :side1="element.side1" :side2="element.side2" /></div>
         <!-- IMAGES -->     <div><elements-images v-if="element.type === 'images'" :images="element.image" :layout="element.layout" /></div>
         <!-- LOCATION -->   <div><elements-locations v-if="element.type === 'locations'" :locations="element.location" /></div>
-        <!-- TEACHERS -->   <div><elements-people v-if="element.type === 'people'" :people="element.people" /></div>
+        <!-- TEACHERS -->   <div><elements-persons v-if="element.type === 'persons'" :persons="element.persons" /></div>
         <!-- COURSES -->    <div><elements-courses v-if="element.type === 'courses'" :categories="element.category" /></div>
         <!-- NEWS -->       <div><elements-news v-if="element.type === 'news'" :articles="element.articles"/></div>
         <!-- CATEGORIES --> <div><elements-categories v-if="element.type === 'categories'" :categories="element.categories"/></div>

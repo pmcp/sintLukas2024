@@ -17,5 +17,5 @@ const props = defineProps({
   }
 });
 
-const { data } = await useAsyncData('person', () => queryContent(`people/nl/${props.person}`).findOne())
+const { data } = await useAsyncData('person', () => queryContent(`persons/nl/${props.person}`).findOne())
 </script>
