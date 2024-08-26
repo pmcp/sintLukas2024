@@ -468,27 +468,30 @@ collections:
       - { label: NL, name: nl, widget: string }
       - { label: FR, name: fr, widget: string, required: false }
       - { label: ID, name: id, widget: uuid }
-      - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
-      - label: "Background"
+      - label: "Volgorde"
+        name: "order"
+        widget: "number"
+        default: 0
+        value_type: "int"
+      - { label: 'Kleur', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+      - label: "Achtergrond afbeelding"
         required: false
         name: "background"
         widget: "image"
         media_library:
           config:
             multiple: false
-      - label: "Ateliers & Andere activiteiten"
+      - label: "Ateliers & Andere Activiteiten"
+        label_singular: 'Item'
         identifier_field: id
         name: "ateliers"
         widget: "list"
-        summary: '{{fields.quote}} - {{fields.author.name}}'
+        summary: '{{fields.title}} - {{fields.age}}'
         fields:
           - { label: ID, name: id, widget: uuid }
           - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
           - { label: 'Age', name: 'age', widget: 'string', required: true, i18n: true }
-          - { label: "Text", name: markdown, widget: markdown }
-          - { label: "Side 1", name: side1, widget: markdown, required: false }
-          - { label: "Side 2", name: side2, widget: markdown, required: false }
-          - label: "Persons"
+          - label: "Personen"
             multiple: true
             name: "persons"
             widget: "relation"
@@ -501,10 +504,12 @@ collections:
             widget: "relation"
             collection: "images"
             multiple: true
-            search_fields: [ "title" ]
-            display_fields: [ "title" ]
-            value_field: "{{title}}"
-
+            search_fields: [ "description", "file" ]
+            display_fields: [ "{{description}}" ]
+            value_field: "{{id}}"
+          - { label: "Text", name: markdown, widget: markdown }
+          - { label: "Side 1", name: side1, widget: markdown, required: false }
+          - { label: "Side 2", name: side2, widget: markdown, required: false }
 
   # LOCATIONS
   - name: 'locations'

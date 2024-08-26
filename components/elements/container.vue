@@ -13,6 +13,7 @@
         <!-- NEWS -->       <div><elements-news v-if="element.type === 'news'" :articles="element.articles"/></div>
         <!-- CATEGORIES --> <div><elements-categories v-if="element.type === 'categories'" :categories="element.categories"/></div>
       </div>
+      <slot />
     </UPageGrid>
   </div>
 </template>
@@ -21,5 +22,6 @@
 <script setup>
 const props = defineProps({
   elements: Array,
+  default: []
 });
 </script>
