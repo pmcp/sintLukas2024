@@ -67,7 +67,7 @@ collections:
             multiple: false
             search_fields: [ "title" ]
             display_fields: [ "title" ]
-            value_field: "{{title}}"
+            value_field: "{{slug}}"
       - label: 'Navigation'
         name: 'navigation'
         file: 'content/site/navigation.json'
@@ -90,7 +90,7 @@ collections:
                 widget: "relation"
                 collection: "pages"
                 search_fields: [ "{{title}}" ]
-                value_field: "{{title}}"
+                value_field: "{{slug}}"
                 display_fields: [ "{{title}}" ]
           - widget: list
             name: 'buttons'
@@ -111,7 +111,7 @@ collections:
                 required: false
                 search_fields: [ "title" ]
                 display_fields: [ "title" ]
-                value_field: "id"
+                value_field: "{{id}}"
               - label: "Download"
                 required: false
                 name: "download"
