@@ -508,8 +508,8 @@ collections:
             display_fields: [ "{{description}}" ]
             value_field: "{{id}}"
           - { label: "Text", name: markdown, widget: markdown }
-          - { label: "Side 1", name: side1, widget: markdown, required: false }
-          - { label: "Side 2", name: side2, widget: markdown, required: false }
+          - { label: "Zij tekst 1", name: side1, widget: markdown, required: false }
+          - { label: "Zij tekst 2", name: side2, widget: markdown, required: false }
 
   # LOCATIONS
   - name: 'locations'
