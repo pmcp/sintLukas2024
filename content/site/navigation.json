@@ -1,9 +1,17 @@
 {
   "navigation": [
     {
+      "page": "Homepage",
+      "label": "Start"
+    },
+    {
       "page": "Aanbod",
       "label": "Aanbod"
     }
   ],
-  "buttons": []
+  "buttons": [
+    {
+      "label": "Inschrijven"
+    }
+  ]
 }
