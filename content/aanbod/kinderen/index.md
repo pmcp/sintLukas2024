@@ -6,4 +6,7 @@ testimonials:
   - quote: Everything is awesome!
     author:
       name: Emmet
+  - quote: sdfsdfa
+    author:
+      name: asdf
 ---
