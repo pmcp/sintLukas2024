@@ -1,6 +1,12 @@
 i18n:
   structure: multiple_folders
-  locales: [nl, fr]
+  locales: [nl, fr, en]
+  default_locale: nl
+
+logo_url: https://sintlukas.netlify.app/
+
+
+
 
 backend:
   name: git-gateway
@@ -20,6 +26,8 @@ slug:
 
 
 collections:
+
+
   # SETTINGS
   - label: 'Settings'
     name: 'site'
@@ -263,7 +271,7 @@ collections:
                   - { label: "Full", value: 2 }
           - label: 'People'
             name: 'persons'
-            summary: "{{fields.title}} - Width: {{fields.width}}/2"
+            summary: "{{fields.firstName}} {{fields.lastName}} - Width: {{fields.width}}/2"
             fields:
               - { label: 'Title', name: 'title', widget: 'string', required: false, i18n: true }
               - label: "Person"
@@ -443,6 +451,8 @@ collections:
         media_library:
           config:
             multiple: false
+
+
   # AANBOD
   - name: 'aanbod'
     i18n: true
@@ -485,6 +495,16 @@ collections:
             search_fields: [ "{{firstName}}", "{{lastName}}" ]
             value_field: "{{slug}}"
             display_fields: [ "{{firstName}} {{lastName}}" ]
+          - label: "Afbeeldingen"
+            name: "images"
+            widget: "relation"
+            collection: "images"
+            multiple: true
+            search_fields: [ "title" ]
+            display_fields: [ "title" ]
+            value_field: "{{title}}"
+
+
   # LOCATIONS
   - name: 'locations'
     identifier_field: 'name'
@@ -504,6 +524,8 @@ collections:
       - { label: 'Postcode', name: 'zip', widget: 'string', i18n: true, required: false }
       - { label: 'Stad', name: 'city', widget: 'string', i18n: true, required: false }
       - {label: "Kaart", name: "location", widget: "map" }
+
+
   # PERSONS
   - name: 'persons'
     identifier_field: id
@@ -513,6 +535,7 @@ collections:
     folder: 'content/persons'
     create: true
     format: 'frontmatter'
+    summary: "{{firstName}} {{lastName}}"
     fields:
       - { label: ID, name: id, widget: uuid }
       - { label: 'Voornaam', name: 'firstName', widget: 'string', required: true, i18n: false }
@@ -528,32 +551,65 @@ collections:
         media_library:
           config:
             multiple: false
+
+
   # NEWS
   - label: "Nieuws"
     identifier_field: id
     name: "news"
     folder: "content/news"
     create: true
+    summary: "{{title}}"
     fields:
       - { label: ID, name: id, widget: uuid }
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false}
-      - {label: "Afbeelding", name: "thumbnail", widget: "image"}
+      - {label: "Afbeelding", name: "image", widget: "image"}
       - {label: "Image Description", name: "alt", widget: "string"}
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Link", name: "link", widget: "string", required: false }
-  - label: "Media"
+
+
+  # IMAGES
+  - label: "Afbeeldingen"
     identifier_field: id
     name: "images"
-    folder: "content/media"
-    label_singular: 'Afbeelding'
-#    create: true
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    folder: "content/media/images"
+    label_singular: "Afbeelding"
+    create: true
+    summary: "{{date | date('YYYY-MM-DD')}}: {{description}}"
     fields:
       - { label: ID, name: id, widget: uuid }
-      - {label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false}
-      - {label: "Afbeelding", name: "thumbnail", widget: "image"}
-      - {label: "Image Description", name: "alt", widget: "string"}
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false }
+      - { label: "Omschrijving", name: "description", widget: "string" }
+      - { label: "Bestand", name: "cover", widget: "image" }
+
+
+  # VIDEOS
+  - label: "Videos"
+    identifier_field: id
+    name: "videos"
+    folder: "content/media/videos"
+    label_singular: "Video"
+    summary: "{{date | date('YYYY-MM-DD')}}: {{description}} ({{url}})"
+    create: true
+    fields:
+      - { label: ID, name: id, widget: uuid }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false }
+      - { label: "Omschrijving", name: "description", widget: "string" }
+      - { label: "Url", name: "url", widget: "string" }
+
+
+  # DOWLOADS
+  - label: "Downloads"
+    identifier_field: id
+    name: "downloads"
+    folder: "content/media/downloads"
+    label_singular: "Download"
+    create: true
+    summary: "{{date | date('YYYY-MM-DD')}}: {{buttonLabel}} ({{file}})"
+    fields:
+      - { label: ID, name: id, widget: uuid }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false }
+      - { label: "Tekst op downloadknop", name: "buttonLabel", widget: "string" }
+      - {label: "Bestand", name: "file", widget: "file", "media_library": { config: {multiple: false}}}
