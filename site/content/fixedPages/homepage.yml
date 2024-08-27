@@ -4,17 +4,26 @@ block_banner:
   title: |-
     Vind jouw atelier.
     Ontdek onze extra muros projecten.
-  images: XGCz2bubktRLZXByTUuOE
+  images: nn2DjIHCexdECkfhzT3Ff
 block_news:
   title: Nieuws
   number: 3
+  label: Nieuws
 block_courses:
-  title: Aanbod
+  title: Ontmoetingsplaats tussen disciplines, artistieke processen, leeftijden en
+    culturen.
+  label: Aanbod
+  linkText: asdf
 block_about:
   title: Deeltijds kunstonderwijs voor volwassenen, jongeren en kinderen
-  image1: XGCz2bubktRLZXByTUuOE
-  image2: XGCz2bubktRLZXByTUuOE
-  image3: XGCz2bubktRLZXByTUuOE
+  image1: CFDhuUboXdtA6HmhKRyqh
+  image2: kCHR9joYY5-6T9t398u0A
+  image3: kCHR9joYY5-6T9t398u0A
+  label: Academie
 block_calendar:
   title: Kalender
-  image: XGCz2bubktRLZXByTUuOE
+  image: FKnTeVu_Y2nRIJqlJ5ffI
+  label: Kalender
+  text: Blijf op de hoogte van alle evenementen, toonmomenten, uitstappen en
+    sluitingsdagen.
+  buttonText: Kalender bekijken
