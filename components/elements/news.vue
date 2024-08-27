@@ -28,8 +28,7 @@
         v-for="(a, key) in articles"
         :key="`news-${key}`">
       <template #header>
-        <NuxtImg :src="a.thumbnail" :alt="a.alt" class="w-full height-full"/>
-<!--        <img :src="a.thumbnail" :alt="a.alt" />-->
+        <elements-image :src="a.thumbnail" :alt="a.alt" class="w-full height-full"/>
       </template>
 
       <nuxt-link :to="a.link" v-if="a.link">
@@ -74,16 +73,19 @@ let articles;
 // TODO: add "where date -> after today"
 
 if(props.articles) {
-  const { data } = await useAsyncData('news', () => queryContent('news')
-      .where({ _draft: false, })
-      .where({ id: { $in: props.articles }})
-      .find())
-  articles = data;
-} else {
-  const { data } = await useAsyncData('news', () => queryContent('news')
-      .where({ _draft: false, })
-      .where({ id: { $in: props.articles }})
-      .find())
-  articles = data;
+  // If props.articles is an array of objects, we don't need to fetch, just return
+  if(props.articles[0] !== Object(props.articles[0])) {
+
+
+    const { data } = await useAsyncData('news', () => queryContent('news')
+        .where({ _draft: false, })
+        .where({ id: { $in: props.articles }})
+        .find())
+    articles = data;
+  } else {
+    articles = props.articles;
+  }
 }
+
+
 </script>

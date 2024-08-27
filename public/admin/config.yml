@@ -179,13 +179,13 @@ collections:
   # FIXED PAGED
 
   - label: "Paginas"
-    name: "fixedPages"
+    name: "fixedpages"
     files:
 
       # HOMEPAGE
       - label: "Startpagina"
         name: "homepage"
-        file: "content/fixedPages/homepage.yml"
+        file: "content/fixedpages/homepage.yml"
         fields:
           - label: "Algemene informatie"
             name: "block_mainInfo"
@@ -198,7 +198,7 @@ collections:
             fields:
               - { label: Titel, name: title, widget: text }
               - label: "Afbeelding"
-                name: "images"
+                name: "image"
                 widget: "relation"
                 collection: "images"
                 multiple: false
@@ -230,6 +230,7 @@ collections:
             fields:
               - { label: Label, name: label, widget: string }
               - { label: Titel, name: title, widget: string }
+              - { label: tekst, name: text, widget: text }
               - label: "Afbeelding 1"
                 name: "image1"
                 widget: "relation"
@@ -278,7 +279,7 @@ collections:
       # AANBOD
       - label: "Aanbod"
         name: "aanbod"
-        file: "content/fixedPages/aanbod.yml"
+        file: "content/fixedpages/aanbod.yml"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: "Naam in navigatie", name: navName, widget: string }
@@ -565,13 +566,13 @@ collections:
   # AANBOD
   - name: 'aanbod'
     i18n: true
-    label: 'Ateliers'
-    label_singular: 'atelier'
+    label: 'Aanbod'
+    label_singular: 'aanbod'
     identifier_field: id
     folder: 'content/aanbod'
     create: true
     format: 'frontmatter'
-    summary: '{{nl}}'
+    summary: '{{order}} - {{nl}}'
     fields:
       - { label: NL, name: nl, widget: string }
       - { label: FR, name: fr, widget: string, required: false }

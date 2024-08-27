@@ -1,35 +1,28 @@
 <template>
-  <div
-      v-for="(c, key) in categories"
-      :key="`categories-${key}`"
-      class="mb-4"
-      >
-    <span
-      class="text-4xl uppercase font-bold px-2"
-      :style="{
-      backgroundColor: c.color,
-      backgroundSize: 'contain',
-      backgroundImage: `url(${c.background})`}">
-    <!--    TODO: Lang -->
-    {{ c.nl }}
-    </span>
+  <div>
+    <nuxt-link
+        v-for="(c, key) in aanbod"
+        :key="`categories-${key}`" :to="`/aanbod/`" class="text-2xl font-bold"
+    >
+      <span
+        class="text-4xl uppercase font-bold px-2 mb-4 inline-block"
+        :style="{
+        backgroundColor: c.color,
+        backgroundSize: 'contain',
+        backgroundImage: `url(${c.background})`}">
+      <!--    TODO: Lang -->
+      {{ c.nl }}
+      </span>
+    </nuxt-link>
   </div>
-
 </template>
 <script setup>
-const props = defineProps({
-  categories: Object
-});
 
 let categories;
-const { data } = await useAsyncData('categories', () => queryContent('site/categories')
+const { data: aanbod } = await useAsyncData('categories', () => queryContent('aanbod/nl')
     .find())
 
-if(props.categories.length > 0) {
-  categories = data.value[0].courses.filter(i => props.categories.includes(i.id))
-} else {
-  categories = data.value[0].courses
-}
+console.log(aanbod)
 
 
 

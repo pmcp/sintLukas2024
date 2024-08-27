@@ -63,6 +63,9 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData('navigation', () => queryContent('site/navigation').findOne())
-const navItems = data.value.navigation.map(n => ({ 'label': n.label, to: `/pages/nl/${n.page}`}))
+// const { data } = await useAsyncData('navigation', () => queryContent('site/navigation').findOne())
+const { data } = await useAsyncData('fixedPages', () => queryContent('site/fixedPages').find())
+console.log(data)
+
+// const navItems = data.value.navigation.map(n => ({ 'label': n.label, to: `/pages/nl/${n.page}`}))
 </script>

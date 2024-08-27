@@ -2,8 +2,11 @@
 
 
 # TODO
-- Category Media maken
-  - tags voor courses etc
+- Active = true
+- Add line in wysiwyg
+- Opties voor titels beperken -> 1 titel
+- Add mailing list
+- category toevoegen voor fotos
 
 - Afbeeldingen upload: category -> tekening / foto / ...
 - IN fixed pages: everything required
