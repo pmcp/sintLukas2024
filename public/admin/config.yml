@@ -307,7 +307,21 @@ collections:
           - { label: "Side 1", name: side1, widget: markdown, required: false }
           - { label: "Side 2", name: side2, widget: markdown, required: false }
 
-
+      # CONTACT
+      - label: "Contact"
+        name: "contact"
+        file: "content/fixedpages/contact.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
+          - label: "Hoofdafbeelding"
+            name: "images"
+            widget: "relation"
+            collection: "images"
+            multiple: false
+            search_fields: [ "description", "file" ]
+            display_fields: [ "{{description}}" ]
+            value_field: "{{id}}"
+          - { label: "Naam in navigatie", name: navName, widget: string }
   # EXTRA PAGES
   - name: 'extra'
     summary: "{{title}}"
@@ -663,7 +677,7 @@ collections:
       - { label: 'Straat en huisnummer', name: 'street', widget: 'string', i18n: true, required: false }
       - { label: 'Postcode', name: 'zip', widget: 'string', i18n: true, required: false }
       - { label: 'Stad', name: 'city', widget: 'string', i18n: true, required: false }
-      - {label: "Kaart", name: "location", widget: "map" }
+      - {label: "Kaart", name: "location", widget: "map", default: [4.365835,50.8610824] }
 
 
   # PERSONS

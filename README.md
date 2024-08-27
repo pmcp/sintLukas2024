@@ -8,6 +8,7 @@
 - Add mailing list
 - category toevoegen voor fotos
 - Naam in navigatie koppelen
+- Kleur kaartje marker
 
 - Afbeeldingen upload: category -> tekening / foto / ...
 - IN fixed pages: everything required
