@@ -11,7 +11,7 @@ ateliers:
       - 7y4sqfcm0fl4ayvoov5d
       - gsjgcstsncn40ydykxskn
     images:
-      - XGCz2bubktRLZXByTUuOE
+      - CFDhuUboXdtA6HmhKRyqh
     markdown: "Je maakt op een ludieke manier kennis met verschillende technieken:
       schilderen, tekenen, collages maken, sculpturen kneden in klei,
       fotograferen, etsen, ... Laat je verwonderen door de rijke wereld van
