@@ -2,21 +2,25 @@
   <NuxtLayout class="relative">
     <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <elements-banner :data="{ title: '', image: data.images }" class="col-span-1 md:col-span-2 h-48"/>
-
       <elements-text :side1="data.side1" :side2="data.side2" :text="data.markdown" />
-
-
-
 
     </elements-container>
 
     <div class="mt-8">
       <elements-background :data="{style: 1}" />
     </div>
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-      <div class="relative z-1 grid grid-cols-2 gap-4 mt-16 col-span-2">
-      <elements-locations />
+
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-1 pt-16 grid grid-cols-2 gap-8  ">
+      <div class="col-span-full lg:col-span-1">
+        <div class="uppercase text-sm font-bold pb-4">Vestigingen</div>
+        <elements-locations/>
       </div>
+      <div class="col-span-full lg:col-span-1">
+        <div class="uppercase text-sm font-bold pb-4">Team</div>
+        <elements-persons />
+      </div>
+
+
     </div>
 
   </NuxtLayout>

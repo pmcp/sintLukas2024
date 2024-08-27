@@ -75,8 +75,6 @@ let articles;
 if(props.articles) {
   // If props.articles is an array of objects, we don't need to fetch, just return
   if(props.articles[0] !== Object(props.articles[0])) {
-
-
     const { data } = await useAsyncData('news', () => queryContent('news')
         .where({ _draft: false, })
         .where({ id: { $in: props.articles }})
