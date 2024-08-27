@@ -1,5 +1,7 @@
 <template>
-  <img @click="emit('click', {url: data.cover, description: data.description})" class="col-span-1 h-40 w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="data.cover" :alt="data.description" />
+
+  <img @click="emit('click', {url: data.cover, description: data.description})" class=" h-full w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="data.cover" :alt="data.description" />
+  <div class="hidden">{{ data }}</div>
 <!--  <nuxtImg @click="emit('click', {url: data.cover, description: data.description})" class="col-span-1 h-40 w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="data.cover" :alt="data.description" />-->
 </template>
 <script setup>

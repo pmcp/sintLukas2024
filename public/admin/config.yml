@@ -263,7 +263,11 @@ collections:
             fields:
               - { label: Label, name: label, widget: string }
               - { label: Tekst, name: text, widget: text }
+              - label: 'Embed Code'
+                name: 'code'
+                widget: 'text'
               - { label: Knop, name: buttonText, widget: string }
+              - { label: Link, name: buttonLink, widget: string }
               - label: "Achtergrond afbeelding"
                 name: "image"
                 widget: "relation"

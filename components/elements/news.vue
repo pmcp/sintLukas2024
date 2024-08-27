@@ -28,7 +28,7 @@
         v-for="(a, key) in articles"
         :key="`news-${key}`">
       <template #header>
-        <elements-image :src="a.thumbnail" :alt="a.alt" class="w-full height-full"/>
+        <elements-image :src="a.thumbnail" class="w-full height-full"/>
       </template>
 
       <nuxt-link :to="a.link" v-if="a.link">
