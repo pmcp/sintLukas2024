@@ -1,7 +1,8 @@
 <template >
   <NuxtLayout class="relative">
     <div class="grid grid-cols-1 gap-8 ">
-      <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl max-w-full overflow-clip">
+      <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <elements-banner :data="{ title: '', image: atelier.images[0] }" class="col-span-1 md:col-span-2 h-48"/>
         <div>
           <h1 class="text-4xl pt-8 col-span-2 pb-2">{{ atelier.title }}</h1>
           <div class="text-1xl col-span-2 font-bold">{{ atelier.age }}</div>
