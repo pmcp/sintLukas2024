@@ -1,5 +1,6 @@
 <template>
-  <dev-container class="fixed bottom-2 right-2 z-20 bg-white"/>
+<!--  <dev-container class="fixed bottom-2 right-2 z-20 bg-white"/>-->
+  {{ }}
   <UHeader
       to="/"
       :ui="{
@@ -32,7 +33,7 @@
       </div>
     </template>
 
-    <template #right>
+    <template #right v-if="data.buttons">
       <elements-button v-for="(button, key) in data.buttons" :key="`navButtons-${key}`" :flavor="1" :to="button.link" :pageLink="button.pageLink" :download="button.download">
         {{ button.label }}
       </elements-button>
@@ -63,9 +64,22 @@
 </template>
 
 <script setup>
-// const { data } = await useAsyncData('navigation', () => queryContent('site/navigation').findOne())
-const { data } = await useAsyncData('fixedPages', () => queryContent('site/fixedPages').find())
-console.log(data)
+const { data } = await useAsyncData('navigation', () => queryContent('site/navigation').findOne())
+// const { data: fixed } = await useAsyncData('fixedPages', () => queryContent('site/fixedPages').find())
 
-// const navItems = data.value.navigation.map(n => ({ 'label': n.label, to: `/pages/nl/${n.page}`}))
+
+const fixedNav = [
+  {
+    label: 'Start',
+    to: '/'
+  },
+  {
+    label: 'Aanbod',
+    to: '/aanbod'
+  }
+]
+
+// data.value.navigation.map(n => ({ 'label': n.label, to: `/pages/nl/${n.page}`}))
+
+const navItems = [...fixedNav ]
 </script>
