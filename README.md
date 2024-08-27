@@ -1,14 +1,12 @@
 ## DOING
-- Courses category
-  - groep "jongeren" en daaronder
 
 
 # TODO
 - Category Media maken
   - tags voor courses etc
 
-
-
+- Afbeeldingen upload: category -> tekening / foto / ...
+- IN fixed pages: everything required
 - change headings in Text to 1 "title"
 - Fix value fields
 - Reset Password flow not working

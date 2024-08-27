@@ -175,8 +175,116 @@ collections:
                 media_library:
                   config:
                     multiple: false
-  # PAGES
-  - name: 'pages'
+
+  # FIXED PAGED
+
+  - label: "Paginas"
+    name: "fixedPages"
+    files:
+
+      # HOMEPAGE
+      - label: "Startpagina"
+        name: "homepage"
+        file: "content/fixedPages/homepage.yml"
+        fields:
+          - label: "Algemene informatie"
+            name: "block_mainInfo"
+            widget: "object"
+            fields:
+              - { label: name in nav, name: navName, widget: string }
+          - label: "Titel afbeelding"
+            name: "block_banner"
+            widget: "object"
+            fields:
+              - { label: Titel, name: title, widget: text }
+              - label: "Afbeelding"
+                name: "images"
+                widget: "relation"
+                collection: "images"
+                multiple: false
+                search_fields: [ "description", "file" ]
+                display_fields: [ "{{description}}" ]
+                value_field: "{{id}}"
+
+          # BLOKJE: NIEUWS
+          - label: "Blokje: Nieuws"
+            name: "block_news"
+            widget: "object"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Aantal artikels, name: number, widget: number, default: 3 }
+
+          # BLOKJE: AANBOD
+          - label: "Blokje: Aanbod"
+            name: "block_courses"
+            widget: "object"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Titel, name: title, widget: text }
+              - { label: Link text, name: linkText, widget: string }
+
+          # BLOKJE: OVER SINT LUKAS
+          - label: "Blokje: Over academie"
+            name: "block_about"
+            widget: "object"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Titel, name: title, widget: string }
+              - label: "Afbeelding 1"
+                name: "image1"
+                widget: "relation"
+                collection: "images"
+                multiple: false
+                search_fields: [ "description", "file" ]
+                display_fields: [ "{{description}}" ]
+                value_field: "{{id}}"
+              - label: "Afbeelding 2"
+                name: "image2"
+                widget: "relation"
+                collection: "images"
+                multiple: false
+                search_fields: [ "description", "file" ]
+                display_fields: [ "{{description}}" ]
+                value_field: "{{id}}"
+              - label: "Afbeelding 3"
+                name: "image3"
+                widget: "relation"
+                collection: "images"
+                multiple: false
+                search_fields: [ "description", "file" ]
+                display_fields: [ "{{description}}" ]
+                value_field: "{{id}}"
+
+          # BLOKJE: KALENDER
+          - label: "Blokje: Kalender"
+            name: "block_calendar"
+            widget: "object"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Tekst, name: text, widget: text }
+              - { label: Knop, name: buttonText, widget: string }
+              - label: "Achtergrond afbeelding"
+                name: "image"
+                widget: "relation"
+                collection: "images"
+                multiple: false
+                search_fields: [ "description", "file" ]
+                display_fields: [ "{{description}}" ]
+                value_field: "{{id}}"
+
+
+
+
+      # AANBOD
+      - label: "Aanbod"
+        name: "aanbod"
+        file: "content/fixedPages/aanbod.yml"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: "Naam in navigatie", name: navName, widget: string }
+
+  # EXTRA PAGES
+  - name: 'extra'
     summary: "{{title}}"
     sortable_fields: [ 'created', 'title' ]
     i18n: true
@@ -457,8 +565,8 @@ collections:
   # AANBOD
   - name: 'aanbod'
     i18n: true
-    label: 'Aanbod'
-    label_singular: 'aanbod'
+    label: 'Ateliers'
+    label_singular: 'atelier'
     identifier_field: id
     folder: 'content/aanbod'
     create: true
@@ -569,7 +677,7 @@ collections:
     fields:
       - { label: ID, name: id, widget: uuid }
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false}
+      - {label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}"}
       - {label: "Afbeelding", name: "image", widget: "image"}
       - {label: "Image Description", name: "alt", widget: "string"}
       - {label: "Text", name: "text", widget: "text"}
@@ -586,7 +694,7 @@ collections:
     summary: "{{date | date('YYYY-MM-DD')}}: {{description}}"
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}"}
       - { label: "Omschrijving", name: "description", widget: "string" }
       - { label: "Bestand", name: "cover", widget: "image" }
 
@@ -601,7 +709,7 @@ collections:
     create: true
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}" }
       - { label: "Omschrijving", name: "description", widget: "string" }
       - { label: "Url", name: "url", widget: "string" }
 
@@ -616,6 +724,6 @@ collections:
     summary: "{{date | date('YYYY-MM-DD')}}: {{buttonLabel}} ({{file}})"
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}" }
       - { label: "Tekst op downloadknop", name: "buttonLabel", widget: "string" }
       - {label: "Bestand", name: "file", widget: "file", "media_library": { config: {multiple: false}}}
