@@ -127,7 +127,7 @@ collections:
         editor:
           preview: false
         fields:
-          - { label: "Text", name: markdown, widget: markdown }
+          - { label: "Text", name: markdown, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
           - label: 'Footer Links'
             name: 'links'
             widget: 'list'
@@ -303,9 +303,9 @@ collections:
             display_fields: [ "{{description}}" ]
             value_field: "{{id}}"
           - { label: "Naam in navigatie", name: navName, widget: string }
-          - { label: "Text", name: markdown, widget: markdown }
-          - { label: "Side 1", name: side1, widget: markdown, required: false }
-          - { label: "Side 2", name: side2, widget: markdown, required: false }
+          - { label: "Text", name: markdown, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+          - { label: "Side 1", name: side1, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+          - { label: "Side 2", name: side2, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
 
       # CONTACT
       - label: "Contact"
@@ -387,9 +387,9 @@ collections:
             summary: "{{fields.title}} - Width: {{fields.width}}/2"
             fields:
               - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
-              - { label: "Text", name: markdown, widget: markdown }
-              - { label: "Side 1", name: side1, widget: markdown, required: false }
-              - { label: "Side 2", name: side2, widget: markdown, required: false }
+              - { label: "Text", name: markdown, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+              - { label: "Side 1", name: side1, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+              - { label: "Side 2", name: side2, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
               - label: "Width"
                 name: "width"
                 widget: "select"
@@ -655,9 +655,9 @@ collections:
             search_fields: [ "description", "file" ]
             display_fields: [ "{{description}}" ]
             value_field: "{{id}}"
-          - { label: "Text", name: markdown, widget: markdown }
-          - { label: "Zij tekst 1", name: side1, widget: markdown, required: false }
-          - { label: "Zij tekst 2", name: side2, widget: markdown, required: false }
+          - { label: "Text", name: markdown, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+          - { label: "Zij tekst 1", name: side1, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+          - { label: "Zij tekst 2", name: side2, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
 
   # LOCATIONS
   - name: 'locations'
@@ -673,7 +673,7 @@ collections:
     fields:
       - { label: ID, name: id, widget: uuid }
       - { label: 'Naam', name: 'name', widget: 'string', required: true, i18n: true }
-      - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
+      - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
       - { label: 'Straat en huisnummer', name: 'street', widget: 'string', i18n: true, required: false }
       - { label: 'Postcode', name: 'zip', widget: 'string', i18n: true, required: false }
       - { label: 'Stad', name: 'city', widget: 'string', i18n: true, required: false }
@@ -694,7 +694,7 @@ collections:
       - { label: ID, name: id, widget: uuid }
       - { label: 'Voornaam', name: 'firstName', widget: 'string', required: true, i18n: false }
       - { label: 'Achternaam', name: 'lastName', widget: 'string', required: true, i18n: false }
-      - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false }
+      - { label: 'Info', name: 'info', widget: 'markdown', i18n: true, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
       - { label: 'Video', name: 'video', widget: 'string', i18n: true, required: false }
       - label: "Foto"
         required: false
