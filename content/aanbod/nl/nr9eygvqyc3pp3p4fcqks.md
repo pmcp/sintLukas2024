@@ -16,5 +16,5 @@ ateliers:
     persons:
       - jypkpziuevct0xyejt5zi
     images:
-      - XGCz2bubktRLZXByTUuOE
+      - CFDhuUboXdtA6HmhKRyqh
 ---
