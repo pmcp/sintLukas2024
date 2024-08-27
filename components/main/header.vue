@@ -80,6 +80,10 @@ const fixedNav = [
   {
     label: 'Academie',
     to: '/academie'
+  },
+  {
+    label: 'Contact',
+    to: '/contact'
   }
 ]
 

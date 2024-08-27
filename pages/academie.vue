@@ -2,7 +2,11 @@
   <NuxtLayout class="relative">
     <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <elements-banner :data="{ title: '', image: data.images }" class="col-span-1 md:col-span-2 h-48"/>
-      <elements-text :side1="data.side1" :side2="data.side2" :text="data.markdown" />
+      <div class="flex flex-col col-span-full md:col-span-2">
+        <h1 class="text-4xl pb-0">Academie</h1>
+        <elements-text :side1="data.side1" :side2="data.side2" :text="data.markdown" />
+      </div>
+
 
     </elements-container>
 

@@ -3,9 +3,11 @@
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8'}">
         <elements-banner :data="{ title: '', image: data.images }" class="col-span-full h-48"/>
-        <div class="col-span-1">
-          <elements-text :text="location.info" />
-        </div>
+
+          <div class="flex flex-col col-span-full md:col-span-2">
+            <h1 class="text-4xl pb-0">Contact</h1>
+            <elements-text :text="location.info" />
+          </div>
 
         <div class="relative h-80 md:h-full col-span-2">
 
