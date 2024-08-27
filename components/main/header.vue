@@ -33,8 +33,8 @@
       </div>
     </template>
 
-    <template #right v-if="data.buttons">
-      <elements-button v-for="(button, key) in data.buttons" :key="`navButtons-${key}`" :flavor="1" :to="button.link" :pageLink="button.pageLink" :download="button.download">
+    <template #right v-if="buttons">
+      <elements-button v-for="(button, key) in buttons" :key="`navButtons-${key}`" :flavor="1" :to="button.link" :pageLink="button.pageLink" :download="button.download">
         {{ button.label }}
       </elements-button>
     </template>
@@ -84,6 +84,13 @@ const fixedNav = [
   {
     label: 'Contact',
     to: '/contact'
+  }
+]
+
+const buttons = [
+  {
+    label: 'Inschrijven',
+    link: '/inschrijven'
   }
 ]
 

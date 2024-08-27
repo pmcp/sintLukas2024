@@ -322,6 +322,28 @@ collections:
             display_fields: [ "{{description}}" ]
             value_field: "{{id}}"
           - { label: "Naam in navigatie", name: navName, widget: string }
+
+      # CONTACT
+      - label: "Inschrijven"
+        name: "inschrijven"
+        file: "content/fixedpages/inschrijven.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
+          - label: "Hoofdafbeelding"
+            name: "images"
+            widget: "relation"
+            collection: "images"
+            multiple: false
+            search_fields: [ "description", "file" ]
+            display_fields: [ "{{description}}" ]
+            value_field: "{{id}}"
+          - { label: "Naam in navigatie", name: navName, widget: string, i18n: true }
+          - { label: "Hoe inschrijven", name: text1, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"], i18n: true }
+          - { label: "Hulp bij inschrijven", name: text2, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"], i18n: true }
+          - { label: "Lessenrooster en studietraject", name: text3, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"], i18n: true }
+          - { label: "Kalender", name: text4, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"], i18n: true }
+          - { label: "Inschrijvingsgelden", name: text5, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"], i18n: true }
+
   # EXTRA PAGES
   - name: 'extra'
     summary: "{{title}}"
