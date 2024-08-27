@@ -59,8 +59,8 @@ const props = defineProps({
 });
 
 // TODO: lang
-
-const { data } = await useAsyncData('location', () => queryContent(`locations/${props.location}.nl`).findOne())
+console.log('PROPS', props.location)
+const data = await queryContent(props.location).findOne()
 
 const dropdown = ref() // we need a DOM node
 const show = ref(false)

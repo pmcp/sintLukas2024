@@ -76,6 +76,10 @@ const fixedNav = [
   {
     label: 'Aanbod',
     to: '/aanbod'
+  },
+  {
+    label: 'Academie',
+    to: '/academie'
   }
 ]
 

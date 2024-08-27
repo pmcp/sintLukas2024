@@ -13,9 +13,9 @@
       <elements-categories class="col-span-1"/>
 
       <!-- BLOCK: ABOUT-->
-      <div class="grid grid-cols-2 gap-2 col-span-1 col-span-1 md:col-span-2">
-        <elements-image :src="page.block_about.image1" class="col-span-1"/>
-        <elements-image :src="page.block_about.image2"/>
+      <div class="grid grid-cols-2 gap-8 col-span-1 col-span-1 md:col-span-2">
+        <elements-image :image="page.block_about.image1" :key="page.block_about.image1" />
+        <elements-image :image="page.block_about.image2" :key="page.block_about.image2"/>
       </div>
 
       <div class="flex flex-col gap-2 col-span-1">
@@ -23,7 +23,7 @@
         <span class="text-2xl">{{ page.block_about.title }}</span>
         <span class="text-sm">{{ page.block_about.text }}</span>
       </div>
-      <elements-image :src="page.block_about.image3" class="col-span-1 md:col-span-2 h-fit"/>
+      <elements-image :image="page.block_about.image3" :key="page.block_about.image3" class="col-span-1  h-fit"/>
     </elements-container>
 
     <!-- START GRID BACKGROUND -->
@@ -36,7 +36,7 @@
 
       <!-- BLOCK: CALENDAR -->
       <div class="relative z-1 grid grid-cols-2 gap-4 mt-16 col-span-2">
-        <div class="col-span-1 bg-white p-4">
+        <div class="col-span-1 bg-white p-4 grid gap-4">
           <span class="uppercase text-sm font-bold">{{ page.block_calendar.label }}</span>
           <div class="text-sm">{{ page.block_calendar.text }}</div>
 
@@ -45,8 +45,8 @@
           </elements-button>
           <elements-calendar class="col-span-1" :embed="page.block_calendar.code" />
         </div>
-        <div class="self-stretch bg-red-100">
-          <elements-image :src="page.block_calendar.image" class="col-span-1 h-full"/>
+        <div class="self-stretch">
+          <elements-image contain transparent :image="page.block_calendar.image"  class="col-span-1 h-full "/>
         </div>
 
       </div>

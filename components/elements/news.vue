@@ -1,5 +1,4 @@
 <template>
-  <!--  TODO: Make Date Nice-->
   <UBlogList orientation="vertical">
     <UCard
         :ui="{
@@ -27,22 +26,23 @@
 }"
         v-for="(a, key) in articles"
         :key="`news-${key}`">
-      <template #header>
-        <elements-image :src="a.thumbnail" class="w-full height-full"/>
-      </template>
+          <template #header>
+            <elements-image :src="a.thumbnail" class="w-full height-full"/>
+          </template>
 
-      <nuxt-link :to="a.link" v-if="a.link">
-        <div class="flex flex-col gap-2">
-          <div class="text-xs"><helpers-date :date="a.date" /></div>
-          <h1 class="text-xl">{{ a.title }}</h1>
-          <div>{{ a.text}}</div>
-        </div>
-      </nuxt-link>
-      <div v-else class="flex flex-col gap-2">
-        <div class="text-xs"><helpers-date :date="a.date" /></div>
-        <h1 class="text-xl">{{ a.title }}</h1>
-        <div>{{ a.text}}</div>
-      </div>
+          <nuxt-link :to="a.link" v-if="a.link">
+            <div class="flex flex-col gap-2">
+              <div class="text-xs"><helpers-date :date="a.date" /></div>
+              <h1 class="text-xl">{{ a.title }}</h1>
+              <div>{{ a.text}}</div>
+            </div>
+          </nuxt-link>
+
+          <div v-else class="flex flex-col gap-2">
+            <div class="text-xs"><helpers-date :date="a.date" /></div>
+            <span class="text-xl">{{ a.title }}</span>
+            <div>{{ a.text}}</div>
+          </div>
 
 
 

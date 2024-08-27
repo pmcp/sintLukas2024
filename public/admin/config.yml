@@ -288,12 +288,32 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: "Naam in navigatie", name: navName, widget: string }
 
+      # ACADEMIE
+      - label: "Academie"
+        name: "academie"
+        file: "content/fixedpages/academie.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false, i18n: true }
+          - label: "Hoofdafbeelding"
+            name: "images"
+            widget: "relation"
+            collection: "images"
+            multiple: false
+            search_fields: [ "description", "file" ]
+            display_fields: [ "{{description}}" ]
+            value_field: "{{id}}"
+          - { label: "Naam in navigatie", name: navName, widget: string }
+          - { label: "Text", name: markdown, widget: markdown }
+          - { label: "Side 1", name: side1, widget: markdown, required: false }
+          - { label: "Side 2", name: side2, widget: markdown, required: false }
+
+
   # EXTRA PAGES
   - name: 'extra'
     summary: "{{title}}"
     sortable_fields: [ 'created', 'title' ]
     i18n: true
-    label: 'Paginas'
+    label: 'Extra Paginas'
     label_singular: 'Pagina'
     folder: 'content/pages'
     create: true
@@ -569,6 +589,7 @@ collections:
 
   # AANBOD
   - name: 'aanbod'
+    sortable_fields: [ 'order', 'title']
     i18n: true
     label: 'Aanbod'
     label_singular: 'aanbod'
