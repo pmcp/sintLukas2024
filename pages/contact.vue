@@ -20,7 +20,7 @@
               }"
           >
             <MapboxDefaultMarker
-              marker-id="locationMarker"
+              marker-id="hoofdlocationMarker"
               :options="{}"
               :lnglat="JSON.parse(location.location).coordinates"
             >
