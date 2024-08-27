@@ -36,3 +36,4 @@ block_calendar:
   code: <iframe title="Calendar"
     src="https://timetreeapp.com/public_calendars/sintlukasacademie/embed?calendar_name=true&frame_color=%232ecc87"
     style="width:100%;min-height:700px;aspect-ratio:680/720;border:none"></iframe>
+  buttonLink: https://timetreeapp.com/public_calendars/sintlukasacademie
