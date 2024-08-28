@@ -20,18 +20,29 @@ const { data } = await useAsyncData('courses', () => queryContent('/aanbod/nl')
 
 // loop through all courses, add the info of the course to the atelier
 let courses = [];
+
+
+
 for (const cat in data.value) {
-  // Add first = true to first course
-  data.value[cat].ateliers[0].first = true
-  // Flatten courses in courses array
-  courses = [...courses, ...data.value[cat].ateliers.map(x => {
-    x.cat = {
-      id: data.value[cat].id || '',
-      mainImage: data.value[cat].mainImage || '',
-      color: data.value[cat].color || '',
-      nl: data.value[cat].nl || '',
+
+  if(data.value[cat].ateliers) {
+    if(data.value[cat].ateliers.length > 0) {
+      // Add first = true to first course
+      data.value[cat].ateliers[0].first = true
+      // Flatten courses in courses array
+      courses = [...courses, ...data.value[cat].ateliers.map(x => {
+        x.cat = {
+          id: data.value[cat].id || '',
+          mainImage: data.value[cat].mainImage || '',
+          color: data.value[cat].color || '',
+          nl: data.value[cat].nl || '',
+        }
+        return x;
+      })]
     }
-    return x;
-  })]
+
+
+  }
+
 }
 </script>
