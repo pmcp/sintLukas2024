@@ -1,8 +1,9 @@
 <template>
+    <elements-banner :data="{ title: '', image: data.images }" class=" h-48"/>
   <NuxtLayout v-if="data" class="relative">
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 md:grid-cols-5 xl:grid-cols-5 gap-8'}">
-        <elements-banner :data="{ title: '', image: data.images }" class="col-span-full h-48"/>
+
           <div class="flex flex-col col-span-full md:col-span-2 ">
             <h1 class="text-4xl pb-0">Contact</h1>
             <elements-markdown :markdownString="location.info" class="prose-sm"/>

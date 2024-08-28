@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout class="relative">
-    <elements-banner :data="{ title: '', image: data.images }" class="col-span-1 md:col-span-2 h-48"/>
+    <elements-banner :data="{ title: '', image: data.images }" class="h-48"/>
     <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
       <div class="flex flex-col col-span-full md:col-span-2">
