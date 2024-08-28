@@ -10,7 +10,7 @@
           </div>
 
         <div class="relative h-80 md:h-full col-span-2 h-40">
-
+          <client-only>
           <MapboxMap
               map-id="location"
               :options="{
@@ -26,11 +26,10 @@
             >
             </MapboxDefaultMarker>
           </MapboxMap>
+          </client-only>
         </div>
       </UPageGrid>
     </div>
-
-
 
 
     <div class="mt-8">
@@ -47,10 +46,6 @@
 </template>
 
 <script setup>
-// Get main page data
 const { data } = await useAsyncData('page', () => queryContent('fixedpages/contact').findOne())
-
-// Get main location
 const { data: location, error } = await useAsyncData('location', () => queryContent('locations/nl/hoofdschool').findOne())
-console.log('HERE', location, error)
 </script>
