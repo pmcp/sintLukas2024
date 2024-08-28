@@ -2,14 +2,16 @@
   <div>
     <UCard :ui="cardUi">
       <div class="relative h-48">
-            <MapboxMap :map-id="location" :options="{
-              style: 'mapbox://styles/mapbox/light-v11', // style URL
-              center: JSON.parse(data.location).coordinates, // starting position
-              zoom: 14 // starting zoom
-            }">
-              <MapboxDefaultMarker marker-id="locationMarker" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
-            </MapboxDefaultMarker>
-            </MapboxMap>
+        <client-only>
+          <MapboxMap :map-id="location" :options="{
+            style: 'mapbox://styles/mapbox/light-v11', // style URL
+            center: JSON.parse(data.location).coordinates, // starting position
+            zoom: 14 // starting zoom
+          }">
+            <MapboxDefaultMarker marker-id="locationMarker" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
+          </MapboxDefaultMarker>
+          </MapboxMap>
+        </client-only>
       </div>
       <template #footer >
         <div>
