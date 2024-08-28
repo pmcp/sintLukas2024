@@ -6,8 +6,6 @@
         <h1 class="text-4xl pb-0">Academie</h1>
         <elements-text :side1="data.side1" :side2="data.side2" :text="data.markdown" />
       </div>
-
-
     </elements-container>
 
     <div class="mt-8">
@@ -23,10 +21,7 @@
         <div class="uppercase text-sm font-bold pb-4">Team</div>
         <elements-persons />
       </div>
-
-
     </div>
-
   </NuxtLayout>
 </template>
 

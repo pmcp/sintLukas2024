@@ -31,6 +31,9 @@ const props = defineProps({
   }
 });
 
+const { data } = await useAsyncData('location', () => queryContent(props.location)
+    .findOne())
+
 const cardUi = {
   body: { padding: 'px-0 py-0 p-0 sm:p-0'},
   divide: 'divide-none',
@@ -41,5 +44,4 @@ const cardUi = {
   footer: {base: 'dropdown-content'}
 }
 
-const data = await queryContent(props.location).findOne()
 </script>

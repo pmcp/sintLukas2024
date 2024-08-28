@@ -14,22 +14,25 @@ const props = defineProps({
   }
 });
 
-
 let theLocs
 if(props.locations) {
-  // UNTESTED!!
-
-  const items = await queryContent('locations/nl/')
+  const { data } = await useAsyncData('locations', () => queryContent('locations/nl')
       .where({ id: { $in: props.locations }})
       .find()
-  locations = items;
+  )
+  locations = data;
 
 } else {
-  const items = await queryContent('locations/nl')
+  const { data } = await useAsyncData('locations', () => queryContent('locations/nl')
       .only(['_path'])
       .find()
-  console.log('DATA', items)
-  theLocs = items;
+  )
+  theLocs = data;
+
+  // const items = await queryContent('locations/nl')
+  //     .only(['_path'])
+  //     .find()
+  // theLocs = items;
 }
 
 
