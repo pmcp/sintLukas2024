@@ -2,9 +2,8 @@
   <NuxtLayout class="relative ">
 
     <!-- BLOCK: BANNER-->
-    <template v-if="page.block_banner">
-      <elements-banner :data="{ title: page.block_banner.title, image: page.block_banner.image }" class="h-48"/>
-    </template>
+      <elements-banner key="banner-academie" :data="{ title: page.block_banner.title, image: page.block_banner.image }" class="h-48"/>
+
 
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
