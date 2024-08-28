@@ -7,16 +7,16 @@
     </template>
 
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-      <UPageGrid :ui="{wrapper: 'grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
+      <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
 
         <!-- BLOCK: NEWS-->
-        <div v-if="news" class="flex flex-col gap-4">
+        <div v-if="news" class="flex flex-col gap-4 col-span-1">
           <span class="uppercase text-sm font-bold">Nieuws</span>
-          <elements-news :articles="news" class="col-span-1"/>
+          <elements-news :articles="news"/>
         </div>
 
         <!-- BLOCK: AANBOD-->
-        <div v-if="page.block_courses" class="flex flex-col gap-4">
+        <div v-if="page.block_courses" class="flex flex-col gap-4 col-span-1">
           <span class="uppercase text-sm font-bold">Aanbod</span>
           <div class="prose-xl">{{ page.block_courses.title }}</div>
           <elements-categories class="col-span-1"/>
@@ -38,14 +38,14 @@
            <elements-image :image="page.block_about.image3" :key="page.block_about.image3" class="col-span-1  h-fit"/>
         </template>
 
-<!--      </UPageGrid>-->
+      </UPageGrid>
 
       <!-- START GRID BACKGROUND -->
-<!--      <div class="mt-8">-->
-<!--        <elements-background :data="{style: 1}" />-->
-<!--      </div>-->
+      <div class="mt-8">
+        <elements-background :data="{style: 1}" />
+      </div>
 
-<!--      <UPageGrid class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">-->
+      <UPageGrid class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
 
         <!-- BLOCK: CALENDAR -->
