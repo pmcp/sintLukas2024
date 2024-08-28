@@ -1,6 +1,5 @@
 <template>
 <!--  <dev-container class="fixed bottom-2 right-2 z-20 bg-white"/>-->
-  {{ }}
   <UHeader
       to="/"
       :ui="{

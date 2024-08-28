@@ -8,7 +8,7 @@
             center: JSON.parse(data.location).coordinates, // starting position
             zoom: 14 // starting zoom
           }">
-            <MapboxDefaultMarker marker-id="locationMarker" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
+            <MapboxDefaultMarker :marker-id="`locationMarker-${location}`" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
           </MapboxDefaultMarker>
           </MapboxMap>
         </client-only>

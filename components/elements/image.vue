@@ -1,6 +1,11 @@
 <template>
   <div v-if="data.cover">
-    <nuxtImg @click="emit('click', {url: data.cover, description: data.description})" class="col-span-1 h-40 w-full object-cover object-center hover:object-scale-down bg-primary-200" :src="data.cover" :alt="data.description" :class="[{ 'bg-transparent': transparent}, { '!object-contain': contain}]"/>
+    <nuxtImg
+        @click="emit('click', {url: data.cover, description: data.description})"
+        class="col-span-1 h-40 w-full object-cover object-center bg-primary-200"
+        :src="data.cover" :alt="data.description"
+        :class="[{ 'bg-transparent': transparent}, { '!object-contain': contain}, { 'hover:object-scale-down' : hoverEffect === 'zoom'}]"
+    />
   </div>
 </template>
 <script setup>
@@ -16,6 +21,10 @@ const props = defineProps({
   },
   contain: {
     type: Boolean,
+  },
+  hoverEffect: {
+    type: String,
+    default: 'zoom'
   }
 });
 

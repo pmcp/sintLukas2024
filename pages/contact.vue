@@ -1,18 +1,16 @@
 <template>
   <NuxtLayout v-if="data" class="relative">
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-      <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8'}">
+      <UPageGrid :ui="{wrapper: 'grid grid-cols-1 md:grid-cols-5 xl:grid-cols-5 gap-8'}">
         <elements-banner :data="{ title: '', image: data.images }" class="col-span-full h-48"/>
-
-          <div class="flex flex-col col-span-full md:col-span-2">
+          <div class="flex flex-col col-span-full md:col-span-2 ">
             <h1 class="text-4xl pb-0">Contact</h1>
-            <elements-text :text="location.info" />
+            <elements-markdown :markdownString="location.info" class="prose-sm"/>
           </div>
-
-        <div class="relative h-80 md:h-full col-span-2 h-40">
+        <div class="relative h-80 col-span-full md:col-span-3 md:h-full w-full">
           <client-only>
             <MapboxMap
-                map-id="location"
+                map-id="main_location"
                 :options="{
                 style: 'mapbox://styles/mapbox/light-v11', // style URL
                 center: JSON.parse(location.location).coordinates, // starting position
