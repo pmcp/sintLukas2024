@@ -36,7 +36,7 @@
 <script setup>
 const route = useRoute()
 // Get the category
-const { data: cat } = await useAsyncData('cat', () => queryContent('/aanbod/nl/')
+const { data: cat } = await useAsyncData(`cat-${route.params.cat}`, () => queryContent('/aanbod/nl/')
     .where({ id: route.params.cat })
     .findOne()
 )

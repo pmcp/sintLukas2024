@@ -27,5 +27,5 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData('page', () => queryContent('fixedpages/academie').findOne())
+const { data } = await useAsyncData('academie', () => queryContent('fixedpages/academie').findOne())
 </script>

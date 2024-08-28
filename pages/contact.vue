@@ -46,6 +46,6 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData('page', () => queryContent('fixedpages/contact').findOne())
+const { data } = await useAsyncData('contact', () => queryContent('fixedpages/contact').findOne())
 const { data: location } = await useAsyncData('location', () => queryContent('locations/nl/hoofdschool').findOne())
 </script>

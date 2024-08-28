@@ -16,14 +16,14 @@ const props = defineProps({
 
 let theLocs
 if(props.locations) {
-  const { data } = await useAsyncData('locations', () => queryContent('locations/nl')
+  const { data } = await useAsyncData('locations-1', () => queryContent('locations/nl')
       .where({ id: { $in: props.locations }})
       .find()
   )
   theLocs = data;
 
 } else {
-  const { data } = await useAsyncData('locations', () => queryContent('locations/nl')
+  const { data } = await useAsyncData('locations-2', () => queryContent('locations/nl')
       .only(['_path'])
       .find()
   )

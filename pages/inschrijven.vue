@@ -45,5 +45,5 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData('page', () => queryContent('fixedpages/inschrijven').findOne())
+const { data } = await useAsyncData('page-inschrijven', () => queryContent('fixedpages/inschrijven').findOne())
 </script>

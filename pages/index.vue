@@ -2,7 +2,7 @@
   <NuxtLayout class="relative ">
 
     <!-- BLOCK: BANNER-->
-      <elements-banner key="banner-academie" :data="{ title: page.block_banner.title, image: page.block_banner.image }" class="h-48"/>
+      <elements-banner key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }" class="h-48"/>
 
 
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -70,7 +70,7 @@
 </template>
 <script setup>
 // Get the Homepage Id
-const { data: page } = await useAsyncData('page', () => queryContent('/fixedpages/homepage').findOne())
+const { data: page } = await useAsyncData('home', () => queryContent('/fixedpages/homepage').findOne())
 // If there is news, get news
 const { data: news} = await useAsyncData('news', () => queryContent('/news').find())
 </script>
