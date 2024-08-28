@@ -2,7 +2,7 @@
 nl: Kinderen
 id: nr9EYgVQYC3pP3P4fCQks
 order: 1
-color: "#cb1313"
+color: "#C2E1CF"
 ateliers:
   - id: q_L1bMIeoqyuCKjyrY9k5
     title: Ateliers
