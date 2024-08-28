@@ -649,7 +649,7 @@ collections:
     fields:
       - { label: ID, name: id, widget: uuid }
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}"}
+      - {label: "Aangemaakt op", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", default: "{{now}}"}
       - {label: "Afbeelding", name: "image", widget: "image"}
       - {label: "Image Description", name: "alt", widget: "string"}
       - {label: "Text", name: "text", widget: "text"}
@@ -666,7 +666,7 @@ collections:
     summary: "{{date | date('YYYY-MM-DD')}}: {{description}}"
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}"}
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", default: "{{now}}"}
       - { label: "Omschrijving", name: "description", widget: "string" }
       - { label: "Bestand", name: "cover", widget: "image" }
 
@@ -681,7 +681,7 @@ collections:
     create: true
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}" }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", default: "{{now}}"}
       - { label: "Omschrijving", name: "description", widget: "string" }
       - { label: "Url", name: "url", widget: "string" }
 
