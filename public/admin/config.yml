@@ -53,73 +53,6 @@ collections:
             widget: string,
             pattern: [ '^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")' ],
           }
-      - label: 'Homepage'
-        name: 'homepage'
-        file: 'content/site/homepage.json'
-        format: 'json'
-        editor:
-          preview: false
-        fields:
-          - label: "Page"
-            name: "page"
-            widget: "relation"
-            collection: "pages"
-            multiple: false
-            search_fields: [ "title" ]
-            display_fields: [ "title" ]
-            value_field: "{{slug}}"
-      - label: 'Navigation'
-        name: 'navigation'
-        file: 'content/site/navigation.json'
-        format: 'json'
-        i18n: true
-        editor:
-          preview: false
-        fields:
-          - label: 'Navigation item'
-            name: 'navigation'
-            widget: 'list'
-            summary: '{{fields.label}} ({{fields.page}})'
-            collapsed: false
-            fields:
-              - label: "Label"
-                name: "label"
-                widget: "string"
-              - label: "Page"
-                name: "page"
-                widget: "relation"
-                collection: "pages"
-                search_fields: [ "{{title}}" ]
-                value_field: "{{slug}}"
-                display_fields: [ "{{title}}" ]
-          - widget: list
-            name: 'buttons'
-            fields:
-              - label: "label"
-                name: "label"
-                widget: "string"
-                required: true
-              - label: "Link"
-                name: "link"
-                required: false
-                widget: "string"
-              - label: "Pages"
-                name: "pageLink"
-                widget: "relation"
-                collection: "pages"
-                multiple: false
-                required: false
-                search_fields: [ "title" ]
-                display_fields: [ "title" ]
-                value_field: "{{id}}"
-              - label: "Download"
-                required: false
-                name: "download"
-                widget: "file"
-                media_library:
-                  config:
-                    multiple: false
-                    max_file_size: 1024000 # in bytes, only for default media library
       - label: 'Footer'
         name: 'footer'
         file: 'content/site/footer.json'
@@ -152,29 +85,6 @@ collections:
               config:
                 multiple: false
                 max_file_size: 1024000 # in bytes, only for default media library
-      - label: 'Categories'
-        name: 'categories'
-        file: 'content/site/categories.json'
-        format: 'json'
-        editor:
-          preview: false
-        fields:
-          - label: "Courses"
-            name: "courses"
-            widget: "list"
-            summary: '{{fields.nl}}'
-            fields:
-              - { label: NL, name: nl, widget: string }
-              - { label: FR, name: fr, widget: string, required: false }
-              - { label: ID, name: id, widget: uuid }
-              - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
-              - label: "Background"
-                required: false
-                name: "background"
-                widget: "image"
-                media_library:
-                  config:
-                    multiple: false
 
   # FIXED PAGED
 

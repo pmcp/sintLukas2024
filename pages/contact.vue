@@ -9,7 +9,7 @@
             <elements-text :text="location.info" />
           </div>
 
-        <div class="relative h-80 md:h-full col-span-2">
+        <div class="relative h-80 md:h-full col-span-2 h-40">
 
           <MapboxMap
               map-id="location"
@@ -51,6 +51,6 @@
 const { data } = await useAsyncData('page', () => queryContent('fixedpages/contact').findOne())
 
 // Get main location
-const { data: location } = await useAsyncData('location', () => queryContent('locations/nl/hoofdschool').findOne())
-
+const { data: location, error } = await useAsyncData('location', () => queryContent('locations/nl/hoofdschool').findOne())
+console.log('HERE', location, error)
 </script>

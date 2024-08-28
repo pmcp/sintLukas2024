@@ -38,7 +38,8 @@ const route = useRoute()
 // Get the category
 const { data: cat } = await useAsyncData('cat', () => queryContent('/aanbod/nl/')
     .where({ id: route.params.cat })
-    .findOne())
+    .findOne()
+)
 
 // Get the atelier
 const atelier = cat.value.ateliers.find(x => x.id === route.params.atelier)

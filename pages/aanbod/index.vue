@@ -15,7 +15,8 @@
 <script setup>
 const { data } = await useAsyncData('courses', () => queryContent('/aanbod/nl')
     .sort({ order: 1 })
-    .find())
+    .find()
+)
 
 // loop through all courses, add the info of the course to the atelier
 let courses = [];
