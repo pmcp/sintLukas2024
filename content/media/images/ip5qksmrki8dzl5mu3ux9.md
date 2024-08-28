@@ -1,6 +1,6 @@
 ---
-id: IP5QKSMrKI8Dzl5MU3uX9
-date: "{{now}}"
-description: Atelier Beeldende en Audiovisuele Kunsten
-cover: /assets/uploads/atelier-beeldende-en-audiovisuele-kunsten.jpg
+id: pyf8LsA-qen2uUH6ah6ZO
+date: 2024-08-28T00:00:00.000Z
+description: atelier fotokunst
+cover: /assets/uploads/atelier-fotokunst.jpg
 ---
