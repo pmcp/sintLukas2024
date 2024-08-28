@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout class="relative">
+  <NuxtLayout v-if="data" class="relative">
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8'}">
         <elements-banner :data="{ title: '', image: data.images }" class="col-span-full h-48"/>
