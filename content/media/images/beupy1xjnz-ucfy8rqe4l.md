@@ -1,6 +1,6 @@
 ---
 id: bEupy1xJNz-ucFY8RQe4L
-date: 2024-08-28T00:00:00.000Z
+date: August 28, 2024 9:38 AM
 description: atelier Grafiek
 cover: /assets/uploads/atelier-grafiek.jpg
 ---
