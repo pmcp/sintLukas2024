@@ -31,8 +31,8 @@
              <div class="relative" v-if="course.images">
 
                <elements-image transparent :image="course.images[0]" class="col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
-               <nuxtImg class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all h-24 object-cover	" :src="course.mainImage" />
-<!--               <img class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all h-24 object-cover	" :src="course.mainImage" />-->
+
+
                <div class="w-full h-full group-hover:opacity-10 transition-all  absolute top-0 left-0 mix-blend-overlay" :style="`background-color: ${course.cat.color}`"></div>
                <div class="w-full h-full  group-hover:opacity-10 transition-all absolute top-0 left-0 mix-blend-lighten opacity-50" :style="`background-color: ${course.cat.color}`"></div>
              </div>
