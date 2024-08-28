@@ -64,7 +64,7 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData('navigation', () => queryContent('site/navigation').findOne())
+// const { data } = await useAsyncData('navigation', () => queryContent('site/navigation').findOne())
 // const { data: fixed } = await useAsyncData('fixedPages', () => queryContent('site/fixedPages').find())
 
 

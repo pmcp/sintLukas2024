@@ -38,7 +38,7 @@
              </div>
            </div>
            <template #footer >
-             <div class="px-4 py-2 p-2 sm:px-2 md:py-4 w-full h-full" :style="`background-color: ${course.cat.color}`">
+             <div class="px-4 py-2 p-2 sm:px-2 md:py-4 w-full h-full " :style="`background-color: ${course.cat.color}`">
                {{ course.title }}
                <br>{{  course.age }}
              </div>
