@@ -2,7 +2,7 @@
 nl: Jongeren
 id: KcBSSZGsII9V8ecjq9WcS
 order: 2
-color: "#1c9364"
+color: "#008EA3"
 ateliers:
   - id: t0ClQ-GQ2uKC2oStqBv3-
     title: Atelier Jongeren
