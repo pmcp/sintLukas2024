@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-2">
+  <div class="flex flex-col gap-2" v-if="aanbod">
     <nuxt-link
         v-for="(c, key) in aanbod"
         :key="`categories-${key}`" :to="`/aanbod/`" class="text-2xl font-bold"
@@ -19,13 +19,6 @@
   </div>
 </template>
 <script setup>
-
-let categories;
 const { data: aanbod } = await useAsyncData('categories', () => queryContent('aanbod/nl')
     .find())
-
-console.log(aanbod)
-
-
-
 </script>
