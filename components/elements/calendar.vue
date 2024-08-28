@@ -1,5 +1,7 @@
 <template>
-  <div v-html="embed" />
+  <client-only>
+    <div v-html="embed" />
+  </client-only>
 </template>
 <script setup>
 const props = defineProps({
