@@ -11,21 +11,21 @@
 
         <div class="relative h-80 md:h-full col-span-2 h-40">
           <client-only>
-          <MapboxMap
-              map-id="location"
-              :options="{
-              style: 'mapbox://styles/mapbox/light-v11', // style URL
-              center: JSON.parse(location.location).coordinates, // starting position
-              zoom: 14 // starting zoom
-              }"
-          >
-            <MapboxDefaultMarker
-              marker-id="hoofdlocationMarker"
-              :options="{}"
-              :lnglat="JSON.parse(location.location).coordinates"
+            <MapboxMap
+                map-id="location"
+                :options="{
+                style: 'mapbox://styles/mapbox/light-v11', // style URL
+                center: JSON.parse(location.location).coordinates, // starting position
+                zoom: 14 // starting zoom
+                }"
             >
-            </MapboxDefaultMarker>
-          </MapboxMap>
+              <MapboxDefaultMarker
+                marker-id="hoofdlocationMarker"
+                :options="{}"
+                :lnglat="JSON.parse(location.location).coordinates"
+              >
+              </MapboxDefaultMarker>
+            </MapboxMap>
           </client-only>
         </div>
       </UPageGrid>
@@ -47,5 +47,5 @@
 
 <script setup>
 const { data } = await useAsyncData('page', () => queryContent('fixedpages/contact').findOne())
-const { data: location, error } = await useAsyncData('location', () => queryContent('locations/nl/hoofdschool').findOne())
+const { data: location } = await useAsyncData('location', () => queryContent('locations/nl/hoofdschool').findOne())
 </script>
