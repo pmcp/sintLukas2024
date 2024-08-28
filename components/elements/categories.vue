@@ -7,9 +7,11 @@
       <span
         class="text-4xl uppercase font-bold px-2 inline-block"
         :style="{
-        backgroundColor: c.color,
-        backgroundSize: 'contain',
-        backgroundImage: `url(${c.background})`}">
+        backgroundColor: c.color
+        // backgroundSize: 'contain',
+        // backgroundImage: `url(${c.background})`
+        }"
+      >
       <!--    TODO: Lang -->
       {{ c.nl }}
       </span>
