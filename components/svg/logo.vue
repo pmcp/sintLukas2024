@@ -1,4 +1,5 @@
 <template>
+  <div>
   <svg width="108" height="60" viewBox="0 0 108 60" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_46_51)">
       <path d="M108 30.1205H0V59.9973H108V30.1205Z" fill="#C3E1D0"/>
@@ -19,4 +20,5 @@
       </clipPath>
     </defs>
   </svg>
+  </div>
 </template>

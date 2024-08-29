@@ -1,26 +1,37 @@
 <template>
-  <NuxtLayout class="relative ">
+  <NuxtLayout class="relative">
 
     <!-- BLOCK: BANNER-->
-      <elements-banner key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }" class="h-48"/>
+      <elements-banner class="mb-16" key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
 
 
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
 
-        <!-- BLOCK: NEWS-->
-        <div v-if="news" class="flex flex-col gap-4 col-span-1">
-          <span class="uppercase text-sm font-bold">Nieuws</span>
-          <elements-news :articles="news"/>
-        </div>
 
-        <!-- BLOCK: AANBOD-->
-        <div v-if="page.block_courses" class="flex flex-col gap-4 col-span-1">
-          <span class="uppercase text-sm font-bold">Aanbod</span>
-          <div class="prose-xl">{{ page.block_courses.title }}</div>
-          <elements-categories class="col-span-1"/>
-        </div>
 
+
+        <div class="col-span-full grid grid-cols-[1fr_1px_1fr] gap-8">
+
+          <!-- BLOCK: NEWS-->
+          <div v-if="news" class="flex flex-col gap-4 col-span-1">
+            <span class="uppercase text-sm font-bold">Nieuws</span>
+            <elements-news :articles="news"/>
+          </div>
+
+          <div class="h-full bg-black-100 w-full"></div>
+
+          <!-- BLOCK: AANBOD-->
+          <div v-if="page.block_courses" class="">
+            <span class="uppercase text-sm font-bold">Aanbod</span>
+            <div class="prose-xl">{{ page.block_courses.title }}</div>
+            <elements-categories class="col-span-1"/>
+          </div>
+
+
+
+
+</div>
 
         <!-- BLOCK: ABOUT-->
         <template v-if="page.block_about">
@@ -34,7 +45,7 @@
             <span class="text-2xl">{{ page.block_about.title }}</span>
             <span class="text-sm">{{ page.block_about.text }}</span>
           </div>
-           <elements-image :image="page.block_about.image3" :key="page.block_about.image3" class="col-span-1  h-fit"/>
+          <elements-image :image="page.block_about.image3" :key="page.block_about.image3" class="col-span-1  h-fit"/>
         </template>
 
       </UPageGrid>
