@@ -1,6 +1,6 @@
 <template>
   <nuxt-layout grid>
-    <elements-banner key="banner-aanbod" :data="{ title: 'Vind jouw atelier. \nOntdek onze extra muros projecten.'}" class="col-span-2"/>
+    <elements-banner key="banner-aanbod" :data="{ title: 'Vind jouw atelier. \nOntdek onze extra muros projecten.'}" class="mb-16 h-60"/>
     <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
       <div class="w-full col-span-2 md:col-span-1 grid grid-cols-1 md:grid-cols-2 w-full items-end gap-8">
