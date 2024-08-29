@@ -1,22 +1,17 @@
 <template>
   <NuxtLayout class="relative">
-
     <!-- BLOCK: BANNER-->
-      <elements-banner class="mb-16 h-80" key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
+    <elements-banner class="mb-16 h-80" key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
 
 
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
-
-
-
-
         <div class="col-span-full grid grid-cols-[1fr_1px_1fr] gap-8">
 
           <!-- BLOCK: NEWS-->
           <div v-if="news" class="flex flex-col gap-4 col-span-1">
             <span class="uppercase text-sm font-bold">Nieuws</span>
-            <elements-news :articles="news"/>
+            <elements-news :articles="news" class=""/>
           </div>
 
           <div class="h-full bg-black-100 w-full"></div>
