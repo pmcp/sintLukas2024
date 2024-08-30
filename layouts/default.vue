@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-clip w-full">
-    <main-header />
+    <main-header class="z-40"/>
     <UPage :class="grid ? 'background-grid' : ''">
       <UPageBody :ui="{ wrapper: 'mt-0 '}">
         <slot />
