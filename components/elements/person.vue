@@ -23,6 +23,7 @@ const props = defineProps({
 });
 
 let thePerson
+
 const data = await queryContent(`persons/nl/`)
     .where({ id: props.person })
     .find();
