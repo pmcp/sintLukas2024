@@ -59,7 +59,7 @@ ateliers:
       Of je instapt als starter of gevorderden, kunnen wij als leerkrachten mee beslissen en adviseren. Dit doen we aan de hand van de evaluatie op het einde van het schooljaar; een intakegesprek voor je start; of via voorgaande realisaties (bijvoorbeeld via je portfolio).
     title: Fotokunst
     age: 4e graad + Specialisatie
-    mainImage: kCHR9joYY5-6T9t398u0A
+    mainImage: pyf8LsA-qen2uUH6ah6ZO
     side1: |-
       ### Materiaal
 
