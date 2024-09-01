@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout v-if="data" class="relative">
-    <elements-banner key="banner-contact" :data="{ title: '', image: data.images }" class="mb-16 h-60"/>
+    <elements-banner key="banner-contact" :data="{ title: '', image: data.images }" class="mb-12 md:mb-16 h-60"/>
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 md:grid-cols-5 xl:grid-cols-5 gap-8'}">
