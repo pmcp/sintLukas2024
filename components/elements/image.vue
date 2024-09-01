@@ -33,13 +33,12 @@ const emit = defineEmits(['click']);
 //
 //
 let data = {}
-console.log(props.image)
+
 if(props.image) {
   const { data: image } = await useAsyncData(`image-${props.image}`, () => queryContent('media/images')
       .where({ id: props.image })
       .findOne())
   data = image
-  console.log(data)
 }
 
 if(props.src) data = { cover: props.src }

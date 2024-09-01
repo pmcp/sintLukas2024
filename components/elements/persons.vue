@@ -19,11 +19,12 @@ if(props.persons) {
   thePersons = props.persons
 } else {
   const { data: items } = await useAsyncData(`allPersons`, () => queryContent('/persons/nl')
-      .only(['id'])
+      .only(['title'])
       .find()
 
   )
-  thePersons = items.value.map(x => x.id)
+  console.log(items)
+  thePersons = items.value.map(x => x.title)
 }
 
 

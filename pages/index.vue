@@ -57,7 +57,7 @@
               <span class="uppercase text-sm font-bold">{{ page.block_calendar.label }}</span>
               <div class="text-sm">{{ page.block_calendar.text }}</div>
 
-              <elements-button flavor="2" :to="page.block_calendar.buttonLink">
+              <elements-button :flavor="2" :to="page.block_calendar.buttonLink">
                 {{ page.block_calendar.buttonText }}
               </elements-button>
               <elements-calendar class="col-span-1" :embed="page.block_calendar.code" />
