@@ -61,16 +61,25 @@
         <!-- BLOCK: CALENDAR -->
         <template v-if="page.block_calendar">
           <div class="relative z-1 grid grid-cols-2 gap-4 mt-16 col-span-2">
-            <div class="col-span-1 bg-white p-4 grid gap-4">
+            <div class=" col-span-full md:col-span-1 bg-white p-4 grid gap-4">
+
               <span class="uppercase text-sm font-bold">{{ page.block_calendar.label }}</span>
               <div class="text-sm">{{ page.block_calendar.text }}</div>
 
               <elements-button :flavor="2" :to="page.block_calendar.buttonLink">
                 {{ page.block_calendar.buttonText }}
               </elements-button>
-              <elements-calendar class="col-span-1" :embed="page.block_calendar.code" />
+
+<!--              <div class="absolute top-40 left-0 self-stretch z-10">-->
+<!--                <elements-image contain transparent :image="page.block_calendar.image"  class="col-span-1 h-full"/>-->
+<!--              </div>-->
+              <div class="col-span-1 relative z-20">
+                <elements-calendar  :embed="page.block_calendar.code" />
+              </div>
+
+
             </div>
-            <div class="self-stretch">
+            <div class="self-stretch hidden md:block">
               <elements-image contain transparent :image="page.block_calendar.image"  class="col-span-1 h-full"/>
             </div>
           </div>

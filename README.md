@@ -2,11 +2,10 @@
 
 
 # TODO
-- Mooiere namen in nav aanbod
 - Add mailing list
 - category toevoegen voor fotos
-- Fix mobile Nav
 - Reset Password flow not working
+- Back button voor ateliers
 - COOKIES
 
 
