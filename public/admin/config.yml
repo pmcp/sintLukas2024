@@ -561,6 +561,7 @@ collections:
         media_library:
           config:
             multiple: false
+      - {label: "In zijbalk", name: "side", widget: "boolean", default: false, required: false}
       - label: "Ateliers & Andere Activiteiten"
         label_singular: 'Item'
         identifier_field: id
@@ -569,8 +570,8 @@ collections:
         summary: '{{fields.title}} - {{fields.age}}'
         fields:
           - { label: ID, name: id, widget: uuid }
-          - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
-          - { label: 'Age', name: 'age', widget: 'string', required: true, i18n: true }
+          - { label: 'Titel', name: 'title', widget: 'string', required: true, i18n: true }
+          - { label: 'Leeftijd (of andere ondertitel', name: 'age', widget: 'string', required: true, i18n: true }
           - { label: "Personen", multiple: true, name: "persons", widget: "relation", collection: "persons", search_fields: [ "{{firstName}}", "{{lastName}}" ], value_field: "{{slug}}", required: false, display_fields: [ "{{firstName}} {{lastName}}" ]}
           - { label: "Afbeeldingen", name: "images", widget: "relation", collection: "images", multiple: true, search_fields: [ "description", "file" ], display_fields: [ "{{description}}" ], value_field: "{{id}}", required: false}
           - { label: "Hoofdafbeelding", name: "mainImage", widget: "relation", collection: "images", multiple: false, search_fields: [ "description", "file" ], display_fields: [ "{{description}}" ], value_field: "{{id}}", required: false}

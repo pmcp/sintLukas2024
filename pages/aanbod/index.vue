@@ -1,14 +1,21 @@
 <template>
   <nuxt-layout grid>
     <elements-banner key="banner-aanbod" :data="{ title: 'Vind jouw atelier. \nOntdek onze extra muros projecten.'}" class="mb-16 h-60"/>
-    <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-
-      <div class="w-full col-span-2 md:col-span-1 grid grid-cols-1 md:grid-cols-2 w-full items-end gap-8">
-        <nuxt-link v-for="c in courses" :key="`courses_${c.cat.id}`" :to="`/aanbod/${c.cat.id}/${c.id}`" class="w-full mb-2">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:grid-cols-[1fr_1fr_1px_1fr] gap-16">
+      <div class="w-full col-span-full md:col-span-full lg:col-span-2 grid grid-cols-1 md:grid-cols-2 w-full items-end gap-8 max-w-2xl	">
+        <nuxt-link v-for="c in courses.filter(c => !c.cat.side)" :key="`courses_${c.cat.id}`" :to="`/aanbod/${c.cat.id}/${c.id}`" class="w-full mb-2">
           <elements-course :course="c" class="grow mb-2"/>
         </nuxt-link>
       </div>
-    </elements-container>
+      <div v-if="courses.filter(c => c.cat.side)" class="bg-black-100"></div>
+      <div v-if="courses.filter(c => c.cat.side)" class=" col-span-full md:col-span-full lg:col-span-1 xl:col-span-1 grid grid-cols-1 w-full gap-8">
+          <nuxt-link v-for="c in courses.filter(c => c.cat.side)" :key="`courses_${c.cat.id}`" :to="`/aanbod/${c.cat.id}/${c.id}`" class="w-full mb-2">
+            <elements-course :course="c" class="grow mb-2"/>
+          </nuxt-link>
+
+      </div>
+
+    </div>
   </nuxt-layout>
 
 </template>
@@ -38,7 +45,13 @@ for (const cat in data.value) {
           mainImage: data.value[cat].mainImage || '',
           color: data.value[cat].color || '',
           nl: data.value[cat].nl || '',
+          side: data.value[cat].side || false,
         }
+
+        if(!x.mainImage && x.images.length > 0) {
+          x.mainImage = x.images[0]
+        }
+
         return x;
       })]
     }

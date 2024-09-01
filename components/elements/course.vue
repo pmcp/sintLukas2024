@@ -1,6 +1,7 @@
 <template>
      <div>
-       <h2 v-if="course.first" class="text-xl uppercase font-bold pt-2">{{ course.cat.nl}}</h2>
+<!--       <pre>{{ course }}</pre>-->
+       <h2 v-if="course.first" class="text-3xl uppercase font-bold pt-2 pb-4">{{ course.cat.nl}}</h2>
 <!--       <nuxt-link :to="`${course._path}`"  :key="course.id">-->
          <UCard :ui="{
         divide: 'divide-none',
@@ -33,6 +34,12 @@
                <elements-image transparent :image="course.images[0]" class="col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
 
 
+               <div class="w-full h-full group-hover:opacity-10 transition-all  absolute top-0 left-0 mix-blend-overlay" :style="`background-color: ${course.cat.color}`"></div>
+               <div class="w-full h-full  group-hover:opacity-10 transition-all absolute top-0 left-0 mix-blend-lighten opacity-50" :style="`background-color: ${course.cat.color}`"></div>
+             </div>
+
+             <div class="relative h-full" v-else-if="course.mainImage">
+               <elements-image transparent :image="course.mainImage" class="col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
                <div class="w-full h-full group-hover:opacity-10 transition-all  absolute top-0 left-0 mix-blend-overlay" :style="`background-color: ${course.cat.color}`"></div>
                <div class="w-full h-full  group-hover:opacity-10 transition-all absolute top-0 left-0 mix-blend-lighten opacity-50" :style="`background-color: ${course.cat.color}`"></div>
              </div>

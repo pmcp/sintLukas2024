@@ -1,5 +1,5 @@
 <template>
-  <UFooter class="bg-primary-200 border-b-4 border-accent-800 mt-24 prose-sm">
+  <UFooter class="bg-primary-200 border-b-4 border-accent-800  prose-sm">
     <template #top>
       <elements-markdown :markdownString="data.markdown" class="" />
     </template>
