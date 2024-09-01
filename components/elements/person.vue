@@ -23,13 +23,11 @@ const props = defineProps({
 });
 
 let thePerson
-console.log(props.person)
 if(props.person) {
   const { data } = await useAsyncData(`person-${props.person}`, () => queryContent(`persons/nl`)
       .where({ title: props.person })
       .findOne()
   )
-  console.log(data)
   thePerson = data
 }
 

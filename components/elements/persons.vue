@@ -23,7 +23,6 @@ if(props.persons) {
       .find()
 
   )
-  console.log(items)
   thePersons = items.value.map(x => x.title)
 }
 

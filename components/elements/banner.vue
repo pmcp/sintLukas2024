@@ -29,13 +29,12 @@ const props = defineProps({
 
 let image = {}
 
-console.log('gonna get image', props.data.image)
 if(props.data.image) {
   const { data: gotImage } = await useAsyncData(`image-${props.data.image}`, () => queryContent('media/images')
       .where({ id: props.data.image })
       .findOne())
   image = gotImage
-  console.log(image)
+
 }
 
 </script>
