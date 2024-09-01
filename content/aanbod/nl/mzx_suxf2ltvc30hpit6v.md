@@ -69,4 +69,56 @@ ateliers:
 
 
       Leerlingen die de opleiding Fotokunst volgen, kiezen uit een traject van 1 avond/week (lang traject, 10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+  - id: y-a-wEcmvd7WTIDmQpJnr
+    markdown: >-
+      ### Informatie over de opleiding Grafisch Ontwerp en Illustratie
+
+
+      Binnen de opleiding Grafisch Ontwerp en Illustratie kies je ervoor als starter het vak Grafisch Ontwerp en Illustratie (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak Grafisch Ontwerp en Illustratie (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden te combineren en op die manier sneller in de praktijk te brengen wat je leert.
+
+
+      Grafisch ontwerp en illustratie zijn sterk verbonden met de andere kunsten. Ook hier worden kleur, lijn, vorm en andere beeldelementen bewust ingezet. Vaak werkt een ontwerper of illustrator naar opdracht. Dat is geen beperking maar een uitdaging om conceptueel te denken en een eigen beeldtaal te ontwikkelen. Typisch voor dit atelier is het gebruik van typografie en lettering, de aandacht voor lay-out en realisatie. Denk aan affiches, boeken, zines, huisstijlen, websites, ... In het atelier ligt de nadruk op experiment, creatief denken en een kritische houding in het ontwerpproces. We proberen immers ontwerpen te maken met een sterke connectie tussen inhoud en vorm, niet enkel mooie plaatjes. Digitale technieken en computervaardigheden zijn belangrijk, maar je gebruikt ze zoals je wil. Mixed media tussen analoge en digitale technieken is uniek aan dit atelier. Adobe Photoshop, Adobe Illustrator en Adobe InDesign komen aan bod.
+
+
+      Heb je geen ervaring, dan volg je het atelier op maandag: Grafisch Ontwerp en Illustratie (starters) Hier word je begeleid bij je eerste stappen in het atelier of bij het ontdekken van jouw beeldtaal. Introductie tot de grote thema’s van grafisch ontwerp en illustratie staan op de agenda. Je krijgt tijd en ruimte om via oefeningen je basisvaardigheden te ontwikkelen. In opdrachten pas je toe wat je leerde, op een persoonlijke en creatieve manier.
+
+
+      INTRODUCTIE & BASIS
+
+
+      * Voor wie start of wil groeien
+
+      * Focus op basisvaardigheden en mogelijkheden
+
+      * Eigen grafische/illustratieve taal ontdekken
+
+      * Technisch basisvaardigheden
+
+
+      Heb je al wat basiskennis, dan volg je het atelier op dinsdag Grafisch Ontwerp en Illustratie (Verdieping): Je wordt begeleid bij het verdiepen van jouw beeldtaal en het verfijnen van bijhorende technieken. Je gaat steeds meer eigen concepten realiseren en bouwen aan je portfolio. Er staan ongeveer vier uitstappen op de agenda (overdag, mits lesverplaatsing). Ook een workshop met gastdocent biedt meer inzicht. Via grafische technieken als zeefdruk of risoprint realiseer je ook zelf een ontwerp.
+
+
+      VERDIEPING & VERFIJNING
+
+
+      * Voor wie al ervaring heeft
+
+      * Focus op realisatie en portfolio
+
+      * Eigen grafische/illustratieve taal verdiepen
+
+      * Technisch verfijnen
+    title: Grafisch Ontwerp en Illustratie
+    age: 4e graad + Specialisatie
+    mainImage: RXDNC2x94_ZNBRXsJotDy
+    side1: >-
+      ### Materiaal
+
+
+      In het atelier kan je gebruikmaken van een computer, scanner, tekentablet en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld.
+    side2: >-
+      ### Studietraject
+
+
+      Leerlingen die de opleiding Grafisch Ontwerp en Illustratie volgen, kiezen uit een traject van 1 avond/week (lang traject, 10 jaar) of 2 avonden/week (middellang traject, 5 jaar). Leerlingen die 1 avond/week volgen, kiezen op basis van hun voorkennis voor een specifieke avond. Opgelet! Voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
 ---
