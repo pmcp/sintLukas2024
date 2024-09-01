@@ -17,4 +17,5 @@ ateliers:
       - jypkpziuevct0xyejt5zi
     images:
       - CFDhuUboXdtA6HmhKRyqh
+    mainImage: 1ztXeTlxxYuimz_6PgQue
 ---
