@@ -6,7 +6,7 @@
         wrapper: 'bg-background/100 backdrop-blur-none border-b border-second-300 pt-2 pb-4 sticky -top-0 z-10',
         container: 'items-end', left: 'lg:flex-none mr-4',
         button: {
-          base: 'lg:hidden rounded-none bg-transparent hover:bg-primary-500',
+          base: 'lg:hidden rounded-none bg-transparent hover:bg-primary-500 bg-primary-200',
           icon: {
             open: 'i-heroicons-bars-3-20-solid ',
             close: 'i-heroicons-x-mark-20-solid '
