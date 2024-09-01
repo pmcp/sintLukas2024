@@ -4,12 +4,12 @@
 
 
 
-<div class="flex flex-col gap-4">
+<div class="flex flex-col gap-4 border-b pb-4 md:pb-6">
     <div class="flex gap-4"  v-for="(a, key) in articles" :key="`news-${key}`">
       <nuxt-link :to="a.link" v-if="a.link">
 
-        <elements-image :src="a.thumbnail" class="h-full w-40"/>
-        <div class="flex flex-col gap-2  justify-around pt-4 pb-8">
+        <elements-image :src="a.thumbnail" class="h-full w-20 md:w-40"/>
+        <div class="flex flex-col md:gap-2 justify-around pt-4 pb-8">
           <div class="text-xs"><helpers-date :date="a.date" /></div>
           <span class="text-xl">{{ a.title }}</span>
           <div class="text-sm">{{ a.text}}</div>
@@ -17,8 +17,8 @@
 
       </nuxt-link>
       <div v-else class="flex gap-4">
-        <elements-image :src="a.thumbnail" class="h-full w-40"/>
-        <div class="flex flex-col gap-2  justify-around pt-4 pb-8">
+        <elements-image :src="a.thumbnail" class="h-full w-20 md:w-40"/>
+        <div class="flex flex-col md:gap-2 md:justify-around md:pt-4 md:pb-8">
           <div class="text-xs"><helpers-date :date="a.date" /></div>
           <span class="text-xl">{{ a.title }}</span>
           <div class="text-sm">{{ a.text}}</div>
