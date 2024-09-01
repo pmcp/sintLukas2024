@@ -15,7 +15,7 @@
       }"
   >
     <template #logo>
-            <svg-logo />
+      <svg-logo />
     </template>
 
         <template #center >
@@ -42,25 +42,24 @@
 
     <template #panel>
 
-
-<!--      <UVerticalNavigation :links="navItems" :ui="{-->
-<!--  wrapper: 'relative flex justify-center',-->
-<!--  base: 'group relative flex justify-center gap-1.5 focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-1 focus-visible:before:ring-primary-500 dark:focus-visible:before:ring-primary-400 before:absolute before:inset-px before:rounded-md disabled:cursor-not-allowed disabled:opacity-75',-->
-<!--  ring: 'focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',-->
-<!--  padding: 'px-2.5 py-1.5 my-16',-->
-<!--  width: 'w-full',-->
-<!--  rounded: 'rounded-none',-->
-<!--  font: 'font-medium',-->
-<!--  size: 'text-xl',-->
-<!--  active: 'text-black dark:text-white before:bg-transparent border-b dark:before:bg-gray-800',-->
-<!--  inactive: 'text-black dark:text-gray-400 hover:text-black dark:hover:text-white hover:before:bg-transparent dark:hover:before:bg-transparent',-->
-<!--  label: 'truncate relative',-->
-<!--  divider: {-->
-<!--    wrapper: {-->
-<!--      base: 'p-8',-->
-<!--    },-->
-<!--  },-->
-<!--}"/>-->
+      <UVerticalNavigation :links="navItems" :ui="{
+  wrapper: 'relative flex justify-center',
+  base: 'group relative flex justify-center gap-1.5 focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-1 focus-visible:before:ring-primary-500 dark:focus-visible:before:ring-primary-400 before:absolute before:inset-px before:rounded-md disabled:cursor-not-allowed disabled:opacity-75',
+  ring: 'focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',
+  padding: 'px-2.5 py-1.5 my-16',
+  width: 'w-full',
+  rounded: 'rounded-none',
+  font: 'font-medium',
+  size: 'text-xl',
+  active: 'text-black dark:text-white before:bg-transparent border-b dark:before:bg-gray-800',
+  inactive: 'text-black dark:text-gray-400 hover:text-black dark:hover:text-white hover:before:bg-transparent dark:hover:before:bg-transparent',
+  label: 'truncate relative',
+  divider: {
+    wrapper: {
+      base: 'p-8',
+    },
+  },
+}"/>
     </template>
 
 
@@ -101,7 +100,6 @@ const buttons = [
 ]
 
 // data.value.navigation.map(n => ({ 'label': n.label, to: `/pages/nl/${n.page}`}))
-
 
 const navItems = [...fixedNav ]
 </script>

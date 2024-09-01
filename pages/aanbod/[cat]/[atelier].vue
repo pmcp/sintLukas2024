@@ -1,6 +1,6 @@
 <template >
   <NuxtLayout class="relative">
-    <elements-banner :data="{ title: '', image: atelier.mainImage }" class="mb-16 h-60"/>
+    <elements-banner :data="{ title: '', image: atelier.images[0] }" class="mb-16 h-60"/>
     <div class="grid grid-cols-1 gap-8 ">
       <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div>
