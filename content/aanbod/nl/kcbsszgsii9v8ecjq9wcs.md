@@ -18,4 +18,5 @@ ateliers:
       materialen, technieken en kunststromingen. Je wordt geprikkeld om te doen,
       te experimenteren en prikkels al spelend om te zetten in sprekende
       beelden!"
+    mainImage: owBUqHnSHJiZGmI2ErqCo
 ---
