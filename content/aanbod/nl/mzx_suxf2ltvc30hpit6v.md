@@ -40,7 +40,7 @@ ateliers:
       Ma Beeldende en Audiovisuele Kunsten Veerle Vervliet - G106
     persons:
       - 56ncog9kbawmtcx0xbzgr
-    age: 4E GRAAD + SPECIALISATIE
+    age: 4e graad + Specialisatie
   - id: NuOyl3knrqBuVTO-T-yaG
     markdown: >-
       ### Informatie over de opleiding Fotokunst
