@@ -14,10 +14,14 @@
         </client-only>
       </div>
       <template #footer >
-        <div>
-          <div>{{ data.name }}</div>
-          <div>{{ data.street }}</div>
-          <div>{{ data.zip }} {{ location.city }}</div>
+        <div class="flex flex-col gap-2">
+          <div class="font-bold text-sm">{{ data.name }}</div>
+          <div class="text-xs">
+            <div>{{ data.street }}</div>
+            <div>{{ data.zip }} {{ data.city }}</div>
+          </div>
+          <div><a class="opacity-50 text-xs" target="_blank" :href="`https://maps.google.com/?ll=${getCoordinates(data.location)}`">Bekijk in Google Maps</a></div>
+
         </div>
       </template>
     </UCard>
@@ -33,8 +37,14 @@ const props = defineProps({
   }
 });
 
-const { data } = await useAsyncData('location', () => queryContent(props.location)
+const { data } = await useAsyncData(`location-${props.location}`, () => queryContent(props.location)
     .findOne())
+
+const getCoordinates = (location) => {
+  const coords = JSON.parse(location).coordinates
+  const newCoords = `${coords[1]},${coords[0]}`
+  return newCoords
+}
 
 const cardUi = {
   body: { padding: 'px-0 py-0 p-0 sm:p-0'},

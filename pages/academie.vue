@@ -13,10 +13,10 @@
       <elements-background :data="{style: 1}" />
     </div>
 
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-1 pt-16 grid grid-cols-2 gap-8  ">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-1 pt-16 grid grid-cols-2 gap-16  ">
       <div class="col-span-full lg:col-span-1">
         <div class="uppercase text-sm font-bold pb-4">Vestigingen</div>
-<!--        <elements-locations/>-->
+        <elements-locations/>
       </div>
       <div class="col-span-full lg:col-span-1">
         <div class="uppercase text-sm font-bold pb-4">Team</div>
