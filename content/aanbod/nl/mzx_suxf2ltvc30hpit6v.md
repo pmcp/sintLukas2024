@@ -155,4 +155,35 @@ ateliers:
 
 
       Leerlingen die de opleiding Interieurontwerp volgen, kiezen uit een traject van 1 avond/week (Lang traject, 10 jaar).
+  - id: HLPp8M36kkiMVr3MHNx70
+    title: Modeltekenen
+    age: 4e graad + Specialisatie
+    mainImage: owBUqHnSHJiZGmI2ErqCo
+    images:
+      - owBUqHnSHJiZGmI2ErqCo
+    markdown: >-
+      ### Informatie over de opleiding Modeltekenen
+
+
+      Binnen de opleiding Modeltekenen volg je het vak Modeltekenen op dinsdagavond of op
+
+
+      donderdagavond.
+
+
+      Je krijgt wekelijks tekenles naar levend model. Tijdens deze lessen staat het menselijk naaktmodel centraal als onderwerp in de ontwikkeling van een eigen beeldtaal. Via diverse materialen (potlood, houtskool, acryl- of olieverf, pastel, bister, collage, ...) verken je de mogelijkheden van technieken en experiment om jouw observatie naar beeldend werk om te vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur, compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de anatomie van het menselijk lichaam en verscherp je gevoel voor detail. Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
+    side1: >-
+      ### Materiaal
+
+
+      Info over benodigd materiaal:
+
+
+      * Papier: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
+
+      * Schetsboek: Het is aangeraden een schetsboek van A3-formaat bij te houden.
+
+      * Tekenmateriaal: 3 potloden (2B - 4B - 8B) volstaan om te starten. In een volgende fase is het interessant om jouw arsenaal uit te breiden met bijvoorbeeld houtskool, pastelkrijt, bister of inkt. Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+
+      * Tape: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
 ---
