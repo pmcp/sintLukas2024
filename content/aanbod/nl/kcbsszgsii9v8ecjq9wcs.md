@@ -4,7 +4,7 @@ id: KcBSSZGsII9V8ecjq9WcS
 order: 2
 color: "#008EA3"
 ateliers:
-  - id: t0ClQ-GQ2uKC2oStqBv3-
+  - id: t0ClQ-GQ2uKC2oStqBv3
     title: Atelier Jongeren
     age: 12-18 jaar
     persons:
