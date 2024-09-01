@@ -1,32 +1,35 @@
 <template>
-  <div>
-    <UCard :ui="cardUi">
-      <div class="relative h-48">
-        <client-only>
-          <MapboxMap :map-id="location" :options="{
+  <div class="bg-white self-stretch">
+    <div class="h-40 w-full relative">
+      <client-only>
+        <MapboxMap
+            style="width: 100%; height: 100%;"
+            :map-id="location"
+            :options="{
             style: 'mapbox://styles/mapbox/light-v11', // style URL
             center: JSON.parse(data.location).coordinates, // starting position
             zoom: 14 // starting zoom
           }">
-            <MapboxDefaultMarker :marker-id="`locationMarker-${location}`" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
+          <MapboxDefaultMarker :marker-id="`locationMarker-${location}`" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
           </MapboxDefaultMarker>
-          </MapboxMap>
-        </client-only>
-      </div>
-      <template #footer >
-        <div class="flex flex-col gap-2">
-          <div class="font-bold text-sm">{{ data.name }}</div>
-          <div class="text-xs">
-            <div>{{ data.street }}</div>
-            <div>{{ data.zip }} {{ data.city }}</div>
-          </div>
-          <div><a class="opacity-50 text-xs" target="_blank" :href="`https://maps.google.com/?ll=${getCoordinates(data.location)}`">Bekijk in Google Maps</a></div>
+        </MapboxMap>
+      </client-only>
+    </div>
 
-        </div>
-      </template>
-    </UCard>
+  <div class="p-4">
+    <div class="font-bold text-sm">{{ data.name }}</div>
+    <div class="text-xs">
+      <div>{{ data.street }}</div>
+      <div>{{ data.zip }} {{ data.city }}</div>
+    </div>
+    <div>
+      <a class="opacity-50 text-xs" target="_blank" :href="`https://maps.google.com/?ll=${getCoordinates(data.location)}`">
+        Bekijk in Google Maps
+      </a>
+    </div>
+
   </div>
-
+  </div>
 </template>
 
 <script setup>

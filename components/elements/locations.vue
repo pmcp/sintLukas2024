@@ -1,5 +1,5 @@
 <template>
-  <div v-if="theLocs" class="grid grid-cols-2 md:grid-cols-2 w-full items-end gap-8">
+  <div v-if="theLocs" class="grid grid-cols-2 md:grid-cols-2 w-full items-end gap-4 md:gap-8">
     <elements-location
         v-for="l in theLocs"
         :location="l._path"
