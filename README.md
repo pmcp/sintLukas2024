@@ -7,7 +7,7 @@
 - category toevoegen voor fotos
 - Fix mobile Nav
 - Reset Password flow not working
-
+- COOKIES
 
 
 

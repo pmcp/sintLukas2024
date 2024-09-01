@@ -18,9 +18,9 @@
       <svg-logo />
     </template>
 
-        <template #center >
-          <div class="hidden lg:flex grow gap-8">
-            <UHorizontalNavigation :links="navItems" :ui="{
+    <template #center >
+      <div class="hidden lg:flex grow gap-8">
+        <UHorizontalNavigation :links="navItems" :ui="{
       wrapper: 'relative w-full flex items-center justify-between',
       container: 'flex items-center min-w-0',
       inner: 'min-w-0',
@@ -30,8 +30,8 @@
       active: 'text-gray-900 dark:text-white  after:bg-black-100 dark:after:bg-black-100 ',
       inactive: 'text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white',
     }"/>
-          </div>
-        </template>
+      </div>
+    </template>
 
     <template #right v-if="buttons">
       <elements-button v-for="(button, key) in buttons" :key="`navButtons-${key}`" :flavor="1" :to="button.link" :pageLink="button.pageLink" :download="button.download">
@@ -41,25 +41,12 @@
 
 
     <template #panel>
+      <div class="flex flex-col gap-16 w-full justify-center mt-16">
+        <a class="text-3xl text-center" v-for="i in navItems" :key="'key'+i.to" :href="i.to">
+          <span class="hover:border-b">{{ i.label }}</span>
+        </a>
+      </div>
 
-      <UVerticalNavigation :links="navItems" :ui="{
-  wrapper: 'relative flex justify-center',
-  base: 'group relative flex justify-center gap-1.5 focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-1 focus-visible:before:ring-primary-500 dark:focus-visible:before:ring-primary-400 before:absolute before:inset-px before:rounded-md disabled:cursor-not-allowed disabled:opacity-75',
-  ring: 'focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',
-  padding: 'px-2.5 py-1.5 my-16',
-  width: 'w-full',
-  rounded: 'rounded-none',
-  font: 'font-medium',
-  size: 'text-xl',
-  active: 'text-black dark:text-white before:bg-transparent border-b dark:before:bg-gray-800',
-  inactive: 'text-black dark:text-gray-400 hover:text-black dark:hover:text-white hover:before:bg-transparent dark:hover:before:bg-transparent',
-  label: 'truncate relative',
-  divider: {
-    wrapper: {
-      base: 'p-8',
-    },
-  },
-}"/>
     </template>
 
 
