@@ -1,4 +1,5 @@
 <template>
+
   <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" class="hover:bg-primary-100 w-fit" v-if="flavor === 0" color="black" variant="outline" :ui="{ rounded: 'rounded-none'}">
     <svg-icon-download v-if="download" class=" w-4 h-4"/>
 
