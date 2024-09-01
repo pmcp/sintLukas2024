@@ -4,5 +4,5 @@ name: Aximax
 street: J.W. Wilsonstraat 19
 zip: "1000"
 city: Brussel
-location: '{"type":"Point","coordinates":[4.3658735,50.8610089]}'
+location: '{"type":"Point","coordinates":[4.387103635584424,50.873357155433155]}'
 ---

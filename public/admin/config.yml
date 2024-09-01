@@ -597,7 +597,7 @@ collections:
       - { label: 'Straat en huisnummer', name: 'street', widget: 'string', i18n: true, required: false }
       - { label: 'Postcode', name: 'zip', widget: 'string', i18n: true, required: false }
       - { label: 'Stad', name: 'city', widget: 'string', i18n: true, required: false }
-      - {label: "Kaart", name: "location", widget: "map", default: [4.365835,50.8610824] }
+      - {label: "Kaart", name: "location", widget: "map", default: '{"type":"Point","coordinates":[4.3658735,50.8610089]}' }
 
 
   # PERSONS
