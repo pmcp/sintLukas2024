@@ -39,3 +39,10 @@
         grid-column: span 1;
     }
 }
+
+
+/*Tweak for h3 margins in Prose elements */
+.pmcp-prose h3 {
+    margin-top: 0;
+
+}

@@ -32,6 +32,7 @@ for (const cat in data.value) {
       data.value[cat].ateliers[0].first = true
       // Flatten courses in courses array
       courses = [...courses, ...data.value[cat].ateliers.map(x => {
+
         x.cat = {
           id: data.value[cat].id || '',
           mainImage: data.value[cat].mainImage || '',

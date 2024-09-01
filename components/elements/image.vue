@@ -1,8 +1,9 @@
 <template>
   <div v-if="data.cover">
+
     <nuxtImg
         @click="emit('click', {url: data.cover, description: data.description})"
-        class="col-span-1 w-full object-cover object-center bg-primary-200"
+        class="col-span-1 h-full  w-full object-cover object-center bg-primary-200"
         :src="data.cover" :alt="data.description"
         :class="[{ 'bg-transparent': transparent}, { '!object-contain': contain}, { 'hover:object-scale-down' : hoverEffect === 'zoom'}]"
     />
@@ -32,11 +33,13 @@ const emit = defineEmits(['click']);
 //
 //
 let data = {}
+console.log(props.image)
 if(props.image) {
   const { data: image } = await useAsyncData(`image-${props.image}`, () => queryContent('media/images')
       .where({ id: props.image })
       .findOne())
   data = image
+  console.log(data)
 }
 
 if(props.src) data = { cover: props.src }

@@ -1,6 +1,6 @@
 <template>
   <UPageGrid :ui="{wrapper: 'grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3  pmcp-persons_container'}">
-    <div v-for="(t,key) in thePersons" :key="`persons_${t}`">
+    <div v-for="(t) in thePersons" :key="`persons_${t}`">
       <elements-person :person="t" />
     </div>
     </UPageGrid>
@@ -18,10 +18,12 @@ let thePersons
 if(props.persons) {
   thePersons = props.persons
 } else {
-  const items = await queryContent('persons/nl')
+  const { data: items } = await useAsyncData(`allPersons`, () => queryContent('/persons/nl')
       .only(['id'])
       .find()
-  thePersons = items.map(x => x.id)
+
+  )
+  thePersons = items.value.map(x => x.id)
 }
 
 

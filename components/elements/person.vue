@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full">
+  <div class="flex flex-col w-full" v-if="thePerson">
     <div class="relative">
       <nuxtImg v-if="thePerson.image" class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all object-cover	bg-white" :src="data.image" />
       <USkeleton class="h-32 w-full ratio-square" :ui="{
@@ -23,11 +23,15 @@ const props = defineProps({
 });
 
 let thePerson
+console.log(props.person)
+if(props.person) {
+  const { data } = await useAsyncData(`person-${props.person}`, () => queryContent(`persons/nl`)
+      .where({ title: props.person })
+      .findOne()
+  )
+  console.log(data)
+  thePerson = data
+}
 
-const data = await queryContent(`persons/nl/`)
-    .where({ id: props.person })
-    .find();
-
-thePerson = data[0]
 
 </script>

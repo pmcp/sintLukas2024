@@ -28,7 +28,7 @@
 
            <div class="overflow-hidden h-24">
 
-             <div class="relative" v-if="course.images">
+             <div class="relative h-full" v-if="course.images">
 
                <elements-image transparent :image="course.images[0]" class="col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
 
