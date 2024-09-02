@@ -63,6 +63,12 @@ ateliers:
 
 
       Leerlingen die de opleiding Fotokunst volgen, kiezen uit een traject van 1 avond/week (lang traject, 10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+
+
+      ### Uurrooster
+
+
+      :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
   - id: y-a-wEcmvd7WTIDmQpJnr
     markdown: >-
       ### Informatie over de opleiding Grafisch Ontwerp en Illustratie
@@ -115,6 +121,12 @@ ateliers:
 
 
       Leerlingen die de opleiding Grafisch Ontwerp en Illustratie volgen, kiezen uit een traject van 1 avond/week (lang traject, 10 jaar) of 2 avonden/week (middellang traject, 5 jaar). Leerlingen die 1 avond/week volgen, kiezen op basis van hun voorkennis voor een specifieke avond. Opgelet! Voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+
+
+      ### Uurrooster
+
+
+      :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
   - id: CVmWrDQKUKREP3dNmOvWt
     title: Interieurontwerp
     age: 4e graad + Specialisatie
@@ -149,6 +161,12 @@ ateliers:
 
 
       Leerlingen die de opleiding Interieurontwerp volgen, kiezen uit een traject van 1 avond/week (Lang traject, 10 jaar).
+
+
+      ### Uurrooster
+
+
+      :dispatch{:data='{"download":["drOVF1wOW2GfxcHOQUWiq"]}' type='downloads'}
   - id: HLPp8M36kkiMVr3MHNx70
     title: Modeltekenen
     age: 4e graad + Specialisatie
@@ -185,6 +203,12 @@ ateliers:
 
 
       Leerlingen die de opleiding Modeltekenen volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
+
+
+      ### Uurrooster
+
+
+      :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
   - id: n5upPonOG5BkWdek5a_3h
     title: Tekenkunst
     markdown: >-
@@ -222,6 +246,9 @@ ateliers:
 
 
       Leerlingen die de opleiding Tekenkunst volgen, kiezen uit een traject van 1 avond/week (Lang traject, 10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+
+
+      ### Uurrooster
   - id: JJmPgwpVR32QX04x30UVW
     title: Grafiekkunst
     markdown: >-
@@ -258,6 +285,12 @@ ateliers:
 
 
       Leerlingen die de opleiding Grafiekkunst volgen, kiezen uit een traject van 1 avond/week (lang traject,10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+
+
+      ### Uurrooster
+
+
+      :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
   - id: xZKOEbeJdWAUbTYih-yD_
     title: Schilderkunst
     markdown: >-
@@ -292,9 +325,12 @@ ateliers:
       ### Studietraject
 
 
-      Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](<Studietraject
+      Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: \[info.academie@sintlukas.brussels](<Studietraject
 
-      Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: mailto:info.academie@sintlukas.brussels.>).
+      Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+
+
+      ### Uurrooster
     age: 4e graad + Specialisatie
     images:
       - rf7me0634S7qUaQmpG3qe

@@ -26,13 +26,7 @@ ateliers:
       ### Uurrooster
 
 
-      Elke les gaat door op maandagavond van 17:40 tot 21u.\
-
-      \
-
-      **1 avond/week (lang traject)**\
-
-      Ma Beeldende en Audiovisuele Kunsten Veerle Vervliet - G106
+      :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
     persons:
       - 56ncog9kbawmtcx0xbzgr
     age: 4e graad + Specialisatie
