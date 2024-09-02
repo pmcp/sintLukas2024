@@ -249,6 +249,9 @@ ateliers:
 
 
       ### Uurrooster
+
+
+      :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
   - id: JJmPgwpVR32QX04x30UVW
     title: Grafiekkunst
     markdown: >-
@@ -331,6 +334,9 @@ ateliers:
 
 
       ### Uurrooster
+
+
+      :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
     age: 4e graad + Specialisatie
     images:
       - rf7me0634S7qUaQmpG3qe
