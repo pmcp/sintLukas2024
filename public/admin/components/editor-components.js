@@ -8,8 +8,8 @@ const editorComponents = [
                 widget: 'relation',
                 collection: "downloads",
                 multiple: true,
-                search_fields: [ "buttonLabel" ],
-                display_fields: [ "{{buttonLabel}}" ],
+                search_fields: [ "buttonLabel", "internalName" ],
+                display_fields: [ "{{buttonLabel}} ({{internalName}})" ],
                 value_field: "{{id}}"
             },
         ]

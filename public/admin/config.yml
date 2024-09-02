@@ -681,9 +681,10 @@ collections:
     folder: "content/media/downloads"
     label_singular: "Download"
     create: true
-    summary: "{{date | date('YYYY-MM-DD')}}: {{buttonLabel}} ({{file}})"
+    summary: "{{date | date('YYYY-MM-DD')}}: {{internalName}} ({{file}})"
     fields:
       - { label: ID, name: id, widget: uuid }
+      - { label: "Werktitel", name: "internalName", widget: "string" }
       - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}" }
       - { label: "Tekst op downloadknop", name: "buttonLabel", widget: "string" }
       - {label: "Bestand", name: "file", widget: "file", "media_library": { config: {multiple: false}}}

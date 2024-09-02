@@ -13,6 +13,10 @@
     </elements-button>
   </div>
 
+  <div v-if="props.type === 'downloads'" class="inline mr-1">
+    <elements-download :download="props.data.download[0]" />
+  </div>
+
 
 
   <div v-else-if="props.type === 'person'" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 p-0 pmcp-persons_container">
