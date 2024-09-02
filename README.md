@@ -1,9 +1,7 @@
 ## DOING
-- Download toevoegen aan aanbod
-- "werktitel" aan download toevoegen
+- CMS preview toevoegen
 
 # TODO
-- CMS preview toevoegen
 - Add mailing list
 - category toevoegen voor fotos
 - Reset Password flow not working
