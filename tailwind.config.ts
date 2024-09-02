@@ -11,7 +11,7 @@ export default <Partial<Config>>{
         extend: {
             fontFamily: {
                 sans: [
-                    '"Inter var", sans-serif'],
+                    '"Helvetica Neue", sans-serif'],
             },
             colors: {
                 'black': {
