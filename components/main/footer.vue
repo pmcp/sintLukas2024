@@ -1,8 +1,11 @@
 <template>
   <UFooter class="bg-primary-200 border-b-4 border-accent-800  prose-sm">
     <template #top>
-      <elements-markdown :markdownString="data.markdown" class="" />
-      <elements-newsletter/>
+      <div class="flex flex-col gap-8 w-full md:w-1/2">
+        <elements-markdown :markdownString="data.markdown" class="" />
+        <elements-newsletter/>
+      </div>
+
     </template>
 
     <template #left>
