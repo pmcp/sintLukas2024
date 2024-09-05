@@ -4,7 +4,7 @@
     <elements-banner class="mb-16 h-80 " grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
 
 
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+    <div class="mx-auto px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
         <div class="col-span-full grid grid-cols-1 md:grid-cols-[1fr_1px_1fr] gap-8">
 
@@ -41,7 +41,7 @@
               <div class=" sticky top-28 flex flex-col gap-2 ">
               <span class="uppercase text-sm font-bold">{{ page.block_about.label }}</span>
               <span class="text-2xl">{{ page.block_about.title }}</span>
-              <span class="prose prose-sm">{{ page.block_about.text }}</span>
+              <span class="prose">{{ page.block_about.text }}</span>
               </div>
             </div>
           <elements-image :image="page.block_about.image3" :key="page.block_about.image3" class="col-span-1  h-fit"/>
@@ -55,7 +55,7 @@
         <elements-background :data="{style: 1}" />
       </div>
 
-      <UPageGrid class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl xl:grid-cols-2">
+      <UPageGrid class="mx-auto md:px-6 lg:px-8 max-w-7xl xl:grid-cols-2">
 
 
         <!-- BLOCK: CALENDAR -->

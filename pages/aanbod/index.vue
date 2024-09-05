@@ -1,7 +1,7 @@
 <template>
   <nuxt-layout grid>
     <elements-banner key="banner-aanbod" :data="{ title: 'Vind jouw atelier. \nOntdek onze extra muros projecten.'}" class="mb-12 md:mb-16 h-60"/>
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:grid-cols-[1fr_1fr_1px_1fr] gap-16">
+    <div class="mx-auto px-6 lg:px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:grid-cols-[1fr_1fr_1px_1fr] gap-16">
       <div class="w-full col-span-full md:col-span-full lg:col-span-2 grid grid-cols-1 md:grid-cols-2 w-full items-end gap-8 max-w-2xl	">
         <nuxt-link v-for="c in courses.filter(c => !c.cat.side)" :key="`courses_${c.cat.id}`" :to="`/aanbod/${c.cat.id}/${c.id}`" class="w-full mb-2">
           <elements-course :course="c" class="grow mb-2"/>

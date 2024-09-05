@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout class="relative">
     <elements-banner :data="{ title: '', image: data.images }" class="mb-12 md:mb-16 h-60"/>
-    <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+    <elements-container class="mx-auto px-6 lg:px-8 max-w-7xl">
 
       <div class="flex flex-col col-span-full md:col-span-2">
         <h1 class="text-4xl pb-0">Academie</h1>

@@ -9,6 +9,16 @@ export default <Partial<Config>>{
     ],
     theme: {
         extend: {
+            typography: {
+                DEFAULT: {
+                    // Custom CSS here ↓
+                    css: {
+                        fontSize: '1rem',
+                        lineHeight: '1.5rem',
+                        // More custom CSS…
+                    },
+                },
+            },
             fontFamily: {
                 sans: [
                     '"Helvetica Neue", sans-serif'],

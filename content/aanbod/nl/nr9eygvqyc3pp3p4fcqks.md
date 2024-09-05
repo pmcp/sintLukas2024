@@ -12,7 +12,7 @@ ateliers:
       te experimenteren en prikkels al spelend om te zetten in sprekende
       beelden!"
     title: Ateliers
-    age: 6 - 11 jaar
+    age: 6-11 jaar
     mainImage: 1ztXeTlxxYuimz_6PgQue
     images:
       - 1ztXeTlxxYuimz_6PgQue

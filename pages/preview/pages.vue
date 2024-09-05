@@ -1,7 +1,7 @@
 <template>
 <!--  <main v-if="data ">-->
 <!--    ?-->
-<!--&lt;!&ndash;  <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl " :elements="data.elements"/>&ndash;&gt;-->
+<!--&lt;!&ndash;  <elements-container class="mx-auto px-6 lg:px-8 max-w-7xl " :elements="data.elements"/>&ndash;&gt;-->
 <!--  </main>-->
 </template>
 

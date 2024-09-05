@@ -3,10 +3,10 @@
   <UHeader
       :links="navItems"
       :ui="{
-        wrapper: 'bg-background/100 backdrop-blur-none border-b border-second-300 pt-2 pb-4 sticky -top-0 z-10',
+        wrapper: 'bg-background/100 backdrop-blur-none border-b-0 pt-4 pb-4 sticky -top-0 z-10',
         container: 'items-end', left: 'lg:flex-none mr-4',
         button: {
-          base: 'lg:hidden rounded-none bg-transparent hover:bg-primary-500 bg-primary-200',
+          base: 'lg:hidden rounded-none bg-transparent hover:bg-primary-500 bg-primary-200 p-3',
           icon: {
             open: 'i-heroicons-bars-3-20-solid ',
             close: 'i-heroicons-x-mark-20-solid '
@@ -41,8 +41,8 @@
 
 
     <template #panel>
-      <div class="flex flex-col gap-16 w-full justify-center mt-16">
-        <a class="text-3xl text-center" v-for="i in navItems" :key="'key'+i.to" :href="i.to">
+      <div class="flex flex-col gap-4 w-full justify-center mt-4">
+        <a class="text-3xl text-center py-4" v-for="i in navItems" :key="'key'+i.to" :href="i.to">
           <span class="hover:border-b">{{ i.label }}</span>
         </a>
       </div>

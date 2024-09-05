@@ -1,13 +1,13 @@
 <template>
   <NuxtLayout v-if="data" class="relative">
     <elements-banner key="banner-contact" :data="{ title: '', image: data.images }" class="mb-12 md:mb-16 h-60"/>
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+    <div class="mx-auto px-6 lg:px-8 max-w-7xl">
 
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 md:grid-cols-5 xl:grid-cols-5 gap-8'}">
 
           <div class="flex flex-col col-span-full md:col-span-2 gap-8">
             <h1 class="text-4xl pb-0">Contact</h1>
-            <elements-markdown :markdownString="location.info" class="prose-sm"/>
+            <elements-markdown :markdownString="location.info" class="prose"/>
           </div>
         <div class="relative h-80 col-span-full  md:h-full col-span-full md:col-start-3 lg:col-start-4  my-8 md:my-0">
           <client-only>
@@ -36,7 +36,7 @@
       <elements-background :data="{style: 1}" />
     </div>
 
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-1 pt-16 grid grid-cols-2 gap-8  ">
+    <div class="mx-auto px-6 lg:px-8 max-w-7xl relative z-1 pt-16 grid grid-cols-2 gap-8  ">
       <div class="col-span-full lg:col-span-full">
         <div class="uppercase text-sm font-bold pb-4">Vestigingen</div>
         <elements-locations />

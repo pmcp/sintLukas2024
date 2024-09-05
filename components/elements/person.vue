@@ -9,7 +9,7 @@
 }" />
     </div>
     <div class="bg-white px-4 py-2 p-2 sm:px-2 md:py-4 w-full h-full">
-      <span class="font-bold">{{ thePerson.firstName }} {{  thePerson.lastName }}</span>
+      <span class="text-sm font-bold">{{ thePerson.firstName }} {{  thePerson.lastName }}</span>
     </div>
 </div>
 </template>

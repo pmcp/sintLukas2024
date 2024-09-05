@@ -1,5 +1,10 @@
 ## DOING
+- Feedback Pjotr: https://www.figma.com/design/QZVd1QQemebj2UjmSPl803/Feedback?node-id=0-1&node-type=CANVAS&t=arMTxJWPmcA0RWai-0
 - CMS preview toevoegen
+
+
+Nieuws: laatste 3
+
 
 # TODO
 - Add mailing list

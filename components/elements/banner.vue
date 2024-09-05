@@ -8,8 +8,8 @@
     />
     <div v-else class="h-full w-full">
       </div>
-    <div class="absolute z-30 h-full w-full pt-16 top-0">
-      <div class=" text-4xl leading-relaxed h-auto whitespace-pre-line mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+    <div class="absolute z-30 h-full w-full  pt-8 sm:pt-16 top-0">
+      <div class=" text-4xl leading-tight h-auto whitespace-pre-line mx-auto px-6 lg:px-8 max-w-7xl">
         {{ data.title }}
         </div>
     </div>
