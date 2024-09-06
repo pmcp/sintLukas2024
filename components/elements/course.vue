@@ -39,10 +39,11 @@
              </div>
 
              <div class="relative h-full" v-else-if="course.mainImage">
-               <elements-image transparent :image="course.mainImage" class="pmcp-duotone col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
-               <elements-image transparent :image="course.mainImage" class="col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
-               <div class="w-full h-full group-hover:opacity-10 transition-all  absolute top-0 left-0 mix-blend-overlay" :style="`background-color: ${course.cat.color}`"></div>
-               <div class="w-full h-full  group-hover:opacity-10 transition-all absolute top-0 left-0 mix-blend-lighten opacity-50" :style="`background-color: ${course.cat.color}`"></div>
+               <elements-image transparent :image="`${course.mainImage}`" class="pmcp-duotone col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
+<!--               <elements-image transparent :image="course.mainImage" class="pmcp-duotone col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>-->
+<!--               <elements-image transparent :image="course.mainImage" class="col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>-->
+<!--               <div class="w-full h-full group-hover:opacity-10 transition-all  absolute top-0 left-0 mix-blend-overlay" :style="`background-color: ${course.cat.color}`"></div>-->
+<!--               <div class="w-full h-full  group-hover:opacity-10 transition-all absolute top-0 left-0 mix-blend-lighten opacity-50" :style="`background-color: ${course.cat.color}`"></div>-->
              </div>
            </div>
            <template #footer >
