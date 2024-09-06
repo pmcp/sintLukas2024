@@ -1,7 +1,7 @@
 <template>
-  <UFooter class="bg-primary-200 border-b-4 border-accent-800  prose">
+  <UFooter class="bg-primary-200 border-b-4 border-accent-800 w-full">
     <template #top>
-      <div class="flex flex-col gap-8 w-full md:w-1/2">
+      <div class="flex flex-col gap-8 w-full md:w-1/2 prose ">
         <elements-markdown :markdownString="data.markdown" class="" />
         <elements-newsletter/>
       </div>
@@ -9,7 +9,7 @@
     </template>
 
     <template #left>
-      <p class="text-gray-500 dark:text-gray-400 text-sm ">
+      <p class="text-gray-500 dark:text-gray-400 text-sm prose ">
         <span>© {{ new Date().getFullYear() }}</span>
       </p>
 
