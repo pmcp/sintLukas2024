@@ -1,10 +1,9 @@
 <template>
   <div v-if="data.cover">
-
     <nuxtImg
         @click="emit('click', {url: data.cover, description: data.description})"
         class="col-span-1 h-full  w-full object-cover object-center bg-primary-200"
-        :src="data.cover" :alt="data.description"
+        :src="duotone && data.duotone ? data.duotone : data.cover" :alt="data.description"
         :class="[{ 'bg-transparent': transparent}, { '!object-contain': contain}, { 'hover:object-scale-down' : hoverEffect === 'zoom'}]"
     />
   </div>
@@ -26,7 +25,11 @@ const props = defineProps({
   hoverEffect: {
     type: String,
     default: 'zoom'
-  }
+  },
+  duotone: {
+    type: Boolean,
+    default: false
+  },
 });
 
 const emit = defineEmits(['click']);
