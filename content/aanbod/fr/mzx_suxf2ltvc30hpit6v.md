@@ -11,19 +11,19 @@ ateliers:
     images:
       - 1ztXeTlxxYuimz_6PgQue
     side1: >-
-      ### Materiaal
+      Materiaal
 
 
       Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
     id: PVG42qcToyKmr8RMt4i6D
     side2: >-
-      ### Studietraject
+      Studietraject
 
 
       Leerlingen die de opleiding Beeldende en Audiovisuele Kunsten volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
 
 
-      ### Uurrooster
+      Uurrooster
 
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
@@ -244,6 +244,9 @@ ateliers:
 
 
       ### Uurrooster
+
+
+      :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
   - id: JJmPgwpVR32QX04x30UVW
     title: Grafiekkunst
     markdown: >-
@@ -326,6 +329,9 @@ ateliers:
 
 
       ### Uurrooster
+
+
+      :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
     age: 4e graad + Specialisatie
     images:
       - rf7me0634S7qUaQmpG3qe

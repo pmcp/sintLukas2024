@@ -16,19 +16,19 @@ ateliers:
     images:
       - 1ztXeTlxxYuimz_6PgQue
     side1: >-
-      ### Materiaal
+      Materiaal
 
 
       Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
     id: PVG42qcToyKmr8RMt4i6D
     side2: >-
-      ### Studietraject
+      Studietraject
 
 
       Leerlingen die de opleiding Beeldende en Audiovisuele Kunsten volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
 
 
-      ### Uurrooster
+      Uurrooster
 
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
@@ -294,13 +294,11 @@ ateliers:
 
 
       :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
-  - id: xZKOEbeJdWAUbTYih-yD_
-    title: Schilderkunst
+  - mainImage: rf7me0634S7qUaQmpG3qe
     markdown: >-
-      ### Informatie over de opleiding Schilderkunst
-
-
-      Binnen de opleiding schilderkunst volg je het vak schilderkunst zowel op maandag als op donderdag. Op dinsdag kan je optioneel het vak modeltekenen volgen om jouw tekenvaardigheden te ontwikkelen.
+      Binnen de opleiding schilderkunst volg je het vak schilderkunst zowel op
+      maandag als op donderdag. Op dinsdag kan je optioneel het vak modeltekenen
+      volgen om jouw tekenvaardigheden te ontwikkelen.
 
 
       Deze opleiding laat je reizen doorheen de tijd. We ontmoeten diverse culturen en ontdekken rijke tradities. In dit proces, waarin onderzoek en experiment centraal staan, vertrek je vanuit je eigen gevoels- en gedachtewereld. Ervaar de verf in al zijn diverse aspecten: dun of dik, opaak of transparant, ... Druk je door middel van expressief kleurgebruik uit in helder of diffuus, warm of koud, sprankelend of beheerst, ... Ontwikkel een eigen schildertaal door op een authentieke manier met je borstel te bewegen. Ga op zoek naar originele standpunten, composities, lijnen, vlakken, texturen, ...
@@ -310,8 +308,11 @@ ateliers:
 
 
       Doorheen de opleiding zijn individueel proces en picturale ontwikkeling belangrijk voor startende alsook ervaren schilders. Via opdrachten, demonstraties en persoonlijke begeleiding maken we kennis met diverse aspecten en begrippen van het medium schilderkunst; de drager, beeldend onderzoek en het aanbrengen van de verf. Langs een waaier van kleur, staan we stil bij verschillende processen, kunsthistorisch tot experimenteel om het arsenaal te verbreden en om een eigen beeldtaal te ontwikkelen.
+    title: Schilderkunst
+    images:
+      - rf7me0634S7qUaQmpG3qe
     side1: >-
-      ### Materiaal
+      Materiaal
 
 
       Schildermateriaal: Basiskleuren acryl en/of olieverf, penselen en borstels: platte brede borstels, spalter, paletmes, vod, papier plakband tessa, palet, bokalen, gesso, ect.. Aan de start van het jaar overlopen we de benodigdheden voor meer info en duiding. Belangrijk; deze dien je zelf te voorzien en bouwen we stelselmatig bij doorheen het jaar. In het atelier is een kleine voorziening van materiaal voor demonstraties en testen.
@@ -324,8 +325,9 @@ ateliers:
 
 
       We zijn voorstander van experiment, low budget en recuperatie.
+    id: xZKOEbeJdWAUbTYih-yD_
     side2: >-
-      ### Studietraject
+      Studietraject
 
 
       Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: \[info.academie@sintlukas.brussels](<Studietraject
@@ -333,12 +335,11 @@ ateliers:
       Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
 
 
-      ### Uurrooster
+      Uurrooster
 
 
       :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
+    persons:
+      - zysyjvfvqwapcjl8lpuj9
     age: 4e graad + Specialisatie
-    images:
-      - rf7me0634S7qUaQmpG3qe
-    mainImage: rf7me0634S7qUaQmpG3qe
 ---
