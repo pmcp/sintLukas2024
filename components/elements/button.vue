@@ -20,11 +20,11 @@
     </template>
     <slot />
   </UButton>
-  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" v-if="flavor === 2"  :ui="{ rounded: 'rounded-none',  padding: {
+  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" v-if="flavor === 2" color="my"  :ui="{ rounded: 'rounded-none',  padding: {
     '2xs': 'px-2 py-3',
     xs: 'px-4 py-3',
     sm: 'px-4 py-3'
-  }, color: {'my': {solid: 'shadow-none ring-none text-black font-bold bg-primary-300 hover:bg-primary-400 disabled:bg-white dark:bg-gray-900 dark:hover:bg-gray-800/50 dark:disabled:bg-gray-900 focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',ghost: 'text-gray-900 dark:text-white hover:bg-white dark:hover:bg-gray-900 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',}}}" class="w-fit">
+  }, color: {'my': {solid: ' no-underline shadow-none ring-none text-black font-bold bg-primary-300 hover:bg-primary-400 disabled:bg-white dark:bg-gray-900 dark:hover:bg-gray-800/50 dark:disabled:bg-gray-900 focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',ghost: 'text-gray-900 dark:text-white hover:bg-white dark:hover:bg-gray-900 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',}}}" class="w-fit">
     <template #leading>
       <svg-icon-download v-if="download" class=" w-4 h-4"/>
     </template>
