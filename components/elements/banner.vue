@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full relative mb-12 md:mb-16 h-96 z-0">
+  <div class="w-full relative mb-12 md:mb-16 z-0" :class="image.cover ? 'h-96' : 'h-60'">
 
     <nuxtImg v-if="image.cover"
         class="h-full w-full object-cover object-center relative z-20"
@@ -7,7 +7,7 @@
         :alt="image.description"
     />
     <div v-else class="h-full w-full">
-      </div>
+    </div>
     <div class="absolute z-30 h-full w-full  pt-8 sm:pt-16 top-0">
       <div class=" text-4xl leading-tight h-auto whitespace-pre-line mx-auto px-6 lg:px-8 max-w-7xl">
         {{ data.title }}

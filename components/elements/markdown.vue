@@ -16,5 +16,5 @@ watchEffect(async () => {
 </script>
 
 <template>
-  <ContentRendererMarkdown :value="record" v-if="record" />
+  <ContentRendererMarkdown :value="record" v-if="record" class="prose-a:font-normal" />
 </template>

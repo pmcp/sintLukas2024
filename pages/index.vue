@@ -10,7 +10,7 @@
 
           <!-- BLOCK: NEWS-->
           <div v-if="news" class="flex flex-col gap-4 col-span-1">
-            <span class="uppercase text-sm font-bold">Nieuws</span>
+            <span class="uppercase font-bold">Nieuws</span>
             <elements-news :articles="news" class=""/>
             <elements-news :articles="news" class=""/>
             <elements-news :articles="news" class=""/>
@@ -20,8 +20,8 @@
 
           <!-- BLOCK: AANBOD-->
           <div v-if="page.block_courses" class="flex flex-col gap-4 col-span-1">
-            <span class="uppercase text-sm font-bold">Aanbod</span>
-            <div class="prose-xl">{{ page.block_courses.title }}</div>
+            <span class="uppercase font-bold">Aanbod</span>
+            <div class=" text-2xl">{{ page.block_courses.title }}</div>
             <elements-categories class="col-span-1 mt-8 sticky top-28"/>
           </div>
         </div>
@@ -39,7 +39,7 @@
 
             <div class="col-span-1">
               <div class=" sticky top-28 flex flex-col gap-2 ">
-              <span class="uppercase text-sm font-bold">{{ page.block_about.label }}</span>
+              <span class="uppercase font-bold">{{ page.block_about.label }}</span>
               <span class="text-2xl">{{ page.block_about.title }}</span>
               <span class="prose">{{ page.block_about.text }}</span>
               </div>
@@ -60,11 +60,11 @@
 
         <!-- BLOCK: CALENDAR -->
         <template v-if="page.block_calendar">
-          <div class="relative z-1 grid grid-cols-2 gap-4 mt-16 col-span-2">
-            <div class=" col-span-full md:col-span-1 bg-white p-4 grid gap-4">
+          <div class="relative z-1 grid grid-cols-2  mt-16 col-span-2">
+            <div class=" col-span-full md:col-span-1 bg-white p-4 md:p-4 grid gap-4">
 
-              <span class="uppercase text-sm font-bold">{{ page.block_calendar.label }}</span>
-              <div class="text-sm">{{ page.block_calendar.text }}</div>
+              <span class="uppercase font-bold">{{ page.block_calendar.label }}</span>
+              <div>{{ page.block_calendar.text }}</div>
 
               <elements-button :flavor="2" :to="page.block_calendar.buttonLink">
                 {{ page.block_calendar.buttonText }}
