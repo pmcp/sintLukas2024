@@ -46,3 +46,10 @@
     margin-top: 0;
 
 }
+
+.pmcp-prose_sidebar h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+
+}

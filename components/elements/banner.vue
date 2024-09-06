@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full relative ">
+  <div class="w-full relative mb-12 md:mb-16 h-96 z-0">
 
     <nuxtImg v-if="image.cover"
         class="h-full w-full object-cover object-center relative z-20"

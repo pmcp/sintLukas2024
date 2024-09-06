@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout class="relative ">
     <!-- BLOCK: BANNER-->
-    <elements-banner class="mb-16 h-80 " grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
+    <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
 
 
     <div class="mx-auto px-6 lg:px-8 max-w-7xl">

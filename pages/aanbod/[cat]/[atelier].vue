@@ -1,13 +1,21 @@
 <template >
   <NuxtLayout class="relative">
-    <elements-banner :data="{ title: '', image: atelier.mainImage }" class="mb-12 md:mb-16 h-60"/>
+    <elements-banner :data="{ title: '', image: atelier.mainImage }"/>
     <div class="mx-auto px-6 lg:px-8 max-w-7xl grid grid-cols-1 gap-8 ">
-      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 md:gap-16">
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-8">
         <div>
-          <h1 class="text-4xl md:pt-8 col-span-2 pb-2">{{ atelier.title }}</h1>
-          <div class="text-1xl col-span-2 font-bold">{{ atelier.age }}</div>
+          <h1 class="text-4xl md:pt-4 col-span-2 pb-1">{{ atelier.title }}</h1>
+          <div class="text-1xl col-span-2 font-bold ">{{ atelier.age }}</div>
         </div>
-        <elements-text :text="atelier.markdown" :side1="atelier.side1" :side2="atelier.side2" class="col-span-2" />
+        <div class="grid md:grid-cols-2 col-span-full gap-4 md:gap-0">
+          <elements-markdown :markdownString="atelier.markdown" class="col-span-1 prose pr-0 md:pr-8"/>
+          <div class="col-span-1 grid grid-cols-1 lg:grid-cols-3">
+            <elements-markdown :markdownString="atelier.side1" class="col-span-1 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar"/>
+            <elements-markdown :markdownString="atelier.side2" class="col-span-2 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0"/>
+          </div>
+
+          <!--        <elements-text :text="atelier.markdown" :side1="atelier.side1" :side2="atelier.side2" class="col-span-2" />-->
+        </div>
       </div>
       <div v-if="atelier.persons && atelier.images"><elements-background :data="{style: 1}" /></div>
 
