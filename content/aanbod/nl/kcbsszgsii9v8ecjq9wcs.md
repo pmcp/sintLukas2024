@@ -15,4 +15,5 @@ ateliers:
     images: []
     title: Ateliers
     age: 12-18 jaar
+    showSubtitleOnCard: true
 ---

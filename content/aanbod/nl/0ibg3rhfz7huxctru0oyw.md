@@ -11,4 +11,5 @@ ateliers:
     mainImage: B-EnVc7BXt09SUbR6tx67
     markdown: test kunstkuur
     age: test kunstkuur
+    showSubtitleOnCard: false
 ---

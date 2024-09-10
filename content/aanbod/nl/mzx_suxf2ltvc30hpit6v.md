@@ -6,6 +6,7 @@ color: "#edbaa6"
 background: /assets/uploads/1.jpg
 ateliers:
   - mainImage: hLs-N0Edep-DQWeoEzQHv
+    showSubtitleOnCard: false
     markdown: >-
       Binnen de opleiding Beeldende en Audiovisuele Kunsten volg je het vak
       Beeldende en audiovisuele kunsten op maandagavond.
@@ -36,6 +37,7 @@ ateliers:
       - 56ncog9kbawmtcx0xbzgr
     age: 4e graad + Specialisatie
   - id: NuOyl3knrqBuVTO-T-yaG
+    showSubtitleOnCard: false
     markdown: >-
       ### Informatie over de opleiding Fotokunst
 
@@ -70,6 +72,7 @@ ateliers:
 
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
   - id: y-a-wEcmvd7WTIDmQpJnr
+    showSubtitleOnCard: false
     markdown: >-
       ### Informatie over de opleiding Grafisch Ontwerp en Illustratie
 
@@ -128,6 +131,7 @@ ateliers:
 
       :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
   - id: CVmWrDQKUKREP3dNmOvWt
+    showSubtitleOnCard: false
     title: Interieurontwerp
     age: 4e graad + Specialisatie
     mainImage: bAun78jPdd1BpbRLc7iJU
@@ -168,6 +172,7 @@ ateliers:
 
       :dispatch{:data='{"download":["drOVF1wOW2GfxcHOQUWiq"]}' type='downloads'}
   - id: HLPp8M36kkiMVr3MHNx70
+    showSubtitleOnCard: false
     title: Modeltekenen
     age: 4e graad + Specialisatie
     mainImage: owBUqHnSHJiZGmI2ErqCo
@@ -210,6 +215,7 @@ ateliers:
 
       :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
   - id: n5upPonOG5BkWdek5a_3h
+    showSubtitleOnCard: false
     title: Tekenkunst
     markdown: >-
       ### Informatie over de opleiding Tekenkunst
@@ -253,6 +259,7 @@ ateliers:
 
       :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
   - id: JJmPgwpVR32QX04x30UVW
+    showSubtitleOnCard: false
     title: Grafiekkunst
     markdown: >-
       Informatie over de opleiding Grafiekkunst
@@ -295,6 +302,7 @@ ateliers:
 
       :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
   - mainImage: rf7me0634S7qUaQmpG3qe
+    showSubtitleOnCard: false
     markdown: >-
       Binnen de opleiding schilderkunst volg je het vak schilderkunst zowel op
       maandag als op donderdag. Op dinsdag kan je optioneel het vak modeltekenen

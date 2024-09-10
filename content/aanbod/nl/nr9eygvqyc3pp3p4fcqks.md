@@ -5,6 +5,7 @@ order: 1
 color: "#C2E1CF"
 ateliers:
   - id: RCydY_ZJM4Y01JnPzBRrR
+    showSubtitleOnCard: true
     markdown: "Je maakt op een ludieke manier kennis met verschillende technieken:
       schilderen, tekenen, collages maken, sculpturen kneden in klei,
       fotograferen, etsen, ... Laat je verwonderen door de rijke wereld van

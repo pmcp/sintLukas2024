@@ -11,4 +11,5 @@ ateliers:
     mainImage: vpj3nM4dml8uo6rkYNuny
     markdown: test track
     age: test track
+    showSubtitleOnCard: false
 ---
