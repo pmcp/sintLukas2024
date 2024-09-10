@@ -4,7 +4,7 @@
     <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
 
 
-    <div class="mx-auto px-6 lg:px-8 max-w-7xl">
+    <div class="mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
         <div class="col-span-full grid grid-cols-1 md:grid-cols-[1fr_1px_1fr] gap-8">
 
@@ -49,13 +49,13 @@
         </template>
 
       </UPageGrid>
-
+    </div>
       <!-- START GRID BACKGROUND -->
       <div class="mt-8">
         <elements-background :data="{style: 1}" />
       </div>
 
-      <UPageGrid class="mx-auto md:px-6 lg:px-8 max-w-7xl xl:grid-cols-2">
+      <UPageGrid class="mx-auto px-0 md:px-6 lg:px-8 max-w-7xl xl:grid-cols-2">
 
 
         <!-- BLOCK: CALENDAR -->
@@ -85,7 +85,7 @@
           </div>
         </template>
       </UPageGrid>
-    </div>
+
   </NuxtLayout>
 </template>
 <script setup>
