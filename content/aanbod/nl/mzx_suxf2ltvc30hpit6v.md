@@ -52,7 +52,7 @@ ateliers:
 
       Of je instapt als starter of gevorderden, kunnen wij als leerkrachten mee beslissen en adviseren. Dit doen we aan de hand van de evaluatie op het einde van het schooljaar; een intakegesprek voor je start; of via voorgaande realisaties (bijvoorbeeld via je portfolio).
     title: Fotokunst
-    age: 4e graad + Specialisatie
+    age: 18+
     mainImage: pyf8LsA-qen2uUH6ah6ZO
     side1: |-
       ### Materiaal
@@ -69,6 +69,9 @@ ateliers:
 
 
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
+    persons:
+      - 7y4sqfcm0fl4ayvoov5d
+      - spbeak-ryguwpwrlfqtnp
   - id: y-a-wEcmvd7WTIDmQpJnr
     markdown: >-
       ### Informatie over de opleiding Grafisch Ontwerp en Illustratie
