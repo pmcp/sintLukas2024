@@ -10,8 +10,8 @@
         <div class="grid md:grid-cols-2 col-span-full gap-4 md:gap-0">
           <elements-markdown :markdownString="atelier.markdown" class="col-span-1 prose pr-0 md:pr-8"/>
           <div class="col-span-1 grid grid-cols-1 lg:grid-cols-3">
-            <elements-markdown :markdownString="atelier.side1" class="col-span-1 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar"/>
-            <elements-markdown :markdownString="atelier.side2" class="col-span-2 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0"/>
+            <elements-markdown v-if="atelier.side1" :markdownString="atelier.side1" class="col-span-1 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar"/>
+            <elements-markdown v-if="atelier.side2" :markdownString="atelier.side2" class="col-span-2 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0"/>
           </div>
 
           <!--        <elements-text :text="atelier.markdown" :side1="atelier.side1" :side2="atelier.side2" class="col-span-2" />-->
@@ -44,7 +44,7 @@
 <script setup>
 const route = useRoute()
 // Get the category
-const { data: cat } = await useAsyncData(`cat-${route.params.cat}`, () => queryContent('/aanbod/nl/')
+const { data: cat, error } = await useAsyncData(`cat-${route.params.cat}`, () => queryContent('/aanbod/nl/')
     .where({ id: route.params.cat })
     .findOne()
 )
