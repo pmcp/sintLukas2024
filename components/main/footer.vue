@@ -2,7 +2,7 @@
   <UFooter class="bg-primary-200 border-b-4 border-accent-800 w-full">
     <template #top>
       <div class="flex flex-col gap-8 w-full md:w-1/2 prose ">
-        <elements-markdown :markdownString="data.markdown" class="" />
+        <elements-markdown v-if="data.markdown" :markdownString="data.markdown" class="" />
         <elements-newsletter/>
       </div>
 

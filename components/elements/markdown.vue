@@ -8,11 +8,8 @@ const props = defineProps({
   }
 });
 
-const record = ref("");
+const record = await markdownParser.parse("custom.md", props.markdownString)
 
-watchEffect(async () => {
-  await markdownParser.parse("custom.md", props.markdownString).then((md) => record.value = md);
-});
 </script>
 
 <template>
