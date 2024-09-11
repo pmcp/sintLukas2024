@@ -16,7 +16,6 @@ function random(numbers) {
 
 const randomImage = `url(assets/site/Textuur-${random([1,2,3])}.svg)`
 
-console.log(randomImage)
 const style = {
   backgroundColor: props.color,
   backgroundSize: 'contain',
