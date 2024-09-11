@@ -1,6 +1,6 @@
 <template>
 
-  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" size="xl" class="hover:bg-primary-100 w-fit" v-if="flavor === 0" color="black" variant="outline" :ui="{padding: {
+  <UButton :to="url" :download="download.length > 0" :target="download.length > 0 ? '_blank' : '_self'" size="xl" class="hover:bg-primary-100 w-fit no-underline	" v-if="flavor === 0" color="black" variant="outline" :ui="{padding: {
     '2xs': 'px-2 py-3',
     xs: 'px-4 py-3',
     sm: 'px-4 py-3'
@@ -16,6 +16,7 @@
     sm: 'px-4 py-3'
   },}" class="w-fit">
     <template #leading>
+
       <svg-icon-download v-if="download" class=" w-4 h-4"/>
     </template>
 
