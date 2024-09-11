@@ -1,11 +1,22 @@
 <template>
-  <div v-if="data.cover">
+  <div
+      v-if="data.cover"
+      @click="emit('click', {url: data.cover, description: data.description})"
+  >
+    <div class="absolute top-0 left-0 h-full w-full">
+      <nuxtImg
+          v-if="duotone && data.duotone"
+          class="object-cover object-center bg-primary-200  hover:opacity-50 transition-all ease-in duration-200"
+          :src="data.duotone" :alt="data.description"
+      />
+    </div>
     <nuxtImg
         @click="emit('click', {url: data.cover, description: data.description})"
         class="col-span-1 h-full  w-full object-cover object-center bg-primary-200"
-        :src="duotone && data.duotone ? data.duotone : data.cover" :alt="data.description"
+        :src="data.cover" :alt="data.description"
         :class="[{ 'bg-transparent': transparent}, { '!object-contain': contain}, { 'hover:object-scale-down' : hoverEffect === 'zoom'}]"
     />
+
   </div>
 </template>
 <script setup>

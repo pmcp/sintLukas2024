@@ -28,8 +28,9 @@
         }">
 
          <div class="overflow-hidden h-24">
-           <div class="relative h-full" v-if="course.mainImage">
-             <elements-image transparent :image="`${course.mainImage}`" duotone class=" col-span-1 h-full w-full object-cover object-center hover:object-scale-down"/>
+           <div class="relative h-full" v-if="course.mainImage" :style="`background-color: ${course.cat.color}`">
+
+             <elements-image transparent :image="`${course.mainImage}`" duotone class=" col-span-1 h-full w-full object-cover object-center " hoverEffect="none"/>
            </div>
 
          </div>
