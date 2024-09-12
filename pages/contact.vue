@@ -1,5 +1,6 @@
 <template>
-  <NuxtLayout v-if="data" class="relative">
+
+<!--  <NuxtLayout v-if="data" class="relative">-->
     <elements-banner key="banner-contact" :data="{ title: '', image: data.images }" />
     <div class="mx-auto px-6 lg:px-8 max-w-7xl">
 
@@ -42,7 +43,7 @@
         <elements-locations />
       </div>
     </div>
-  </NuxtLayout>
+<!--  </NuxtLayout>-->
 </template>
 
 <script setup>

@@ -1,5 +1,6 @@
 <template>
-  <NuxtLayout class="relative" v-if="data">
+
+<!--  <NuxtLayout class="relative" v-if="data">-->
       <elements-banner :data="{ title: '', image: data.images }"/>
     <UPageGrid :ui="{wrapper: 'mx-auto px-6 lg:px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 md:gap-16'}">
       <div class="flex flex-col col-span-full md:col-span-2 gap-8 md:gap-16">
@@ -41,7 +42,7 @@
     </UPageGrid>
 <!--    <pre>{{ data }}</pre>-->
 
-  </NuxtLayout>
+<!--  </NuxtLayout>-->
 </template>
 
 <script setup>

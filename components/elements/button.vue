@@ -14,7 +14,7 @@
     '2xs': 'px-2 py-3',
     xs: 'px-4 py-3',
     sm: 'px-4 py-3'
-  },}" class="w-fit">
+  },}" class="w-fit no-underline">
     <template #leading>
 
       <svg-icon-download v-if="download" class=" w-4 h-4"/>
@@ -30,7 +30,7 @@
       solid: 'shadow-sm text-black bg-primary-200 hover:bg-primary-400 disabled:bg-gray-900 dark:bg-white dark:hover:bg-gray-100 dark:disabled:bg-white focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',
       // link: 'text-gray-900 dark:text-white underline-offset-4 hover:underline focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400',
     },
-  }}" class="w-fit">
+  }}" class="w-fit no-underline">
     <template #leading>
       <svg-icon-download v-if="download" class=" w-4 h-4"/>
     </template>

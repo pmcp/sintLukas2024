@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout class="relative">
+<!--  <NuxtLayout class="relative">-->
     <elements-banner :data="{ title: '', image: data.images }" />
     <elements-container class="mx-auto px-6 lg:px-8 max-w-7xl">
 
@@ -23,7 +23,7 @@
         <elements-persons />
       </div>
     </div>
-  </NuxtLayout>
+<!--  </NuxtLayout>-->
 </template>
 
 <script setup>

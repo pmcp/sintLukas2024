@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout class="relative ">
+<!--  <NuxtLayout class="relative ">-->
     <!-- BLOCK: BANNER-->
     <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
 
@@ -86,7 +86,7 @@
         </template>
       </UPageGrid>
 
-  </NuxtLayout>
+<!--  </NuxtLayout>-->
 </template>
 <script setup>
 // Get the Homepage Id
