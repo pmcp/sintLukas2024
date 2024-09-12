@@ -305,7 +305,8 @@ ateliers:
 
       :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
   - mainImage: rf7me0634S7qUaQmpG3qe
-    showSubtitleOnCard: false
+    showSubtitleOnCard: false 
+    id: xZKOEbeJdWAUbTYih-yD_
     markdown: >-
       Binnen de opleiding schilderkunst volg je het vak schilderkunst zowel op
       maandag als op donderdag. Op dinsdag kan je optioneel het vak modeltekenen
@@ -336,7 +337,7 @@ ateliers:
 
 
       We zijn voorstander van experiment, low budget en recuperatie.
-    id: xZKOEbeJdWAUbTYih-yD_
+    
     side2: >-
       Studietraject
 

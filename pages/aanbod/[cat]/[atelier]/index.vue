@@ -1,5 +1,5 @@
 <template >
-  <NuxtLayout class="relative">
+  <NuxtLayout class="relative" v-if="atelier">
     <elements-banner :data="{ title: '', image: atelier.mainImage }"/>
     <div class="mx-auto px-6 lg:px-8 max-w-7xl grid grid-cols-1 gap-8 ">
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-8">
@@ -44,12 +44,10 @@
 <script setup>
 const route = useRoute()
 // Get the category
-const { data: cat, error } = await useAsyncData(`cat-${route.params.cat}`, () => queryContent('/aanbod/nl/')
+const { data: cat } = await useAsyncData('home', () => queryContent('aanbod', 'nl')
     .where({ id: route.params.cat })
     .findOne()
 )
-
-// Get the atelier
 const atelier = cat.value.ateliers.find(x => x.id === route.params.atelier)
 
 </script>
