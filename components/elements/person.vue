@@ -24,7 +24,6 @@ const props = defineProps({
 
 let thePerson
 if(props.person) {
-  console.log(props.person)
   const { data } = await useAsyncData(`person-${props.person}`, () => queryContent(`persons/nl`)
       .where({ title: props.person })
       .findOne()

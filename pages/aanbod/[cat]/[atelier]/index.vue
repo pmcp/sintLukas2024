@@ -44,7 +44,6 @@
 <script setup>
 const route = useRoute()
 // Get the category
-console.log('CAT', route.params.cat)
 // For some reason I can't get it working with "where", so I'm brute forcing it: get all categories, then find the one I want
 const { data: cat } = await useAsyncData('home', () => queryContent('aanbod', 'nl')
     // .where({ id: route.params.cat })
@@ -52,11 +51,6 @@ const { data: cat } = await useAsyncData('home', () => queryContent('aanbod', 'n
 )
 
 const theCat = cat.value.find(x => x.id === route.params.cat)
-console.log('THECAT', theCat)
-
-
 const atelier = theCat.ateliers.find(x => x.id === route.params.atelier)
-
-console.log('ATELIER', atelier)
 
 </script>
