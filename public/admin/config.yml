@@ -545,9 +545,8 @@ collections:
     format: 'frontmatter'
     summary: '{{order}} - {{nl}}'
     fields:
-      - { label: NL, name: nl, widget: string }
-      - { label: FR, name: fr, widget: string, required: false }
       - { label: ID, name: id, widget: uuid }
+      - { label: "Titel", name: nl, widget: string }
       - label: "Volgorde"
         name: "order"
         widget: "number"

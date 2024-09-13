@@ -1,6 +1,7 @@
 window.previewDataCMS = {};
 const GeneratePreview = (type, properties = []) => createClass({
     render: function () {
+        console.log(this.props)
         const { entry } = this.props;
         const data = { type };
         const keys = (properties || []);
@@ -29,5 +30,7 @@ const GeneratePreview = (type, properties = []) => createClass({
         return h('div', { dangerouslySetInnerHTML: { __html: html } });
     },
 });
+
 CMS.registerPreviewTemplate('pages', GeneratePreview('pages', ['title', 'intro', 'elements', 'image']));
+CMS.registerPreviewTemplate('aanbod', GeneratePreview('aanbod', ['title', 'intro', 'elements', 'image']));
 // CMS.registerPreviewTemplate('locations', GeneratePreview('locations', ['title']));

@@ -1,8 +1,26 @@
 <template>
-<!--  <NuxtLayout class="relative ">-->
     <!-- BLOCK: BANNER-->
     <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
 
+
+<!-- WIP: NEW BANNER WITH ANIMATION-->
+<!--            <div class="w-full relative mb-12 md:mb-16 z-0 h-96">-->
+<!--              <div class="w-full h-full relative z-20 grid grid-cols-16 grid-rows-8 ">-->
+<!--                <div class="row-start-2 row-end-4 col-start-2">-->
+<!--                  <svg-eyes />-->
+<!--                </div>-->
+<!--                <div class="row-start-2 row-end-4 col-start-10">-->
+<!--                  <svg-eyes />-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div class="absolute z-30 h-full w-full  pt-8 sm:pt-16 top-0">-->
+<!--                <div class=" text-4xl leading-tight h-auto whitespace-pre-line mx-auto px-6 lg:px-8 max-w-7xl">-->
+<!--                  {{ page.block_banner.title }}-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="z-10 absolute h-full w-full top-0 left-0 background-grid"></div>-->
+<!--            </div>-->
 
     <div class="mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
       <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
@@ -86,7 +104,6 @@
         </template>
       </UPageGrid>
 
-<!--  </NuxtLayout>-->
 </template>
 <script setup>
 // Get the Homepage Id
