@@ -1,6 +1,6 @@
 ---
-nl: Volwassenen
 id: MZX_sUXF2lTVC30HPIt6V
+nl: Volwassenen
 order: 3
 color: "#edbaa6"
 background: /assets/uploads/1.jpg
@@ -76,6 +76,7 @@ ateliers:
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
     persons:
       - 7y4sqfcm0fl4ayvoov5d
+      - auxjfntkzy0pfd9ynappr
     age: 18+
   - id: y-a-wEcmvd7WTIDmQpJnr
     showSubtitleOnCard: false
