@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-clip w-full">
+  <div class="relative overflow-clip w-full">
     <main-header class="z-40"/>
     <UPage>
       <UPageBody :ui="{ wrapper: 'mt-0 '}">
