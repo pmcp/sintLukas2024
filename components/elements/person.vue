@@ -24,10 +24,13 @@ const props = defineProps({
 
 let thePerson
 if(props.person) {
-  const { data } = await useAsyncData(`person-${props.person}`, () => queryContent(`persons/nl`)
-      .where({ title: props.person })
+  const personId = props.person
+  const { data } = await useAsyncData(`person-${personId}`, () => queryContent('persons', 'nl')
+      .where({ title: personId })
       .findOne()
   )
+
+  console.log(props.person, data)
   thePerson = data
 }
 
