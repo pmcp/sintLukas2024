@@ -1,5 +1,5 @@
 <template >
-  <NuxtLayout class="relative" v-if="atelier">
+  <div class="relative" v-if="atelier">
     <elements-banner :data="{ title: '', image: atelier.mainImage }"/>
     <div class="mx-auto px-6 lg:px-8 max-w-7xl grid grid-cols-1 gap-8 ">
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-8">
@@ -21,7 +21,7 @@
 
 
       <div class=" relative z-1">
-        <elements-container class="mx-auto px-6 lg:px-8 max-w-7xl">
+        <elements-container class="">
           <div v-if="atelier.persons" class="col-span-2 grid gap-4">
             <h2 class="text-lg uppercase font-bold">Leerkrachten</h2>
             <elements-persons  :persons="atelier.persons" />
@@ -38,7 +38,7 @@
 
 
 
-  </NuxtLayout>
+  </div>
 </template>
 
 <script setup>
