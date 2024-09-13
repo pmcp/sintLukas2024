@@ -15,6 +15,5 @@ const props = defineProps({
 const { data } = await useAsyncData(`download-${props.download}`, () => queryContent(`media/downloads/`)
     .where({ id: props.download })
     .findOne())
-console.log(data)
 
 </script>

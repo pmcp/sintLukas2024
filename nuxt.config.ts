@@ -27,16 +27,6 @@ export default defineNuxtConfig({
   image: {
     provider: 'netlify'
   },
-  compatibilityDate: '2024-08-22',
-  head: { script: [ { src: "_nuxt/assets/scripts/mailerlite.js"} ] }
-  // content: {
-  //   navigation: {
-  //     fields: ['title']
-  //   }
-  // }
-  // content: {
-  //   markdown: {
-  //     tags: { dispatch: 'dispatch'}
-  //   }
-  // }
+  compatibilityDate: '2024-08-22'
+
 })

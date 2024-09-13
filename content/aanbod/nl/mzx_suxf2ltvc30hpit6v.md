@@ -73,7 +73,6 @@ ateliers:
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
     persons:
       - 7y4sqfcm0fl4ayvoov5d
-      - spbeak-ryguwpwrlfqtnp
   - id: y-a-wEcmvd7WTIDmQpJnr
     showSubtitleOnCard: false
     markdown: >-
@@ -351,7 +350,5 @@ ateliers:
 
 
       :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
-    persons:
-      - zysyjvfvqwapcjl8lpuj9
     age: 4e graad + Specialisatie
 ---
