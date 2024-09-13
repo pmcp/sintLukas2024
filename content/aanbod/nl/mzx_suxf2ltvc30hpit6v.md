@@ -17,32 +17,36 @@ ateliers:
     images:
       - 1ztXeTlxxYuimz_6PgQue
     side1: >-
-      Materiaal
+      ### Materiaal
 
 
       Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
     id: PVG42qcToyKmr8RMt4i6D
     side2: >-
-      Studietraject
+      ### Studietraject
 
 
       Leerlingen die de opleiding Beeldende en Audiovisuele Kunsten volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
 
 
-      Uurrooster
+      ### Uurrooster
 
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
     persons:
       - 56ncog9kbawmtcx0xbzgr
-    age: 4e graad + Specialisatie
-  - id: NuOyl3knrqBuVTO-T-yaG
+    age: 18+
+  - mainImage: pyf8LsA-qen2uUH6ah6ZO
     showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Fotokunst
-
-
-      Binnen de opleiding Fotokunst kies je ervoor als starter het vak Fotokunst (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak Fotokunst (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden te combineren en op die manier sneller in de praktijk te brengen wat je leert. Ook kan je op donderdag les volgen, deze lesuren worden grotendeels gebundeld op andere dagen (bijvoorbeeld een lezing op woensdag, een atelierbezoek op zaterdag, een expobezoek op zondag...); de kalender hiervoor ontvang je in september.
+      Binnen de opleiding Fotokunst kies je ervoor als starter het vak Fotokunst
+      (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak
+      Fotokunst (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden
+      te combineren en op die manier sneller in de praktijk te brengen wat je
+      leert. Ook kan je op donderdag les volgen, deze lesuren worden grotendeels
+      gebundeld op andere dagen (bijvoorbeeld een lezing op woensdag, een
+      atelierbezoek op zaterdag, een expobezoek op zondag...); de kalender
+      hiervoor ontvang je in september.
 
 
       In deze opleiding staat de fascinatie voor het fotografisch beeld centraal. Fotografie is veelzijdig en alomtegenwoordig in onze huidige beeldcultuur. Al doende leer je de basis opname- en bewerkingstechnieken, zowel digitaal als analoog. We gaan de straat op om samen te fotograferen, werken in de studio met artificiële lichtbronnen en verkennen de digitale mogelijkheden van Photoshop. Tegelijk met de opdrachten en technieken breidt je je referentiekader uit. Via onderzoek, experiment en analyse ontdek je de fotografische beeldtaal. Zo word je stapsgewijs ondergedompeld in de rijkdom van het fotografische beeld. Ook kan je in de donkere kamer de magie beleven door er jouw foto’s te ontwikkelen. Het is niet verplicht om analoog te werken, die mogelijkheid wordt aangeboden. Je krijgt de kans om verschillende fotografische mogelijkheden, toepassingen en technieken te proeven. Je wordt individueel begeleid in het artistiek proces, van concept tot presentatie. Gaandeweg worden opdrachten opener en word je gestimuleerd om jouw verhaal uit te drukken via foto’s. Je wordt ondersteund in het ontwikkelen van een persoonlijke visie over het medium fotografie. Uitstappen worden veelal in het weekend georganiseerd, éénmaal per maand en richten zich op het verkennen en verdiepen van het (hedendaagse) veld. Ze geven je de mogelijkheid om de fotograaf achter het werk te leren kennen; om originele werken in een tentoonstelling context te ervaren en om daarover met elkaar in gesprek te gaan. Ze leren je het medium vanuit verschillende standpunten kennen. Ze verscherpen je blik. Het werkt inspirerend en tegelijk leer je reflecteren over het medium.
@@ -54,12 +58,11 @@ ateliers:
 
       Of je instapt als starter of gevorderden, kunnen wij als leerkrachten mee beslissen en adviseren. Dit doen we aan de hand van de evaluatie op het einde van het schooljaar; een intakegesprek voor je start; of via voorgaande realisaties (bijvoorbeeld via je portfolio).
     title: Fotokunst
-    age: 18+
-    mainImage: pyf8LsA-qen2uUH6ah6ZO
     side1: |-
       ### Materiaal
 
       (digitale) camera, schetsboek
+    id: NuOyl3knrqBuVTO-T-yaG
     side2: >-
       ### Studietraject
 
@@ -73,6 +76,8 @@ ateliers:
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
     persons:
       - 7y4sqfcm0fl4ayvoov5d
+      - spbeakryguwpwrlfqtnp
+    age: 18+
   - id: y-a-wEcmvd7WTIDmQpJnr
     showSubtitleOnCard: false
     markdown: >-
@@ -173,13 +178,8 @@ ateliers:
 
 
       :dispatch{:data='{"download":["drOVF1wOW2GfxcHOQUWiq"]}' type='downloads'}
-  - id: HLPp8M36kkiMVr3MHNx70
+  - mainImage: owBUqHnSHJiZGmI2ErqCo
     showSubtitleOnCard: false
-    title: Modeltekenen
-    age: 4e graad + Specialisatie
-    mainImage: owBUqHnSHJiZGmI2ErqCo
-    images:
-      - owBUqHnSHJiZGmI2ErqCo
     markdown: >-
       ### Informatie over de opleiding Modeltekenen
 
@@ -191,6 +191,9 @@ ateliers:
 
 
       Je krijgt wekelijks tekenles naar levend model. Tijdens deze lessen staat het menselijk naaktmodel centraal als onderwerp in de ontwikkeling van een eigen beeldtaal. Via diverse materialen (potlood, houtskool, acryl- of olieverf, pastel, bister, collage, ...) verken je de mogelijkheden van technieken en experiment om jouw observatie naar beeldend werk om te vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur, compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de anatomie van het menselijk lichaam en verscherp je gevoel voor detail. Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
+    title: Modeltekenen
+    images:
+      - owBUqHnSHJiZGmI2ErqCo
     side1: >-
       ### Materiaal
 
@@ -205,6 +208,7 @@ ateliers:
       * Tekenmateriaal: 3 potloden (2B - 4B - 8B) volstaan om te starten. In een volgende fase is het interessant om jouw arsenaal uit te breiden met bijvoorbeeld houtskool, pastelkrijt, bister of inkt. Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
 
       * Tape: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
+    id: HLPp8M36kkiMVr3MHNx70
     side2: >-
       ### Studietraject
 
@@ -216,9 +220,9 @@ ateliers:
 
 
       :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
-  - id: n5upPonOG5BkWdek5a_3h
+    age: 4e graad + Specialisatie
+  - mainImage: hLs-N0Edep-DQWeoEzQHv
     showSubtitleOnCard: false
-    title: Tekenkunst
     markdown: >-
       ### Informatie over de opleiding Tekenkunst
 
@@ -233,8 +237,7 @@ ateliers:
 
 
       Heb je al wat basiskennis van het tekenen, dan volg je het atelier op maandag: Tekenkunst Verdieping. Hier gaan we verder aan de slag met die basis. We ontdekken de ruime mogelijkheden van de tekenkunst en verdiepen ons verder in de bouwstenen van het tekenen. We stellen ons vragen zoals: hoe ontstaat een tekening,hoe kan je spelen met de beeldelementen en hoe kan je jouw verhaal vertellen in een tekening? We gaan thematisch en inhoudelijk op zoek naar wat tekenen inhoudt. Met welke materialen en technieken ga jij op zoek naar een persoonlijke beeldtaal? We vertrekken van zowel waarneming, verbeelding en eigen beeldmateriaal. Gaandeweg ontwikkelen we een eigen traject aan de hand van concrete uitdagingen en persoonlijke feedback. We werken aan de hand van verschillende concrete thema’s, deze worden op een persoonlijke manier uitgewerkt en onderzocht. Materialen en technieken worden samen onder de loep genomen en dienen als basis voor het persoonlijke traject. Er is veel ruimte en aandacht voor experiment en onderzoek, dit aan de hand van persoonlijke begeleiding en klassikale oefeningen. Er worden linken gelegd met zowel de hedendaagse tekenkunst als de kunstgeschiedenis.
-    age: 4e graad + Specialisatie
-    mainImage: hLs-N0Edep-DQWeoEzQHv
+    title: Tekenkunst
     images:
       - hLs-N0Edep-DQWeoEzQHv
     side1: >-
@@ -249,6 +252,7 @@ ateliers:
       * Schetsboek: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
 
       * Tekenmateriaal: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+    id: n5upPonOG5BkWdek5a_3h
     side2: >-
       ### Studietraject
 
@@ -260,9 +264,9 @@ ateliers:
 
 
       :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
-  - id: JJmPgwpVR32QX04x30UVW
+    age: 4e graad + Specialisatie
+  - mainImage: bEupy1xJNz-ucFY8RQe4L
     showSubtitleOnCard: false
-    title: Grafiekkunst
     markdown: >-
       Informatie over de opleiding Grafiekkunst
 
@@ -274,8 +278,7 @@ ateliers:
 
 
       Op dinsdagavond wordt het Grafiekatelier ingericht, waarbij de klassieke grafische technieken op het programma. Je maakt kennis met allerhande druktechnieken: linosnede, collografie, steendruk of lithografie, zeefdruk, ets, ... Je kan er eindeloos experimenteren door verschillende dragers uit te testen (papier, karton, hout, textiel, ... ) en door technieken te combineren. met linken naar de kunstgeschiedenis, de rijke culturele geschiedenis van grafische beelden en met linken naar tekenkunst. Binnen de opdrachten stimuleren we je persoonlijke ontwikkelingsproces. Onderzoek en experiment staan centraal in de ontplooiing van een authentieke visuele beeldtaal. We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld.
-    age: 4e graad + Specialisatie
-    mainImage: bEupy1xJNz-ucFY8RQe4L
+    title: Grafiekkunst
     images:
       - bEupy1xJNz-ucFY8RQe4L
     side1: >-
@@ -292,6 +295,7 @@ ateliers:
       * Voor digitaal drukwerk zoals zeefdruk films wordt een bijdrage gevraagd van 3€ voor A3+ formaat
 
       * Je voorziet je eigen basismateriaal (een set goede potloden, een schetsboek, een lat, een gom en een schort). Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... (gutsen, etsnaalden, inkt, vernis, zuren...) wordt voorzien door de academie, maar indien gewenst kan je dit zelf aankopen.
+    id: JJmPgwpVR32QX04x30UVW
     side2: >-
       ### Studietraject
 
@@ -303,9 +307,9 @@ ateliers:
 
 
       :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
+    age: 4e graad + Specialisatie
   - mainImage: rf7me0634S7qUaQmpG3qe
-    showSubtitleOnCard: false 
-    id: xZKOEbeJdWAUbTYih-yD_
+    showSubtitleOnCard: false
     markdown: >-
       Binnen de opleiding schilderkunst volg je het vak schilderkunst zowel op
       maandag als op donderdag. Op dinsdag kan je optioneel het vak modeltekenen
@@ -336,7 +340,7 @@ ateliers:
 
 
       We zijn voorstander van experiment, low budget en recuperatie.
-    
+    id: xZKOEbeJdWAUbTYih-yD_
     side2: >-
       Studietraject
 
