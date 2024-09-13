@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-clip w-full">
     <main-header class="z-40"/>
-    <UPage :class="grid ? 'background-grid' : ''">
+    <UPage>
       <UPageBody :ui="{ wrapper: 'mt-0 '}">
         <slot />
       </UPageBody>
@@ -9,11 +9,3 @@
     <main-footer />
   </div>
 </template>
-<script setup>
-defineProps({
-  grid: {
-    type: Boolean,
-    default: false
-  }
-})
-</script>

@@ -1,5 +1,5 @@
 <template>
-  <nuxt-layout grid>
+  <div class="background-grid">
     <elements-banner key="banner-aanbod" :data="{ title: 'Vind jouw atelier. \nOntdek onze extra muros projecten.'}"/>
     <div class="mx-auto px-6 lg:px-8 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:grid-cols-[1fr_1fr_1px_1fr] gap-16">
       <div class="w-full col-span-full md:col-span-full lg:col-span-2 grid grid-cols-1 md:grid-cols-2 w-full items-end gap-8 max-w-2xl	">
@@ -17,7 +17,7 @@
       </div>
 
     </div>
-  </nuxt-layout>
+  </div>
 
 </template>
 
