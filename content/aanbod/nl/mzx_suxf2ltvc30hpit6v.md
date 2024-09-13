@@ -76,7 +76,7 @@ ateliers:
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
     persons:
       - 7y4sqfcm0fl4ayvoov5d
-      - aUXJFNTkzy0pfd9YnAppR
+      - auxjfntkzy0pfd9ynappr
     age: 18+
   - id: y-a-wEcmvd7WTIDmQpJnr
     showSubtitleOnCard: false
