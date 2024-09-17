@@ -17,7 +17,7 @@ media_folder: /public/assets/uploads
 public_folder: /assets/uploads
 
 
-#publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 
 slug:
@@ -57,6 +57,7 @@ collections:
         name: 'footer'
         file: 'content/site/footer.json'
         format: 'json'
+        preview_path: test
         editor:
           preview: false
         fields:
@@ -86,12 +87,11 @@ collections:
                 multiple: false
                 max_file_size: 1024000 # in bytes, only for default media library
 
-  # FIXED PAGED
+  # FIXED PAGES
 
   - label: "Paginas"
     name: "fixedpages"
     files:
-
       # HOMEPAGE
       - label: "Startpagina"
         name: "homepage"

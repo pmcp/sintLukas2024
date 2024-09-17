@@ -1,15 +1,12 @@
 <template>
-  <pre>{{ data }}</pre>
-  <main v-if="data ">
-    <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl " :elements="data.elements"/>
-  </main>
+  <pages-homepage v-if="Object.keys(page).length" :page="page" />
 </template>
 
 <script setup>
 
 import { onMounted } from 'vue';
 
-const data = ref({})
+const page = ref({})
 
 onMounted(() => {
   setInterval(() => {
@@ -23,7 +20,7 @@ onMounted(() => {
         previewData = current.previewDataCMS;
       }
     }
-    data.value = JSON.parse(JSON.stringify(previewData));
+    page.value = JSON.parse(JSON.stringify(previewData));
   }, 1000);
 
 

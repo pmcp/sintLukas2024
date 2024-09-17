@@ -1,13 +1,11 @@
 ## DOING
-- Feedback Pjotr: https://www.figma.com/design/QZVd1QQemebj2UjmSPl803/Feedback?node-id=0-1&node-type=CANVAS&t=arMTxJWPmcA0RWai-0
-- CMS preview toevoegen
-
-
-Nieuws: laatste 3
-
+- Animatie banner
+  - Decided met Pjotr: geanimeerde versie in totaal, als svg, en ik zet er dan css animaties op. 
 
 # TODO
-- Add mailing list
+- Mailing not working
+- CMS preview toevoegen
+
 - category toevoegen voor fotos
 - Reset Password flow not working
 - Back button voor ateliers

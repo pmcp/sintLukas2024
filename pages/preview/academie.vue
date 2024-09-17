@@ -1,15 +1,21 @@
 <template>
-  <pre>{{ data }}</pre>
-  <main v-if="data ">
-    <elements-container class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl " :elements="data.elements"/>
-  </main>
+  <div>
+    <NuxtLayout name="preview">
+      <pages-academie v-if="Object.keys(page).length" :data="page" />
+    </NuxtLayout>
+  </div>
+
 </template>
 
 <script setup>
 
 import { onMounted } from 'vue';
 
-const data = ref({})
+definePageMeta({
+  layout: false,
+})
+
+const page = ref({})
 
 onMounted(() => {
   setInterval(() => {
@@ -20,10 +26,11 @@ onMounted(() => {
       current = current.parent;
       n += 1;
       if (current.previewDataCMS) {
+        page.value = {}
         previewData = current.previewDataCMS;
       }
     }
-    data.value = JSON.parse(JSON.stringify(previewData));
+    page.value = JSON.parse(JSON.stringify(previewData));
   }, 1000);
 
 

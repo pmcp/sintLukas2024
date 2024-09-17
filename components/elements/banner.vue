@@ -27,14 +27,28 @@ const props = defineProps({
   }
 });
 
-let image = {}
+let image = ref({})
 
 if(props.data.image) {
   const { data: gotImage } = await useAsyncData(`image-${props.data.image}`, () => queryContent('media/images')
       .where({ id: props.data.image })
       .findOne())
+  console.log('gotImage', gotImage)
   image = gotImage
 
 }
+
+const imageId = computed(() => props.data.image)
+
+watch(imageId, async (newId, oldId) => {
+  if(newId === oldId) return
+  const newImage = await queryContent('media/images')
+      .where({ id: newId })
+      .findOne()
+  console.log('gotImage', newImage)
+  if(newImage) image = newImage
+
+})
+
 
 </script>

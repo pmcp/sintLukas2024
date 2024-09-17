@@ -8,10 +8,26 @@ const props = defineProps({
   }
 });
 
-const record = await markdownParser.parse("custom.md", props.markdownString)
+const record = ref("");
+
+record.value = await markdownParser.parse("custom.md", props.markdownString)
+
+const markdown = computed(() => props.markdownString)
+
+watch(markdown, async (newString, oldString) => {
+  if(newString === oldString) return
+  await markdownParser
+      .parse("custom.md", props.markdownString)
+      .then((md) => record.value = md)
+
+})
+
 
 </script>
 
 <template>
-  <ContentRendererMarkdown :value="record" v-if="record" class="prose-a:font-normal" />
+  <div class="prose-a:font-normal" v-if="record">
+    <ContentRendererMarkdown :value="record" />
+  </div>
+
 </template>
