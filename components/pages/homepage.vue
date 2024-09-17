@@ -1,7 +1,18 @@
 <template>
   <!-- BLOCK: BANNER-->
-  <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>
+<!--  <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>-->
 
+
+  <div class="w-full relative mb-12 md:mb-16 z-0 h-48 sm:h-96">
+
+    <svg-banner class="w-full sm:w-auto sm:h-full absolute z-20 right-0"/>
+    <div class="absolute z-30 h-full w-full  pt-8 sm:pt-16 top-0">
+      <div class=" text-4xl leading-tight h-auto whitespace-pre-line mx-auto px-6 lg:px-8 max-w-7xl">
+        {{ page.block_banner.title }}
+      </div>
+    </div>
+    <div class="z-10 absolute h-full w-full top-0 left-0 background-grid"></div>
+  </div>
 
   <!-- WIP: NEW BANNER WITH ANIMATION-->
   <!--            <div class="w-full relative mb-12 md:mb-16 z-0 h-96">-->
