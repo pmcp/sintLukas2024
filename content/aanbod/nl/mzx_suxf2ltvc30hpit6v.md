@@ -34,7 +34,7 @@ ateliers:
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
     persons:
-      - 56ncog9kbawmtcx0xbzgr
+      - zu6yrth076tbnhu1eo1sm
     age: 18+
   - mainImage: pyf8LsA-qen2uUH6ah6ZO
     showSubtitleOnCard: false
