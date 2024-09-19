@@ -1,5 +1,5 @@
 <template>
-  {{ format(date, "long", "nl") }}
+  {{ format(new Date(date), "long", "nl") }}
 </template>
 <script setup>
 import { format } from "@formkit/tempo"
