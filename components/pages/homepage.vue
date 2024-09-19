@@ -41,8 +41,6 @@
         <div v-if="news" class="flex flex-col gap-4 col-span-1">
           <span class="uppercase font-bold">Nieuws</span>
           <elements-news :articles="news" class=""/>
-          <elements-news :articles="news" class=""/>
-          <elements-news :articles="news" class=""/>
         </div>
 
         <div class="h-full bg-black-100 w-full"></div>
