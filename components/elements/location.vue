@@ -8,7 +8,8 @@
             :options="{
             style: 'mapbox://styles/mapbox/light-v11', // style URL
             center: JSON.parse(data.location).coordinates, // starting position
-            zoom: 14 // starting zoom
+            zoom: 14, // starting zoom
+            scrollZoom: false,
           }">
           <MapboxDefaultMarker :marker-id="`locationMarker-${location}`" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
           </MapboxDefaultMarker>
