@@ -10,6 +10,11 @@ const { data: cat } = await useAsyncData('home', () => queryContent('aanbod', 'n
     // .where({ id: route.params.cat })
     .find()
 )
-const theCat = cat.value.find(x => x.id === route.params.cat)
-const atelier = theCat.ateliers.find(x => x.id === route.params.atelier)
+
+// Reverse find the atelier, by finding the category, then the atelier
+const sanitize = (str) => {
+  return str.replaceAll(' ', '-').replaceAll('/', '-').replaceAll('&', '-').replaceAll('?', '-').toLocaleLowerCase()
+}
+const theCat = cat.value.find(x => sanitize(x.nl) === route.params.cat)
+const atelier = theCat.ateliers.find(x => sanitize(x.title) === route.params.atelier)
 </script>

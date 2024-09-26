@@ -23,7 +23,7 @@
           </div>
         </div>
 
-        <nuxt-link v-else v-for="c in courses.filter(c => !c.cat.side)" :key="`courses_${c.cat.id}`" :to="`/aanbod/${c.cat.id}/${c.id}`" class="w-full mb-2">
+        <nuxt-link v-else v-for="c in courses.filter(c => !c.cat.side)" :key="`courses_${c.cat.id}`" :to="getUrl(c)" class="w-full mb-2">
           <elements-course :course="c" :show-subtitle="c.showSubtitleOnCard" class="grow mb-2"/>
         </nuxt-link>
 
@@ -52,6 +52,17 @@ const props = defineProps(['data', 'preview'])
 let courses = [];
 
 let activeCourse = ref({})
+
+const sanitize = (str) => {
+  return str.replaceAll(' ', '-').replaceAll('/', '-').replaceAll('&', '-').replaceAll('?', '-').toLocaleLowerCase()
+}
+
+const getUrl = (c) => {
+  const catNameSafe = sanitize(c.cat.nl)
+  const courseNameSafe = sanitize(c.title)
+  return `/aanbod/${catNameSafe}/${courseNameSafe}`
+}
+
 
 const getCourses = (data) => {
   for (const cat in data) {
