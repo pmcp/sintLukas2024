@@ -5,7 +5,7 @@
 
   <div class="w-full relative mb-12 md:mb-16 z-0 h-48 sm:h-96 ">
     <div class="relative mx-auto px-6 lg:px-8 max-w-7xl h-full">
-      <div class="sm:w-auto sm:h-full absolute z-20 left-0">
+      <div class="w-full sm:h-full absolute z-20 left-0">
         <svg-banner class="w-full h-full"/>
       </div>
     </div>
