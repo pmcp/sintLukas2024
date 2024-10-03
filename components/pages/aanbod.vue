@@ -4,7 +4,7 @@
 
     <UModal v-model="isOpen" >
       <div class="p-4">
-        < v-if="activeCourse" :data="activeCourse" />
+<!--        < v-if="activeCourse" :data="activeCourse" />-->
 
 <!--        <Placeholder class="h-48" />-->
       </div>
