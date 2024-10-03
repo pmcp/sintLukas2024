@@ -15,6 +15,10 @@ const { data: cat } = await useAsyncData('home', () => queryContent('aanbod', 'n
 const sanitize = (str) => {
   return str.replaceAll(' ', '-').replaceAll('/', '-').replaceAll('&', '-').replaceAll('?', '-').toLocaleLowerCase()
 }
-const theCat = cat.value.find(x => sanitize(x.nl) === route.params.cat)
-const atelier = theCat.ateliers.find(x => sanitize(x.title) === route.params.atelier)
+
+if(cat) {
+  const theCat = cat.value.find(x => sanitize(x.nl) === route.params.cat)
+  const atelier = theCat.ateliers.find(x => sanitize(x.title) === route.params.atelier)
+}
+
 </script>
