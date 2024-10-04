@@ -16,11 +16,12 @@ const getAanbod = async () => {
   const { data: cat } = await useAsyncData('home', () => queryContent('aanbod', 'nl')
       .find()
   )
+  console.log('cat', cat)
   const theCat = cat.value.find(x => sanitize(x.nl) === route.params.cat)
-  const atelier = theCat.ateliers.find(x => sanitize(x.title) === route.params.atelier)
+  return theCat.ateliers.find(x => sanitize(x.title) === route.params.atelier)
 
 }
 
-getAanbod()
+const atelier = await getAanbod()
 
 </script>
