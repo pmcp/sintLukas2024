@@ -10,8 +10,8 @@
         <div class="grid md:grid-cols-2 col-span-full gap-4 md:gap-0">
           <elements-markdown :markdownString="myData.markdown" class="col-span-1 prose pr-0 md:pr-8"/>
           <div class="col-span-1 grid grid-cols-1 lg:grid-cols-3">
-            <elements-markdown v-if="myData.side1" :markdownString="myData.side1" class="col-span-1 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar"/>
-            <elements-markdown v-if="myData.side2" :markdownString="myData.side2" class="col-span-2 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0"/>
+            <elements-markdown v-if="myData.side1" :markdownString="myData.side1" class="h-fit col-span-1 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar"/>
+            <elements-markdown v-if="myData.side2" :markdownString="myData.side2" class="h-fit col-span-2 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0"/>
           </div>
 
           <!--        <elements-text :text="myData.markdown" :side1="myData.side1" :side2="myData.side2" class="col-span-2" />-->
