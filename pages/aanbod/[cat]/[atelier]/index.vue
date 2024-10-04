@@ -16,12 +16,8 @@ const getAanbod = async () => {
   const { data: cat } = await useAsyncData('ateliersCat', () => queryContent('aanbod', 'nl')
       .find()
   )
-  console.log('cat', cat.value)
-  if(cat.value.length === 0) return
   const theCat = cat.value.find(x => sanitize(x.nl) === route.params.cat)
-
   return theCat.ateliers.find(x => sanitize(x.title) === route.params.atelier)
-
 }
 
 const atelier = await getAanbod()
