@@ -33,7 +33,6 @@ if(props.data.image) {
   const { data: gotImage } = await useAsyncData(`image-${props.data.image}`, () => queryContent('media/images')
       .where({ id: props.data.image })
       .findOne())
-  console.log('gotImage', gotImage)
   image = gotImage
 
 }
@@ -45,7 +44,6 @@ watch(imageId, async (newId, oldId) => {
   const newImage = await queryContent('media/images')
       .where({ id: newId })
       .findOne()
-  console.log('gotImage', newImage)
   if(newImage) image = newImage
 
 })

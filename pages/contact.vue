@@ -34,7 +34,7 @@
 
 
     <div class="mt-8">
-      <elements-background :data="{style: 1}" />
+<!--      <elements-background :data="{style: 1}" />-->
     </div>
 
     <div class="mx-auto px-6 lg:px-8 max-w-7xl relative z-1 pt-16 grid grid-cols-2 gap-8  ">

@@ -1,22 +1,25 @@
 <template>
   <div class="bg-white self-stretch">
     <div class="h-40 w-full relative">
+
       <client-only>
         <MapboxMap
             style="width: 100%; height: 100%;"
             :map-id="location"
             :options="{
             style: 'mapbox://styles/mapbox/light-v11', // style URL
-            center: JSON.parse(data.location).coordinates, // starting position
+            center: lnglat, // starting position
             zoom: 14, // starting zoom
             scrollZoom: false,
           }">
-          <MapboxDefaultMarker :marker-id="`locationMarker-${location}`" :options="{}" :lnglat="JSON.parse(data.location).coordinates">
+
+
+
+          <MapboxDefaultMarker :marker-id="`locationMarker-${$route.name}-${location}`" :options="{}" :lnglat="lnglat">
           </MapboxDefaultMarker>
         </MapboxMap>
       </client-only>
     </div>
-
   <div class="p-4">
     <div class="font-bold text-sm">{{ data.name }}</div>
     <div class="text-xs">
@@ -28,12 +31,14 @@
         Bekijk in Google Maps
       </a>
     </div>
-
   </div>
   </div>
 </template>
 
 <script setup>
+const route = useRoute()
+
+
 const props = defineProps({
   location: {
     type: String,
@@ -43,6 +48,11 @@ const props = defineProps({
 
 const { data } = await useAsyncData(`location-${props.location}`, () => queryContent(props.location)
     .findOne())
+
+// console.log('data', data.value.)
+const lnglat = computed(() => JSON.parse(data.value.location).coordinates)
+
+
 
 const getCoordinates = (location) => {
   const coords = JSON.parse(location).coordinates

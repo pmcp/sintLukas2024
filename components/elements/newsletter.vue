@@ -5,7 +5,7 @@
 useHead({
   script: [
     {
-      src: "~/assets/scripts/mailerlite.js",
+      src: "assets/scripts/mailerlite.js",
       type: "text/javascript",
       async: true,
     }
