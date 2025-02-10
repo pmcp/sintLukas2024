@@ -15,7 +15,7 @@
 
 
 
-          <MapboxDefaultMarker :marker-id="`locationMarker-${location}`" :options="{}" :lnglat="lnglat">
+          <MapboxDefaultMarker :marker-id="`locationMarker-${$route.name}-${location}`" :options="{}" :lnglat="lnglat">
           </MapboxDefaultMarker>
         </MapboxMap>
 <!--      </client-only>-->
