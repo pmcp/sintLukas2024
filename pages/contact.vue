@@ -11,7 +11,7 @@
             <elements-markdown :markdownString="location.info" class="prose"/>
           </div>
         <div class="relative h-80 col-span-full  md:h-full col-span-full md:col-start-3 lg:col-start-4  my-8 md:my-0">
-          <client-only>
+<!--          <client-only>-->
             <MapboxMap
                 map-id="main_location"
                 :options="{
@@ -27,7 +27,7 @@
               >
               </MapboxDefaultMarker>
             </MapboxMap>
-          </client-only>
+<!--          </client-only>-->
         </div>
       </UPageGrid>
     </div>

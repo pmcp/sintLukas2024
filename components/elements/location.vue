@@ -2,7 +2,7 @@
   <div class="bg-white self-stretch">
     <div class="h-40 w-full relative">
 
-      <client-only>
+<!--      <client-only>-->
         <MapboxMap
             style="width: 100%; height: 100%;"
             :map-id="location"
@@ -18,7 +18,7 @@
           <MapboxDefaultMarker :marker-id="`locationMarker-${$route.name}-${location}`" :options="{}" :lnglat="lnglat">
           </MapboxDefaultMarker>
         </MapboxMap>
-      </client-only>
+<!--      </client-only>-->
     </div>
   <div class="p-4">
     <div class="font-bold text-sm">{{ data.name }}</div>
