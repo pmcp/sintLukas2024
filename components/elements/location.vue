@@ -1,6 +1,7 @@
 <template>
   <div class="bg-white self-stretch" >
       <div :class="[fillheight ? 'h-full' : 'h-40']">
+    <client-only>
         <MapboxMap
             style="width: 100%; height: 100%;"
             :map-id="location"
@@ -13,8 +14,8 @@
           <MapboxDefaultMarker :marker-id="`locationMarker-${$route.name}-${location}`" :options="{}" :lnglat="lnglat">
           </MapboxDefaultMarker>
         </MapboxMap>
+      </client-only>
       </div>
-<!--      </client-only>-->
         <div class="pb-5 pt-2 px-2 bg-third-50" v-if="showAddress">
           <div class="font-bold text-sm">{{ data.name }}</div>
           <div class="text-xs">

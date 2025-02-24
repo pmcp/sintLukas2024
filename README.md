@@ -2,6 +2,9 @@
 
 
 # TODO
+- Locations issue
+- Add rich text to contact page
+- Add selection for which school to put as "hoofdschool" in contact page
 - Add links to socials, also in cms
 - Mailing not working
 - CMS preview toevoegen
