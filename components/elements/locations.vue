@@ -1,11 +1,13 @@
 <template>
-  <div v-if="theLocs" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 w-full items-end gap-4 md:gap-4 h-auto">
+  <div style="container-type: inline-size;">
+  <div v-if="theLocs" class="location grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 w-full items-end gap-4 md:gap-4 h-auto">
     <elements-location
         v-for="l in theLocs"
         :location="l._path"
         :key="l._path"
         showAddress
     />
+  </div>
   </div>
 </template>
 <script setup>
@@ -39,3 +41,11 @@ if(props.locations) {
 
 
 </script>
+
+<style>
+@container (max-width: 580px) {
+  .location {
+    grid: auto-flow / 1fr 1fr;
+  }
+}
+</style>
