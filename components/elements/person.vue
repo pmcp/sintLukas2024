@@ -9,7 +9,7 @@
   rounded: 'rounded-none',
 }" />
     </div>
-    <div class="bg-white px-4 py-2 p-2 sm:px-2 md:py-4 h-full">
+    <div class="bg-white px-2 py-1 p-2 h-full">
       <span class="text-sm font-bold">{{ thePerson.firstName }} {{  thePerson.lastName }}</span>
     </div>
 </div>

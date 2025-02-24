@@ -1,8 +1,6 @@
 <template>
-  <div class="bg-white self-stretch">
-    <div class="h-40 w-full relative">
-
-<!--      <client-only>-->
+  <div class="bg-white self-stretch" >
+      <div :class="[fillheight ? 'h-full' : 'h-40']">
         <MapboxMap
             style="width: 100%; height: 100%;"
             :map-id="location"
@@ -12,62 +10,53 @@
             zoom: 14, // starting zoom
             scrollZoom: false,
           }">
-
-
-
           <MapboxDefaultMarker :marker-id="`locationMarker-${$route.name}-${location}`" :options="{}" :lnglat="lnglat">
           </MapboxDefaultMarker>
         </MapboxMap>
+      </div>
 <!--      </client-only>-->
+        <div class="pb-5 pt-2 px-2 bg-third-50" v-if="showAddress">
+          <div class="font-bold text-sm">{{ data.name }}</div>
+          <div class="text-xs">
+            <div>{{ data.street }}</div>
+            <div>{{ data.zip }} {{ data.city }}</div>
+          </div>
+          <div>
+            <a class="opacity-50 text-xs" target="_blank" :href="`https://maps.google.com/?ll=${getCoordinates(data.location)}`">
+              Bekijk in Google Maps
+            </a>
+          </div>
+        </div>
     </div>
-  <div class="p-4">
-    <div class="font-bold text-sm">{{ data.name }}</div>
-    <div class="text-xs">
-      <div>{{ data.street }}</div>
-      <div>{{ data.zip }} {{ data.city }}</div>
-    </div>
-    <div>
-      <a class="opacity-50 text-xs" target="_blank" :href="`https://maps.google.com/?ll=${getCoordinates(data.location)}`">
-        Bekijk in Google Maps
-      </a>
-    </div>
-  </div>
-  </div>
+
 </template>
 
 <script setup>
-const route = useRoute()
-
-
 const props = defineProps({
-  location: {
-    type: String,
-    required: true,
-  }
-});
+      location: {
+        type: String,
+        required: true
+      },
+      showAddress: {
+        type: Boolean,
+        default: false
+      },
+      fillheight: {
+        type: Boolean,
+        default: false
+      }
+    }
+);
 
-const { data } = await useAsyncData(`location-${props.location}`, () => queryContent(props.location)
-    .findOne())
+const { data } = await useAsyncData(`location-${props.location}`, () => queryContent(props.location).findOne())
 
-// console.log('data', data.value.)
 const lnglat = computed(() => JSON.parse(data.value.location).coordinates)
 
 
 
 const getCoordinates = (location) => {
   const coords = JSON.parse(location).coordinates
-  const newCoords = `${coords[1]},${coords[0]}`
-  return newCoords
-}
-
-const cardUi = {
-  body: { padding: 'px-0 py-0 p-0 sm:p-0'},
-  divide: 'divide-none',
-  shadow: 'shadow-none',
-  rounded: 'rounded-none',
-  ring: 'ring-0 ',
-  header: {base: 'dropdown-label'},
-  footer: {base: 'dropdown-content'}
+  return `${coords[1]},${coords[0]}`
 }
 
 </script>
@@ -75,6 +64,10 @@ const cardUi = {
 <style>
 .mapboxgl-marker path {
   fill: #c1e1d1;
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
 }
 
 </style>

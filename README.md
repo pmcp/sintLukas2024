@@ -2,6 +2,7 @@
 
 
 # TODO
+- Add links to socials, also in cms
 - Mailing not working
 - CMS preview toevoegen
 - category toevoegen voor fotos

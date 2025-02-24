@@ -28,9 +28,7 @@ slug:
 
 collections:
 
-
-  # SETTINGS
-  - label: 'Instellingen'
+  - label: 'Algemene instellingen'
     name: 'site'
     files:
       - label: 'Info'
@@ -87,9 +85,16 @@ collections:
                 multiple: false
                 max_file_size: 1024000 # in bytes, only for default media library
 
-  # FIXED PAGES
+  # SETTINGS
+  - label: "structuur"
+    name: "Structuur"
+    folder: "_posts/blog"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
 
-  - label: "Paginas"
+  # FIXED PAGES
+  - label: "Vaste Pagina's"
     name: "fixedpages"
     files:
       # HOMEPAGE
@@ -254,12 +259,67 @@ collections:
           - { label: "Kalender", name: text4, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"], i18n: true }
           - { label: "Inschrijvingsgelden", name: text5, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"], i18n: true }
 
+
+  # AANBOD
+  - name: 'aanbod'
+    sortable_fields: [ 'order', 'title']
+    i18n: true
+    label: 'Aanbod'
+    label_singular: 'aanbod'
+    identifier_field: id
+    folder: 'content/aanbod'
+    create: true
+    format: 'frontmatter'
+    summary: '{{order}} - {{nl}}'
+    fields:
+      - { label: ID, name: id, widget: uuid }
+      - { label: "Titel", name: nl, widget: string }
+      - label: "Volgorde"
+        name: "order"
+        widget: "number"
+        default: 0
+        value_type: "int"
+      - { label: 'Kleur', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+      - label: "Textuur"
+        name: "texture"
+        widget: "select"
+        options:
+          - { label: "Bolletjes", value: "2" }
+          - { label: "Potloodstrepen", value: "1" }
+      - label: "Achtergrond afbeelding"
+        required: false
+        name: "background"
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+      - {label: "In zijbalk", name: "side", widget: "boolean", default: false, required: false}
+      - label: "Ateliers & Andere Activiteiten"
+        label_singular: 'Item'
+        identifier_field: id
+        name: "ateliers"
+        widget: "list"
+        summary: '{{fields.title}} - {{fields.age}}'
+        fields:
+          - { label: ID, name: id, widget: uuid }
+          - { label: 'Titel', name: 'title', widget: 'string', required: true, i18n: true }
+          - { label: 'Leeftijd (of andere ondertitel', name: 'age', widget: 'string', required: true, i18n: true }
+          - {label: "Toon leeftijd (of ondertitel) op kaartje", name: "showSubtitleOnCard", widget: "boolean", default: true, required: false}
+          - { label: "Personen", multiple: true, name: "persons", widget: "relation", collection: "persons", search_fields: [ "firstName", "lastName" ], value_field: "{{slug}}", required: false, display_fields: [ "{{firstName}} {{lastName}}" ]}
+          - { label: "Afbeeldingen", name: "images", widget: "relation", collection: "images", multiple: true, search_fields: [ "description", "file" ], display_fields: [ "{{description}}" ], value_field: "{{id}}", required: false}
+          - { label: "Hoofdafbeelding", name: "mainImage", widget: "relation", collection: "images", multiple: false, search_fields: [ "description", "file" ], display_fields: [ "{{description}}" ], value_field: "{{id}}", required: false}
+          - { label: "Text", name: markdown, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+          - { label: "Zij tekst 1", name: side1, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+          - { label: "Zij tekst 2", name: side2, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+
+
+
   # EXTRA PAGES
   - name: 'extra'
     summary: "{{title}}"
     sortable_fields: [ 'created', 'title' ]
     i18n: true
-    label: 'Extra Paginas'
+    label: "Extra Pagina's"
     label_singular: 'Pagina'
     folder: 'content/pages'
     create: true
@@ -533,51 +593,31 @@ collections:
             multiple: false
 
 
-  # AANBOD
-  - name: 'aanbod'
-    sortable_fields: [ 'order', 'title']
-    i18n: true
-    label: 'Aanbod'
-    label_singular: 'aanbod'
-    identifier_field: id
-    folder: 'content/aanbod'
+  - label: "inhoud"
+    name: "Inhoud"
+    folder: "_posts/sadf"
     create: true
-    format: 'frontmatter'
-    summary: '{{order}} - {{nl}}'
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+
+
+  # NEWS
+  - label: "Nieuws"
+    identifier_field: id
+    name: "news"
+    folder: "content/news"
+    create: true
+    summary: "{{title}}"
     fields:
       - { label: ID, name: id, widget: uuid }
-      - { label: "Titel", name: nl, widget: string }
-      - label: "Volgorde"
-        name: "order"
-        widget: "number"
-        default: 0
-        value_type: "int"
-      - { label: 'Kleur', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
-      - label: "Achtergrond afbeelding"
-        required: false
-        name: "background"
-        widget: "image"
-        media_library:
-          config:
-            multiple: false
-      - {label: "In zijbalk", name: "side", widget: "boolean", default: false, required: false}
-      - label: "Ateliers & Andere Activiteiten"
-        label_singular: 'Item'
-        identifier_field: id
-        name: "ateliers"
-        widget: "list"
-        summary: '{{fields.title}} - {{fields.age}}'
-        fields:
-          - { label: ID, name: id, widget: uuid }
-          - { label: 'Titel', name: 'title', widget: 'string', required: true, i18n: true }
-          - { label: 'Leeftijd (of andere ondertitel', name: 'age', widget: 'string', required: true, i18n: true }
-          - {label: "Toon leeftijd (of ondertitel) op kaartje", name: "showSubtitleOnCard", widget: "boolean", default: true, required: false}
-          - { label: "Personen", multiple: true, name: "persons", widget: "relation", collection: "persons", search_fields: [ "firstName", "lastName" ], value_field: "{{slug}}", required: false, display_fields: [ "{{firstName}} {{lastName}}" ]}
-          - { label: "Afbeeldingen", name: "images", widget: "relation", collection: "images", multiple: true, search_fields: [ "description", "file" ], display_fields: [ "{{description}}" ], value_field: "{{id}}", required: false}
-          - { label: "Hoofdafbeelding", name: "mainImage", widget: "relation", collection: "images", multiple: false, search_fields: [ "description", "file" ], display_fields: [ "{{description}}" ], value_field: "{{id}}", required: false}
-          - { label: "Text", name: markdown, widget: markdown, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
-          - { label: "Zij tekst 1", name: side1, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
-          - { label: "Zij tekst 2", name: side2, widget: markdown, required: false, buttons: ["bold", "italic", "link", "heading-three", "bulleted-list", "numbered-list"] }
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Aangemaakt op", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", default: "{{now}}"}
+      - {label: "Afbeelding", name: "image", widget: "image"}
+      - {label: "Image Description", name: "alt", widget: "string"}
+      - {label: "Text", name: "text", widget: "text"}
+      - {label: "Link", name: "link", widget: "string", required: false }
+
+
 
   # LOCATIONS
   - name: 'locations'
@@ -627,21 +667,14 @@ collections:
             multiple: false
 
 
-  # NEWS
-  - label: "Nieuws"
-    identifier_field: id
-    name: "news"
-    folder: "content/news"
+
+  - label: "media"
+    name: "Media"
+    folder: "_posts/sefsdfwsf"
     create: true
-    summary: "{{title}}"
     fields:
-      - { label: ID, name: id, widget: uuid }
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Aangemaakt op", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", default: "{{now}}"}
-      - {label: "Afbeelding", name: "image", widget: "image"}
-      - {label: "Image Description", name: "alt", widget: "string"}
-      - {label: "Text", name: "text", widget: "text"}
-      - {label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Title", name: "title", widget: "string" }
+
 
 
   # IMAGES
@@ -660,21 +693,6 @@ collections:
       - { label: "Duotone", name: "duotone", widget: "image" }
 
 
-  # VIDEOS
-  - label: "Videos"
-    identifier_field: id
-    name: "videos"
-    folder: "content/media/videos"
-    label_singular: "Video"
-    summary: "{{date | date('YYYY-MM-DD')}}: {{description}} ({{url}})"
-    create: true
-    fields:
-      - { label: ID, name: id, widget: uuid }
-      - { label: "Aangemaakt op", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", default: "{{now}}"}
-      - { label: "Omschrijving", name: "description", widget: "string" }
-      - { label: "Url", name: "url", widget: "string" }
-
-
   # DOWNLOADS
   - label: "Downloads"
     identifier_field: id
@@ -689,3 +707,18 @@ collections:
       - { label: "Aangemaakt op", name: "date", widget: "datetime", time_format: false, default: "{{now}}" }
       - { label: "Tekst op downloadknop", name: "buttonLabel", widget: "string" }
       - {label: "Bestand", name: "file", widget: "file", "media_library": { config: {multiple: false}}}
+
+  # VIDEOS
+  - label: "Videos"
+    identifier_field: id
+    name: "videos"
+    folder: "content/media/videos"
+    label_singular: "Video"
+    summary: "{{date | date('YYYY-MM-DD')}}: {{description}} ({{url}})"
+    create: true
+    fields:
+      - { label: ID, name: id, widget: uuid }
+      - { label: "Aangemaakt op", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", default: "{{now}}"}
+      - { label: "Omschrijving", name: "description", widget: "string" }
+      - { label: "Url", name: "url", widget: "string" }
+

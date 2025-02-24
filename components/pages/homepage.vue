@@ -3,14 +3,14 @@
 <!--  <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>-->
 
 
-  <div class="w-full relative mb-12 md:mb-16 z-0 h-48 sm:h-96 ">
-    <div class="relative mx-auto px-6 lg:px-8 max-w-7xl h-full">
-      <div class="w-full sm:h-full absolute z-20 left-0">
+  <div class="w-full relative mb-12 md:mb-16 z-0 h-40 sm:h-96 ">
+    <div class="relative mx-auto md:px-6 lg:px-8 max-w-7xl h-full ">
+      <div class="w-full h-1/2 md:h-full absolute z-20 -right-12 md:left-0 ">
         <svg-banner class="w-full h-full"/>
       </div>
     </div>
     <div class="absolute z-30 h-full w-full  pt-8 sm:pt-16 top-0">
-      <div class=" text-4xl leading-tight h-auto whitespace-pre-line mx-auto px-6 lg:px-8 max-w-7xl">
+      <div class="text-2xl md:text-4xl leading-tight h-auto whitespace-pre-line mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
         <span v-if="page.block_banner">{{ page.block_banner.title }}</span>
       </div>
     </div>
@@ -22,7 +22,7 @@
 
         <!-- BLOCK: NEWS-->
         <div v-if="news" class="flex flex-col gap-4 col-span-1">
-          <span class="uppercase font-bold">Nieuws</span>
+          <span class="uppercase font-bold tracking-wider">Nieuws</span>
           <elements-news :articles="news" class=""/>
         </div>
 
@@ -30,7 +30,7 @@
 
         <!-- BLOCK: AANBOD-->
         <div v-if="page.block_courses" class="flex flex-col gap-4 col-span-1">
-          <span class="uppercase font-bold">Aanbod</span>
+          <span class="uppercase font-bold tracking-wider">Aanbod</span>
           <div class=" text-2xl">{{ page.block_courses.title }}</div>
           <elements-categories class="col-span-1 mt-8 sticky top-28"/>
         </div>
@@ -49,7 +49,7 @@
 
           <div class="col-span-1">
             <div class=" sticky top-28 flex flex-col gap-2 ">
-              <span class="uppercase font-bold">{{ page.block_about.label }}</span>
+              <span class="uppercase font-bold tracking-wider">{{ page.block_about.label }}</span>
               <span class="text-2xl">{{ page.block_about.title }}</span>
               <span class="prose">{{ page.block_about.text }}</span>
             </div>
@@ -73,7 +73,7 @@
       <div class="relative z-1 grid grid-cols-2  mt-16 col-span-2">
         <div class=" col-span-full md:col-span-1 bg-white p-4 md:p-4 grid gap-4">
 
-          <span class="uppercase font-bold">{{ page.block_calendar.label }}</span>
+          <span class="uppercase font-bold tracking-wider">{{ page.block_calendar.label }}</span>
           <div>{{ page.block_calendar.text }}</div>
 
           <elements-button :flavor="2" :to="page.block_calendar.buttonLink">

@@ -1,5 +1,5 @@
 <template>
-  <span class="text-4xl uppercase font-bold px-2 inline-block bg-blend-soft-light" :style="style"
+  <span class="text-4xl uppercase font-bold px-2 inline-block bg-blend-color-burn" :style="style"
   >
     <slot />
   </span>
@@ -7,20 +7,16 @@
 
 <script setup>
 const props = defineProps({
-  color: String
+  color: String,
+  texture: Number
 });
-
-function random(numbers) {
-  return numbers[Math.floor(Math.random()*numbers.length)];
-}
-
-const randomImage = `url(assets/site/Textuur-${random([1,2,3])}.svg)`
 
 const style = {
   backgroundColor: props.color,
   backgroundSize: 'contain',
-  backgroundImage: randomImage
+  backgroundImage: `url(assets/site/Textuur-${props.texture}.svg)`
 }
 
+// Jongeren en Volwassenen is met de bolletjes. De andere drie met de potloodstrepen.
 
 </script>

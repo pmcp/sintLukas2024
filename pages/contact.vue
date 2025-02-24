@@ -10,23 +10,26 @@
             <h1 class="text-4xl pb-0">Contact</h1>
             <elements-markdown :markdownString="location.info" class="prose"/>
           </div>
-        <div class="relative h-80 col-span-full  md:h-full col-span-full md:col-start-3 lg:col-start-4  my-8 md:my-0">
+        <div class="relative h-80 col-span-full  md:h-full col-span-full md:col-start-3 lg:col-start-3  my-8 md:my-0">
 <!--          <client-only>-->
-            <MapboxMap
-                map-id="main_location"
-                :options="{
-                style: 'mapbox://styles/mapbox/light-v11', // style URL
-                center: JSON.parse(location.location).coordinates, // starting position
-                zoom: 14 // starting zoom
-                }"
-            >
-              <MapboxDefaultMarker
-                marker-id="hoofdlocationMarker"
-                :options="{}"
-                :lnglat="JSON.parse(location.location).coordinates"
-              >
-              </MapboxDefaultMarker>
-            </MapboxMap>
+<!--          {{ location.location }}-->
+          <elements-location class="h-full" fillheight location="/locations/nl/hoofdschool"/>
+<!--          -->
+<!--            <MapboxMap-->
+<!--                map-id="main_location"-->
+<!--                :options="{-->
+<!--                style: 'mapbox://styles/mapbox/light-v11', // style URL-->
+<!--                center: JSON.parse(location.location).coordinates, // starting position-->
+<!--                zoom: 14 // starting zoom-->
+<!--                }"-->
+<!--            >-->
+<!--              <MapboxDefaultMarker-->
+<!--                marker-id="hoofdlocationMarker"-->
+<!--                :options="{}"-->
+<!--                :lnglat="JSON.parse(location.location).coordinates"-->
+<!--              >-->
+<!--              </MapboxDefaultMarker>-->
+<!--            </MapboxMap>-->
 <!--          </client-only>-->
         </div>
       </UPageGrid>

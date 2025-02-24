@@ -6,7 +6,7 @@
     >
       <!-- HACK: Was getting hydration issues resolved by wrapping in clientonly -->
       <client-only>
-        <elements-category :color="c.color">
+        <elements-category :color="c.color" :texture="c.texture">
           {{ c.nl }}
         </elements-category>
       </client-only>
@@ -16,4 +16,5 @@
 <script setup>
 const { data: aanbod } = await useAsyncData('categories', () => queryContent('aanbod/nl')
     .find())
+
 </script>

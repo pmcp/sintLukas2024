@@ -64,7 +64,9 @@ export default <Partial<Config>>{
                     '900': '#751f19',
                     '950': '#3f0c0b',
                 },
-
+                'third': {
+                    '50': '#eeeeee',
+                }
             },
 
         }

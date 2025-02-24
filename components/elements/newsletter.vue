@@ -1,5 +1,8 @@
 <template>
-  <div class="ml-embedded" data-form="fv05nf"></div>
+  <div class="grid gap-2 w-fit">
+    <div class="w-fit">Laat hier je e-mailadres achter om nieuws uit de academie te ontvangen.</div>
+    <div class="ml-embedded w-full" data-form="fv05nf"></div>
+  </div>
 </template>
 <script setup>
 useHead({
@@ -21,9 +24,11 @@ useHead({
   text-align: left !important;
 }
 
-.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal{
-  width: 60% !important;
+.ml-form-horizontalRow {
+  display: flex;
 }
+
+
 
 #mlb2-10211545.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
   max-width: 100% !important;
@@ -32,6 +37,7 @@ useHead({
 
 .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal  {
   width: unset !important;
+  flex-grow: 1;
 }
 
 #mlb2-10211545.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {

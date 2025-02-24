@@ -3,6 +3,7 @@ nl: Kinderen
 id: nr9EYgVQYC3pP3P4fCQks
 order: 1
 color: "#C2E1CF"
+texture: 1
 ateliers:
   - id: RCydY_ZJM4Y01JnPzBRrR
     showSubtitleOnCard: true

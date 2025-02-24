@@ -5,10 +5,10 @@
     </div>
 
     <div class="col-span-1 grid grid-cols-1 lg:grid-cols-3" v-if="side1 || side2">
-      <div class="col-span-1 prose border-l-4 md:border-l md:pl-4 pmcp-prose_sidebar" :class="[side2 ? 'col-span-1' : 'col-span-2']">
+      <div class="col-span-1 prose  md:border-l md:pl-4 pmcp-prose_sidebar" :class="[side2 ? 'col-span-1' : 'col-span-2']">
         <elements-markdown :markdownString="side1" />
       </div>
-      <div class="col-span-2 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0">
+      <div class="col-span-2 prose  md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0">
         <elements-markdown v-if:markdownString="side2" />
       </div>
 

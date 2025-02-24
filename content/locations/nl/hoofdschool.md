@@ -2,7 +2,7 @@
 id: XFNau0mkC6EmwMIi3EzJV
 name: Hoofdschool
 info: >-
-  ### Algemene info: 
+  ### ALGEMENE INFO: 
 
 
   info.academie@sintlukas.brussels\

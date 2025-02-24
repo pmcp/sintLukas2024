@@ -3,6 +3,7 @@ nl: Jongeren
 id: KcBSSZGsII9V8ecjq9WcS
 order: 2
 color: "#008EA3"
+texture: 2
 ateliers:
   - id: Tu-aRF3XGIUiGLMrY25jD
     markdown: "Je maakt op een ludieke manier kennis met verschillende technieken:
