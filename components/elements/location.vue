@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white self-stretch" >
-      <div :class="[fillheight ? 'h-full' : 'h-40']">
+      <div class="relative" :class="[fillheight ? 'h-full' : 'h-40']">
     <client-only>
         <MapboxMap
             style="width: 100%; height: 100%;"
