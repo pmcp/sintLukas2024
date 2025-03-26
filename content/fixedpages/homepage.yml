@@ -2,7 +2,9 @@ block_mainInfo:
   navName: Start
 block_banner:
   title: |-
-    Dé academie voor beeldende kunsten in hartje Brussel!
+    Dé academie voor
+    beeldende kunsten
+    in hartje Brussel!
   image: nn2DjIHCexdECkfhzT3Ff
 block_news:
   title: Nieuws
@@ -19,12 +21,11 @@ block_about:
   image2: kCHR9joYY5-6T9t398u0A
   image3: kCHR9joYY5-6T9t398u0A
   label: Academie
-  text: De Sint-Lukasacademie is een instelling van het deeltijds  kunstonderwijs
-    (DKO). We richten ons op kinderen (6 tot 12 jaar),  jongeren (12 tot 18
-    jaar) en volwassenen (18+) die in hun vrije tijd de mogelijkheden van de
-    beeldende kunsten willen verkennen. Wij bieden u,  geheel naar onze unieke
-    pedagogie, een kwalitatief onderwijs op maat in  zowel creatieve als
-    kunstbeschouwelijke opleidingen.
+  text: De Sint-Lukas academie is een instelling van het deeltijds kunstonderwijs
+    (DKO). We richten ons op kinderen (6 tot 12 jaar), jongeren (12 tot 18 jaar)
+    en volwassenen (18+) die in hun vrije tijd de mogelijkheden van de beeldende
+    kunsten willen verkennen. Wij bieden u, geheel naar onze unieke pedagogie,
+    kwalitatief onderwijs op maat in creatieve opleidingen.
 block_calendar:
   title: Kalender
   image: FKnTeVu_Y2nRIJqlJ5ffI
