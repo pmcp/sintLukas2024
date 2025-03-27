@@ -1,4 +1,5 @@
 <template>
+  <pages-inschrijven :data="data" />
 
 </template>
 
