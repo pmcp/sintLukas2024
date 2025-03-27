@@ -36,8 +36,13 @@
         </nuxt-link>
 
       </div>
+      <div class="h-4">
+        <!-- QUICK FIX SPACER -->
+      </div>
 
     </div>
+
+
   </div>
 </template>
 
