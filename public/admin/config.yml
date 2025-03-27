@@ -644,8 +644,8 @@ collections:
   - name: 'persons'
     identifier_field: id
     i18n: true
-    label: 'Medewerkers'
-    label_singular: 'Medewerker'
+    label: 'Team'
+    label_singular: 'Teamlid'
     folder: 'content/persons'
     create: true
     format: 'frontmatter'
