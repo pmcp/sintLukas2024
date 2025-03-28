@@ -3,19 +3,17 @@
 <!--  <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>-->
 
 
-  <div class="w-full relative mb-12 md:mb-16 z-0 h-40 sm:h-96 ">
-    <div class="relative mx-auto md:px-6 lg:px-8 max-w-7xl h-full ">
-      <div class="w-full h-1/2 md:h-full absolute z-20 -right-12 md:left-0 ">
-        <svg-banner class="w-full h-full"/>
+  <div class="w-full  background-grid md:mt-8 mb-8 md:mb-12">
+    <div class="mx-auto md:px-6 lg:px-8 max-w-7xl my-8 md:my-16">
+      <div class=" flex flex-col md:flex-row gap-8  md:items-center md:justify-center">
+        <span v-if="page.block_banner" class="text-2xl md:text-4xl leading-tight">{{ page.block_banner.title }}</span>
+        <svg-banner class="block w-full h-auto "/>
       </div>
     </div>
-    <div class="absolute z-30 h-full w-full  pt-8 sm:pt-16 top-0">
-      <div class="text-2xl md:text-4xl leading-tight h-auto whitespace-pre-line mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
-        <span v-if="page.block_banner">{{ page.block_banner.title }}</span>
-      </div>
-    </div>
-    <div class="z-10 absolute h-full w-full top-0 left-0 background-grid"></div>
   </div>
+
+
+
   <div class="mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
     <UPageGrid :ui="{wrapper: 'grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-16'}">
       <div class="col-span-full grid grid-cols-1 md:grid-cols-[1fr_1px_1fr] gap-8">

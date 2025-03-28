@@ -2,9 +2,7 @@ block_mainInfo:
   navName: Start
 block_banner:
   title: |-
-    Dé academie voor
-    beeldende kunsten
-    in hartje Brussel!
+    Dé academie voor beeldende kunsten in hartje Brussel!
   image: nn2DjIHCexdECkfhzT3Ff
 block_news:
   title: Nieuws

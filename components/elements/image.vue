@@ -3,9 +3,9 @@
       v-if="data.cover"
       @click="emit('click', {url: data.cover, description: data.description})"
   >
-    <div class="absolute top-0 left-0 h-full w-full">
+    <div v-if="duotone && data.duotone" class="absolute top-0 left-0 h-full w-full">
       <nuxtImg
-          v-if="duotone && data.duotone"
+
           class="object-cover object-center bg-primary-200 transition-all ease-in duration-200"
           :src="data.duotone" :alt="data.description"
       />

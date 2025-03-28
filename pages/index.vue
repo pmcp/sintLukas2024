@@ -1,4 +1,5 @@
 <template>
+
   <pages-homepage :page="page" :news="news" />
 </template>
 <script setup>
