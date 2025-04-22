@@ -2,8 +2,15 @@
 id: XFNau0mkC6EmwMIi3EzJV
 name: Hoofdschool
 info: >-
-  ### ALGEMENE INFO: 
+  ### HOOFDSCHOOL
 
+
+  Groenstraat 156,\
+
+  1030 Brussel (Schaarbeek)
+
+
+  Algemene info:\
 
   info.academie@sintlukas.brussels\
 
