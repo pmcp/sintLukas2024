@@ -34,6 +34,6 @@ block_calendar:
     sluitingsdagen.
   buttonText: Kalender bekijken
   code: <iframe title="Calendar"
-    src="https://timetreeapp.com/public_calendars/sintlukasacademie/embed?calendar_name=true&frame_color=%232ecc87"
-    style="width:100%;min-height:400px;aspect-ratio:680/720;border:none"></iframe>
+    src="https://timetreeapp.com/public_calendars/sintlukasacademie/embed?calendar_name=false&frame_color=%23f1f3f2"
+    style="width:100%;min-height:700px;aspect-ratio:680/720;border:none"></iframe>
   buttonLink: https://timetreeapp.com/public_calendars/sintlukasacademie
