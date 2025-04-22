@@ -1,6 +1,6 @@
 ---
-nl: Volwassenen
 id: MZX_sUXF2lTVC30HPIt6V
+nl: Volwassenen
 order: 3
 color: "#edbaa6"
 texture: 2
@@ -181,13 +181,8 @@ ateliers:
   - mainImage: owBUqHnSHJiZGmI2ErqCo
     showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Modeltekenen
-
-
-      Binnen de opleiding Modeltekenen volg je het vak Modeltekenen op dinsdagavond of op
-
-
-      donderdagavond.
+      Binnen de opleiding Modeltekenen volg je het vak Modeltekenen op
+      dinsdagavond of op donderdagavond.
 
 
       Je krijgt wekelijks tekenles naar levend model. Tijdens deze lessen staat het menselijk naaktmodel centraal als onderwerp in de ontwikkeling van een eigen beeldtaal. Via diverse materialen (potlood, houtskool, acryl- of olieverf, pastel, bister, collage, ...) verken je de mogelijkheden van technieken en experiment om jouw observatie naar beeldend werk om te vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur, compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de anatomie van het menselijk lichaam en verscherp je gevoel voor detail. Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
