@@ -16,7 +16,7 @@
       size="xl"
       class="hover:bg-primary-100 w-fit no-underline "
       color="black"
-      variant="outli  ne"
+      variant="outline"
   >
     <svg-icon-download v-if="download" class=" w-4 h-4"/>
     <span class="font-bold">
