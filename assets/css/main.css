@@ -57,3 +57,10 @@
     font-size: 1rem;
 
 }
+
+
+/* No header in markdown tables */
+thead {
+    border: thin solid red !important;
+    display: none;
+}
