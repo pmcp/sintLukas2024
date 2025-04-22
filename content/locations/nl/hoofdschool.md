@@ -2,9 +2,6 @@
 id: XFNau0mkC6EmwMIi3EzJV
 name: Hoofdschool
 info: >-
-  ### ALGEMENE INFO: 
-
-
   info.academie@sintlukas.brussels\
 
   02 217 77 00
