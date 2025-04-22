@@ -30,17 +30,17 @@ text5: >-
   ### Inschrijvingsgelden
 
 
-  \| 6-17 jaar  | 100 euro\
+  | Tables   | Are           | Cool  |
 
-  (vermindering of tweede kind: 65 euro) |
+  | -------- | ------------- | ----- |
 
-  | ---------- | ------------------------------------------------ |
+  | col 1 is | left-aligned  | $1600 |
 
-  | 18-24 jaar | 200 euro                                         |
+  | col 2 is | centered      | $12   |
 
-  | 25+        | 420 euro\
+  | col 3 is | right-aligned | $1    |
 
-  (vermindering: 200 euro)               |
+
 
 
   Je kan meteen bij jouw inschrijving online betalen via verschillende betaalopties.
