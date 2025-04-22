@@ -88,7 +88,8 @@
 
         </div>
         <div class="self-stretch hidden md:block">
-          <elements-image contain transparent :image="page.block_calendar.image"  class="col-span-1 h-full"/>
+          <svg-calendar class="col-span-1 h-full p-20 relative -left-40 lg:left-0"/>
+<!--          <elements-image contain transparent :image="page.block_calendar.image"  class="col-span-1 h-full"/>-->
         </div>
       </div>
     </template>
