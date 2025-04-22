@@ -196,13 +196,16 @@ ateliers:
       Info over benodigd materiaal:
 
 
-      * Papier: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
 
-      * Schetsboek: Het is aangeraden een schetsboek van A3-formaat bij te houden.
 
-      * Tekenmateriaal: 3 potloden (2B - 4B - 8B) volstaan om te starten. In een volgende fase is het interessant om jouw arsenaal uit te breiden met bijvoorbeeld houtskool, pastelkrijt, bister of inkt. Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+      **Schetsboek**: Het is aangeraden een schetsboek van A3-formaat bij te houden.
 
-      * Tape: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
+
+      **Tekenmateriaal**: 3 potloden (2B - 4B - 8B) volstaan om te starten. In een volgende fase is het interessant om jouw arsenaal uit te breiden met bijvoorbeeld houtskool, pastelkrijt, bister of inkt. Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+
+
+      **Tape**: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
     id: HLPp8M36kkiMVr3MHNx70
     side2: >-
       ### Studietraject
