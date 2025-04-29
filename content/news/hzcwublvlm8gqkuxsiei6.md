@@ -1,7 +1,7 @@
 ---
 id: HzcWUbLvlm8gQKuXSIeI6
 title: EXPO weekend
-date: April 29, 2025 1:55 PM
+date: April 29, 2025 2:07 PM
 image: /assets/uploads/img.png
 alt: Jaarlijkse expo
 text: |-
