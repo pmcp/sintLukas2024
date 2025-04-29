@@ -34,35 +34,56 @@ ateliers:
   - mainImage: pyf8LsA-qen2uUH6ah6ZO
     showSubtitleOnCard: false
     markdown: >-
-      Binnen de opleiding Fotokunst kies je ervoor als starter het vak Fotokunst
-      (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak
-      Fotokunst (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden
-      te combineren en op die manier sneller in de praktijk te brengen wat je
-      leert. Ook kan je op donderdag les volgen, deze lesuren worden grotendeels
-      gebundeld op andere dagen (bijvoorbeeld een lezing op woensdag, een
-      atelierbezoek op zaterdag, een expobezoek op zondag...); de kalender
-      hiervoor ontvang je in september.
+      In de opleiding Fotokunst draait alles om de fascinatie voor het
+      fotografisch beeld. Fotografie is veelzijdig en alomtegenwoordig in onze
+      beeldcultuur. Al doende leer je de basis opname-, bewerkings- en
+      afdruktechnieken, zowel digitaal als analoog. We gaan de straat op om
+      samen te fotograferen, werken in de studio met artificiële lichtbronnen en
+      verkennen Photoshop. Ook leer je negatieven ontwikkelen, fotogrammen maken
+      en kan je de magie in de donkere kamer beleven. Tijdens de opleiding breid
+      je je referentiekader uit en leer je stap voor stap je eigen verhaal te
+      vertellen via foto’s. Naast de les- en atelierdagen op maandag en dinsdag,
+      gaan we gemiddeld één keer per maand op uitstap, meestal in het weekend.
+      Deze zijn gericht op het verkennen van het (hedendaagse) veld, via
+      tentoonstellings- en atelierbezoeken. Zo leer je het medium vanuit
+      verschillende perspectieven kennen en raak je geïnspireerd. Iedereen die
+      de opleiding volgt, is welkom bij de uitstappen. De kalender hiervoor
+      ontvang je in september.
 
 
-      In deze opleiding staat de fascinatie voor het fotografisch beeld centraal. Fotografie is veelzijdig en alomtegenwoordig in onze huidige beeldcultuur. Al doende leer je de basis opname- en bewerkingstechnieken, zowel digitaal als analoog. We gaan de straat op om samen te fotograferen, werken in de studio met artificiële lichtbronnen en verkennen de digitale mogelijkheden van Photoshop. Tegelijk met de opdrachten en technieken breidt je je referentiekader uit. Via onderzoek, experiment en analyse ontdek je de fotografische beeldtaal. Zo word je stapsgewijs ondergedompeld in de rijkdom van het fotografische beeld. Ook kan je in de donkere kamer de magie beleven door er jouw foto’s te ontwikkelen. Het is niet verplicht om analoog te werken, die mogelijkheid wordt aangeboden. Je krijgt de kans om verschillende fotografische mogelijkheden, toepassingen en technieken te proeven. Je wordt individueel begeleid in het artistiek proces, van concept tot presentatie. Gaandeweg worden opdrachten opener en word je gestimuleerd om jouw verhaal uit te drukken via foto’s. Je wordt ondersteund in het ontwikkelen van een persoonlijke visie over het medium fotografie. Uitstappen worden veelal in het weekend georganiseerd, éénmaal per maand en richten zich op het verkennen en verdiepen van het (hedendaagse) veld. Ze geven je de mogelijkheid om de fotograaf achter het werk te leren kennen; om originele werken in een tentoonstelling context te ervaren en om daarover met elkaar in gesprek te gaan. Ze leren je het medium vanuit verschillende standpunten kennen. Ze verscherpen je blik. Het werkt inspirerend en tegelijk leer je reflecteren over het medium.
-
-       Heb je geen ervaring, dan volg je het atelier op maandag: Fotokunst (starters). Hier start je vanaf het begin en leer je je camera gebruiken. Heb je al wat basiskennis, dan volg je het atelier op dinsdag: Fotokunst (verdieping). Hier wordt er verwacht dat je de basistechnieken al onder de knie hebt en je je graag persoonlijk wilt leren uitdrukken via fotografie.
-
-      Als je als starter maandag en dinsdag combineert, kan je maandag als lesdag beschouwen en dinsdag als atelierdag. Als je als gevorderden maandag en dinsdag combineert, is maandag je atelierdag en dinsdag je lesdag. Atelierdag wil zeggen dat je (zelfstandig) aan de slag gaat in het atelier en van de infrastructuur en know-how van de begeleider gebruik kan maken. Tijdens lesdagen worden nieuwe opdrachten en technieken aangereikt, en worden je foto’s besproken.
+      **Starters**
 
 
-      Of je instapt als starter of gevorderden, kunnen wij als leerkrachten mee beslissen en adviseren. Dit doen we aan de hand van de evaluatie op het einde van het schooljaar; een intakegesprek voor je start; of via voorgaande realisaties (bijvoorbeeld via je portfolio).
+      Als je geen of weinig ervaring hebt, begin je op maandag met het atelier Fotokunst (verkennen). Hier start je vanaf het begin, leer je je camera gebruiken en maak je kennis met de fotografische beeldtaal. Via opdrachten leer je kijken en beelden combineren. Als je maandag en dinsdag combineert, kan je maandag als lesdag beschouwen en dinsdag als atelierdag. Tijdens de lesdagen worden nieuwe opdrachten en technieken aangereikt en worden je foto’s besproken. Op atelierdagen werk je (zelfstandig) in het atelier, waarbij je gebruik kan maken van de infrastructuur en begeleiding van de docent.
+
+
+      **Gevorderden**
+
+
+      Als je de basistechnieken al beheerst, kun je het atelier op dinsdag volgen: Fotokunst (verdiepen). Hier leer je je persoonlijk uitdrukken via fotografie, van concept tot presentatie, met ruimte voor experiment en onderzoek. Als je maandag en dinsdag combineert, is maandag je atelierdag en dinsdag je lesdag. Tijdens de lesdagen worden opdrachten, technieken en foto’s besproken. Op atelierdagen werk je zelfstandig in het atelier, waar je gebruik kan maken van de infrastructuur. 
+
+
+      Of je start bij verkennen of verdiepen, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
     title: Fotokunst
     side1: |-
       ### Materiaal
 
-      (digitale) camera, schetsboek
+      * (digitale) camera
+      * schetsboek
+      * statief (optioneel)
     id: NuOyl3knrqBuVTO-T-yaG
     side2: >-
       ### Studietraject
 
 
-      Leerlingen die de opleiding Fotokunst volgen, kiezen uit een traject van 1 avond/week (lang traject, 10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+      * 1 avond/week (lang traject, 10 jaar)
+
+      * 2 avonden/week (middellang traject, 5 jaar)
+
+      * 3 avonden/week (kort traject, 4 jaar)
+
+
+      Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
 
 
       ### Uurrooster
@@ -71,6 +92,7 @@ ateliers:
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
     persons:
       - 7y4sqfcm0fl4ayvoov5d
+      - 56ncog9kbawmtcx0xbzgrx
     age: 18+
   - id: y-a-wEcmvd7WTIDmQpJnr
     showSubtitleOnCard: false
