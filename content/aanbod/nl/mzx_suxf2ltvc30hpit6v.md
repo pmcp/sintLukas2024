@@ -222,16 +222,19 @@ ateliers:
   - mainImage: hLs-N0Edep-DQWeoEzQHv
     showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Tekenkunst
+      Tekenen is een bijzonder rijke en zelfstandige kunsttak, die
+      tegelijkertijd belangrijke ondersteuning biedt voor andere disciplines.
+      Via analyse van eenvoudige basisvormen stimuleer je het ruimtelijk
+      inzicht, waardoor je op termijn tot een meer intuïtieve benadering van het
+      beeld komt en dus ook tot een meer persoonlijke plastische weergave. Leren
+      tekenen is een proces, een balans tussen perceptie en expressie, zonder
+      het experiment uit het oog te verliezen. We stimuleren je in het
+      uitstippelen van je eigen parcours, op je eigen tempo in een omgeving
+      waarin je vrij bent om te verkennen, te creëren en te ontwikkelen, terwijl
+      we je ondersteunen bij elke stap.
 
 
-      Binnen de opleiding Tekenkunst kies je ervoor als starter het vak Tekenkunst (beginners) te volgen op dinsdag. Heb je meer ervaring, volg je het vak Tekenkunst (verdieping) op maandag. Op dinsdag en/of donderdag kan je optioneel het vak Modeltekenen volgen om jouw tekenvaardigheden te ontwikkelen.
-
-
-      Tekenen is een bijzonder rijke en zelfstandige kunsttak, die tegelijkertijd belangrijke ondersteuning biedt voor andere disciplines. Via analyse van eenvoudige basisvormen stimuleer je het ruimtelijk inzicht, waardoor je op termijn tot een meer intuïtieve benadering van het beeld komt en dus ook tot een meer persoonlijke plastische weergave. Leren tekenen is een proces, een balans tussen perceptie en expressie, zonder het experiment uit het oog te verliezen. We stimuleren je in het uitstippelen van je eigen parcours, op je eigen tempo in een omgeving waarin je vrij bent om te verkennen, te creëren en te ontwikkelen, terwijl we je ondersteunen bij elke stap.
-
-
-      Start je als beginnende tekenaar, dan volg je het atelier op dinsdag: Tekenkunst Beginners. In onze atelier leer je de fundamenten van tekenen, van het vasthouden van een potlood tot het creëren van boeiende composities. Stap voor stap ontdek je verschillende technieken en materialen, en leer je via observatie en onderzoek je blik te verruimen. Je maakt kennis met de elementen van de beeldtaal zoals lijn, kleur, vorm, structuur, textuur, contrast ... Door middel van een aantal onderwerpen - zoals stillevens, portret, levend model, interieur, drapering etc. - probeer je nieuwe materialen ( potlood, houtskool, acryl, olieverf, bister, ...), technieken en uitdrukkingsmogelijkheden te vinden. We verkennen een scala aan benaderingen en bieden handige feedback om je te helpen groeien als tekenaar. Op een ondersteunende manier creëren we een omgeving waarin je je vrij voelt om te experimenteren en fouten te maken. Want in het proces van leren tekenen, ligt de schoonheid ook in de ontdekkingen die je onderweg doet. Onze lessen zijn bedacht om een solide basis te leggen, of je nu een volledige beginner bent of al wat geëxperimenteerd hebt. Het maakt niet uit hoe oud je bent of wat je achtergrond is, ons atelier verwelkomt iedereen met een interesse voor tekenkunst!
+      **GEVORDERDEN**
 
 
       Heb je al wat basiskennis van het tekenen, dan volg je het atelier op maandag: Tekenkunst Verdieping. Hier gaan we verder aan de slag met die basis. We ontdekken de ruime mogelijkheden van de tekenkunst en verdiepen ons verder in de bouwstenen van het tekenen. We stellen ons vragen zoals: hoe ontstaat een tekening,hoe kan je spelen met de beeldelementen en hoe kan je jouw verhaal vertellen in een tekening? We gaan thematisch en inhoudelijk op zoek naar wat tekenen inhoudt. Met welke materialen en technieken ga jij op zoek naar een persoonlijke beeldtaal? We vertrekken van zowel waarneming, verbeelding en eigen beeldmateriaal. Gaandeweg ontwikkelen we een eigen traject aan de hand van concrete uitdagingen en persoonlijke feedback. We werken aan de hand van verschillende concrete thema’s, deze worden op een persoonlijke manier uitgewerkt en onderzocht. Materialen en technieken worden samen onder de loep genomen en dienen als basis voor het persoonlijke traject. Er is veel ruimte en aandacht voor experiment en onderzoek, dit aan de hand van persoonlijke begeleiding en klassikale oefeningen. Er worden linken gelegd met zowel de hedendaagse tekenkunst als de kunstgeschiedenis.
@@ -245,17 +248,26 @@ ateliers:
       Info over benodigd materiaal:
 
 
-      * Papier: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
 
-      * Schetsboek: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
 
-      * Tekenmateriaal: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+      **Schetsboek**: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
+
+
+      **Tekenmateriaal**: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
     id: n5upPonOG5BkWdek5a_3h
     side2: >-
       ### Studietraject
 
 
-      Leerlingen die de opleiding Tekenkunst volgen, kiezen uit een traject van 1 avond/week (Lang traject, 10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+      * 1 avond/week (lang traject, 10 jaar)
+
+      * 2 avonden/week (middellang traject, 5 jaar)
+
+      * 3 avonden/week (kort traject, 4 jaar)
+
+
+      Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
 
 
       ### Uurrooster

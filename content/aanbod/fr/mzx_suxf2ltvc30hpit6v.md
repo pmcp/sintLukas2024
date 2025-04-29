@@ -12,32 +12,36 @@ ateliers:
     images:
       - 1ztXeTlxxYuimz_6PgQue
     side1: >-
-      Materiaal
+      ### Materiaal
 
 
       Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
     id: PVG42qcToyKmr8RMt4i6D
     side2: >-
-      Studietraject
+      ### Studietraject
 
 
       Leerlingen die de opleiding Beeldende en Audiovisuele Kunsten volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
 
 
-      Uurrooster
+      ### Uurrooster
 
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
     persons:
       - 56ncog9kbawmtcx0xbzgr
-    age: 4e graad + Specialisatie
+    age: 18+
   - mainImage: pyf8LsA-qen2uUH6ah6ZO
     showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Fotokunst
-
-
-      Binnen de opleiding Fotokunst kies je ervoor als starter het vak Fotokunst (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak Fotokunst (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden te combineren en op die manier sneller in de praktijk te brengen wat je leert. Ook kan je op donderdag les volgen, deze lesuren worden grotendeels gebundeld op andere dagen (bijvoorbeeld een lezing op woensdag, een atelierbezoek op zaterdag, een expobezoek op zondag...); de kalender hiervoor ontvang je in september.
+      Binnen de opleiding Fotokunst kies je ervoor als starter het vak Fotokunst
+      (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak
+      Fotokunst (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden
+      te combineren en op die manier sneller in de praktijk te brengen wat je
+      leert. Ook kan je op donderdag les volgen, deze lesuren worden grotendeels
+      gebundeld op andere dagen (bijvoorbeeld een lezing op woensdag, een
+      atelierbezoek op zaterdag, een expobezoek op zondag...); de kalender
+      hiervoor ontvang je in september.
 
 
       In deze opleiding staat de fascinatie voor het fotografisch beeld centraal. Fotografie is veelzijdig en alomtegenwoordig in onze huidige beeldcultuur. Al doende leer je de basis opname- en bewerkingstechnieken, zowel digitaal als analoog. We gaan de straat op om samen te fotograferen, werken in de studio met artificiële lichtbronnen en verkennen de digitale mogelijkheden van Photoshop. Tegelijk met de opdrachten en technieken breidt je je referentiekader uit. Via onderzoek, experiment en analyse ontdek je de fotografische beeldtaal. Zo word je stapsgewijs ondergedompeld in de rijkdom van het fotografische beeld. Ook kan je in de donkere kamer de magie beleven door er jouw foto’s te ontwikkelen. Het is niet verplicht om analoog te werken, die mogelijkheid wordt aangeboden. Je krijgt de kans om verschillende fotografische mogelijkheden, toepassingen en technieken te proeven. Je wordt individueel begeleid in het artistiek proces, van concept tot presentatie. Gaandeweg worden opdrachten opener en word je gestimuleerd om jouw verhaal uit te drukken via foto’s. Je wordt ondersteund in het ontwikkelen van een persoonlijke visie over het medium fotografie. Uitstappen worden veelal in het weekend georganiseerd, éénmaal per maand en richten zich op het verkennen en verdiepen van het (hedendaagse) veld. Ze geven je de mogelijkheid om de fotograaf achter het werk te leren kennen; om originele werken in een tentoonstelling context te ervaren en om daarover met elkaar in gesprek te gaan. Ze leren je het medium vanuit verschillende standpunten kennen. Ze verscherpen je blik. Het werkt inspirerend en tegelijk leer je reflecteren over het medium.
@@ -171,13 +175,8 @@ ateliers:
   - mainImage: owBUqHnSHJiZGmI2ErqCo
     showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Modeltekenen
-
-
-      Binnen de opleiding Modeltekenen volg je het vak Modeltekenen op dinsdagavond of op
-
-
-      donderdagavond.
+      Binnen de opleiding Modeltekenen volg je het vak Modeltekenen op
+      dinsdagavond of op donderdagavond.
 
 
       Je krijgt wekelijks tekenles naar levend model. Tijdens deze lessen staat het menselijk naaktmodel centraal als onderwerp in de ontwikkeling van een eigen beeldtaal. Via diverse materialen (potlood, houtskool, acryl- of olieverf, pastel, bister, collage, ...) verken je de mogelijkheden van technieken en experiment om jouw observatie naar beeldend werk om te vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur, compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de anatomie van het menselijk lichaam en verscherp je gevoel voor detail. Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
@@ -191,13 +190,16 @@ ateliers:
       Info over benodigd materiaal:
 
 
-      * Papier: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
 
-      * Schetsboek: Het is aangeraden een schetsboek van A3-formaat bij te houden.
 
-      * Tekenmateriaal: 3 potloden (2B - 4B - 8B) volstaan om te starten. In een volgende fase is het interessant om jouw arsenaal uit te breiden met bijvoorbeeld houtskool, pastelkrijt, bister of inkt. Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+      **Schetsboek**: Het is aangeraden een schetsboek van A3-formaat bij te houden.
 
-      * Tape: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
+
+      **Tekenmateriaal**: 3 potloden (2B - 4B - 8B) volstaan om te starten. In een volgende fase is het interessant om jouw arsenaal uit te breiden met bijvoorbeeld houtskool, pastelkrijt, bister of inkt. Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+
+
+      **Tape**: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
     id: HLPp8M36kkiMVr3MHNx70
     side2: >-
       ### Studietraject
