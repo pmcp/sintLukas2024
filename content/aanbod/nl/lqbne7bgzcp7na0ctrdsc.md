@@ -8,17 +8,6 @@ background: /assets/uploads/atelierkinderen.png
 side: false
 ateliers:
   - showSubtitleOnCard: true
-    id: lqQD1KD04PNIDvtPzMPoM
-    title: Ateliers kinderen
-    age: 6-11 jaar
-    persons:
-      - 56ncog9kbawmtcx0xbzgr
-      - abp261x7qjjasgkiyj3we
-      - cfbek8fcems3xomtltmdp
-      - ki9xtvqazuhyw3aywv52f
-      - ktvjos3lxjzadmnnaoxaq
-      - xbvytyu8ntojzrimhedk9
-      - zu6yrth076tbnhu1eo1sm
     markdown: >-
       Kinderen kunnen hun creativiteit botvieren in onze diverse ateliers op
       verschillende locaties. We voorzien mogelijkheden op scholen en culturele
@@ -35,11 +24,15 @@ ateliers:
 
 
       Hou je van fotografie, film, animatie, stopmotion en soundscapes? Dan krijg je in dit atelier naast tekenen, boetseren en schilderen ook audiovisuele technieken aangeboden. Enkel in de vestigingsplaatsen Helmet (dinsdag) en Groenstraat (maandag).
+    title: Ateliers kinderen
+    images:
+      - qE6drCtdnMJunfN1xDSqF
     side1: >-
       ### MATERIAAL
 
 
       De academie voorziet al het materiaal, er zijn geen extra kosten verbonden aan deze ateliers.
+    id: lqQD1KD04PNIDvtPzMPoM
     side2: >-
       ### LESSENROOSTER
 
@@ -54,4 +47,13 @@ ateliers:
 
 
       :dispatch{:data='{"label":"Vestigingen bekijken","link":"/academie"}' type='Link'}
+    persons:
+      - 56ncog9kbawmtcx0xbzgr
+      - abp261x7qjjasgkiyj3we
+      - cfbek8fcems3xomtltmdp
+      - ki9xtvqazuhyw3aywv52f
+      - ktvjos3lxjzadmnnaoxaq
+      - xbvytyu8ntojzrimhedk9
+      - zu6yrth076tbnhu1eo1sm
+    age: 6-11 jaar
 ---
