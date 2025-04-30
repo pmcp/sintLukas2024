@@ -76,6 +76,10 @@ ateliers:
       Of je start bij verkennen of verdiepen, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
     thumb: /assets/uploads/Aanbod banners-FOTO.jpg
     title: Fotokunst
+    images:
+      - HjxOA4XwBFPkPDYbQ59CQ
+      - iHZQJPQb0eTmVo23LYxnl
+      - L5NsH58RB8aT0MYxiMfgi
     side1: |-
       ### Materiaal
 
