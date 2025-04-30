@@ -347,6 +347,7 @@ ateliers:
     title: Grafiekkunst
     images:
       - bEupy1xJNz-ucFY8RQe4L
+      - I2LOns5IyZ7dRhqqIw3tR
     side1: >-
       ### Materiaal
 
