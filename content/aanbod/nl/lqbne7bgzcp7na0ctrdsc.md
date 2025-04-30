@@ -3,7 +3,7 @@ id: lqBNE7bgzCP7nA0cTrdSC
 nl: Kinderen
 order: 1
 color: "#008a5b"
-texture: "1"
+thumb: /assets/uploads/Aanbod banners-KINDEREN.jpg
 background: /assets/uploads/Aanbod banners-KINDEREN.jpg
 side: false
 ateliers:
@@ -28,6 +28,8 @@ ateliers:
     title: Ateliers kinderen
     images:
       - qE6drCtdnMJunfN1xDSqF
+      - c7774xHaizo9wS34jJ6Hz
+      - HJWFQdgNkJYycr1EJsHG7
     side1: >-
       ### MATERIAAL
 
@@ -57,4 +59,5 @@ ateliers:
       - xbvytyu8ntojzrimhedk9
       - zu6yrth076tbnhu1eo1sm
     age: 6-11 jaar
+texture: "1"
 ---
