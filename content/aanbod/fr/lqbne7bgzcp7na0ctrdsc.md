@@ -3,7 +3,7 @@ id: ha62b1fhWN7YfceuNpOr6
 ateliers:
   - showSubtitleOnCard: true
     id: lqQD1KD04PNIDvtPzMPoM
-    title: Ateliers Kinderen
+    title: Ateliers kinderen
     age: 6-11 jaar
     persons:
       - 56ncog9kbawmtcx0xbzgr
