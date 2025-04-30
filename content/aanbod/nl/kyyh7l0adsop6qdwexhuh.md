@@ -2,7 +2,7 @@
 nl: Track
 id: KYyH7l0aDSOP6QDwexHuh
 order: 5
-color: "#A7A68F"
+color: "#A7A690"
 texture: 1
 background: /assets/uploads/9.jpg
 side: true

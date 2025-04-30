@@ -2,7 +2,7 @@
 nl: Jongeren
 id: KcBSSZGsII9V8ecjq9WcS
 order: 2
-color: "#008EA3"
+color: "#2FAFC2"
 texture: 2
 ateliers:
   - id: Tu-aRF3XGIUiGLMrY25jD
