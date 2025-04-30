@@ -50,8 +50,8 @@ ateliers:
       **Waar?** Op verschillende locaties. Raadpleeg het lessenrooster voor meer informatie.
 
 
-      :dispatch{:data='{}' type='downloads'}
+      :dispatch{:data='{"download":["ZdwA096Fxf9x6P5m8ZRbH"]}' type='downloads'}
 
 
-      :dispatch{:data='{"label":"Vestigingen bekijken","link":"academie"}' type='Link'}
+      :dispatch{:data='{"label":"Vestigingen bekijken","link":"/academie"}' type='Link'}
 ---
