@@ -22,11 +22,11 @@
 
       <div class=" relative z-1">
         <elements-container class="">
-          <div v-if="myData.persons" class="col-span-2 grid gap-4 w-2/3">
-            <h2 class="text-lg uppercase font-bold">Leerkrachten</h2>
-            <elements-persons  :persons="myData.persons" />
-            <!--            <elements-button :flavor="2" :to=""/>-->
-          </div>
+<!--          <div v-if="myData.persons" class="col-span-2 grid gap-4 w-2/3">-->
+<!--            <h2 class="text-lg uppercase font-bold">Leerkrachten</h2>-->
+<!--            <elements-persons  :persons="myData.persons" />-->
+<!--            &lt;!&ndash;            <elements-button :flavor="2" :to=""/>&ndash;&gt;-->
+<!--          </div>-->
 
           <div v-if="myData.images" class="col-span-2 grid gap-4">
             <h2 class="text-lg uppercase font-bold">In beeld</h2>
