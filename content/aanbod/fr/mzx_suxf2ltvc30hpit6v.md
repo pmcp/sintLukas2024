@@ -11,7 +11,9 @@ ateliers:
     thumb: /assets/uploads/Aanbod banners-BAK.jpg
     title: Beeldende en Audiovisuele Kunsten
     images:
-      - 1ztXeTlxxYuimz_6PgQue
+      - F5EZlVM67F0lkar76IRF1
+      - LYIJbFhfSvmLtHh1tLTvx
+      - JtnGupwOg6aT2mP9AW345
     side1: >-
       ### Materiaal
 
@@ -30,7 +32,7 @@ ateliers:
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
     persons:
-      - 56ncog9kbawmtcx0xbzgr
+      - zu6yrth076tbnhu1eo1sm
     age: 18+
   - mainImage: pyf8LsA-qen2uUH6ah6ZO
     showSubtitleOnCard: false
@@ -67,6 +69,10 @@ ateliers:
       Of je start bij verkennen of verdiepen, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
     thumb: /assets/uploads/Aanbod banners-FOTO.jpg
     title: Fotokunst
+    images:
+      - HjxOA4XwBFPkPDYbQ59CQ
+      - iHZQJPQb0eTmVo23LYxnl
+      - L5NsH58RB8aT0MYxiMfgi
     side1: |-
       ### Materiaal
 
@@ -334,6 +340,7 @@ ateliers:
     title: Grafiekkunst
     images:
       - bEupy1xJNz-ucFY8RQe4L
+      - I2LOns5IyZ7dRhqqIw3tR
     side1: >-
       ### Materiaal
 
