@@ -352,6 +352,8 @@ ateliers:
     images:
       - bEupy1xJNz-ucFY8RQe4L
       - I2LOns5IyZ7dRhqqIw3tR
+      - xiJziowJCbVieI54wHfwh
+      - ntQp5QaGYL5zzhXdq8Fzb
     side1: >-
       ### Materiaal
 
