@@ -6,4 +6,5 @@ ateliers:
     markdown: test track
     age: test track
     showSubtitleOnCard: false
+    thumb: /assets/uploads/aanbod banners-track.jpg
 ---
