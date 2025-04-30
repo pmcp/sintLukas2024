@@ -194,11 +194,7 @@ ateliers:
       Voorkennis hoeft niet, enkel veel zin en enthousiasme!
     thumb: /assets/uploads/Aanbod banners-INTERIEUR.jpg
     title: Interieurontwerp
-    side1: >-
-      ### Materiaal
-
-
-      In het atelier kan je gebruikmaken van een computer en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar, alsook Autocad en Sketchup. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld. Basis maquettemateriaal zoals schuim-, wit en bruin karton kan je aan voordelige prijs aankopen op school, maar we proberen eerst zoveel mogelijk met recuperatiematerialen te werken. Gips - klei kan in groepsaankoop. Specifiek materiaal zoals balsahout, hars, plexi, fineer, plasticine,... koopt de lln best zelf in functie van zijn project.
+    side1: ""
     id: CVmWrDQKUKREP3dNmOvWt
     side2: >-
       ### Studietraject
@@ -211,6 +207,12 @@ ateliers:
 
 
       :dispatch{:data='{"download":["drOVF1wOW2GfxcHOQUWiq"]}' type='downloads'}
+
+
+      ### Materiaal
+
+
+      In het atelier kan je gebruikmaken van een computer en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar, alsook Autocad en Sketchup. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld. Basis maquettemateriaal zoals schuim-, wit en bruin karton kan je aan voordelige prijs aankopen op school, maar we proberen eerst zoveel mogelijk met recuperatiematerialen te werken. Gips - klei kan in groepsaankoop. Specifiek materiaal zoals balsahout, hars, plexi, fineer, plasticine,... koopt de lln best zelf in functie van zijn project.
     persons:
       - iy4kbobw8ytic67mxbbq
     age: 4e graad + Specialisatie
