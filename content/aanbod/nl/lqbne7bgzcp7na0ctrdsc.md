@@ -4,10 +4,11 @@ nl: Kinderen
 order: 1
 color: "#008a5b"
 texture: "1"
-background: /assets/uploads/atelierkinderen.png
+background: /assets/uploads/Aanbod banners-KINDEREN.jpg
 side: false
 ateliers:
-  - showSubtitleOnCard: true
+  - mainImage: 1ztXeTlxxYuimz_6PgQue
+    showSubtitleOnCard: true
     markdown: >-
       Kinderen kunnen hun creativiteit botvieren in onze diverse ateliers op
       verschillende locaties. We voorzien mogelijkheden op scholen en culturele
