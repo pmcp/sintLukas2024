@@ -305,7 +305,9 @@ ateliers:
     thumb: /assets/uploads/Aanbod banners-TEKEN.jpg
     title: Tekenkunst
     images:
-      - hLs-N0Edep-DQWeoEzQHv
+      - IQJxSg0zlMVmRCMIxj9HQ
+      - 5T8UTtya2yLyo57SvXyPX
+      - DMRqmFJDGj5wNtEf6BKXj
     side1: >-
       ### Materiaal
 
@@ -339,6 +341,9 @@ ateliers:
 
 
       :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
+    persons:
+      - ki9xtvqazuhyw3aywv52f
+      - 56ncog9kbawmtcx0xbzgr
     age: 4e graad + Specialisatie
   - mainImage: bEupy1xJNz-ucFY8RQe4L
     showSubtitleOnCard: false
