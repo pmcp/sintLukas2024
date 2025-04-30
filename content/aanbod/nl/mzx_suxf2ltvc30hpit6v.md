@@ -2,8 +2,8 @@
 id: MZX_sUXF2lTVC30HPIt6V
 nl: Volwassenen
 order: 3
-color: "#EDAD94"
-texture: 2
+color: "#EDBAA6"
+texture: "2"
 background: /assets/uploads/1.jpg
 ateliers:
   - mainImage: hLs-N0Edep-DQWeoEzQHv
@@ -40,35 +40,56 @@ ateliers:
   - mainImage: pyf8LsA-qen2uUH6ah6ZO
     showSubtitleOnCard: false
     markdown: >-
-      Binnen de opleiding Fotokunst kies je ervoor als starter het vak Fotokunst
-      (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak
-      Fotokunst (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden
-      te combineren en op die manier sneller in de praktijk te brengen wat je
-      leert. Ook kan je op donderdag les volgen, deze lesuren worden grotendeels
-      gebundeld op andere dagen (bijvoorbeeld een lezing op woensdag, een
-      atelierbezoek op zaterdag, een expobezoek op zondag...); de kalender
-      hiervoor ontvang je in september.
+      In de opleiding Fotokunst draait alles om de fascinatie voor het
+      fotografisch beeld. Fotografie is veelzijdig en alomtegenwoordig in onze
+      beeldcultuur. Al doende leer je de basis opname-, bewerkings- en
+      afdruktechnieken, zowel digitaal als analoog. We gaan de straat op om
+      samen te fotograferen, werken in de studio met artificiële lichtbronnen en
+      verkennen Photoshop. Ook leer je negatieven ontwikkelen, fotogrammen maken
+      en kan je de magie in de donkere kamer beleven. Tijdens de opleiding breid
+      je je referentiekader uit en leer je stap voor stap je eigen verhaal te
+      vertellen via foto’s. Naast de les- en atelierdagen op maandag en dinsdag,
+      gaan we gemiddeld één keer per maand op uitstap, meestal in het weekend.
+      Deze zijn gericht op het verkennen van het (hedendaagse) veld, via
+      tentoonstellings- en atelierbezoeken. Zo leer je het medium vanuit
+      verschillende perspectieven kennen en raak je geïnspireerd. Iedereen die
+      de opleiding volgt, is welkom bij de uitstappen. De kalender hiervoor
+      ontvang je in september.
 
 
-      In deze opleiding staat de fascinatie voor het fotografisch beeld centraal. Fotografie is veelzijdig en alomtegenwoordig in onze huidige beeldcultuur. Al doende leer je de basis opname- en bewerkingstechnieken, zowel digitaal als analoog. We gaan de straat op om samen te fotograferen, werken in de studio met artificiële lichtbronnen en verkennen de digitale mogelijkheden van Photoshop. Tegelijk met de opdrachten en technieken breidt je je referentiekader uit. Via onderzoek, experiment en analyse ontdek je de fotografische beeldtaal. Zo word je stapsgewijs ondergedompeld in de rijkdom van het fotografische beeld. Ook kan je in de donkere kamer de magie beleven door er jouw foto’s te ontwikkelen. Het is niet verplicht om analoog te werken, die mogelijkheid wordt aangeboden. Je krijgt de kans om verschillende fotografische mogelijkheden, toepassingen en technieken te proeven. Je wordt individueel begeleid in het artistiek proces, van concept tot presentatie. Gaandeweg worden opdrachten opener en word je gestimuleerd om jouw verhaal uit te drukken via foto’s. Je wordt ondersteund in het ontwikkelen van een persoonlijke visie over het medium fotografie. Uitstappen worden veelal in het weekend georganiseerd, éénmaal per maand en richten zich op het verkennen en verdiepen van het (hedendaagse) veld. Ze geven je de mogelijkheid om de fotograaf achter het werk te leren kennen; om originele werken in een tentoonstelling context te ervaren en om daarover met elkaar in gesprek te gaan. Ze leren je het medium vanuit verschillende standpunten kennen. Ze verscherpen je blik. Het werkt inspirerend en tegelijk leer je reflecteren over het medium.
-
-       Heb je geen ervaring, dan volg je het atelier op maandag: Fotokunst (starters). Hier start je vanaf het begin en leer je je camera gebruiken. Heb je al wat basiskennis, dan volg je het atelier op dinsdag: Fotokunst (verdieping). Hier wordt er verwacht dat je de basistechnieken al onder de knie hebt en je je graag persoonlijk wilt leren uitdrukken via fotografie.
-
-      Als je als starter maandag en dinsdag combineert, kan je maandag als lesdag beschouwen en dinsdag als atelierdag. Als je als gevorderden maandag en dinsdag combineert, is maandag je atelierdag en dinsdag je lesdag. Atelierdag wil zeggen dat je (zelfstandig) aan de slag gaat in het atelier en van de infrastructuur en know-how van de begeleider gebruik kan maken. Tijdens lesdagen worden nieuwe opdrachten en technieken aangereikt, en worden je foto’s besproken.
+      **Starters**
 
 
-      Of je instapt als starter of gevorderden, kunnen wij als leerkrachten mee beslissen en adviseren. Dit doen we aan de hand van de evaluatie op het einde van het schooljaar; een intakegesprek voor je start; of via voorgaande realisaties (bijvoorbeeld via je portfolio).
+      Als je geen of weinig ervaring hebt, begin je op maandag met het atelier Fotokunst (verkennen). Hier start je vanaf het begin, leer je je camera gebruiken en maak je kennis met de fotografische beeldtaal. Via opdrachten leer je kijken en beelden combineren. Als je maandag en dinsdag combineert, kan je maandag als lesdag beschouwen en dinsdag als atelierdag. Tijdens de lesdagen worden nieuwe opdrachten en technieken aangereikt en worden je foto’s besproken. Op atelierdagen werk je (zelfstandig) in het atelier, waarbij je gebruik kan maken van de infrastructuur en begeleiding van de docent.
+
+
+      **Gevorderden**
+
+
+      Als je de basistechnieken al beheerst, kun je het atelier op dinsdag volgen: Fotokunst (verdiepen). Hier leer je je persoonlijk uitdrukken via fotografie, van concept tot presentatie, met ruimte voor experiment en onderzoek. Als je maandag en dinsdag combineert, is maandag je atelierdag en dinsdag je lesdag. Tijdens de lesdagen worden opdrachten, technieken en foto’s besproken. Op atelierdagen werk je zelfstandig in het atelier, waar je gebruik kan maken van de infrastructuur. 
+
+
+      Of je start bij verkennen of verdiepen, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
     title: Fotokunst
     side1: |-
       ### Materiaal
 
-      (digitale) camera, schetsboek
+      * (digitale) camera
+      * schetsboek
+      * statief (optioneel)
     id: NuOyl3knrqBuVTO-T-yaG
     side2: >-
       ### Studietraject
 
 
-      Leerlingen die de opleiding Fotokunst volgen, kiezen uit een traject van 1 avond/week (lang traject, 10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+      * 1 avond/week (lang traject, 10 jaar)
+
+      * 2 avonden/week (middellang traject, 5 jaar)
+
+      * 3 avonden/week (kort traject, 4 jaar)
+
+
+      Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
 
 
       ### Uurrooster
@@ -77,14 +98,17 @@ ateliers:
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
     persons:
       - 7y4sqfcm0fl4ayvoov5d
+      - 56ncog9kbawmtcx0xbzgrx
     age: 18+
-  - id: y-a-wEcmvd7WTIDmQpJnr
+  - mainImage: RXDNC2x94_ZNBRXsJotDy
     showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Grafisch Ontwerp en Illustratie
-
-
-      Binnen de opleiding Grafisch Ontwerp en Illustratie kies je ervoor als starter het vak Grafisch Ontwerp en Illustratie (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak Grafisch Ontwerp en Illustratie (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden te combineren en op die manier sneller in de praktijk te brengen wat je leert.
+      Binnen de opleiding Grafisch Ontwerp en Illustratie kies je ervoor als
+      starter het vak Grafisch Ontwerp en Illustratie (starters) te volgen op
+      maandag. Heb je meer ervaring, volg je het vak Grafisch Ontwerp en
+      Illustratie (verdieping) op dinsdag. Het is ook mogelijk om de twee
+      avonden te combineren en op die manier sneller in de praktijk te brengen
+      wat je leert.
 
 
       Grafisch ontwerp en illustratie zijn sterk verbonden met de andere kunsten. Ook hier worden kleur, lijn, vorm en andere beeldelementen bewust ingezet. Vaak werkt een ontwerper of illustrator naar opdracht. Dat is geen beperking maar een uitdaging om conceptueel te denken en een eigen beeldtaal te ontwikkelen. Typisch voor dit atelier is het gebruik van typografie en lettering, de aandacht voor lay-out en realisatie. Denk aan affiches, boeken, zines, huisstijlen, websites, ... In het atelier ligt de nadruk op experiment, creatief denken en een kritische houding in het ontwerpproces. We proberen immers ontwerpen te maken met een sterke connectie tussen inhoud en vorm, niet enkel mooie plaatjes. Digitale technieken en computervaardigheden zijn belangrijk, maar je gebruikt ze zoals je wil. Mixed media tussen analoge en digitale technieken is uniek aan dit atelier. Adobe Photoshop, Adobe Illustrator en Adobe InDesign komen aan bod.
@@ -119,34 +143,36 @@ ateliers:
 
       * Technisch verfijnen
     title: Grafisch Ontwerp en Illustratie
-    age: 4e graad + Specialisatie
-    mainImage: RXDNC2x94_ZNBRXsJotDy
     side1: >-
       ### Materiaal
 
 
       In het atelier kan je gebruikmaken van een computer, scanner, tekentablet en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld.
+    id: y-a-wEcmvd7WTIDmQpJnr
     side2: >-
       ### Studietraject
 
 
-      Leerlingen die de opleiding Grafisch Ontwerp en Illustratie volgen, kiezen uit een traject van 1 avond/week (lang traject, 10 jaar) of 2 avonden/week (middellang traject, 5 jaar). Leerlingen die 1 avond/week volgen, kiezen op basis van hun voorkennis voor een specifieke avond. Opgelet! Voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+      * 1 avond/week (lang traject, 10 jaar)
+
+      * 2 avonden/week (middellang traject, 5 jaar)
+
+
+      Leerlingen die 1 avond/week volgen, kiezen op basis van hun voorkennis voor een specifieke avond. Opgelet! Voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
 
 
       ### Uurrooster
 
 
       :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
-  - id: CVmWrDQKUKREP3dNmOvWt
-    showSubtitleOnCard: false
-    title: Interieurontwerp
+    persons:
+      - 7wqvul5yddsyxrffwwlr
     age: 4e graad + Specialisatie
-    mainImage: bAun78jPdd1BpbRLc7iJU
+  - mainImage: bAun78jPdd1BpbRLc7iJU
+    showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Interieurontwerp
-
-
-      Binnen de opleiding Interieurontwerp volg je het vak Interieurontwerp op dinsdagavond.
+      Binnen de opleiding Interieurontwerp volg je het vak Interieurontwerp op
+      dinsdagavond.
 
 
       Geef jezelf ruimte, de ruimte om te observeren, te voelen en te vormen. In dit atelier schenken we aandacht aan onze omgeving, de ruimte waarin we wonen, werken en leven. De reële ruimte, maar ook de ruimte als een concept of een abstractie.
@@ -162,11 +188,13 @@ ateliers:
 
 
       Voorkennis hoeft niet, enkel veel zin en enthousiasme!
+    title: Interieurontwerp
     side1: >-
       ### Materiaal
 
 
       In het atelier kan je gebruikmaken van een computer en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar, alsook Autocad en Sketchup. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld. Basis maquettemateriaal zoals schuim-, wit en bruin karton kan je aan voordelige prijs aankopen op school, maar we proberen eerst zoveel mogelijk met recuperatiematerialen te werken. Gips - klei kan in groepsaankoop. Specifiek materiaal zoals balsahout, hars, plexi, fineer, plasticine,... koopt de lln best zelf in functie van zijn project.
+    id: CVmWrDQKUKREP3dNmOvWt
     side2: >-
       ### Studietraject
 
@@ -178,14 +206,23 @@ ateliers:
 
 
       :dispatch{:data='{"download":["drOVF1wOW2GfxcHOQUWiq"]}' type='downloads'}
+    persons:
+      - iy4kbobw8ytic67mxbbq
+    age: 4e graad + Specialisatie
   - mainImage: owBUqHnSHJiZGmI2ErqCo
     showSubtitleOnCard: false
     markdown: >-
-      Binnen de opleiding Modeltekenen volg je het vak Modeltekenen op
-      dinsdagavond of op donderdagavond.
+      Je krijgt wekelijks tekenles naar levend model. Tijdens deze lessen staat
+      het menselijk naaktmodel centraal als onderwerp in de ontwikkeling van een
+      eigen beeldtaal. Via diverse materialen (potlood, houtskool, acryl- of
+      olieverf, pastel, bister, collage, ...) verken je de mogelijkheden van
+      technieken en experiment om jouw observatie naar beeldend werk om te
+      vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur,
+      compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de
+      anatomie van het menselijk lichaam en verscherp je gevoel voor detail.
 
 
-      Je krijgt wekelijks tekenles naar levend model. Tijdens deze lessen staat het menselijk naaktmodel centraal als onderwerp in de ontwikkeling van een eigen beeldtaal. Via diverse materialen (potlood, houtskool, acryl- of olieverf, pastel, bister, collage, ...) verken je de mogelijkheden van technieken en experiment om jouw observatie naar beeldend werk om te vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur, compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de anatomie van het menselijk lichaam en verscherp je gevoel voor detail. Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
+      Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
     title: Modeltekenen
     images:
       - owBUqHnSHJiZGmI2ErqCo
@@ -218,20 +255,26 @@ ateliers:
 
 
       :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
+    persons:
+      - jypkpziuevct0xyejt5zi
+      - gsjgcstsncn40ydykxskn
     age: 4e graad + Specialisatie
   - mainImage: hLs-N0Edep-DQWeoEzQHv
     showSubtitleOnCard: false
     markdown: >-
-      ### Informatie over de opleiding Tekenkunst
+      Tekenen is een bijzonder rijke en zelfstandige kunsttak, die
+      tegelijkertijd belangrijke ondersteuning biedt voor andere disciplines.
+      Via analyse van eenvoudige basisvormen stimuleer je het ruimtelijk
+      inzicht, waardoor je op termijn tot een meer intuïtieve benadering van het
+      beeld komt en dus ook tot een meer persoonlijke plastische weergave. Leren
+      tekenen is een proces, een balans tussen perceptie en expressie, zonder
+      het experiment uit het oog te verliezen. We stimuleren je in het
+      uitstippelen van je eigen parcours, op je eigen tempo in een omgeving
+      waarin je vrij bent om te verkennen, te creëren en te ontwikkelen, terwijl
+      we je ondersteunen bij elke stap.
 
 
-      Binnen de opleiding Tekenkunst kies je ervoor als starter het vak Tekenkunst (beginners) te volgen op dinsdag. Heb je meer ervaring, volg je het vak Tekenkunst (verdieping) op maandag. Op dinsdag en/of donderdag kan je optioneel het vak Modeltekenen volgen om jouw tekenvaardigheden te ontwikkelen.
-
-
-      Tekenen is een bijzonder rijke en zelfstandige kunsttak, die tegelijkertijd belangrijke ondersteuning biedt voor andere disciplines. Via analyse van eenvoudige basisvormen stimuleer je het ruimtelijk inzicht, waardoor je op termijn tot een meer intuïtieve benadering van het beeld komt en dus ook tot een meer persoonlijke plastische weergave. Leren tekenen is een proces, een balans tussen perceptie en expressie, zonder het experiment uit het oog te verliezen. We stimuleren je in het uitstippelen van je eigen parcours, op je eigen tempo in een omgeving waarin je vrij bent om te verkennen, te creëren en te ontwikkelen, terwijl we je ondersteunen bij elke stap.
-
-
-      Start je als beginnende tekenaar, dan volg je het atelier op dinsdag: Tekenkunst Beginners. In onze atelier leer je de fundamenten van tekenen, van het vasthouden van een potlood tot het creëren van boeiende composities. Stap voor stap ontdek je verschillende technieken en materialen, en leer je via observatie en onderzoek je blik te verruimen. Je maakt kennis met de elementen van de beeldtaal zoals lijn, kleur, vorm, structuur, textuur, contrast ... Door middel van een aantal onderwerpen - zoals stillevens, portret, levend model, interieur, drapering etc. - probeer je nieuwe materialen ( potlood, houtskool, acryl, olieverf, bister, ...), technieken en uitdrukkingsmogelijkheden te vinden. We verkennen een scala aan benaderingen en bieden handige feedback om je te helpen groeien als tekenaar. Op een ondersteunende manier creëren we een omgeving waarin je je vrij voelt om te experimenteren en fouten te maken. Want in het proces van leren tekenen, ligt de schoonheid ook in de ontdekkingen die je onderweg doet. Onze lessen zijn bedacht om een solide basis te leggen, of je nu een volledige beginner bent of al wat geëxperimenteerd hebt. Het maakt niet uit hoe oud je bent of wat je achtergrond is, ons atelier verwelkomt iedereen met een interesse voor tekenkunst!
+      **GEVORDERDEN**
 
 
       Heb je al wat basiskennis van het tekenen, dan volg je het atelier op maandag: Tekenkunst Verdieping. Hier gaan we verder aan de slag met die basis. We ontdekken de ruime mogelijkheden van de tekenkunst en verdiepen ons verder in de bouwstenen van het tekenen. We stellen ons vragen zoals: hoe ontstaat een tekening,hoe kan je spelen met de beeldelementen en hoe kan je jouw verhaal vertellen in een tekening? We gaan thematisch en inhoudelijk op zoek naar wat tekenen inhoudt. Met welke materialen en technieken ga jij op zoek naar een persoonlijke beeldtaal? We vertrekken van zowel waarneming, verbeelding en eigen beeldmateriaal. Gaandeweg ontwikkelen we een eigen traject aan de hand van concrete uitdagingen en persoonlijke feedback. We werken aan de hand van verschillende concrete thema’s, deze worden op een persoonlijke manier uitgewerkt en onderzocht. Materialen en technieken worden samen onder de loep genomen en dienen als basis voor het persoonlijke traject. Er is veel ruimte en aandacht voor experiment en onderzoek, dit aan de hand van persoonlijke begeleiding en klassikale oefeningen. Er worden linken gelegd met zowel de hedendaagse tekenkunst als de kunstgeschiedenis.
@@ -245,17 +288,26 @@ ateliers:
       Info over benodigd materiaal:
 
 
-      * Papier: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
 
-      * Schetsboek: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
 
-      * Tekenmateriaal: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+      **Schetsboek**: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
+
+
+      **Tekenmateriaal**: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
     id: n5upPonOG5BkWdek5a_3h
     side2: >-
       ### Studietraject
 
 
-      Leerlingen die de opleiding Tekenkunst volgen, kiezen uit een traject van 1 avond/week (Lang traject, 10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+      * 1 avond/week (lang traject, 10 jaar)
+
+      * 2 avonden/week (middellang traject, 5 jaar)
+
+      * 3 avonden/week (kort traject, 4 jaar)
+
+
+      Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
 
 
       ### Uurrooster
