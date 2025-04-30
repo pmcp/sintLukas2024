@@ -12,4 +12,5 @@ ateliers:
     title: Ateliers
     age: 12-18 jaar
     showSubtitleOnCard: true
+    thumb: /assets/uploads/Aanbod banners-JONGEREN.jpg
 ---
