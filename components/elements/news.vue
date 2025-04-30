@@ -2,7 +2,7 @@
   <div class="flex flex-col gap-4 border-b pb-4 md:pb-6">
     <div class="flex gap-4"  v-for="(a, key) in articles" :key="`news-${key}`">
       <nuxt-link :to="a.link" v-if="a.link">
-        <elements-image :src="a.thumbnail || fallbackImage" class="h-full w-20 md:w-40"/>
+        <elements-image :src="a.image || fallbackImage" class="h-full w-20 md:w-40"/>
         <div class="flex flex-col md:gap-2  pt pb-8">
           <div class="text-xs"><helpers-date :date="a.date" /></div>
           <span class="text-xl">{{ a.title }}</span>
@@ -10,7 +10,7 @@
         </div>
       </nuxt-link>
       <div v-else class="grid grid-cols-8 gap-4 w-full">
-        <elements-image :src="a.thumbnail || fallbackImage" class="col-span-2 min-w-20 w-full h-full "/>
+        <elements-image :src="a.image || fallbackImage" class="col-span-2 min-w-20 w-full h-full "/>
         <div class="col-span-6 inline-flex flex-col md:gap-2 md:pt justify-center">
           <div class="text-xs"><helpers-date :date="a.date" /></div>
           <span class="text-xl">{{ a.title }}</span>
