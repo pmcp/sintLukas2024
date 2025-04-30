@@ -19,4 +19,5 @@ ateliers:
     mainImage: 1ztXeTlxxYuimz_6PgQue
     images:
       - 1ztXeTlxxYuimz_6PgQue
+    thumb: /assets/uploads/Aanbod banners-KINDEREN.jpg
 ---
