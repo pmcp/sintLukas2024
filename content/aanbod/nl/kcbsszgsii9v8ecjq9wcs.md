@@ -1,9 +1,10 @@
 ---
-nl: Jongeren
 id: KcBSSZGsII9V8ecjq9WcS
+nl: Jongeren
 order: 2
 color: "#2FAFC2"
 texture: 2
+thumb: /assets/uploads/Aanbod banners-JONGEREN.jpg
 ateliers:
   - id: Tu-aRF3XGIUiGLMrY25jD
     markdown: "Je maakt op een ludieke manier kennis met verschillende technieken:
@@ -17,4 +18,5 @@ ateliers:
     title: Ateliers
     age: 12-18 jaar
     showSubtitleOnCard: true
+    thumb: /assets/uploads/Aanbod banners-JONGEREN.jpg
 ---
