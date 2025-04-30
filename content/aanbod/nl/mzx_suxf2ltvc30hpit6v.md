@@ -4,6 +4,7 @@ nl: Volwassenen
 order: 3
 color: "#EDBAA6"
 texture: "2"
+thumb: /assets/uploads/Aanbod banners-INTERIEUR.jpg
 background: /assets/uploads/1.jpg
 ateliers:
   - mainImage: hLs-N0Edep-DQWeoEzQHv
@@ -14,6 +15,7 @@ ateliers:
 
 
       In het atelier beeldende en audiovisuele kunsten maken we kennis met verschillende technieken en disciplines zoals tekenkunst, (analoge en digitale) fotografie, boekbinden, schilderkunst, zeefdruk, grafisch ontwerp, illustratie, collage, (animatie-)film, grafiekkunst enzovoort... Deze opleiding is ideaal als je wil starten in een beeldende opleiding maar kan je niet kiezen tussen de verschillende disciplines, of als je als beginner de beeldende kunsten verkennen. In het atelier ligt de nadruk op experiment, creatief denken en loslaten en plezier hebben in het creëren en uitproberen. Er is ruimte voor eigen onderzoek en verdieping in technieken en materialen.
+    thumb: /assets/uploads/Aanbod banners-BAK.jpg
     title: Beeldende en Audiovisuele Kunsten
     images:
       - 1ztXeTlxxYuimz_6PgQue
@@ -70,6 +72,7 @@ ateliers:
 
 
       Of je start bij verkennen of verdiepen, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
+    thumb: /assets/uploads/Aanbod banners-FOTO.jpg
     title: Fotokunst
     side1: |-
       ### Materiaal
@@ -142,6 +145,7 @@ ateliers:
       * Eigen grafische/illustratieve taal verdiepen
 
       * Technisch verfijnen
+    thumb: /assets/uploads/Aanbod banners-GO en ILL.jpg
     title: Grafisch Ontwerp en Illustratie
     side1: >-
       ### Materiaal
@@ -188,6 +192,7 @@ ateliers:
 
 
       Voorkennis hoeft niet, enkel veel zin en enthousiasme!
+    thumb: /assets/uploads/Aanbod banners-INTERIEUR.jpg
     title: Interieurontwerp
     side1: >-
       ### Materiaal
@@ -223,6 +228,7 @@ ateliers:
 
 
       Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
+    thumb: /assets/uploads/Aanbod banners-MODEL.jpg
     title: Modeltekenen
     images:
       - owBUqHnSHJiZGmI2ErqCo
@@ -278,6 +284,7 @@ ateliers:
 
 
       Heb je al wat basiskennis van het tekenen, dan volg je het atelier op maandag: Tekenkunst Verdieping. Hier gaan we verder aan de slag met die basis. We ontdekken de ruime mogelijkheden van de tekenkunst en verdiepen ons verder in de bouwstenen van het tekenen. We stellen ons vragen zoals: hoe ontstaat een tekening,hoe kan je spelen met de beeldelementen en hoe kan je jouw verhaal vertellen in een tekening? We gaan thematisch en inhoudelijk op zoek naar wat tekenen inhoudt. Met welke materialen en technieken ga jij op zoek naar een persoonlijke beeldtaal? We vertrekken van zowel waarneming, verbeelding en eigen beeldmateriaal. Gaandeweg ontwikkelen we een eigen traject aan de hand van concrete uitdagingen en persoonlijke feedback. We werken aan de hand van verschillende concrete thema’s, deze worden op een persoonlijke manier uitgewerkt en onderzocht. Materialen en technieken worden samen onder de loep genomen en dienen als basis voor het persoonlijke traject. Er is veel ruimte en aandacht voor experiment en onderzoek, dit aan de hand van persoonlijke begeleiding en klassikale oefeningen. Er worden linken gelegd met zowel de hedendaagse tekenkunst als de kunstgeschiedenis.
+    thumb: /assets/uploads/Aanbod banners-TEKEN.jpg
     title: Tekenkunst
     images:
       - hLs-N0Edep-DQWeoEzQHv
@@ -328,6 +335,7 @@ ateliers:
 
 
       Op dinsdagavond wordt het Grafiekatelier ingericht, waarbij de klassieke grafische technieken op het programma. Je maakt kennis met allerhande druktechnieken: linosnede, collografie, steendruk of lithografie, zeefdruk, ets, ... Je kan er eindeloos experimenteren door verschillende dragers uit te testen (papier, karton, hout, textiel, ... ) en door technieken te combineren. met linken naar de kunstgeschiedenis, de rijke culturele geschiedenis van grafische beelden en met linken naar tekenkunst. Binnen de opdrachten stimuleren we je persoonlijke ontwikkelingsproces. Onderzoek en experiment staan centraal in de ontplooiing van een authentieke visuele beeldtaal. We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld.
+    thumb: /assets/uploads/Aanbod banners-GRAFIEK.jpg
     title: Grafiekkunst
     images:
       - bEupy1xJNz-ucFY8RQe4L
@@ -373,6 +381,7 @@ ateliers:
 
 
       Doorheen de opleiding zijn individueel proces en picturale ontwikkeling belangrijk voor startende alsook ervaren schilders. Via opdrachten, demonstraties en persoonlijke begeleiding maken we kennis met diverse aspecten en begrippen van het medium schilderkunst; de drager, beeldend onderzoek en het aanbrengen van de verf. Langs een waaier van kleur, staan we stil bij verschillende processen, kunsthistorisch tot experimenteel om het arsenaal te verbreden en om een eigen beeldtaal te ontwikkelen.
+    thumb: /assets/uploads/Aanbod banners-SCHILDER.jpg
     title: Schilderkunst
     images:
       - rf7me0634S7qUaQmpG3qe
