@@ -87,9 +87,6 @@ const getCourses = (data) => {
             side: theCat.side || false,
           }
 
-          if (!x.mainImage && x.images.length > 0) {
-            x.mainImage = x.images[0]
-          }
 
           return x;
         })]
