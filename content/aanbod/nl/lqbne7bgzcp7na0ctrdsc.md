@@ -9,7 +9,7 @@ side: false
 ateliers:
   - showSubtitleOnCard: true
     id: lqQD1KD04PNIDvtPzMPoM
-    title: Ateliers Kinderen
+    title: Ateliers kinderen
     age: 6-11 jaar
     persons:
       - 56ncog9kbawmtcx0xbzgr
