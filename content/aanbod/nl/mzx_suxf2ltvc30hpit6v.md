@@ -2,8 +2,8 @@
 id: MZX_sUXF2lTVC30HPIt6V
 nl: Volwassenen
 order: 3
-color: "#edbaa6"
-texture: 2
+color: "#EDBAA6"
+texture: "2"
 background: /assets/uploads/1.jpg
 ateliers:
   - mainImage: hLs-N0Edep-DQWeoEzQHv
