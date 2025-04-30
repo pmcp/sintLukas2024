@@ -22,6 +22,8 @@ ateliers:
     title: Ateliers kinderen
     images:
       - qE6drCtdnMJunfN1xDSqF
+      - c7774xHaizo9wS34jJ6Hz
+      - HJWFQdgNkJYycr1EJsHG7
     side1: >-
       ### MATERIAAL
 
