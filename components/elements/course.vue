@@ -28,8 +28,9 @@
         }">
 
          <div class="overflow-hidden h-48">
-           <div class="relative h-full" v-if="course.mainImage" :style="`background-color: ${course.cat.color}`">
-             <elements-image transparent :image="`${course.mainImage}`" class="absolute top-0 left-0 z-10 col-span-1 h-full w-full" hoverEffect="none"/>
+           {{ course.thumb}}
+           <div class="relative h-full" v-if="course.thumb" :style="`background-color: ${course.cat.color}`">
+             <elements-image transparent :image="`${course.thumb}`" class="absolute top-0 left-0 z-10 col-span-1 h-full w-full" hoverEffect="none"/>
              <div class="absolute z-20 top-0 left-0 w-full h-full flex justify-center items-center px-4 py-2 p-2 sm:px-2 md:py-4 text-center">
                <div>
                  <span class="text-white font-bold text-2xl">{{ course.title }}</span>
