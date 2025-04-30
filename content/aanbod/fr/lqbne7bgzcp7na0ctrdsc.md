@@ -3,7 +3,7 @@ id: ha62b1fhWN7YfceuNpOr6
 ateliers:
   - showSubtitleOnCard: true
     id: lqQD1KD04PNIDvtPzMPoM
-    title: Ateliers Kinderen
+    title: Ateliers kinderen
     age: 6-11 jaar
     persons:
       - 56ncog9kbawmtcx0xbzgr
@@ -44,8 +44,8 @@ ateliers:
       **Waar?** Op verschillende locaties. Raadpleeg het lessenrooster voor meer informatie.
 
 
-      :dispatch{:data='{}' type='downloads'}
+      :dispatch{:data='{"download":["ZdwA096Fxf9x6P5m8ZRbH"]}' type='downloads'}
 
 
-      :dispatch{:data='{"label":"Vestigingen bekijken","link":"academie"}' type='Link'}
+      :dispatch{:data='{"label":"Vestigingen bekijken","link":"/academie"}' type='Link'}
 ---
