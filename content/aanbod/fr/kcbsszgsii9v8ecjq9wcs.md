@@ -14,7 +14,7 @@ ateliers:
       zijn bovendien een goede voorbereiding voor een opleiding in de
       Kunsthumaniora en/of in het Hoger Kunstonderwijs."
     thumb: /assets/uploads/Aanbod banners-JONGEREN.jpg
-    title: Ateliers
+    title: Atelier jongeren
     images: []
     side1: |-
       ### WANNEER
