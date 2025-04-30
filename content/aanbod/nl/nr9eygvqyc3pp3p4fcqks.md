@@ -1,9 +1,10 @@
 ---
-nl: Kinderen
 id: nr9EYgVQYC3pP3P4fCQks
+nl: Kinderen
 order: 1
 color: "#008A5B"
 texture: 1
+thumb: /assets/uploads/aanbod-banners-kinderen.jpg
 ateliers:
   - id: RCydY_ZJM4Y01JnPzBRrR
     showSubtitleOnCard: true
