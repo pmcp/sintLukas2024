@@ -405,7 +405,9 @@ ateliers:
     thumb: /assets/uploads/Aanbod banners-SCHILDER.jpg
     title: Schilderkunst
     images:
-      - rf7me0634S7qUaQmpG3qe
+      - vPEVRaAnKwOqpcImHXPIL
+      - prHvxOu9vVnR86tPRL3tS
+      - rVyjamIxWOFWxqPfHEO2r
     side1: >-
       Materiaal
 
@@ -434,5 +436,7 @@ ateliers:
 
 
       :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
+    persons:
+      - zysyjvfvqwapcjl8lpuj9
     age: 4e graad + Specialisatie
 ---

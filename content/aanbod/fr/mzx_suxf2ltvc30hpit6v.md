@@ -197,6 +197,10 @@ ateliers:
       Voorkennis hoeft niet, enkel veel zin en enthousiasme!
     thumb: /assets/uploads/Aanbod banners-INTERIEUR.jpg
     title: Interieurontwerp
+    images:
+      - RVVSXpZocyuTx2xsLRJlb
+      - BHP1MnGClIXRiYbFd9XUJ
+      - 08qjMyXybApFwMASwmWGq
     side1: ""
     id: CVmWrDQKUKREP3dNmOvWt
     side2: >-
@@ -236,7 +240,9 @@ ateliers:
     thumb: /assets/uploads/Aanbod banners-MODEL.jpg
     title: Modeltekenen
     images:
-      - owBUqHnSHJiZGmI2ErqCo
+      - QUEoxF7gxvGp7QKtQyGPb
+      - gEU7qRe6yfL9C7x97r2Mw
+      - S15yNiSCAzQcqBMMe9moO
     side1: >-
       ### Materiaal
 
