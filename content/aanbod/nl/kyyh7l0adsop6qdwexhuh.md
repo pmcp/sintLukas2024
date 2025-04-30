@@ -1,9 +1,9 @@
 ---
-nl: Track
 id: KYyH7l0aDSOP6QDwexHuh
+nl: Track
 order: 5
 color: "#A7A690"
-texture: 1
+thumb: /assets/uploads/aanbod banners-track.jpg
 background: /assets/uploads/9.jpg
 side: true
 ateliers:
@@ -13,4 +13,6 @@ ateliers:
     markdown: test track
     age: test track
     showSubtitleOnCard: false
+    thumb: /assets/uploads/aanbod banners-track.jpg
+texture: 1
 ---
