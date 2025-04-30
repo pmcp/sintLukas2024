@@ -153,6 +153,10 @@ ateliers:
       * Technisch verfijnen
     thumb: /assets/uploads/Aanbod banners-GO en ILL.jpg
     title: Grafisch Ontwerp en Illustratie
+    images:
+      - BGncayv52exxVJRlbRCJM
+      - ExyAm8uLoxwcRrOs7YoWq
+      - JQojjAymO8q8jO2x1W6NT
     side1: >-
       ### Materiaal
 
