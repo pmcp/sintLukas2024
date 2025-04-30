@@ -204,6 +204,10 @@ ateliers:
       Voorkennis hoeft niet, enkel veel zin en enthousiasme!
     thumb: /assets/uploads/Aanbod banners-INTERIEUR.jpg
     title: Interieurontwerp
+    images:
+      - RVVSXpZocyuTx2xsLRJlb
+      - BHP1MnGClIXRiYbFd9XUJ
+      - 08qjMyXybApFwMASwmWGq
     side1: ""
     id: CVmWrDQKUKREP3dNmOvWt
     side2: >-
