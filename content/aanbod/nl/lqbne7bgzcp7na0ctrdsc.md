@@ -19,10 +19,39 @@ ateliers:
       - ktvjos3lxjzadmnnaoxaq
       - xbvytyu8ntojzrimhedk9
       - zu6yrth076tbnhu1eo1sm
-    markdown: "Je maakt op een ludieke manier kennis met verschillende technieken:
-      schilderen, tekenen, collages maken, sculpturen kneden in klei,
-      fotograferen, etsen, ... Laat je verwonderen door de rijke wereld van
-      materialen, technieken en kunststromingen. Je wordt geprikkeld om te doen,
-      te experimenteren en prikkels al spelend om te zetten in sprekende
-      beelden!"
+    markdown: >-
+      Kinderen kunnen hun creativiteit botvieren in onze diverse ateliers op
+      verschillende locaties. We voorzien mogelijkheden op scholen en culturele
+      centra in de buurt als uitbreiding op onze eigen locatie.
+
+
+      **Beeld atelier**
+
+
+      Je maakt op een ludieke manier kennis met verschillende technieken: schilderen, tekenen, collages maken, sculpturen, kneden in klei, fotograferen, etsen, ... Laat je verwonderen door de rijke wereld van materialen, processen en kunststromingen. Je wordt gestimuleerd om te doen, te experimenteren en prikkels al spelend om te zetten in sprekende beelden!
+
+
+      **Audiovisueel atelier**
+
+
+      Hou je van fotografie, film, animatie, stopmotion en soundscapes? Dan krijg je in dit atelier naast tekenen, boetseren en schilderen ook audiovisuele technieken aangeboden. Enkel in de vestigingsplaatsen Helmet (dinsdag) en Groenstraat (maandag).
+    side1: >-
+      ### MATERIAAL
+
+
+      De academie voorziet al het materiaal, er zijn geen extra kosten verbonden aan deze ateliers.
+    side2: >-
+      ### LESSENROOSTER
+
+
+      **Wanneer?** Na school op maandag, dinsdag, woensdag of donderdag
+
+
+      **Waar?** Op verschillende locaties. Raadpleeg het lessenrooster voor meer informatie.
+
+
+      :dispatch{:data='{}' type='downloads'}
+
+
+      :dispatch{:data='{"label":"Vestigingen bekijken","link":"academie"}' type='Link'}
 ---
