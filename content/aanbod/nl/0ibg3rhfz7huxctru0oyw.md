@@ -1,16 +1,11 @@
 ---
-nl: Kunstkuur
 id: 0ibg3RhFZ7HUXctRU0oyW
+nl: Kunstkuur
 order: 4
 color: "#FFFA7E"
-texture: 1
+thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
 background: /assets/uploads/3.jpg
 side: true
-ateliers:
-  - id: VbukszcsbI_NS6FExFe0W
-    title: test kunstkuur
-    mainImage: B-EnVc7BXt09SUbR6tx67
-    markdown: test kunstkuur
-    age: test kunstkuur
-    showSubtitleOnCard: false
+ateliers: []
+texture: 1
 ---

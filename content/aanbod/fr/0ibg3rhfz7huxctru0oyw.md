@@ -2,7 +2,8 @@
 ateliers:
   - id: VbukszcsbI_NS6FExFe0W
     title: test kunstkuur
-    mainImage: vpj3nM4dml8uo6rkYNuny
+    mainImage: B-EnVc7BXt09SUbR6tx67
     markdown: test kunstkuur
     age: test kunstkuur
+    showSubtitleOnCard: false
 ---
