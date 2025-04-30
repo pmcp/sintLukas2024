@@ -3,11 +3,14 @@
 <!--  <elements-banner grid key="banner-home" :data="{ title: page.block_banner.title, image: page.block_banner.image }"/>-->
 
 
-  <div class="w-full  background-grid md:mt-8 mb-8 md:mb-12">
-    <div class="mx-auto md:px-6 lg:px-8 max-w-7xl my-8 md:my-16">
-      <div class=" flex flex-col md:flex-row gap-8  md:items-center md:justify-center">
-        <span v-if="page.block_banner" class="text-2xl md:text-4xl leading-tight">{{ page.block_banner.title }}</span>
-        <svg-banner class="block w-full h-auto "/>
+  <div class="w-full  background-grid md:mt-8 mb-8 md:mb-12 !pl-0">
+    <div class="mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
+      <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1 w-full md:flex-row gap-8 items-center md:justify-center">
+        <span v-if="page.block_banner" class="md:w-full text-4xl md:text-4xl leading-tight">{{ page.block_banner.title }}</span>
+
+        <svg-animated-banner />
+
+
       </div>
     </div>
   </div>
