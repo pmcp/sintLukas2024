@@ -1,7 +1,8 @@
 ---
 id: ha62b1fhWN7YfceuNpOr6
 ateliers:
-  - showSubtitleOnCard: true
+  - mainImage: 1ztXeTlxxYuimz_6PgQue
+    showSubtitleOnCard: true
     markdown: >-
       Kinderen kunnen hun creativiteit botvieren in onze diverse ateliers op
       verschillende locaties. We voorzien mogelijkheden op scholen en culturele
