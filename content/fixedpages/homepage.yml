@@ -30,7 +30,7 @@ block_calendar:
   title: Kalender
   image: FKnTeVu_Y2nRIJqlJ5ffI
   label: Kalender
-  text: Blijf op de hoogte van alle evenementen, toonmomenten, uitstappen en
+  text: Blijf op de hoogte van al onze evenementen, toonmomenten, uitstappen en
     sluitingsdagen.
   buttonText: Kalender bekijken
   code: <iframe title="Calendar"
