@@ -14,7 +14,7 @@
         rounded: 'rounded-none'
       }"
       size="md"
-      class="hover:bg-primary-100 w-fit no-underline mb-2"
+      class="hover:bg-primary-100 w-fit no-underline mb-4"
       color="black"
       variant="outline"
   >
@@ -37,7 +37,7 @@
           sm: 'px-4 py-3'
         },
       }"
-      class="w-fit no-underline mb-2"
+      class="w-fit no-underline mb-4"
       size="md"
       color="black"
   >
@@ -69,7 +69,7 @@
         }
       }"
       size="md"
-      class="w-fit no-underline mb-2"
+      class="w-fit no-underline mb-4"
       color="black"
   >
     <template #leading>
