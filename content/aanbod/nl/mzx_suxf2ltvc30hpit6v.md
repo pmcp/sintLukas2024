@@ -320,20 +320,7 @@ ateliers:
       - IQJxSg0zlMVmRCMIxj9HQ
       - 5T8UTtya2yLyo57SvXyPX
       - DMRqmFJDGj5wNtEf6BKXj
-    side1: >-
-      ### Materiaal
-
-
-      Info over benodigd materiaal:
-
-
-      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
-
-
-      **Schetsboek**: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
-
-
-      **Tekenmateriaal**: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+    side1: ""
     id: n5upPonOG5BkWdek5a_3h
     side2: >-
       ### Studietraject
@@ -353,6 +340,23 @@ ateliers:
 
 
       :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      Info over benodigd materiaal:
+
+
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
+
+
+      **Schetsboek**: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
+
+
+      **Tekenmateriaal**: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
     persons:
       - ki9xtvqazuhyw3aywv52f
       - 56ncog9kbawmtcx0xbzgr
