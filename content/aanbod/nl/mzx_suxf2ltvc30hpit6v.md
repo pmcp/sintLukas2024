@@ -84,12 +84,7 @@ ateliers:
       - HjxOA4XwBFPkPDYbQ59CQ
       - iHZQJPQb0eTmVo23LYxnl
       - L5NsH58RB8aT0MYxiMfgi
-    side1: |-
-      ### Materiaal
-
-      * (digitale) camera
-      * schetsboek
-      * statief (optioneel)
+    side1: ""
     id: NuOyl3knrqBuVTO-T-yaG
     side2: >-
       ### Studietraject
@@ -109,6 +104,18 @@ ateliers:
 
 
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      * (digitale) camera
+
+      * schetsboek
+
+      * statief (optioneel)
     persons:
       - 7y4sqfcm0fl4ayvoov5d
       - 56ncog9kbawmtcx0xbzgrx
