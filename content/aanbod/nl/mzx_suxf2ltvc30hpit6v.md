@@ -258,7 +258,23 @@ ateliers:
       - QUEoxF7gxvGp7QKtQyGPb
       - gEU7qRe6yfL9C7x97r2Mw
       - S15yNiSCAzQcqBMMe9moO
-    side1: >-
+    side1: ""
+    id: HLPp8M36kkiMVr3MHNx70
+    side2: >-
+      ### Studietraject
+
+
+      Leerlingen die de opleiding Modeltekenen volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
+
+
+      ### Uurrooster
+
+
+      :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
+
+
+
+
       ### Materiaal
 
 
@@ -275,18 +291,6 @@ ateliers:
 
 
       **Tape**: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
-    id: HLPp8M36kkiMVr3MHNx70
-    side2: >-
-      ### Studietraject
-
-
-      Leerlingen die de opleiding Modeltekenen volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
-
-
-      ### Uurrooster
-
-
-      :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
     persons:
       - jypkpziuevct0xyejt5zi
       - gsjgcstsncn40ydykxskn
