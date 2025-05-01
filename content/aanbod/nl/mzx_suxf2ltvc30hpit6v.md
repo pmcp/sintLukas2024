@@ -112,7 +112,7 @@ ateliers:
     persons:
       - 7y4sqfcm0fl4ayvoov5d
       - 56ncog9kbawmtcx0xbzgrx
-    age: 18+
+    age: 4e graad + Specialisatie
   - mainImage: RXDNC2x94_ZNBRXsJotDy
     showSubtitleOnCard: false
     markdown: >-
