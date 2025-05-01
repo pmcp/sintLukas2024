@@ -1,7 +1,7 @@
 ---
 id: HzcWUbLvlm8gQKuXSIeI6
 title: EXPO weekend
-date: April 29, 2025 2:07 PM
+date: May 1, 2025 7:43 AM
 image: /assets/uploads/144x144px-kerstdrink.jpg
 alt: Jaarlijkse expo
 text: |-
