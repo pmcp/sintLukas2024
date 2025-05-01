@@ -14,6 +14,7 @@
         <!-- CATEGORIES --> <div><elements-categories v-if="element.type === 'categories'" :categories="element.categories"/></div>
       </div>
       <slot />
+
     </UPageGrid>
   </div>
 </template>

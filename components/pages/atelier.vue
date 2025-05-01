@@ -23,8 +23,7 @@
 
       <elements-videos v-if="data.title === 'Kunstkuur'"/>
 
-      <div v-if="data.persons && data.images"><elements-background :data="{style: 1}" /></div>
-
+      <div v-if="data.persons || data.images"><elements-background :data="{style: 1}" /></div>
 
       <div class=" relative z-1">
         <elements-container class="">
@@ -42,6 +41,9 @@
             <elements-images :images="data.images" />
           </div>
         </elements-container>
+
+        <div class="h-16"></div>
+
       </div>
     </div>
   </div>

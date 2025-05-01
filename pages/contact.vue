@@ -46,6 +46,8 @@
         <elements-locations />
       </div>
     </div>
+        <div class="h-8"></div>
+
 <!--  </NuxtLayout>-->
 </template>
 

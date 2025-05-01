@@ -22,6 +22,7 @@
         <div class="uppercase text-sm font-bold pb-4">Team</div>
         <elements-persons />
       </div>
+      <div class="h-8"></div>
     </div>
   </div>
 

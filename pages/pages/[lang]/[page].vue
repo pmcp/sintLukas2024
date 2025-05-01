@@ -7,7 +7,9 @@
         </span>
       </main-languages>
       <elements-container v-if="data.elements" class="mx-auto px-6 lg:px-8 max-w-7xl " :elements="data.elements"/>
+      <div class="h-8"></div>
     </div>
+
   </NuxtLayout>
 </template>
 <script setup>

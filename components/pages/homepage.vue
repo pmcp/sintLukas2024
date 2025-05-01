@@ -95,7 +95,9 @@
 <!--          <elements-image contain transparent :image="page.block_calendar.image"  class="col-span-1 h-full"/>-->
         </div>
       </div>
+      <div class="h-8"></div>
     </template>
+
   </UPageGrid>
 </template>
 
