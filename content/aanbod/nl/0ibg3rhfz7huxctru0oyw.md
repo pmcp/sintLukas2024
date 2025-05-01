@@ -4,7 +4,7 @@ nl: Kunstkuur
 order: 4
 color: "#FFFA7E"
 thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
-background: /assets/uploads/3.jpg
+background: /assets/uploads/kunstkuur.jpg
 side: true
 ateliers:
   - showSubtitleOnCard: false
