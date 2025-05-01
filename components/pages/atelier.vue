@@ -8,7 +8,10 @@
           <div class="text-1xl col-span-2 font-bold ">{{ myData.age }}</div>
         </div>
         <div class="grid md:grid-cols-2 col-span-full gap-4 md:gap-0">
-          <elements-markdown :markdownString="myData.markdown" class="col-span-1 prose pr-0 md:pr-8 md:pt-4"/>
+          <div>
+            <elements-markdown :markdownString="myData.markdown" class="col-span-1 prose pr-0 md:pr-8 md:pt-4"/>
+
+          </div>
           <div class="col-span-1 grid grid-cols-1 lg:grid-cols-3 h-fit border-l-0 md:border-l">
             <elements-markdown v-if="myData.side1" :markdownString="myData.side1" class="h-fit pr-2 col-span-1 prose  md:pl-4 pmcp-prose_sidebar"/>
             <elements-markdown v-if="myData.side2" :markdownString="myData.side2" class="h-full col-span-2 prose border-l-0 md:border-l md:pl-4 pmcp-prose_sidebar pt-4 md:pt-0"/>
@@ -17,6 +20,7 @@
           <!--        <elements-text :text="myData.markdown" :side1="myData.side1" :side2="myData.side2" class="col-span-2" />-->
         </div>
       </div>
+      <elements-videos />
       <div v-if="myData.persons && myData.images"><elements-background :data="{style: 1}" /></div>
 
 
