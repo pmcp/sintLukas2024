@@ -21,11 +21,7 @@ ateliers:
       - F5EZlVM67F0lkar76IRF1
       - LYIJbFhfSvmLtHh1tLTvx
       - JtnGupwOg6aT2mP9AW345
-    side1: >-
-      ### Materiaal
-
-
-      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
+    side1: ""
     id: PVG42qcToyKmr8RMt4i6D
     side2: >-
       ### Studietraject
@@ -38,6 +34,14 @@ ateliers:
 
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
     persons:
       - zu6yrth076tbnhu1eo1sm
     age: 18+
