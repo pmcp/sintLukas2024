@@ -1,4 +1,5 @@
 <template >
+
     <pages-atelier v-if="atelier" :data="atelier" />
 </template>
 

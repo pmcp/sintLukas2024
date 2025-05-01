@@ -1,5 +1,6 @@
 <template>
 
+
   <div class="flex flex-col w-full h-full" v-if="thePerson">
     <div class="relative">
       <nuxtImg v-if="thePerson.image" class="w-full group-hover:scale-110 transition-all ease-in duration-200 grayscale group-hover:grayscale-0 transition-all object-cover	bg-white" :src="thePerson.image" />
@@ -23,13 +24,23 @@ const props = defineProps({
   }
 });
 
-let thePerson
+
+// doing a little hack here
+let thePerson = ref(null)
 if(props.person) {
+  console.log('Person', props.person)
+
   const { data } = await useAsyncData(`person-${props.person}`, () => queryContent(`persons/nl`)
-      .where({ title: props.person })
-      .findOne()
+      // .where({ title: props.person })
+      .find()
   )
-  thePerson = data
+  // const { data } = await useAsyncData(`person-${props.person}`, () => queryContent(`persons/nl`)
+  //     .where({ title: props.person })
+  //     .findOne()
+  // )
+  // filter out the persons that are not the one we want
+  thePerson.value = data.value.filter(x => x.title.toLowerCase() === props.person.toLowerCase())[0]
+
 }
 
 
