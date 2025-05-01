@@ -27,7 +27,7 @@
 
       <div class=" relative z-1">
         <elements-container class="">
-          <div v-if="data.persons" class="col-span-2 grid gap-4 w-2/3">
+          <div v-if="data.persons" class="col-span-2 grid gap-4 md:w-2/3">
             <h2 class="text-lg uppercase font-bold">Leerkrachten</h2>
 
 
