@@ -381,20 +381,7 @@ ateliers:
       - I2LOns5IyZ7dRhqqIw3tR
       - xiJziowJCbVieI54wHfwh
       - ntQp5QaGYL5zzhXdq8Fzb
-    side1: >-
-      ### Materiaal
-
-
-      Info over benodigd materiaal:
-
-
-      * Papier: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast. Let op: ons papier is redelijk dun papier, breng zelf papier mee van 200gr voor kwaliteitsdrukwerk.
-
-      * Dragers voor de grafische technieken zoals lino, koperplaten... kan je goedkoop aankopen in ons onthaal.
-
-      * Voor digitaal drukwerk zoals zeefdruk films wordt een bijdrage gevraagd van 3€ voor A3+ formaat
-
-      * Je voorziet je eigen basismateriaal (een set goede potloden, een schetsboek, een lat, een gom en een schort). Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... (gutsen, etsnaalden, inkt, vernis, zuren...) wordt voorzien door de academie, maar indien gewenst kan je dit zelf aankopen.
+    side1: ""
     id: JJmPgwpVR32QX04x30UVW
     side2: >-
       ### Studietraject
@@ -407,6 +394,26 @@ ateliers:
 
 
       :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      Info over benodigd materiaal:
+
+
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast. Let op: ons papier is redelijk dun papier, breng zelf papier mee van 200gr voor kwaliteitsdrukwerk.
+
+
+      Dragers voor de grafische technieken zoals lino, koperplaten... kan je goedkoop aankopen in ons onthaal.
+
+
+      Voor digitaal drukwerk zoals zeefdruk films wordt een bijdrage gevraagd van 3€ voor A3+ formaat
+
+
+      Je voorziet je eigen **basismateriaal** (een set goede potloden, een schetsboek, een lat, een gom en een schort). Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... (gutsen, etsnaalden, inkt, vernis, zuren...) wordt voorzien door de academie, maar indien gewenst kan je dit zelf aankopen.
     age: 4e graad + Specialisatie
   - mainImage: rf7me0634S7qUaQmpG3qe
     showSubtitleOnCard: false
