@@ -23,14 +23,6 @@ ateliers:
 
 
       In samenwerking met [Cultuurkuur](https://www.cultuurkuur.be/kunstkuur#scrollto-algemene-informatie).
-    side1: ""
-    side2: >-
-      ### Interesse?
-
-
-      Wil jouw school ook graag Kunstkuur opstarten met de Sint-Lukas Academie? Contacteer Raisa Vandamme, coördinator Kunstkuur, via [info.academie@sintlukas.brussels](<>).
-
-
 
 
       ### Trajecten
@@ -103,5 +95,11 @@ ateliers:
 
 
       Kunstkuur MCT x SLA in samenwerking met Erasmushogeschool Brussel
+    side1: ""
+    side2: >-
+      ### Interesse?
+
+
+      Wil jouw school ook graag Kunstkuur opstarten met de Sint-Lukas Academie? Contacteer Raisa Vandamme, coördinator Kunstkuur, via [info.academie@sintlukas.brussels](<>).
 texture: 1
 ---
