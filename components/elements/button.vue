@@ -13,8 +13,8 @@
         },
         rounded: 'rounded-none'
       }"
-      size="xl"
-      class="hover:bg-primary-100 w-fit no-underline "
+      size="md"
+      class="hover:bg-primary-100 w-fit no-underline mb-2"
       color="black"
       variant="outline"
   >
@@ -37,8 +37,8 @@
           sm: 'px-4 py-3'
         },
       }"
-      class="w-fit no-underline "
-      size="xl"
+      class="w-fit no-underline mb-2"
+      size="md"
       color="black"
   >
     <template #leading>
@@ -68,8 +68,8 @@
           },
         }
       }"
-      size="xl"
-      class="w-fit no-underline "
+      size="md"
+      class="w-fit no-underline mb-2"
       color="black"
   >
     <template #leading>
