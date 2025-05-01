@@ -161,11 +161,7 @@ ateliers:
       - BGncayv52exxVJRlbRCJM
       - ExyAm8uLoxwcRrOs7YoWq
       - JQojjAymO8q8jO2x1W6NT
-    side1: >-
-      ### Materiaal
-
-
-      In het atelier kan je gebruikmaken van een computer, scanner, tekentablet en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld.
+    side1: ""
     id: y-a-wEcmvd7WTIDmQpJnr
     side2: >-
       ### Studietraject
@@ -183,6 +179,14 @@ ateliers:
 
 
       :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      In het atelier kan je gebruikmaken van een computer, scanner, tekentablet en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld.
     persons:
       - 7wqvul5yddsyxrffwwlr
     age: 4e graad + Specialisatie
