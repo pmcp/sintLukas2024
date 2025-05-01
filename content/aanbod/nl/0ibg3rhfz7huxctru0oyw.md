@@ -7,11 +7,8 @@ thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
 background: /assets/uploads/kunstkuur.jpg
 side: true
 ateliers:
-  - showSubtitleOnCard: false
-    id: 92x2ZB0nCFaSlYqQz6BxU
-    title: Kunstkuur
-    age: Samenwerking partnerschool
-    thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
+  - mainImage: B-EnVc7BXt09SUbR6tx67
+    showSubtitleOnCard: false
     markdown: >-
       Kunstkuur is een samenwerking van drie jaar tussen onze academie en een
       school uit het basis-, secundair of hoger onderwijs. Soms betrekken we een
@@ -55,11 +52,15 @@ ateliers:
 
 
       :dispatch{:data='{"label":"Sint-Jozef Woluwe"}' type='Link'}
+    thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
+    title: Kunstkuur
     side1: ""
+    id: 92x2ZB0nCFaSlYqQz6BxU
     side2: >-
       ### Interesse?
 
 
       Wil jouw school ook graag Kunstkuur opstarten met de Sint-Lukas Academie? Contacteer Raisa Vandamme, coördinator Kunstkuur, via [info.academie@sintlukas.brussels](<>).
+    age: Samenwerking partnerschool
 texture: 1
 ---
