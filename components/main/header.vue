@@ -33,9 +33,11 @@
     </template>
 
     <template #right v-if="buttons">
+      <div class="navButtons">
       <elements-button v-for="(button, key) in buttons" :key="`navButtons-${key}`" :flavor="1" :to="button.link" :pageLink="button.pageLink" :download="button.download">
         {{ button.label }}
       </elements-button>
+      </div>
     </template>
 
 
@@ -89,3 +91,10 @@ const buttons = [
 
 const navItems = [...fixedNav ]
 </script>
+
+<style>
+.navButtons a {
+  margin-bottom: 0 !important;
+  padding: 12px !important;
+}
+</style>
