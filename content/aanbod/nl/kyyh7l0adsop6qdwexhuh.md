@@ -1,11 +1,10 @@
 ---
-order: 5
-color: "#A7A690"
-background: /assets/uploads/9.jpg
-thumb: /assets/uploads/aanbod banners-track.jpg
 id: KYyH7l0aDSOP6QDwexHuh
 nl: Track
-texture: 1
+order: 5
+color: "#A7A690"
+thumb: /assets/uploads/aanbod banners-track.jpg
+background: /assets/uploads/9.jpg
 side: true
 ateliers:
   - mainImage: vpj3nM4dml8uo6rkYNuny
@@ -32,7 +31,7 @@ ateliers:
       :dispatch{:data='{"label":"Website TRACK","link":"https://www.track.brussels/nl-be"}' type='Link'}
     id: VbukszcsbI_NS6FExFe0W
     side2: >-
-      KALENDER
+      ### KALENDER
 
 
       Blijf op de hoogte van alle toonmomenten:
@@ -40,4 +39,5 @@ ateliers:
 
       :dispatch{:data='{"label":"Kalender bekijken","link":"https://timetreeapp.com/public_calendars/sintlukasacademie"}' type='Link'}
     age: Broedplek noordstation
+texture: 1
 ---
