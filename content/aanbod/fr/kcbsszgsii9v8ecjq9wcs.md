@@ -15,7 +15,10 @@ ateliers:
       Kunsthumaniora en/of in het Hoger Kunstonderwijs."
     thumb: /assets/uploads/Aanbod banners-JONGEREN.jpg
     title: Atelier jongeren
-    images: []
+    images:
+      - VCoyjYJrzxCfNVgS6nR4t
+      - XhJXxiwqx54M395RZ1lOg
+      - RW1pV09JU9E6KppETIgCP
     side1: |-
       ### WANNEER
 

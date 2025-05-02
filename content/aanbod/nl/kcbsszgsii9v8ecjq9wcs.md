@@ -6,7 +6,7 @@ color: "#2FAFC2"
 texture: 2
 thumb: /assets/uploads/Aanbod banners-JONGEREN.jpg
 ateliers:
-  - mainImage: CFDhuUboXdtA6HmhKRyqh
+  - mainImage: G69V5x3V2AHyKPi2dt3tA
     showSubtitleOnCard: true
     markdown: "Via onderzoek en experiment ontdek je verschillende materialen en
       disciplines: werken in 3D (gips, klei, assemblage), 2D (houtskool, bister,
