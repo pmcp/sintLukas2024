@@ -1,9 +1,9 @@
 ---
 id: HzcWUbLvlm8gQKuXSIeI6
 title: EXPO weekend
-date: May 1, 2025 7:43 AM
+date: May 2, 2025 8:17 AM
 image: /assets/uploads/144x144px-kerstdrink.jpg
-alt: Jaarlijkse expo
+alt: Beeld van een toonmoment in TRACK
 text: |-
   TRACK, Noordstation
   23 mei: 17-21 uur
