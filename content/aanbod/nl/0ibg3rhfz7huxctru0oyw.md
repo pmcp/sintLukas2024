@@ -25,30 +25,28 @@ ateliers:
       ### HUIDIGE PARTNERS
 
 
-      :dispatch{:data='{"label":"Erasmus Hogeschool Brussel"}' type='Link'}
+      :dispatch{:data='{"label":"Erasmus Hogeschool Brussel","link":"https://www.erasmushogeschool.be/nl"}' type='Link'}
 
 
       :dispatch{:data='{"label":"OKAN"}' type='Link'}
 
 
-      :dispatch{:data='{"label":"Ten Nude"}' type='Link'}
+      :dispatch{:data='{"label":"Ten Nude","link":"https://www.tennude.be/"}' type='Link'}
 
 
-      :dispatch{:data='{"label":"LUCA School of Arts"}' type='Link'}
+      :dispatch{:data='{"label":"LUCA School of Arts","link":"https://www.luca-arts.be/nl"}' type='Link'}
 
 
       :dispatch{:data='{"label":"Tienerschool"}' type='Link'}
 
 
-      :dispatch{:data='{"label":"Sint-Lukas Basisschool"}' type='Link'}
+      :dispatch{:data='{"label":"Sint-Lukas Basisschool","link":"https://sintlukasbasisschool.be/"}' type='Link'}
 
 
       :dispatch{:data='{"label":"Paviljoen"}' type='Link'}
 
 
-      :dispatch{:data='{"label":"Sint-Jozef Molenbeek"}' type='Link'}
-
-
+      :dispatch{:data='{"label":"Sint-Jozef Molenbeek","link":"https://www.sint-jozefschool.be/"}' type='Link'}
 
 
       :dispatch{:data='{"label":"Sint-Jozef Woluwe"}' type='Link'}

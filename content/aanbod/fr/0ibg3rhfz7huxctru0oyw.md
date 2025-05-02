@@ -1,10 +1,7 @@
 ---
 ateliers:
-  - showSubtitleOnCard: true
-    id: 92x2ZB0nCFaSlYqQz6BxU
-    title: Kunstkuur
-    age: Samenwerking partnerschool
-    thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
+  - mainImage: B-EnVc7BXt09SUbR6tx67
+    showSubtitleOnCard: false
     markdown: >-
       Kunstkuur is een samenwerking van drie jaar tussen onze academie en een
       school uit het basis-, secundair of hoger onderwijs. Soms betrekken we een
@@ -16,11 +13,46 @@ ateliers:
 
 
       In samenwerking met [Cultuurkuur](https://www.cultuurkuur.be/kunstkuur#scrollto-algemene-informatie).
-    side1: >-
+
+
+      ### HUIDIGE PARTNERS
+
+
+      :dispatch{:data='{"label":"Erasmus Hogeschool Brussel"}' type='Link'}
+
+
+      :dispatch{:data='{"label":"OKAN"}' type='Link'}
+
+
+      :dispatch{:data='{"label":"Ten Nude"}' type='Link'}
+
+
+      :dispatch{:data='{"label":"LUCA School of Arts"}' type='Link'}
+
+
+      :dispatch{:data='{"label":"Tienerschool"}' type='Link'}
+
+
+      :dispatch{:data='{"label":"Sint-Lukas Basisschool"}' type='Link'}
+
+
+      :dispatch{:data='{"label":"Paviljoen"}' type='Link'}
+
+
+      :dispatch{:data='{"label":"Sint-Jozef Molenbeek"}' type='Link'}
+
+
+
+
+      :dispatch{:data='{"label":"Sint-Jozef Woluwe"}' type='Link'}
+    thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
+    title: Kunstkuur
+    side1: ""
+    id: 92x2ZB0nCFaSlYqQz6BxU
+    side2: >-
       ### Interesse?
 
 
-      Wil jouw school ook graag Kunstkuur opstarten met de Sint-Lukas Academie? Contacteer Raisa Vandamme, coördinator Kunstkuur, via [info.academie@sintlukas.brussels](mailtoinfo.academie@sintlukas.brussels).
-  - showSubtitleOnCard: true
-    id: ECM2w5DnDStcXxkP3m0vE
+      Wil jouw school ook graag Kunstkuur opstarten met de Sint-Lukas Academie? Contacteer Raisa Vandamme, coördinator Kunstkuur, via [info.academie@sintlukas.brussels](<>).
+    age: Samenwerking partnerschool
 ---
