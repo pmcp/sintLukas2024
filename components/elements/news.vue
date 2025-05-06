@@ -47,8 +47,6 @@ if(props.articles) {
         .find())
     orderedArticles.value = sortByDateDesc(data);
   }
-
-
 }
 
 
