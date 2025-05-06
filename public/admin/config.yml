@@ -599,7 +599,8 @@ collections:
     name: "news"
     folder: "content/news"
     create: true
-    summary: "{{title}}"
+    sortable_fields: [ 'date', 'title']
+    summary: "{{title}} - {{ date }}"
     fields:
       - { label: ID, name: id, widget: uuid }
       - {label: "Titel", name: "title", widget: "string"}

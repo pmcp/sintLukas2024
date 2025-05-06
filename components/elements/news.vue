@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-4 border-b pb-4 md:pb-6">
-    <div class="flex gap-4"  v-for="(a, key) in articles" :key="`news-${key}`">
+    <div class="flex gap-4"  v-for="(a, key) in orderedArticles" :key="`news-${key}`">
       <nuxt-link :to="a.link" v-if="a.link">
         <elements-image :src="a.image || fallbackImage" class="h-full w-20 md:w-40"/>
         <div class="flex flex-col md:gap-2  pt pb-8">
@@ -27,25 +27,28 @@ const props = defineProps({
   articles: Array,
 });
 
-let articles;
+const orderedArticles = ref([]);
 
 
 const fallbackImage = `assets/site/fallback.png`
 
-// TODO: add "where date -> after today"
+const sortByDateDesc = (articles) =>
+    [...articles].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
 
 if(props.articles) {
-  // If props.articles is an array of objects, we don't need to fetch, just return
-  if(props.articles[0] !== Object(props.articles[0])) {
+  // check if the first item of props.articles is an object (a bit optimistic, we go further on the basis that the rest are also objects:
+  if (props.articles[0].constructor === Object) {
+    orderedArticles.value = sortByDateDesc(props.articles)
+  } else {
     const { data } = await useAsyncData('news', () => queryContent('news')
         .where({ _draft: false, })
         .where({ id: { $in: props.articles }})
         .find())
-
-    articles = data;
-  } else {
-    articles = props.articles;
+    orderedArticles.value = sortByDateDesc(data);
   }
+
+
 }
 
 
