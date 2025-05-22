@@ -658,7 +658,7 @@ ateliers:
     side1: ""
     id: n5upPonOG5BkWdek5a_3h
     side2: >-
-      ### Studietraject
+      ### Praktisch
 
 
       Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
@@ -704,16 +704,61 @@ ateliers:
   - mainImage: bEupy1xJNz-ucFY8RQe4L
     showSubtitleOnCard: false
     markdown: >-
-      Informatie over de opleiding Grafiekkunst
+      Op dinsdagavond wordt het Grafiekatelier ingericht, waarbij de klassieke
+      grafische technieken allemaal aan bod komen op non-toxische wijze. Je
+      maakt kennis met allerhande druktechnieken van waaruit ieder zijn eigen
+      beeldtaal kan ontwikkelen. 
 
 
-      Binnen de opleiding Grafiekkunst kies je ervoor op maandag het Grafisch Atelier te volgen en/of op dinsdag het Grafiekatelier. Op donderdag kan je optioneel het vak Modeltekenen volgen om jouw tekenvaardigheden te ontwikkelen.
+      ***Inspiratie***
 
 
-      Op maandagavond organiseren we het Grafisch Atelier: in dit atelier leggen we de nadruk op het verzamelen, het onderzoeken en het uitwerken van grafische beelden. Via diverse mogelijkheden komen we tot een persoonlijke beeldtaal. We vertrekken vanuit het analoge en leggen de link met het digitale en de zeefdruk techniek. Denk aan het maken van zines, collages, zeefdruk, schetsboek, storyboard, riso-print,... Dit is een boeiend atelier om te leren brainstormen over hoe je (jouw eigen) grafische beelden kan creëren maar ook voor gevorderden is het interessant om de overstap naar zeefdruk en andere technieken te maken.
+      We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld. Dit prikkelt de leerlingen in hun persoonlijke proces. We bezoeken een actuele tentoonstelling. We werken eens met een ander atelier samen in de broedplek Track in het Noordstation. Via kruisbestuiving ontstaan boeiende resultaten. 
 
 
-      Op dinsdagavond wordt het Grafiekatelier ingericht, waarbij de klassieke grafische technieken op het programma. Je maakt kennis met allerhande druktechnieken: linosnede, collografie, steendruk of lithografie, zeefdruk, ets, ... Je kan er eindeloos experimenteren door verschillende dragers uit te testen (papier, karton, hout, textiel, ... ) en door technieken te combineren. met linken naar de kunstgeschiedenis, de rijke culturele geschiedenis van grafische beelden en met linken naar tekenkunst. Binnen de opdrachten stimuleren we je persoonlijke ontwikkelingsproces. Onderzoek en experiment staan centraal in de ontplooiing van een authentieke visuele beeldtaal. We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld.
+      ***Actie*** 
+
+
+      Droge naald, lijnets, aquatint, linosnede, collografie, monotype en diverse technieken kunnen er verkend worden. In dit atelier staat experiment centraal, waarbij de leerlingen op eigen tempo technieken onderzoeken, combineren en komen tot een eigen beeldvorming. Techniek, experiment en onderzoek leiden in dit atelier tot wonderlijke, vernieuwende en inspirerende beelden.
+
+
+      ### Voor wie
+
+
+      Wil je graag kennismaken met allerlei grafische technieken? Ons atelier heeft verschillende hoog-, vlak- en diepdrukpersen. Je kan er starten als beginner maar evenzeer richt dit atelier zich naar gevorderden die met behulp van grafische technieken hun eigen beeldtaal willen ontwikkelen.
+
+
+      ### Algemeen
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
+
+
+      Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### Optie FOCUS
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaat men naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      ***Focus op Expo***
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers volwassen.  
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-GRAFIEK.jpg
     title: Grafiekkunst
     images:
@@ -724,10 +769,24 @@ ateliers:
     side1: ""
     id: JJmPgwpVR32QX04x30UVW
     side2: >-
-      ### Studietraject
+      ### Praktisch
 
 
-      Leerlingen die de opleiding Grafiekkunst volgen, kiezen uit een traject van 1 avond/week (lang traject,10 jaar), 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
+
+
+      * lang traject (1 avond/week, 10 jaar): dinsdagavond 17:40 - 21:00
+
+      * middel traject (2 avonden/ week, 5 jaar): dinsdagavond 17:40 - 21:00
+
+
+      in combinatie met grafisch atelier op maandagavond 17:40 - 21:00 of in combinatie met modeltekenen op donderdagavond 17:40 - 21:00
+
+
+      * kort traject verdiepen (3 avonden/ week, 4 jaar): maandagavond grafisch atelier, dinsdagavond grafiekkunst, donderdagavond modeltekenen telkens van 17:40 - 21:00 
+
+
+      *Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels*
 
 
       ### Uurrooster
@@ -736,24 +795,37 @@ ateliers:
       :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
 
 
-
-
       ### Materiaal
 
 
       Info over benodigd materiaal:
 
 
-      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast. Let op: ons papier is redelijk dun papier, breng zelf papier mee van 200gr voor kwaliteitsdrukwerk.
+      * Jas of kledij die vuil mag worden tijdens het werken met inkt en zuren
 
+      * Keukenhanddoek
 
-      Dragers voor de grafische technieken zoals lino, koperplaten... kan je goedkoop aankopen in ons onthaal.
+      * Potloden, slijper, gom, schaar
 
+      * Fijne alcoholstift (Staedtler Lumocolor Permanent zwart is aan te raden)
 
-      Voor digitaal drukwerk zoals zeefdruk films wordt een bijdrage gevraagd van 3€ voor A3+ formaat
+      *  Schetsboek/ notitieboekje (om tijdens de uitleg te noteren)
 
+      * Handschoenen (latex/ vinyl wegwerphandschoenen of rubberen zuurbestendige handschoenen)
 
-      Je voorziet je eigen **basismateriaal** (een set goede potloden, een schetsboek, een lat, een gom en een schort). Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... (gutsen, etsnaalden, inkt, vernis, zuren...) wordt voorzien door de academie, maar indien gewenst kan je dit zelf aankopen.
+      * Schuurpapier korrel 600, 800 en 1000
+
+      * PVC van 500 micron en één van 100 of 200 micron dikte
+
+      * Papier (diverse soorten en diktes)
+
+      * Etsnaald, linomesjes
+
+      * Dunne mika (plastiek vel) als onderlegger voor registratieblad
+
+      * Breekmes
+
+      * Plakband (papiertape en plastic tape)
     age: 4e graad + Specialisatie
   - mainImage: rf7me0634S7qUaQmpG3qe
     showSubtitleOnCard: false
