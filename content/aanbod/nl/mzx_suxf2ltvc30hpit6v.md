@@ -233,18 +233,43 @@ ateliers:
   - mainImage: RXDNC2x94_ZNBRXsJotDy
     showSubtitleOnCard: false
     markdown: >-
-      Binnen de opleiding Grafisch Ontwerp en Illustratie kies je ervoor als
-      starter het vak Grafisch Ontwerp en Illustratie (starters) te volgen op
-      maandag. Heb je meer ervaring, volg je het vak Grafisch Ontwerp en
-      Illustratie (verdieping) op dinsdag. Het is ook mogelijk om de twee
-      avonden te combineren en op die manier sneller in de praktijk te brengen
-      wat je leert.
+      Grafisch ontwerp en illustratie zijn sterk verbonden met de andere
+      kunsten. Ook hier worden kleur, lijn, vorm en andere beeldelementen bewust
+      ingezet. Vaak werkt een ontwerper of illustrator naar opdracht. Dat is
+      geen beperking maar een uitdaging om conceptueel te denken en een eigen
+      beeldtaal te ontwikkelen. Typisch voor dit atelier is het gebruik van
+      typografie en lettering, de aandacht voor lay-out en realisatie. Denk aan
+      affiches, boeken, zines, huisstijlen, websites, … In het atelier ligt de
+      nadruk op experiment, creatief denken en een kritische houding in het
+      ontwerpproces. We proberen immers ontwerpen te maken met een sterke
+      connectie tussen inhoud en vorm, niet enkel mooie plaatjes. 
 
 
-      Grafisch ontwerp en illustratie zijn sterk verbonden met de andere kunsten. Ook hier worden kleur, lijn, vorm en andere beeldelementen bewust ingezet. Vaak werkt een ontwerper of illustrator naar opdracht. Dat is geen beperking maar een uitdaging om conceptueel te denken en een eigen beeldtaal te ontwikkelen. Typisch voor dit atelier is het gebruik van typografie en lettering, de aandacht voor lay-out en realisatie. Denk aan affiches, boeken, zines, huisstijlen, websites, ... In het atelier ligt de nadruk op experiment, creatief denken en een kritische houding in het ontwerpproces. We proberen immers ontwerpen te maken met een sterke connectie tussen inhoud en vorm, niet enkel mooie plaatjes. Digitale technieken en computervaardigheden zijn belangrijk, maar je gebruikt ze zoals je wil. Mixed media tussen analoge en digitale technieken is uniek aan dit atelier. Adobe Photoshop, Adobe Illustrator en Adobe InDesign komen aan bod.
+      ***Inspiratie***
 
 
-      Heb je geen ervaring, dan volg je het atelier op maandag: Grafisch Ontwerp en Illustratie (starters) Hier word je begeleid bij je eerste stappen in het atelier of bij het ontdekken van jouw beeldtaal. Introductie tot de grote thema’s van grafisch ontwerp en illustratie staan op de agenda. Je krijgt tijd en ruimte om via oefeningen je basisvaardigheden te ontwikkelen. In opdrachten pas je toe wat je leerde, op een persoonlijke en creatieve manier.
+      We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld. Dit prikkelt de leerlingen in hun persoonlijke proces. We bezoeken een actuele tentoonstelling. We werken eens met een ander atelier samen in de broedplek Track in het Noordstation. Via kruisbestuiving ontstaan boeiende resultaten. 
+
+
+      ***Actie***
+
+
+      Je gaat aan de slag met diverse materialen in het ontwerpproces (potlood, wasco, penseel, …). Digitale technieken en computervaardigheden zijn belangrijk, maar je gebruikt ze zoals je wil. Mixed media tussen analoge en digitale technieken is uniek aan dit atelier. Adobe Photoshop, Adobe Illustrator en Adobe InDesign komen aan bod net zoals eerder analoge technieken (tekenen, collage, druktechnieken, …). 
+
+
+      ### Voor wie
+
+
+      Binnen de opleiding Grafisch Ontwerp en Illustratie kies je ervoor als starter het vak Grafisch Ontwerp en Illustratie (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak Grafisch Ontwerp en Illustratie (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden te combineren en op die manier sneller in de praktijk te brengen wat je leert. 
+
+
+      ***Starters***
+
+
+      Heb je geen ervaring, dan volg je het atelier op maandag: Grafisch Ontwerp en Illustratie (starters)
+
+
+      Hier word je begeleid bij je eerste stappen in het atelier of bij het ontdekken van jouw beeldtaal. Introductie tot de grote thema’s van grafisch ontwerp en illustratie staan op de agenda. Je krijgt tijd en ruimte om via oefeningen je basisvaardigheden te ontwikkelen. In opdrachten pas je toe wat je leerde, op een persoonlijke en creatieve manier. 
 
 
       INTRODUCTIE & BASIS
@@ -257,6 +282,9 @@ ateliers:
       * Eigen grafische/illustratieve taal ontdekken
 
       * Technisch basisvaardigheden
+
+
+      ***Gevorderden***
 
 
       Heb je al wat basiskennis, dan volg je het atelier op dinsdag Grafisch Ontwerp en Illustratie (Verdieping): Je wordt begeleid bij het verdiepen van jouw beeldtaal en het verfijnen van bijhorende technieken. Je gaat steeds meer eigen concepten realiseren en bouwen aan je portfolio. Er staan ongeveer vier uitstappen op de agenda (overdag, mits lesverplaatsing). Ook een workshop met gastdocent biedt meer inzicht. Via grafische technieken als zeefdruk of risoprint realiseer je ook zelf een ontwerp.
@@ -272,6 +300,39 @@ ateliers:
       * Eigen grafische/illustratieve taal verdiepen
 
       * Technisch verfijnen
+
+
+      ### Algemeen
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
+
+
+      Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### Optie FOCUS
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      ***Focus op Expo***
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers volwassen.  
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-GO en ILL.jpg
     title: Grafisch Ontwerp en Illustratie
     images:
@@ -281,23 +342,26 @@ ateliers:
     side1: ""
     id: y-a-wEcmvd7WTIDmQpJnr
     side2: >-
-      ### Studietraject
+      ### Praktisch
 
 
-      * 1 avond/week (lang traject, 10 jaar)
-
-      * 2 avonden/week (middellang traject, 5 jaar)
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
 
 
-      Leerlingen die 1 avond/week volgen, kiezen op basis van hun voorkennis voor een specifieke avond. Opgelet! Voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+      * lang traject starters (1 avond/week, 10 jaar): maandagavond 17:40 - 21:00
+
+      * lang traject gevorderden (1 avond/week, 10 jaar): dinsdagavond 17:40 - 21:00
+
+      * Middel traject (2 avonden/week, 5 jaar): maandag- en dinsdagavond 17:40 - 21:00
+
+
+      *Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels)*
 
 
       ### Uurrooster
 
 
       :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
-
-
 
 
       ### Materiaal
