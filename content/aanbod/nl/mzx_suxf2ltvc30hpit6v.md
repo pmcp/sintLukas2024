@@ -835,13 +835,58 @@ ateliers:
       volgen om jouw tekenvaardigheden te ontwikkelen.
 
 
-      Deze opleiding laat je reizen doorheen de tijd. We ontmoeten diverse culturen en ontdekken rijke tradities. In dit proces, waarin onderzoek en experiment centraal staan, vertrek je vanuit je eigen gevoels- en gedachtewereld. Ervaar de verf in al zijn diverse aspecten: dun of dik, opaak of transparant, ... Druk je door middel van expressief kleurgebruik uit in helder of diffuus, warm of koud, sprankelend of beheerst, ... Ontwikkel een eigen schildertaal door op een authentieke manier met je borstel te bewegen. Ga op zoek naar originele standpunten, composities, lijnen, vlakken, texturen, ...
+      Deze opleiding laat je reizen doorheen de tijd. We ontmoeten diverse culturen en ontdekken rijke tradities. In dit proces, waarin onderzoek en experiment centraal staan, vertrek je vanuit je eigen gevoels- en gedachtewereld. Ervaar de verf in al zijn diverse aspecten: dun of dik, opaak of transparant, ... Druk je door middel van expressief kleurgebruik uit in helder of diffuus, warm of koud, sprankelend of beheerst, … Ontwikkel een eigen schildertaal door op een authentieke manier met je borstel te bewegen. Ga op zoek naar originele standpunten, composities, lijnen, vlakken, texturen, ... 
 
 
-      **Starten in schilderkunst?**
+      ***Inspiratie***
 
 
-      Doorheen de opleiding zijn individueel proces en picturale ontwikkeling belangrijk voor startende alsook ervaren schilders. Via opdrachten, demonstraties en persoonlijke begeleiding maken we kennis met diverse aspecten en begrippen van het medium schilderkunst; de drager, beeldend onderzoek en het aanbrengen van de verf. Langs een waaier van kleur, staan we stil bij verschillende processen, kunsthistorisch tot experimenteel om het arsenaal te verbreden en om een eigen beeldtaal te ontwikkelen.
+      We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld. Dit prikkelt de leerlingen in hun persoonlijke proces. We bezoeken een actuele tentoonstelling. We werken eens met een ander atelier samen in de broedplek Track in het Noordstation. Via kruisbestuiving ontstaan boeiende resultaten. 
+
+
+      ***Actie***
+
+
+      Doorheen de opleiding zijn individueel proces en picturale ontwikkeling belangrijk voor startende alsook ervaren schilders. Via opdrachten, demonstraties en persoonlijke begeleiding maken we kennis met diverse aspecten  en begrippen van het medium schilderkunst; de drager, beeldend onderzoek en het aanbrengen van de verf. Langs een waaier van kleur, staan we stil bij verschillende processen, kunsthistorisch tot experimenteel om het arsenaal te verbreden en om een eigen beeldtaal te ontwikkelen. 
+
+
+      ### Voor wie
+
+
+      Voor starters en gevorderden die het rijke medium van de schilderkunst intensief willen verkennen in een traject van twee avonden/ week. Twijfel je nog of wil je eerst op 1 avond per week de schilderkunst wat verkennen? Dan is het atelier kleur op dinsdagavond misschien een goede voorbereiding voor het atelier schilderkunst.  
+
+
+      ### Algemeen
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
+
+
+      Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### Optie FOCUS
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      **Focus op Expo**
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers volwassen.  
+
+
+      **Focus op Waarneming**
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-SCHILDER.jpg
     title: Schilderkunst
     images:
@@ -851,12 +896,20 @@ ateliers:
     side1: ""
     id: xZKOEbeJdWAUbTYih-yD_
     side2: >-
-      ### Studietraject
+      ### Praktisch
 
 
-      Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: \[info.academie@sintlukas.brussels](<Studietraject
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
 
-      Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+
+      * *optioneel : Lang traject (1 avond/week ter voorbereiding gedurende 3 jaar): atelier kleur voor starters: dinsdagavond 17:40 - 21:00* 
+
+      * middel traject (2 avonden/ week, 5 jaar): maandagavond en donderdagavond 17:40 - 21:00 
+
+      * kort traject verdiepen (3 avonden/ week, 4 jaar): maandagavond en donderdagavond in combinatie met donderdagavond modeltekenen telkens van 17:40 - 21:00 
+
+
+      Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels)
 
 
       ### Uurrooster
