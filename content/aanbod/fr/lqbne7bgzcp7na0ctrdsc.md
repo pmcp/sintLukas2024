@@ -19,6 +19,7 @@ ateliers:
 
 
       Hou je van fotografie, film, animatie, stopmotion en soundscapes? Dan krijg je in dit atelier naast tekenen, boetseren en schilderen ook audiovisuele technieken aangeboden. Enkel in de vestigingsplaatsen Helmet (dinsdag) en Groenstraat (maandag).
+    thumb: /assets/uploads/Aanbod banners-KINDEREN.jpg
     title: Ateliers kinderen
     images:
       - qE6drCtdnMJunfN1xDSqF

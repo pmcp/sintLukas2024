@@ -31,11 +31,7 @@ ateliers:
       - qE6drCtdnMJunfN1xDSqF
       - c7774xHaizo9wS34jJ6Hz
       - HJWFQdgNkJYycr1EJsHG7
-    side1: >-
-      ### MATERIAAL
-
-
-      De academie voorziet al het materiaal, er zijn geen extra kosten verbonden aan deze ateliers.
+    side1: ""
     id: lqQD1KD04PNIDvtPzMPoM
     side2: >-
       ### LESSENROOSTER
@@ -51,6 +47,14 @@ ateliers:
 
 
       :dispatch{:data='{"label":"Vestigingen bekijken","link":"/academie"}' type='Link'}
+
+
+
+
+      ### MATERIAAL
+
+
+      De academie voorziet al het materiaal, er zijn geen extra kosten verbonden aan deze ateliers.
     persons:
       - 56ncog9kbawmtcx0xbzgr
       - abp261x7qjjasgkiyj3we
