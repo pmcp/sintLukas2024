@@ -591,10 +591,64 @@ ateliers:
       we je ondersteunen bij elke stap.
 
 
-      **GEVORDERDEN**
+      ***Inspiratie***
 
 
-      Heb je al wat basiskennis van het tekenen, dan volg je het atelier op maandag: Tekenkunst Verdieping. Hier gaan we verder aan de slag met die basis. We ontdekken de ruime mogelijkheden van de tekenkunst en verdiepen ons verder in de bouwstenen van het tekenen. We stellen ons vragen zoals: hoe ontstaat een tekening,hoe kan je spelen met de beeldelementen en hoe kan je jouw verhaal vertellen in een tekening? We gaan thematisch en inhoudelijk op zoek naar wat tekenen inhoudt. Met welke materialen en technieken ga jij op zoek naar een persoonlijke beeldtaal? We vertrekken van zowel waarneming, verbeelding en eigen beeldmateriaal. Gaandeweg ontwikkelen we een eigen traject aan de hand van concrete uitdagingen en persoonlijke feedback. We werken aan de hand van verschillende concrete thema’s, deze worden op een persoonlijke manier uitgewerkt en onderzocht. Materialen en technieken worden samen onder de loep genomen en dienen als basis voor het persoonlijke traject. Er is veel ruimte en aandacht voor experiment en onderzoek, dit aan de hand van persoonlijke begeleiding en klassikale oefeningen. Er worden linken gelegd met zowel de hedendaagse tekenkunst als de kunstgeschiedenis.
+      We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse kunstwereld. Dit prikkelt de leerlingen in hun persoonlijke proces. We bezoeken een actuele tentoonstelling. We werken eens met een ander atelier samen in de broedplek Track in het Noordstation. Via kruisbestuiving ontstaan boeiende resultaten. 
+
+
+      ***Actie***
+
+
+      Stap voor stap ontdek je verschillende technieken en materialen, en leer je via observatie en onderzoek je blik te verruimen. Je maakt kennis met de elementen van de beeldtaal zoals lijn, kleur, vorm, structuur, textuur, contrast ... Door middel van een aantal onderwerpen - zoals stillevens, portret, levend model, interieur, drapering etc. - probeer je nieuwe materialen ( potlood, houtskool, acryl, olieverf, bister, ...), technieken en uitdrukkingsmogelijkheden te vinden.
+
+
+      ### Voor wie 
+
+
+      Binnen de opleiding Tekenkunst kies je ervoor als starter het vak Tekenkunst (starters) te volgen op dinsdag. Heb je meer ervaring, volg je het vak Tekenkunst (gevorderden) op maandag. Op dinsdag en/of donderdag kan je optioneel het vak Modeltekenen volgen om jouw tekenvaardigheden te ontwikkelen.
+
+
+      ***Starters***
+
+
+      In onze atelier leer je de fundamenten van tekenen, van het vasthouden van een potlood tot het creëren van boeiende composities. Stap voor stap ontdek je verschillende technieken en materialen, en leer je via observatie en onderzoek je blik te verruimen. Je maakt kennis met de elementen van de beeldtaal zoals lijn, kleur, vorm, structuur, textuur, contrast ... Door middel van een aantal onderwerpen - zoals stillevens, portret, levend model, interieur, drapering etc. - probeer je nieuwe materialen ( potlood, houtskool, acryl, olieverf, bister, ...), technieken en uitdrukkingsmogelijkheden te vinden. We verkennen een scala aan benaderingen en bieden handige feedback om je te helpen groeien als tekenaar. Op een ondersteunende manier creëren we een omgeving waarin je je vrij voelt om te experimenteren en fouten te maken. Want in het proces van leren tekenen, ligt de schoonheid ook in de ontdekkingen die je onderweg doet. Onze lessen zijn bedacht om een solide basis te leggen, of je nu een volledige beginner bent of al wat geëxperimenteerd hebt. Het maakt niet uit hoe oud je bent of wat je achtergrond is, ons atelier verwelkomt iedereen met een interesse voor tekenkunst!
+
+
+      ***Gevorderden***
+
+
+      We gaan verder aan de slag met die basis. We ontdekken de ruime mogelijkheden van de tekenkunst en verdiepen ons verder in de bouwstenen van het tekenen. We stellen ons vragen zoals: hoe ontstaat een tekening,hoe kan je spelen met de beeldelementen en hoe kan je jouw verhaal vertellen in een tekening? We gaan thematisch en inhoudelijk op zoek naar wat tekenen inhoudt. Met welke materialen en technieken ga jij op zoek naar een persoonlijke beeldtaal? We vertrekken van zowel waarneming, verbeelding en eigen beeldmateriaal. Gaandeweg ontwikkelen we een eigen traject aan de hand van concrete uitdagingen en persoonlijke feedback. We werken aan de hand van verschillende concrete thema’s, deze worden op een persoonlijke manier uitgewerkt en onderzocht. Materialen en technieken worden samen onder de loep genomen en dienen als basis voor het persoonlijke traject. Er is veel ruimte en aandacht voor experiment en onderzoek, dit aan de hand van persoonlijke begeleiding en klassikale oefeningen. Er worden linken gelegd met zowel de hedendaagse tekenkunst als de kunstgeschiedenis.
+
+
+      ### Algemeen
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander. Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om zijn zoektocht, zijn inspiratie en zijn werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### Optie FOCUS
+
+
+      Onderstaande aanvullende trajecten gaan door buiten de gebruikelijke lesuren. Meestal gaat men naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      ***Focus op Expo***
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle volwassen ateliers.  
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-TEKEN.jpg
     title: Tekenkunst
     images:
@@ -607,22 +661,27 @@ ateliers:
       ### Studietraject
 
 
-      * 1 avond/week (lang traject, 10 jaar)
-
-      * 2 avonden/week (middellang traject, 5 jaar)
-
-      * 3 avonden/week (kort traject, 4 jaar)
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
 
 
-      Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
+      * lang traject starters (1 avond/week, 10 jaar): dinsdagavond 17:40 - 21:00
+
+      * *Optioneel ter voorbereiding lang traject starters (1 avond/week, 3 jaar) atelier kleur op dinsdagavond 17:40 - 21:00*
+
+      * Lang traject gevorderden (1avond/week, 10 jaar): maandagavond 17:40 - 21:00
+
+      * Middel traject (2 avonden/week, 5 jaar): maandagavond 17:40 - 21:00 in combinatie met modeltekenen op dinsdag- of donderdagavond 17:40 - 21:00
+
+      * Kort traject verdieping (3 avonden/ week, 4 jaar): maandagavond tekenkunst en dinsdag- en donderdagavond modeltekenen telkens van 17:40 - 21:00 
+
+
+      *Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels)*
 
 
       ### Uurrooster
 
 
       :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
-
-
 
 
       ### Materiaal
