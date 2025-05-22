@@ -10,11 +10,71 @@ ateliers:
   - mainImage: hLs-N0Edep-DQWeoEzQHv
     showSubtitleOnCard: false
     markdown: >-
-      Binnen de opleiding Beeldende en Audiovisuele Kunsten volg je het vak
-      Beeldende en audiovisuele kunsten op maandagavond.
+      In het atelier beeldende en audiovisuele kunsten maak je kennis met
+      verschillende technieken en disciplines zoals tekenkunst, (analoge en
+      digitale) fotografie, boekbinden, schilderkunst, zeefdruk, grafisch
+      ontwerp, illustratie en beeldverhaal, collage, (animatie-)film,
+      grafiekkunst enzovoort…  
 
 
-      In het atelier beeldende en audiovisuele kunsten maken we kennis met verschillende technieken en disciplines zoals tekenkunst, (analoge en digitale) fotografie, boekbinden, schilderkunst, zeefdruk, grafisch ontwerp, illustratie, collage, (animatie-)film, grafiekkunst enzovoort... Deze opleiding is ideaal als je wil starten in een beeldende opleiding maar kan je niet kiezen tussen de verschillende disciplines, of als je als beginner de beeldende kunsten verkennen. In het atelier ligt de nadruk op experiment, creatief denken en loslaten en plezier hebben in het creëren en uitproberen. Er is ruimte voor eigen onderzoek en verdieping in technieken en materialen.
+      ***Inspiratie***
+
+
+      We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld. Dit prikkelt de leerlingen in hun persoonlijke proces. We bezoeken een actuele tentoonstelling. We werken eens met een ander atelier samen in de broedplek Track in het Noordstation. Via kruisbestuiving ontstaan boeiende resultaten. 
+
+
+      ***Actie*** 
+
+
+      Je maakt kennis met verschillende disciplines terwijl we op bezoek gaan in de andere ateliers. Je duikt in de donkere kamer om fotogrammen te maken, maakt kennis met de tekenkunst via modeltekenen of beeldverhaal, gaat aan de slag in het grafiek atelier (droge naald, zeefdruk, linosnede,...), leert de beginselen van de boekbindtechnieken, … Ook audio komt aan bod bijvoorbeeld via eens een samenwerking met een partnerorganisatie of een gastdocent.
+
+
+      In het atelier ligt de nadruk op experiment, creatief denken, loslaten en plezier hebben in het creëren en uitproberen.  Er is ruimte voor eigen onderzoek en verdieping in technieken en materialen.  
+
+
+      ***Voor wie***
+
+
+      Deze opleiding is ideaal als je wil starten in een beeldende opleiding maar je niet kan kiezen tussen de verschillende disciplines, of als je als beginner de beeldende kunsten verkennen. 
+
+
+      ***Materiaal*** 
+
+
+      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk… wordt voorzien door de academie.
+
+
+      ***Algemeen***
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
+
+
+      Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### **Optie FOCUS**
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      ***Focus op Expo***
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers volwassenen.  
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-BAK.jpg
     title: Beeldende en Audiovisuele Kunsten
     images:
@@ -24,18 +84,22 @@ ateliers:
     side1: ""
     id: PVG42qcToyKmr8RMt4i6D
     side2: >-
-      ### Studietraject
+      ### Praktisch
 
 
-      Leerlingen die de opleiding Beeldende en Audiovisuele Kunsten volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
+
+
+      * lang traject (1 avond/week, 10 jaar): maandagavond 17:40 - 21:00
+
+
+      *Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels*
 
 
       ### Uurrooster
 
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
-
-
 
 
       ### Materiaal
@@ -458,8 +522,6 @@ ateliers:
 
 
       :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
-
-
 
 
       ### Materiaal

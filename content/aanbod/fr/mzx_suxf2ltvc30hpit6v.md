@@ -14,11 +14,7 @@ ateliers:
       - F5EZlVM67F0lkar76IRF1
       - LYIJbFhfSvmLtHh1tLTvx
       - JtnGupwOg6aT2mP9AW345
-    side1: >-
-      ### Materiaal
-
-
-      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
+    side1: ""
     id: PVG42qcToyKmr8RMt4i6D
     side2: >-
       ### Studietraject
@@ -31,9 +27,17 @@ ateliers:
 
 
       :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
     persons:
       - zu6yrth076tbnhu1eo1sm
-    age: 18+
+    age: 4e graad + Specialisatie
   - mainImage: pyf8LsA-qen2uUH6ah6ZO
     showSubtitleOnCard: false
     markdown: >-
@@ -73,12 +77,7 @@ ateliers:
       - HjxOA4XwBFPkPDYbQ59CQ
       - iHZQJPQb0eTmVo23LYxnl
       - L5NsH58RB8aT0MYxiMfgi
-    side1: |-
-      ### Materiaal
-
-      * (digitale) camera
-      * schetsboek
-      * statief (optioneel)
+    side1: ""
     id: NuOyl3knrqBuVTO-T-yaG
     side2: >-
       ### Studietraject
@@ -98,10 +97,22 @@ ateliers:
 
 
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      * (digitale) camera
+
+      * schetsboek
+
+      * statief (optioneel)
     persons:
       - 7y4sqfcm0fl4ayvoov5d
       - 56ncog9kbawmtcx0xbzgrx
-    age: 18+
+    age: 4e graad + Specialisatie
   - mainImage: RXDNC2x94_ZNBRXsJotDy
     showSubtitleOnCard: false
     markdown: >-
@@ -150,11 +161,7 @@ ateliers:
       - BGncayv52exxVJRlbRCJM
       - ExyAm8uLoxwcRrOs7YoWq
       - JQojjAymO8q8jO2x1W6NT
-    side1: >-
-      ### Materiaal
-
-
-      In het atelier kan je gebruikmaken van een computer, scanner, tekentablet en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld.
+    side1: ""
     id: y-a-wEcmvd7WTIDmQpJnr
     side2: >-
       ### Studietraject
@@ -172,6 +179,14 @@ ateliers:
 
 
       :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      In het atelier kan je gebruikmaken van een computer, scanner, tekentablet en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld.
     persons:
       - 7wqvul5yddsyxrffwwlr
     age: 4e graad + Specialisatie
@@ -243,7 +258,23 @@ ateliers:
       - QUEoxF7gxvGp7QKtQyGPb
       - gEU7qRe6yfL9C7x97r2Mw
       - S15yNiSCAzQcqBMMe9moO
-    side1: >-
+    side1: ""
+    id: HLPp8M36kkiMVr3MHNx70
+    side2: >-
+      ### Studietraject
+
+
+      Leerlingen die de opleiding Modeltekenen volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
+
+
+      ### Uurrooster
+
+
+      :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
+
+
+
+
       ### Materiaal
 
 
@@ -260,18 +291,6 @@ ateliers:
 
 
       **Tape**: Breng telkens een eigen rol papiertape mee om jouw papier te fixeren op een ezel of tafel.
-    id: HLPp8M36kkiMVr3MHNx70
-    side2: >-
-      ### Studietraject
-
-
-      Leerlingen die de opleiding Modeltekenen volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
-
-
-      ### Uurrooster
-
-
-      :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
     persons:
       - jypkpziuevct0xyejt5zi
       - gsjgcstsncn40ydykxskn
@@ -301,20 +320,7 @@ ateliers:
       - IQJxSg0zlMVmRCMIxj9HQ
       - 5T8UTtya2yLyo57SvXyPX
       - DMRqmFJDGj5wNtEf6BKXj
-    side1: >-
-      ### Materiaal
-
-
-      Info over benodigd materiaal:
-
-
-      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
-
-
-      **Schetsboek**: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
-
-
-      **Tekenmateriaal**: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
+    side1: ""
     id: n5upPonOG5BkWdek5a_3h
     side2: >-
       ### Studietraject
@@ -334,6 +340,23 @@ ateliers:
 
 
       :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      Info over benodigd materiaal:
+
+
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast.
+
+
+      **Schetsboek**: Het is aangeraden een schetsboek van formaat naar keuze bij te houden.
+
+
+      **Tekenmateriaal**: Het is belangrijk zelf basismateriaal mee te brengen. We zien volgende materialen als basismateriaal: tekenpotloden: verschillende hardheden (HB-B...), kleurpotloden, fijne zwarte stiftjes, fijne inkt pen/ rietpen, zwarte inkt, houtskool, schaar/ lijm, zachte penselen (synthetisch haar), pastelkrijt/oliepastel, gekleurde stiften/ penseel stiften, enkele kleuren ecoline... Er is in het atelier een kleine voorraad om te testen of te gebruiken indien je niets bij hebt. Dit is echter bedoeld voor uitzonderingen. Voorzie eigen materiaal.
     persons:
       - ki9xtvqazuhyw3aywv52f
       - 56ncog9kbawmtcx0xbzgr
@@ -358,20 +381,7 @@ ateliers:
       - I2LOns5IyZ7dRhqqIw3tR
       - xiJziowJCbVieI54wHfwh
       - ntQp5QaGYL5zzhXdq8Fzb
-    side1: >-
-      ### Materiaal
-
-
-      Info over benodigd materiaal:
-
-
-      * Papier: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast. Let op: ons papier is redelijk dun papier, breng zelf papier mee van 200gr voor kwaliteitsdrukwerk.
-
-      * Dragers voor de grafische technieken zoals lino, koperplaten... kan je goedkoop aankopen in ons onthaal.
-
-      * Voor digitaal drukwerk zoals zeefdruk films wordt een bijdrage gevraagd van 3€ voor A3+ formaat
-
-      * Je voorziet je eigen basismateriaal (een set goede potloden, een schetsboek, een lat, een gom en een schort). Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... (gutsen, etsnaalden, inkt, vernis, zuren...) wordt voorzien door de academie, maar indien gewenst kan je dit zelf aankopen.
+    side1: ""
     id: JJmPgwpVR32QX04x30UVW
     side2: >-
       ### Studietraject
@@ -384,6 +394,26 @@ ateliers:
 
 
       :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
+
+
+
+
+      ### Materiaal
+
+
+      Info over benodigd materiaal:
+
+
+      **Papier**: Voor 15€ kan je A2 schetspapier kopen voor een heel jaar. Andere soorten papier kan per vel worden aangekocht bij het secretariaat en worden gestockeerd in onze kast. Let op: ons papier is redelijk dun papier, breng zelf papier mee van 200gr voor kwaliteitsdrukwerk.
+
+
+      Dragers voor de grafische technieken zoals lino, koperplaten... kan je goedkoop aankopen in ons onthaal.
+
+
+      Voor digitaal drukwerk zoals zeefdruk films wordt een bijdrage gevraagd van 3€ voor A3+ formaat
+
+
+      Je voorziet je eigen **basismateriaal** (een set goede potloden, een schetsboek, een lat, een gom en een schort). Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... (gutsen, etsnaalden, inkt, vernis, zuren...) wordt voorzien door de academie, maar indien gewenst kan je dit zelf aankopen.
     age: 4e graad + Specialisatie
   - mainImage: rf7me0634S7qUaQmpG3qe
     showSubtitleOnCard: false
@@ -396,7 +426,7 @@ ateliers:
       Deze opleiding laat je reizen doorheen de tijd. We ontmoeten diverse culturen en ontdekken rijke tradities. In dit proces, waarin onderzoek en experiment centraal staan, vertrek je vanuit je eigen gevoels- en gedachtewereld. Ervaar de verf in al zijn diverse aspecten: dun of dik, opaak of transparant, ... Druk je door middel van expressief kleurgebruik uit in helder of diffuus, warm of koud, sprankelend of beheerst, ... Ontwikkel een eigen schildertaal door op een authentieke manier met je borstel te bewegen. Ga op zoek naar originele standpunten, composities, lijnen, vlakken, texturen, ...
 
 
-      Starten in schilderkunst?
+      **Starten in schilderkunst?**
 
 
       Doorheen de opleiding zijn individueel proces en picturale ontwikkeling belangrijk voor startende alsook ervaren schilders. Via opdrachten, demonstraties en persoonlijke begeleiding maken we kennis met diverse aspecten en begrippen van het medium schilderkunst; de drager, beeldend onderzoek en het aanbrengen van de verf. Langs een waaier van kleur, staan we stil bij verschillende processen, kunsthistorisch tot experimenteel om het arsenaal te verbreden en om een eigen beeldtaal te ontwikkelen.
@@ -406,23 +436,10 @@ ateliers:
       - vPEVRaAnKwOqpcImHXPIL
       - prHvxOu9vVnR86tPRL3tS
       - rVyjamIxWOFWxqPfHEO2r
-    side1: >-
-      Materiaal
-
-
-      Schildermateriaal: Basiskleuren acryl en/of olieverf, penselen en borstels: platte brede borstels, spalter, paletmes, vod, papier plakband tessa, palet, bokalen, gesso, ect.. Aan de start van het jaar overlopen we de benodigdheden voor meer info en duiding. Belangrijk; deze dien je zelf te voorzien en bouwen we stelselmatig bij doorheen het jaar. In het atelier is een kleine voorziening van materiaal voor demonstraties en testen.
-
-
-      Procesfolio/beeldenbank: map of schetsboek om beeldmateriaal in te verzamelen en alle tussenstappen die er nodig zijn om tot een schilderij te komen te bewaren, als deel van het proces.
-
-
-      Dragers: papier minimum 200gr/m2, karton, doek, paneel,...
-
-
-      We zijn voorstander van experiment, low budget en recuperatie.
+    side1: ""
     id: xZKOEbeJdWAUbTYih-yD_
     side2: >-
-      Studietraject
+      ### Studietraject
 
 
       Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: \[info.academie@sintlukas.brussels](<Studietraject
@@ -430,10 +447,25 @@ ateliers:
       Leerlingen die de opleiding Schilderkunst volgen, kiezen uit een traject van 2 avonden/week (middellang traject, 5 jaar) of 3 avonden/week (kort traject, 4 jaar). Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels).
 
 
-      Uurrooster
+      ### Uurrooster
 
 
       :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
+
+
+      ### Materiaal
+
+
+      **Schildermateriaal**: Basiskleuren acryl en/of olieverf, penselen en borstels: platte brede borstels, spalter, paletmes, vod, papier plakband tessa, palet, bokalen, gesso, ect.. Aan de start van het jaar overlopen we de benodigdheden voor meer info en duiding. Belangrijk; deze dien je zelf te voorzien en bouwen we stelselmatig bij doorheen het jaar. In het atelier is een kleine voorziening van materiaal voor demonstraties en testen.
+
+
+      **Procesfolio/beeldenbank**: map of schetsboek om beeldmateriaal in te verzamelen en alle tussenstappen die er nodig zijn om tot een schilderij te komen te bewaren, als deel van het proces.
+
+
+      **Dragers**: papier minimum 200gr/m2, karton, doek, paneel,...
+
+
+      We zijn voorstander van experiment, low budget en recuperatie.
     persons:
       - zysyjvfvqwapcjl8lpuj9
     age: 4e graad + Specialisatie
