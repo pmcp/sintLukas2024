@@ -93,7 +93,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -209,7 +209,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -355,7 +355,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
