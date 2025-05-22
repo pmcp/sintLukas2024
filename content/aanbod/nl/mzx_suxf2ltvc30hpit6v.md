@@ -480,15 +480,55 @@ ateliers:
     markdown: >-
       Je krijgt wekelijks tekenles naar levend model. Tijdens deze lessen staat
       het menselijk naaktmodel centraal als onderwerp in de ontwikkeling van een
-      eigen beeldtaal. Via diverse materialen (potlood, houtskool, acryl- of
-      olieverf, pastel, bister, collage, ...) verken je de mogelijkheden van
-      technieken en experiment om jouw observatie naar beeldend werk om te
-      vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur,
-      compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de
-      anatomie van het menselijk lichaam en verscherp je gevoel voor detail.
+      eigen beeldtaal. 
 
 
-      Dit vak kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
+      ***Inspiratie***
+
+
+      We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse (grafische) kunstwereld. Dit prikkelt de leerlingen in hun persoonlijke proces. We bezoeken een actuele tentoonstelling. We werken eens met een ander atelier samen in de broedplek Track in het Noordstation. Via kruisbestuiving ontstaan boeiende resultaten. 
+
+
+      ***Actie***
+
+
+      Via diverse materialen (potlood, houtskool, acryl- of olieverf, pastel, bister, collage, …)  verken je de mogelijkheden van technieken en experiment om jouw observatie naar beeldend werk om te vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur, compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de anatomie van het menselijk lichaam en verscherp je gevoel voor detail. Dit atelier kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
+
+
+      ### Voor wie
+
+
+      Voor starters en gevorderden die zich graag willen verdiepen in de anatomie van het menselijk lichaam als onderzoek op zich of ter ondersteuning bij een ander atelier zoals schilderkunst, tekenkunst of grafiekkunst.
+
+
+      ### Algemeen
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander. Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### Optie FOCUS
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      ***Focus op Expo***
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers volwassen.  
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-MODEL.jpg
     title: Modeltekenen
     images:
@@ -501,15 +541,19 @@ ateliers:
       ### Studietraject
 
 
-      Leerlingen die de opleiding Modeltekenen volgen, volgen een traject van 1 avond/week (lang traject, 10 jaar).
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
+
+
+      * lang traject (1 avond/week, 10 jaar): dinsdagavond 17:40 - 21:00 of donderdagavond 17:40 - 21:00 
+
+
+      *Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels*
 
 
       ### Uurrooster
 
 
       :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
-
-
 
 
       ### Materiaal
