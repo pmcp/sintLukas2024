@@ -368,25 +368,78 @@ ateliers:
   - mainImage: bAun78jPdd1BpbRLc7iJU
     showSubtitleOnCard: false
     markdown: >-
-      Binnen de opleiding Interieurontwerp volg je het vak Interieurontwerp op
-      dinsdagavond.
+      Geef jezelf ruimte: de ruimte om te observeren, te voelen en te vormen! In
+      dit atelier schenken we aandacht aan onze omgeving: de ruimte waarin we
+      wonen, werken en leven. Je kan ‘ruimte’ ook conceptueel benaderen.
 
 
-      Geef jezelf ruimte, de ruimte om te observeren, te voelen en te vormen. In dit atelier schenken we aandacht aan onze omgeving, de ruimte waarin we wonen, werken en leven. De reële ruimte, maar ook de ruimte als een concept of een abstractie.
+      We experimenteren rond architectuur, kunst & design. We leggen de nadruk op het artistiek proces: het ontwerpproces. Wat betekent het woord ‘ontwerpen’ eigenlijk? In dit atelier zoek je uit hoe je als ontwerper te werk gaat. Je ontdekt al doende hoe je jouw leefwereld kan vormgeven, gaande van interieur over architectuur tot (gebruiks)voorwerpen. Je leert in die concrete projecten welke stappen je zet in het proces en met welke parameters je rekening moet houden. De opleiding vraagt een voortdurende wisselwerking tussen hoofd en handen, denken en doen. Het atelier is een laboratorium waarin onderzoek, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie) en opnieuw proberen, presenteren centraal staan. Deze stappen zijn essentieel in de artistieke benadering van dit proces.
 
 
-      We experimenteren rond architectuur, design & kunst. We leggen de nadruk op het creatief proces, het ontwerpproces: de opleiding is praktijkgericht en vraagt een voortdurende wisselwerking tussen hoofd en handen, denken en doen. Het atelier als labo waarin onderzoek, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie) en opnieuw proberen, presenteren... belangrijk zijn om te evolueren. We gaan waarnemingstekenen in situ. We bezoeken expo’s, musea en lezingen. We maken kennis met een culturele traditie en reflecteren over. Via kruisbestuiving en vakoverschrijdende projecten verdiepen en verbreden we een persoonlijke zoektocht. Door het jaar organiseert de Academie ook cross-over momenten, bijvoorbeeld een Schetsboekenavond, waarbij alle leerlingen van de Academie, van alle richtingen, samen komen voor activiteiten. Je werkt rond scenografie via het TRACK Project in Noordstation: gedurende een maand of meer, gaat het atelier in “residentie”, op verplaatsing in de Broedplek. We gaan er samenwerken en houden een toonmoment als afsluiter. Je leert ideeën verbeelden op een manier die best voor jou werkt in 2D en 3D, zowel analoog (schetsen, plantekeningen en maquettes) als digitaal (Sketchup). Of je ontwikkelt een scenario, een tekst of een installatie om je concept vorm te geven!?
+      ***Inspiratie***
 
 
-      Interieur is een 10 jarige opleiding. In het atelier zijn alle jaren gemengd. Je verkent op eigen tempo technieken eigen aan de discipline: wel gaan we eerste jaren nog heel summier werken rond (digitale) presentatie, we focussen we eerst op creatie, associaties en onderzoek, bouwen van relaties en samenwerkingen en leren we enkele analoge technieken en methodes. Hoe verder in de opleiding, hoe
+      We bezoeken expo’s, musea en lezingen (A+ Architectuur Bozar). We maken kennis met een culturele traditie en reflecteren erover. Tijdens het schooljaar organiseert de Academie cross-over momenten zoals een Schetsboekenavond ter inspiratie voor alle leerlingen. Via kruisbestuiving en vakoverschrijdende projecten verdiepen en verbreden we onze persoonlijke zoektocht. 
 
 
-      groter de verwachtingen zijn in functie van de student en zijn jaar. De leerlingen verdiepen zich meer, nemen meer initiatief, extra elementen in de opdrachten, het niveau van complexiteit is groter.
+      ***Actie***
 
 
-      Voorkennis hoeft niet, enkel veel zin en enthousiasme!
+      We gaan waarnemingstekenen in situ. We werken rond scenografie op locatie in de boeiende broedplaats ‘TRACK’ in Noordstation. Het atelier gaat hier op 'residentie'. We houden er een toonmoment als afsluiter. Je leert jouw ideeën verbeelden op een manier die best voor jou werkt: dat kan in 2D en/of 3D zowel analoog (schetsen, plan tekeningen en maquettes) als digitaal. Ontwikkel je een scenario, een tekst of een installatie om je concept vorm te geven? Het kan allemaal! In dit atelier gaat het over het vormgeven van jouw ideeën naar concrete dingen! 
+
+
+      *Enkele voorbeelden*
+
+
+      * Bedenken we een theeceremonie tijdens een vernissage? Dan ontwerpen we een thee-set in boetseerklei tijdens de les én realiseren we deze in een keramiekatelier buitenhuis...
+
+      * Ontwerpen we een doorzichtige verpakking voor een product? Dan verkiezen we duurzame materialen en gaan we experimenteren met bioplastics/biocomposieten! We maken er kennis met biobased materialen zoals bv kalkhennep, mycelium, rammed earth...
+
+      * Ontwerpen we een kiosk? Dan bedenken we er eerst een functie voor, het doelpubliek en het concept. Zo leren we over afmetingen, schaal, ergonomie. We tekenen het grondplan, de gevel en de snede van de kiosk. We visualiseren de kiosk aan de hand van een maquette en moodboard…
+
+
+      ### Voor wie
+
+
+      Ontwerpatelier: architectuur-kunst-design is een 10-jarige opleiding. In het atelier zitten alle leerjaren samen. We leren er van elkaar en je kan er werken op jouw eigen tempo. De eerste jaren focussen we ons op onderzoek, inspiratie en creatie. We leggen linken en verkennen verschillende analoge en digitale technieken. Naarmate de opleiding vordert, groeit de leerling in de benadering en invulling van de opdrachten. De leerling verdiept zich in een eigen beeldtaal, neemt meer initiatief en de complexiteit van de opdracht wordt groter. Tijdens de opleiding leren we presenteren: we tonen ons proces aan medestudenten en toeschouwers. 
+
+
+      Voorkennis is niet vereist, enkel veel zin en enthousiasme!
+
+
+      ### Algemeen
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
+
+
+      Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### Optie FOCUS
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      ***Focus op Expo***
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers volwassen.  
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-INTERIEUR.jpg
-    title: Interieurontwerp
+    title: "Ontwerpatelier: architectuur, kunst en design"
     images:
       - RVVSXpZocyuTx2xsLRJlb
       - BHP1MnGClIXRiYbFd9XUJ
@@ -394,10 +447,16 @@ ateliers:
     side1: ""
     id: CVmWrDQKUKREP3dNmOvWt
     side2: >-
-      ### Studietraject
+      ### Praktisch
 
 
-      Leerlingen die de opleiding Interieurontwerp volgen, kiezen uit een traject van 1 avond/week (Lang traject, 10 jaar).
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
+
+
+      * lang traject (1 avond/week, 10 jaar): dinsdagavond 17:40 - 21:00
+
+
+      *Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels*
 
 
       ### Uurrooster
@@ -409,7 +468,10 @@ ateliers:
       ### Materiaal
 
 
-      In het atelier kan je gebruikmaken van een computer en printer. Je mag uiteraard op je eigen tablet of laptop werken. Je kan als leerling van de academie voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar, alsook Autocad en Sketchup. Er zijn een paar basis teken- en schildermaterialen aanwezig om uit te proberen. Dit kan je aanvullen met jouw eigen favoriete materialen. Tekenpapier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld. Basis maquettemateriaal zoals schuim-, wit en bruin karton kan je aan voordelige prijs aankopen op school, maar we proberen eerst zoveel mogelijk met recuperatiematerialen te werken. Gips - klei kan in groepsaankoop. Specifiek materiaal zoals balsahout, hars, plexi, fineer, plasticine,... koopt de lln best zelf in functie van zijn project.
+      In het atelier kan je gebruikmaken van een computer en printer. Je mag uiteraard op je eigen tablet of laptop werken. Software is niet inbegrepen: als leerling van de academie kan je voordelig een Adobe Creative Cloud abonnement aankopen voor 1 jaar, alsook Autocad en Sketchup (ongeveer 35 euro/jaar ). Dit abonnement kan je dan zowel op school als op eigen hardware gebruiken. 
+
+
+      Er is basis teken- en schildermateriaal aanwezig. Dit kan je aanvullen met jouw eigen favoriete materialen. Papier, prints en uitstappen zijn niet inbegrepen in het inschrijvingsgeld. Basis maquettemateriaal zoals schuim-, wit en bruin karton kan je aan voordelige prijs aankopen op school, maar we proberen eerst zo veel mogelijk met recuperatiematerialen te werken. Gips - klei kan in groepsaankoop worden aangekocht. Specifiek materiaal zoals balsahout, hars, plexi, fineer, plasticine,… koopt de leerling best zelf in functie van zijn project.
     persons:
       - iy4kbobw8ytic67mxbbq
     age: 4e graad + Specialisatie
