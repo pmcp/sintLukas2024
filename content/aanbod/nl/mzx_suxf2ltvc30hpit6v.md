@@ -115,33 +115,73 @@ ateliers:
       In de opleiding Fotokunst draait alles om de fascinatie voor het
       fotografisch beeld. Fotografie is veelzijdig en alomtegenwoordig in onze
       beeldcultuur. Al doende leer je de basis opname-, bewerkings- en
-      afdruktechnieken, zowel digitaal als analoog. We gaan de straat op om
-      samen te fotograferen, werken in de studio met artificiële lichtbronnen en
-      verkennen Photoshop. Ook leer je negatieven ontwikkelen, fotogrammen maken
-      en kan je de magie in de donkere kamer beleven. Tijdens de opleiding breid
-      je je referentiekader uit en leer je stap voor stap je eigen verhaal te
-      vertellen via foto’s. Naast de les- en atelierdagen op maandag en dinsdag,
-      gaan we gemiddeld één keer per maand op uitstap, meestal in het weekend.
-      Deze zijn gericht op het verkennen van het (hedendaagse) veld, via
-      tentoonstellings- en atelierbezoeken. Zo leer je het medium vanuit
-      verschillende perspectieven kennen en raak je geïnspireerd. Iedereen die
-      de opleiding volgt, is welkom bij de uitstappen. De kalender hiervoor
-      ontvang je in september.
+      afdruktechnieken, zowel digitaal als analoog. 
 
 
-      **Starters**
+      ***Inspiratie***
+
+
+      We bespreken het werk van inspirerende kunstenaars binnen de hedendaagse kunstwereld. Naast de les- en atelierdagen op maandag en dinsdag, gaan we gemiddeld één keer per maand op uitstap, meestal in het weekend. Deze zijn gericht op het verkennen van het (hedendaagse) veld, via tentoonstellings- en atelierbezoeken. Zo leer je het medium vanuit verschillende perspectieven kennen en raak je geïnspireerd. Iedereen die de opleiding volgt, is welkom bij de uitstappen. De kalender hiervoor ontvang je in september.
+
+
+      We werken ook eens met een ander atelier samen in de broedplek Track in het Noordstation. Via kruisbestuiving ontstaan boeiende resultaten. 
+
+
+      ***Actie*** 
+
+
+      Al doende leer je de basis opname-, bewerkings- en afdruktechnieken, zowel digitaal als analoog. We gaan de straat op om samen te fotograferen, werken in de studio met artificiële lichtbronnen en verkennen Photoshop. Ook leer je negatieven ontwikkelen, fotogrammen maken en kan je de magie in de donkere kamer beleven. Tijdens de opleiding breid je je referentiekader uit en leer je stap voor stap je eigen verhaal te vertellen via foto’s.
+
+
+      ### **Voor wie**
+
+
+      ***Starters***
 
 
       Als je geen of weinig ervaring hebt, begin je op maandag met het atelier Fotokunst (verkennen). Hier start je vanaf het begin, leer je je camera gebruiken en maak je kennis met de fotografische beeldtaal. Via opdrachten leer je kijken en beelden combineren. Als je maandag en dinsdag combineert, kan je maandag als lesdag beschouwen en dinsdag als atelierdag. Tijdens de lesdagen worden nieuwe opdrachten en technieken aangereikt en worden je foto’s besproken. Op atelierdagen werk je (zelfstandig) in het atelier, waarbij je gebruik kan maken van de infrastructuur en begeleiding van de docent.
 
 
-      **Gevorderden**
+      ***Gevorderden***
 
 
-      Als je de basistechnieken al beheerst, kun je het atelier op dinsdag volgen: Fotokunst (verdiepen). Hier leer je je persoonlijk uitdrukken via fotografie, van concept tot presentatie, met ruimte voor experiment en onderzoek. Als je maandag en dinsdag combineert, is maandag je atelierdag en dinsdag je lesdag. Tijdens de lesdagen worden opdrachten, technieken en foto’s besproken. Op atelierdagen werk je zelfstandig in het atelier, waar je gebruik kan maken van de infrastructuur. 
+      Als je de basistechnieken al beheerst, kun je het atelier op dinsdag volgen. Hier leer je je persoonlijk uitdrukken via fotografie, van concept tot presentatie, met ruimte voor experiment en onderzoek. Als je maandag en dinsdag combineert, is maandag je atelierdag en dinsdag je lesdag. Tijdens de lesdagen worden opdrachten, technieken en foto’s besproken. Op atelierdagen werk je zelfstandig in het atelier, waar je gebruik kan maken van de infrastructuur. 
 
 
-      Of je start bij verkennen of verdiepen, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
+      Of je aansluit bij de starters of de gevorderden, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
+
+
+      ***Algemeen***
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
+
+
+      Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### **Optie FOCUS**
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
+
+
+      ***Focus op Presentatie*** 
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers volwassen.  
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
     thumb: /assets/uploads/Aanbod banners-FOTO.jpg
     title: Fotokunst
     images:
@@ -154,22 +194,28 @@ ateliers:
       ### Studietraject
 
 
-      * 1 avond/week (lang traject, 10 jaar)
-
-      * 2 avonden/week (middellang traject, 5 jaar)
-
-      * 3 avonden/week (kort traject, 4 jaar)
+      Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
 
 
-      Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.
+      * lang traject (1 avond/week, 10 jaar): starters: maandagavond 17:40 - 21:00
+
+      * lang traject (1 avond/week, 10 jaar)t: gevorderden: dinsdagavond 17:40 - 21:00
+
+      * middel traject (2 avonden/ week, 5 jaar): starters of gevorderden: maandag- en dinsdagavond 
+
+      * kort traject verdiepen: maandag- en dinsdagavond + uitstappen
+
+
+      Naast de les- en atelierdagen op maandag en dinsdag, gaan we gemiddeld één keer per maand op uitstap, meestal in het weekend. Deze zijn gericht op het verkennen van het (hedendaagse) veld, via tentoonstellings- en atelierbezoeken. Iedereen die de opleiding volgt, is welkom bij de uitstappen. De kalender hiervoor ontvang je in september.
+
+
+      *Opgelet, voor een overstap tussen twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels*
 
 
       ### Uurrooster
 
 
       :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
-
-
 
 
       ### Materiaal
