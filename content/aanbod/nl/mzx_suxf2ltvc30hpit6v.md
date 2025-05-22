@@ -32,19 +32,13 @@ ateliers:
       In het atelier ligt de nadruk op experiment, creatief denken, loslaten en plezier hebben in het creëren en uitproberen.  Er is ruimte voor eigen onderzoek en verdieping in technieken en materialen.  
 
 
-      ***Voor wie***
+      ### Voor wie
 
 
       Deze opleiding is ideaal als je wil starten in een beeldende opleiding maar je niet kan kiezen tussen de verschillende disciplines, of als je als beginner de beeldende kunsten verkennen. 
 
 
-      ***Materiaal*** 
-
-
-      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk… wordt voorzien door de academie.
-
-
-      ***Algemeen***
+      ### Algemeen
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
@@ -53,7 +47,7 @@ ateliers:
       Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### **Optie FOCUS**
+      ### Optie FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -105,7 +99,7 @@ ateliers:
       ### Materiaal
 
 
-      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk... wordt voorzien door de academie.
+      Je neemt je eigen basismateriaal mee zoals een set goede potloden, een eigen schetsboek, enkele goede penselen, een kneedgom, oost-indische inkt, een vodje en een schort. Het materiaal voor bijzondere technieken zoals etsen, lino, zeefdruk… wordt voorzien door de academie.
     persons:
       - zu6yrth076tbnhu1eo1sm
     age: 4e graad + Specialisatie
@@ -133,7 +127,7 @@ ateliers:
       Al doende leer je de basis opname-, bewerkings- en afdruktechnieken, zowel digitaal als analoog. We gaan de straat op om samen te fotograferen, werken in de studio met artificiële lichtbronnen en verkennen Photoshop. Ook leer je negatieven ontwikkelen, fotogrammen maken en kan je de magie in de donkere kamer beleven. Tijdens de opleiding breid je je referentiekader uit en leer je stap voor stap je eigen verhaal te vertellen via foto’s.
 
 
-      ### **Voor wie**
+      ### Voor wie
 
 
       ***Starters***
@@ -151,7 +145,7 @@ ateliers:
       Of je aansluit bij de starters of de gevorderden, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
 
 
-      ***Algemeen***
+      ### Algemeen
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
