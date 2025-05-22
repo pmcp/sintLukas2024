@@ -10,11 +10,22 @@ markdown: >-
   opleidingen.
 
 
-
-
   :dispatch{:data='{"label":"Aanbod","link":"/aanbod"}' type='Link'}
-side1: De academie deelt de volledig gerenoveerde site met de Sint-Lukas
-  Basisschool en de Sint-Lukas Kunsthumaniora en bevindt zich naast de
-  Hogeschool LUCA School of Arts. De school fungeert als ontmoetingsplaats
-  tussen verschillende leeftijden, culturen, disciplines en artistieke processen
-  binnen de lokale en internationale (kunst)context.
+side1: >-
+  De academie deelt de volledig gerenoveerde site met de Sint-Lukas Basisschool
+  en de Sint-Lukas Kunsthumaniora en bevindt zich naast de Hogeschool LUCA
+  School of Arts. De school fungeert als ontmoetingsplaats tussen verschillende
+  leeftijden, culturen, disciplines en artistieke processen binnen de lokale en
+  internationale (kunst)context.
+
+
+  :dispatch{:data='{"download":["1UNso4d7oCxhojRWTaOF8"]}' type='downloads'}
+
+
+  :dispatch{:data='{"download":["6k3DnYMFTlJdBPZHgmJey"]}' type='downloads'}
+
+
+  :dispatch{:data='{"download":["5lBRSdx6ywaP6tjDvHOSD"]}' type='downloads'}
+
+
+  :dispatch{:data='{"download":["Jg0REmX291USRXPdHr9pR"]}' type='downloads'}
