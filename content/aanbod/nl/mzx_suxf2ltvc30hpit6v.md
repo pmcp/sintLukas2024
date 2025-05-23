@@ -80,10 +80,7 @@ ateliers:
 
       * Lang traject (1 avond/week, 10 jaar) : dinsdagavond 17:40 - 21:00
 
-      * Middel traject (2 avonden/week, 5 jaar): dinsdagavond 17:40 - 21:00
-
-
-       in combinatie met modeltekenen op donderdagavond 17:40 - 21:00
+      * Middel traject (2 avonden/week, 5 jaar): dinsdagavond 17:40 - 21:00 in combinatie met modeltekenen op donderdagavond 17:40 - 21:00
 
 
       *Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.*

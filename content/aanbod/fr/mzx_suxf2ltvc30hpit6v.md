@@ -24,7 +24,7 @@ ateliers:
       In het atelier gaan we met diverse materialen aan de slag. Werken met pastel of olieverf geeft een totaal ander kleurenpalet als resultaat. Wat zijn de mogelijkheden? Wat zijn de beperkingen? Je gaat aan de slag met verf, wasco, pastel, inkt, … Maar evengoed maken we onze eigen verf!
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       Dit atelier is voornamelijk een beginners atelier met de focus op het gebruik en toepassing van kleur. We leggen linken naar verschillende disciplines. Na 3 jaar kan je kiezen of je daarna wil verder gaan naar tekenkunst of schilderkunst.
@@ -33,13 +33,13 @@ ateliers:
       Heb je al andere ateliers gevolgd maar heb je interesse om je te focussen op kleur? Dan kan ook dit atelier iets voor jou zijn!
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander. Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie Focus 
+      ### OPTIE FOCUS 
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels)
@@ -125,7 +125,7 @@ ateliers:
       * Ontwerpen we een kiosk? Dan bedenken we er eerst een functie voor, het doelpubliek en het concept. Zo leren we over afmetingen, schaal, ergonomie. We tekenen het grondplan, de gevel en de snede van de kiosk. We visualiseren de kiosk aan de hand van een maquette en moodboard…
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       Ontwerpatelier: architectuur-kunst-design is een 10-jarige opleiding. In het atelier zitten alle leerjaren samen. We leren er van elkaar en je kan er werken op jouw eigen tempo. De eerste jaren focussen we ons op onderzoek, inspiratie en creatie. We leggen linken en verkennen verschillende analoge en digitale technieken. Naarmate de opleiding vordert, groeit de leerling in de benadering en invulling van de opdrachten. De leerling verdiept zich in een eigen beeldtaal, neemt meer initiatief en de complexiteit van de opdracht wordt groter. Tijdens de opleiding leren we presenteren: we tonen ons proces aan medestudenten en toeschouwers. 
@@ -134,7 +134,7 @@ ateliers:
       Voorkennis is niet vereist, enkel veel zin en enthousiasme!
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
@@ -143,7 +143,7 @@ ateliers:
       Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie FOCUS
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -227,13 +227,13 @@ ateliers:
       In het atelier ligt de nadruk op experiment, creatief denken, loslaten en plezier hebben in het creëren en uitproberen.  Er is ruimte voor eigen onderzoek en verdieping in technieken en materialen.  
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       Deze opleiding is ideaal als je wil starten in een beeldende opleiding maar je niet kan kiezen tussen de verschillende disciplines, of als je als beginner de beeldende kunsten verkennen. 
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
@@ -242,7 +242,7 @@ ateliers:
       Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie FOCUS
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -319,13 +319,13 @@ ateliers:
       Droge naald, lijnets, aquatint, linosnede, collografie, monotype en diverse technieken kunnen er verkend worden. In dit atelier staat experiment centraal, waarbij de leerlingen op eigen tempo technieken onderzoeken, combineren en komen tot een eigen beeldvorming. Techniek, experiment en onderzoek leiden in dit atelier tot wonderlijke, vernieuwende en inspirerende beelden.
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       Wil je graag kennismaken met allerlei grafische technieken? Ons atelier heeft verschillende hoog-, vlak- en diepdrukpersen. Je kan er starten als beginner maar evenzeer richt dit atelier zich naar gevorderden die met behulp van grafische technieken hun eigen beeldtaal willen ontwikkelen.
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
@@ -334,7 +334,7 @@ ateliers:
       Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie FOCUS
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaat men naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -451,7 +451,7 @@ ateliers:
       Stap voor stap ontdek je verschillende technieken en materialen, en leer je via observatie en onderzoek je blik te verruimen. Je maakt kennis met de elementen van de beeldtaal zoals lijn, kleur, vorm, structuur, textuur, contrast ... Door middel van een aantal onderwerpen - zoals stillevens, portret, levend model, interieur, drapering etc. - probeer je nieuwe materialen ( potlood, houtskool, acryl, olieverf, bister, ...), technieken en uitdrukkingsmogelijkheden te vinden.
 
 
-      ### Voor wie 
+      ### VOOR WIE
 
 
       Binnen de opleiding Tekenkunst kies je ervoor als starter het vak Tekenkunst (starters) te volgen op dinsdag. Heb je meer ervaring, volg je het vak Tekenkunst (gevorderden) op maandag. Op dinsdag en/of donderdag kan je optioneel het vak Modeltekenen volgen om jouw tekenvaardigheden te ontwikkelen.
@@ -469,13 +469,13 @@ ateliers:
       We gaan verder aan de slag met die basis. We ontdekken de ruime mogelijkheden van de tekenkunst en verdiepen ons verder in de bouwstenen van het tekenen. We stellen ons vragen zoals: hoe ontstaat een tekening,hoe kan je spelen met de beeldelementen en hoe kan je jouw verhaal vertellen in een tekening? We gaan thematisch en inhoudelijk op zoek naar wat tekenen inhoudt. Met welke materialen en technieken ga jij op zoek naar een persoonlijke beeldtaal? We vertrekken van zowel waarneming, verbeelding en eigen beeldmateriaal. Gaandeweg ontwikkelen we een eigen traject aan de hand van concrete uitdagingen en persoonlijke feedback. We werken aan de hand van verschillende concrete thema’s, deze worden op een persoonlijke manier uitgewerkt en onderzocht. Materialen en technieken worden samen onder de loep genomen en dienen als basis voor het persoonlijke traject. Er is veel ruimte en aandacht voor experiment en onderzoek, dit aan de hand van persoonlijke begeleiding en klassikale oefeningen. Er worden linken gelegd met zowel de hedendaagse tekenkunst als de kunstgeschiedenis.
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander. Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om zijn zoektocht, zijn inspiratie en zijn werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie FOCUS
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten gaan door buiten de gebruikelijke lesuren. Meestal gaat men naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -573,7 +573,7 @@ ateliers:
       Al doende leer je de basis opname-, bewerkings- en afdruktechnieken, zowel digitaal als analoog. We gaan de straat op om samen te fotograferen, werken in de studio met artificiële lichtbronnen en verkennen Photoshop. Ook leer je negatieven ontwikkelen, fotogrammen maken en kan je de magie in de donkere kamer beleven. Tijdens de opleiding breid je je referentiekader uit en leer je stap voor stap je eigen verhaal te vertellen via foto’s.
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       ***Starters***
@@ -591,7 +591,7 @@ ateliers:
       Of je aansluit bij de starters of de gevorderden, beslissen we samen aan de hand van je evaluatie aan het einde van het schooljaar, een intakegesprek voor je start, of eerdere werkstukken, zoals een portfolio.
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
@@ -600,7 +600,7 @@ ateliers:
       Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### **Optie FOCUS**
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -697,7 +697,7 @@ ateliers:
       Je gaat aan de slag met diverse materialen in het ontwerpproces (potlood, wasco, penseel, …). Digitale technieken en computervaardigheden zijn belangrijk, maar je gebruikt ze zoals je wil. Mixed media tussen analoge en digitale technieken is uniek aan dit atelier. Adobe Photoshop, Adobe Illustrator en Adobe InDesign komen aan bod net zoals eerder analoge technieken (tekenen, collage, druktechnieken, …). 
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       Binnen de opleiding Grafisch Ontwerp en Illustratie kies je ervoor als starter het vak Grafisch Ontwerp en Illustratie (starters) te volgen op maandag. Heb je meer ervaring, volg je het vak Grafisch Ontwerp en Illustratie (verdieping) op dinsdag. Het is ook mogelijk om de twee avonden te combineren en op die manier sneller in de praktijk te brengen wat je leert. 
@@ -742,7 +742,7 @@ ateliers:
       * Technisch verfijnen
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
@@ -751,7 +751,7 @@ ateliers:
       Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie FOCUS
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -831,19 +831,19 @@ ateliers:
       Via diverse materialen (potlood, houtskool, acryl- of olieverf, pastel, bister, collage, …)  verken je de mogelijkheden van technieken en experiment om jouw observatie naar beeldend werk om te vertalen. Je krijgt inzicht in de beeldende begrippen als vorm, kleur, compositie, dieptewerking, licht en schaduw, contrast. Verdiep je in de anatomie van het menselijk lichaam en verscherp je gevoel voor detail. Dit atelier kan ook gevolgd worden binnen de opleidingen tekenkunst, schilderkunst en grafiekkunst.
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       Voor starters en gevorderden die zich graag willen verdiepen in de anatomie van het menselijk lichaam als onderzoek op zich of ter ondersteuning bij een ander atelier zoals schilderkunst, tekenkunst of grafiekkunst.
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander. Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie FOCUS
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
@@ -935,13 +935,13 @@ ateliers:
       Doorheen de opleiding zijn individueel proces en picturale ontwikkeling belangrijk voor startende alsook ervaren schilders. Via opdrachten, demonstraties en persoonlijke begeleiding maken we kennis met diverse aspecten  en begrippen van het medium schilderkunst; de drager, beeldend onderzoek en het aanbrengen van de verf. Langs een waaier van kleur, staan we stil bij verschillende processen, kunsthistorisch tot experimenteel om het arsenaal te verbreden en om een eigen beeldtaal te ontwikkelen. 
 
 
-      ### Voor wie
+      ### VOOR WIE
 
 
       Voor starters en gevorderden die het rijke medium van de schilderkunst intensief willen verkennen in een traject van twee avonden/ week. Twijfel je nog of wil je eerst op 1 avond per week de schilderkunst wat verkennen? Dan is het atelier kleur op dinsdagavond misschien een goede voorbereiding voor het atelier schilderkunst.  
 
 
-      ### Algemeen
+      ### ALGEMEEN
 
 
       Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander.
@@ -950,7 +950,7 @@ ateliers:
       Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
 
 
-      ### Optie FOCUS
+      ### OPTIE FOCUS
 
 
       Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? info.academie@sintlukas.brussels 
