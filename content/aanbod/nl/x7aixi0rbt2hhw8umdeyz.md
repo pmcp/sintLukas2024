@@ -1,7 +1,7 @@
 ---
 id: x7AIxi0Rbt2hHW8umdEyZ
 nl: Focus
-order: 6
+order: 5
 color: "#7e6691"
 thumb: /assets/uploads/Aanbod banners-KUNSTKUUR.jpg
 side: true
