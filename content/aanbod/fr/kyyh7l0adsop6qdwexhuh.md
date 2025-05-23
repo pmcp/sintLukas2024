@@ -24,7 +24,7 @@ ateliers:
       :dispatch{:data='{"label":"Website TRACK","link":"https://www.track.brussels/nl-be"}' type='Link'}
     id: VbukszcsbI_NS6FExFe0W
     side2: >-
-      KALENDER
+      ### KALENDER
 
 
       Blijf op de hoogte van alle toonmomenten:
