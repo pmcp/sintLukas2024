@@ -86,7 +86,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["2TNkgjmVxgC1r_MB_04mi"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -202,7 +202,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["pYcNlA02TCKT3_u0u4K3P"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -348,7 +348,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["25JQ3J1a7lmyaGAGxkXee"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -455,7 +455,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["drOVF1wOW2GfxcHOQUWiq"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -546,7 +546,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["FJzFQSQCBZoV4K7UejZni"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -674,7 +674,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["iEacSM9fkJlo8PCZQ5X-p"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -785,7 +785,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["IinSBkEZKSrs5_OMuWakJ"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -908,7 +908,7 @@ ateliers:
       ### Uurrooster
 
 
-      :dispatch{:data='{"download":["mPmWgKYQ9bu1wP7HzF5Fm"]}' type='downloads'}
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
 
 
       ### Materiaal
@@ -927,4 +927,6 @@ ateliers:
     persons:
       - zysyjvfvqwapcjl8lpuj9
     age: 4e graad + Specialisatie
+  - showSubtitleOnCard: true
+    id: NQZGH2TZywqxZdaPHJihC
 ---

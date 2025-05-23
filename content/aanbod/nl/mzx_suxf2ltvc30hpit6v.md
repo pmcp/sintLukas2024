@@ -934,4 +934,94 @@ ateliers:
     persons:
       - zysyjvfvqwapcjl8lpuj9
     age: 4e graad + Specialisatie
+  - showSubtitleOnCard: false
+    id: txWPdm9xKDWhSB5QV6IoD
+    title: Atelier kleur
+    age: 18+
+    persons:
+      - ki9xtvqazuhyw3aywv52f
+    side2: >-
+      ### Praktisch
+
+
+      Studietraject: 	starters of gevorderden in de vierde graad 
+
+
+      * Lang traject (1 avond/week, 10 jaar) : dinsdagavond 17:40 - 21:00
+
+      * Middel traject (2 avonden/week, 5 jaar): dinsdagavond 17:40 - 21:00
+
+
+       in combinatie met modeltekenen op donderdagavond 17:40 - 21:00
+
+
+      *Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.*
+
+
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
+
+
+      ### Materiaal
+
+
+      In dit atelier worden verschillende materialen door de school aangereikt ter introductie. Wil je verder werken met specifiek materiaal? Dan koop je dat zelf aan.
+    markdown: >-
+      Kleuren hebben een grote impact op ons, soms veel meer dan we beseffen!
+
+
+      Maar hoe gaan we aan de slag met kleur in een tekening, schilderij of ander medium?
+
+
+      In dit atelier verken je de verschillende mogelijkheden van ‘kleur’ in het artistieke spectrum. We kunnen kleur technisch, intuïtief, conceptueel, experimenteel, cultuurhistorisch, symbolisch … benaderen. Dit zijn allemaal manieren om kleuren te bekijken, onderzoeken en toe te passen. 
+
+
+      ***Inspiratie***
+
+
+      We gaan op uitstap naar een boeiende expo: er is geen betere manier dan een kunstwerk in het echt te zien. In de broedplek Track in het Noordstation werken we samen met een ander atelier. Er komt een gastspreker/ kunstenaar op bezoek. 
+
+
+      ***Actie***
+
+
+      In het atelier gaan we met diverse materialen aan de slag. Werken met pastel of olieverf geeft een totaal ander kleurenpalet als resultaat. Wat zijn de mogelijkheden? Wat zijn de beperkingen? Je gaat aan de slag met verf, wasco, pastel, inkt, … Maar evengoed maken we onze eigen verf!
+
+
+      ### Voor wie
+
+
+      Dit atelier is voornamelijk een beginners atelier met de focus op het gebruik en toepassing van kleur. We leggen linken naar verschillende disciplines. Na 3 jaar kan je kiezen of je daarna wil verder gaan naar tekenkunst of schilderkunst.
+
+
+      Heb je al andere ateliers gevolgd maar heb je interesse om je te focussen op kleur? Dan kan ook dit atelier iets voor jou zijn!
+
+
+      ### Algemeen
+
+
+      Het atelier beschouwen we als een labo waarin onderzoek, experiment, mislukken als meerwaarde, kijken, afstand nemen, bevragen (reflectie), opnieuw proberen en presenteren organisch door elkaar groeien en dit alles in respect en dialoog met de ander. Doorheen de verschillende trajecten begeleiden we de leerlingen via evaluatiemomenten. De leerling wordt zo gestimuleerd om diens zoektocht, inspiratie en werkwijze te verwoorden tegenover een derde persoon: het interne of externe jurylid. Het organiseren en opstellen van een eigen expositie, individueel of in groep, vormt tevens een belangrijk onderdeel van de opleiding.
+
+
+      ### Optie Focus 
+
+
+      Onderstaande aanvullende trajecten vinden plaats buiten de gebruikelijke lesuren. Meestal gaan we naar een specifieke locatie (in functie van het lesonderwerp). De trajecten zijn gratis en toegankelijk voor onze volwassen studenten. De kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De plaatsen zijn beperkt. Meer info? [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels)
+
+
+      ***Focus op Expo***
+
+
+      Je kan deelnemen aan het expo-traject. 
+
+
+      De leerlingen leren er het tentoonstellen van A tot Z kennen en hun eigen werk tentoon te stellen. Ze verdiepen zich in presentatie, verkennen de scenografie en werken er samen aan een expo. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle ateliers voor volwassenen.
+
+
+      ***Focus op Waarneming***
+
+
+      Je kan deelnemen aan het waarnemingstekenen-traject. 
+
+
+      Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
 ---
