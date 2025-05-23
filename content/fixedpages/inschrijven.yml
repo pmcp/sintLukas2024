@@ -38,7 +38,10 @@ text5: >-
 
   | 18-24 jaar | 210 euro                                             |
 
-  | 25+        | 420 euro <br/>(vermindering: 210 euro                |
+  | 25+        | 440 euro <br/>(vermindering: 210 euro                |
+
+
+  :dispatch{:data='{"download":["d9uSY1OKMkVP4ymuDVn0D"]}' type='downloads'}
 
 
   Je kan meteen bij jouw inschrijving online betalen via verschillende betaalopties.
