@@ -7,37 +7,8 @@ texture: "2"
 thumb: /assets/uploads/Aanbod banners-INTERIEUR.jpg
 background: /assets/uploads/1.jpg
 ateliers:
-  - showSubtitleOnCard: false
-    id: txWPdm9xKDWhSB5QV6IoD
-    title: Atelier kleur
-    age: 18+
-    persons:
-      - ki9xtvqazuhyw3aywv52f
-    side2: >-
-      ### Praktisch
-
-
-      Studietraject: 	starters of gevorderden in de vierde graad 
-
-
-      * Lang traject (1 avond/week, 10 jaar) : dinsdagavond 17:40 - 21:00
-
-      * Middel traject (2 avonden/week, 5 jaar): dinsdagavond 17:40 - 21:00
-
-
-       in combinatie met modeltekenen op donderdagavond 17:40 - 21:00
-
-
-      *Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.*
-
-
-      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
-
-
-      ### Materiaal
-
-
-      In dit atelier worden verschillende materialen door de school aangereikt ter introductie. Wil je verder werken met specifiek materiaal? Dan koop je dat zelf aan.
+  - mainImage: HhoLptrMXZ5c68OiqaMvd
+    showSubtitleOnCard: false
     markdown: >-
       Kleuren hebben een grote impact op ons, soms veel meer dan we beseffen!
 
@@ -97,6 +68,37 @@ ateliers:
 
 
       Elke sessie legt de focus op een ander aspect van waarnemingstekenen (portret, perspectief, planten, lichaam, ruimte, …).
+    thumb: /assets/uploads/aanbod-banners-kleur.jpg
+    title: Atelier kleur
+    id: txWPdm9xKDWhSB5QV6IoD
+    side2: >-
+      ### Praktisch
+
+
+      Studietraject: 	starters of gevorderden in de vierde graad 
+
+
+      * Lang traject (1 avond/week, 10 jaar) : dinsdagavond 17:40 - 21:00
+
+      * Middel traject (2 avonden/week, 5 jaar): dinsdagavond 17:40 - 21:00
+
+
+       in combinatie met modeltekenen op donderdagavond 17:40 - 21:00
+
+
+      *Opgelet, voor een overstap tussen deze twee trajecten contacteer je best het onthaal van de academie: info.academie@sintlukas.brussels.*
+
+
+      :dispatch{:data='{"download":["YzpaZIsirRzFdIbyRkFg7"]}' type='downloads'}
+
+
+      ### Materiaal
+
+
+      In dit atelier worden verschillende materialen door de school aangereikt ter introductie. Wil je verder werken met specifiek materiaal? Dan koop je dat zelf aan.
+    persons:
+      - ki9xtvqazuhyw3aywv52f
+    age: 18+
   - mainImage: bAun78jPdd1BpbRLc7iJU
     showSubtitleOnCard: false
     markdown: >-
