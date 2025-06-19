@@ -12,7 +12,7 @@ ateliers:
       [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels) 
 
 
-      ### Concreet
+      ### CONCREET
 
 
       Heb je zin om het tentoonstellen van A tot Z te leren kennen of je eigen werk tentoon te stellen, dan ben je welkom in het expo-traject. Hier verdiepen we ons in presentatie, verkennen we scenografie en werken we samen. Elk jaar wordt er een nieuwe groep gevormd van afstudeerders en geïnteresseerden uit alle volwassen ateliers. 
@@ -48,7 +48,7 @@ ateliers:
       [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels) 
 
 
-      ### Concreet
+      ### CONCREET
 
 
       Heb je zin om je inzicht te krijgen in hoe we waarnemen en hoe we waarneming vervolgens omzetten in een beeld? Wil je extra tekenkundige input ter ondersteuning van jouw atelier grafiek, schilderkunst, … maar heb je geen tijd om wekelijks nog een extra atelier te volgen? Of ben je fotograaf, ontwerper en wil je graag tekenen?

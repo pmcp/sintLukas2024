@@ -47,7 +47,7 @@ ateliers:
     markdown: >-
       Onderstaand traject vindt plaats buiten de gebruikelijke lesuren. Meestal
       gaan we naar een specifieke locatie (in functie van het lesonderwerp). Dit
-      traject is gratis en toegankelijk voor onze ateliers volwassenen. De
+      traject is gratis en toegankelijk voor onze volwassen studenten. De
       kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De
       plaatsen zijn beperkt. Meer info?
       [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels) 
