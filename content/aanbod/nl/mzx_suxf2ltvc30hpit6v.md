@@ -376,9 +376,9 @@ ateliers:
       Studietraject: starters of gevorderden in de vierde graad met optie specialisatie
 
 
-      * lang traject (1 avond/week, 10 jaar): dinsdagavond 17:40 - 21:00
+      * lang traject (1 avond/week, 10 jaar): maandagavond of dinsdagavond 17:40 - 21:00
 
-      * middel traject (2 avonden/ week, 5 jaar): dinsdagavond 17:40 - 21:00
+      * middel traject (2 avonden/ week, 5 jaar): maandag en dinsdagavond 17:40 - 21:00
 
 
       in combinatie met grafisch atelier op maandagavond 17:40 - 21:00 of in combinatie met modeltekenen op donderdagavond 17:40 - 21:00
