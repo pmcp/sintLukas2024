@@ -65,7 +65,7 @@ ateliers:
       Perspectief tekenen op locatie: prachtige, grootse gebouwen zoals het gerechtsgebouw in Brussel leren ons hoe we iets ruimtelijk naar 2D kunnen omzetten. Tekenen naar beweging en scenografie oefenen we op scène bij dans en beweging. In de plantentuin kunnen we dan weer planten observeren en in een gipsatelier tekenen we bustes, …Brussel heeft heel wat in petto voor tekenaars!
 
 
-      De ateliers zijn gratis voor onze studenten (uitgezonderd locaties waar toegangsgeld te betalen is). De kalender wordt begin september gedeeld. Inschrijven is wel vereist per atelier (je hoeft dus niet per se alle ateliers bij te wonen maar je kan je specifiek inschrijven waar jij nood en interesse in hebt!).
+      De ateliers zijn gratis voor onze studenten (uitgezonderd locaties waar toegangsgeld te betalen is). De kalender wordt tijdens de inspiratieavond gedeeld. Inschrijven is wel vereist per atelier (je hoeft dus niet per se alle ateliers bij te wonen maar je kan je specifiek inschrijven waar jij nood en interesse in hebt!).
     side2: >-
       ### Praktisch
 
