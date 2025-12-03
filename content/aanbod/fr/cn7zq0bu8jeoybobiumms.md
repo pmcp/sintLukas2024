@@ -120,7 +120,7 @@ ateliers:
     id: 6O9h5qsJAQCrDlEMDDdFk
     title: Waarneming traject
     age: 18+
-    mainImage: 8fsRgjYvnUm4YOfcehLFj
+    mainImage: AS52qxkk569y2DG3lpqjx
     thumb: /assets/uploads/aanbod-banners-waarneming.jpg
     markdown: >-
       Heb je zin om je inzicht te verruimen in hoe we waarnemen en hoe we
