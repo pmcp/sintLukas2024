@@ -128,30 +128,59 @@ ateliers:
     mainImage: 8fsRgjYvnUm4YOfcehLFj
     thumb: /assets/uploads/aanbod-banners-waarneming.jpg
     markdown: >-
-      Onderstaand traject vindt plaats buiten de gebruikelijke lesuren. Meestal
-      gaan we naar een specifieke locatie (in functie van het lesonderwerp). Dit
-      traject is gratis en toegankelijk voor onze volwassen studenten. De
-      kalender is begin september beschikbaar. Inschrijven is noodzakelijk. De
-      plaatsen zijn beperkt. Meer info?
-      [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels) 
+      Heb je zin om je inzicht te verruimen in hoe we waarnemen en hoe we
+      waarneming vervolgens omzetten in beeldend werk? Wil je extra tekenkundige
+      input ter ondersteuning van jouw atelier grafiek, schilderkunst, … maar
+      heb je geen tijd om wekelijks nog een extra atelier te volgen? Ben je
+      fotograaf of ontwerper en wil je graag tekenen of omgekeerd? Dan is dit
+      aanvullend traject misschien iets voor jou! In verschillende ateliers
+      nemen leerkrachten uit de Sint-Lukas Academie je mee op stap naar boeiende
+      locaties in Brussel die inspirerend zijn voor een specifiek element van de
+      waarneming. 
 
 
-      ### CONCREET
-
-
-      Heb je zin om je inzicht te krijgen in hoe we waarnemen en hoe we waarneming vervolgens omzetten in een beeld? Wil je extra tekenkundige input ter ondersteuning van jouw atelier grafiek, schilderkunst, … maar heb je geen tijd om wekelijks nog een extra atelier te volgen? Of ben je fotograaf, ontwerper en wil je graag tekenen?
-
-
-      Dan is dit aanvullend traject misschien iets voor jou! In verschillende ateliers nemen leerkrachten uit de Sint-Lukas Academie je mee op stap naar boeiende locaties in Brussel die inspirerend zijn voor een specifiek element van de waarneming. 
-
-
-      Perspectief tekenen op locatie: prachtige, grootse gebouwen zoals het gerechtsgebouw in Brussel leren ons hoe we iets ruimtelijk naar 2D kunnen omzetten. Tekenen naar beweging en scenografie oefenen we op scène bij dans en beweging. In de plantentuin kunnen we dan weer planten observeren en in een gipsatelier tekenen we bustes, …Brussel heeft heel wat in petto voor tekenaars!
+      Perspectief tekenen op locatie: prachtige, grootse gebouwen zoals het gerechtsgebouw in Brussel leren ons hoe we iets ruimtelijk naar 2D kunnen omzetten. Tekenen naar beweging en scenografie oefenen we op scène bij dans en beweging. In de plantentuin kunnen we dan weer planten observeren en in een gipsatelier tekenen we bustes, … Brussel heeft heel wat in petto voor wie goed kijkt!
 
 
       De ateliers zijn gratis voor onze studenten (uitgezonderd locaties waar toegangsgeld te betalen is). De kalender wordt tijdens de inspiratieavond gedeeld. Inschrijven is wel vereist per atelier (je hoeft dus niet per se alle ateliers bij te wonen maar je kan je specifiek inschrijven waar jij nood en interesse in hebt!).
+
+
+      ### Planning
+
+
+      13 november — 17u40-20u — Model in perspectief
+
+
+      7 februari — 10u-13u — Dieren schetsen in het Natuurhistorisch Museum
+
+
+      11 maart — 17u40-20u — Snelschetsen op café
+
+
+      18 maart — 17u40-20u — Stadschetsen
+
+
+      25 maart — 17u40-20u — Beeldroutes van de wijk
+
+
+      28 maart — 10u-13u — Beeldgids van de wijk
+
+
+      26 mei & 2 juni — 17u40-20u — Kleur in Botanique
+
+
+      6 juni — 10u-13u Ruimtelijke ervaring van Brussel
     side2: >-
       ### Praktisch
 
 
       Mail [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels) of spreek jouw atelier leerkracht aan!
+
+
+      **Inschrijving is verplicht:** <https://tally.so/r/mOW22a>
+
+
+      * Gratis voor studenten (uitgezonderd eventuele toegangstickets voor locaties).
+
+      * €10 voor externen
 ---
