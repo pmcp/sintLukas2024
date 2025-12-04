@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-4 border-b pb-4 md:pb-6">
     <div class="flex gap-4"  v-for="(a, key) in orderedArticles" :key="`news-${key}`">
-      <nuxt-link :to="a.link" v-if="a.link">
+      <nuxt-link v-if="a.link" :to="a.link">
         <elements-image :src="a.image || fallbackImage" class="h-full w-20 md:w-40"/>
         <div class="flex flex-col md:gap-2  pt pb-8">
           <div class="text-xs"><helpers-date :date="a.date" /></div>
