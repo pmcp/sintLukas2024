@@ -24,7 +24,7 @@
         <!-- BLOCK: NEWS-->
         <div v-if="news" class="flex flex-col gap-4 col-span-1">
           <span class="uppercase font-bold tracking-wider">Nieuws</span>
-          <elements-news :articles="news" class=""/>
+          <elements-news :articles="news" :number="page.block_news.number"/>
         </div>
 
         <div class="h-full bg-black-100 w-full"></div>

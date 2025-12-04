@@ -25,27 +25,25 @@
 
 const props = defineProps({
   articles: Array,
+  number: Number,
 });
 
 const orderedArticles = ref([]);
-
-
 const fallbackImage = `assets/site/fallback.png`
 
 const sortByDateDesc = (articles) =>
     [...articles].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-
 if(props.articles) {
   // check if the first item of props.articles is an object (a bit optimistic, we go further on the basis that the rest are also objects:
   if (props.articles[0].constructor === Object) {
-    orderedArticles.value = sortByDateDesc(props.articles)
+    orderedArticles.value = sortByDateDesc(props.articles).slice(0, props.number || 3)
   } else {
     const { data } = await useAsyncData('news', () => queryContent('news')
         .where({ _draft: false, })
         .where({ id: { $in: props.articles }})
         .find())
-    orderedArticles.value = sortByDateDesc(data);
+    orderedArticles.value = sortByDateDesc(data).slice(0, props.number || 3);
   }
 }
 
