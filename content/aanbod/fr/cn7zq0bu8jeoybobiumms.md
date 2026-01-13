@@ -43,7 +43,7 @@ ateliers:
       **Februari** (les) 
 
 
-      Maandag 23 februari 
+      Maandag 09 februari in TRACK *( nieuwe datum! )*
 
 
       Rode draad en thema van de expo bepalen aan de hand van reflecties van de groep. Presentatie eigen werk aan elkaar. 
@@ -52,7 +52,7 @@ ateliers:
       **Maart** (les) 
 
 
-      Maandag 16 maart 
+      Maandag 23 maart in TRACK *( nieuwe datum! )*
 
 
       Groep A: oefening presenteren van individueel werk, vertrekkende vanuit sokkel of display 
