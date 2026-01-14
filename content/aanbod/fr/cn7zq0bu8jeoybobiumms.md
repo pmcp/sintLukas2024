@@ -155,7 +155,7 @@ ateliers:
       28 maart — 10u-13u — Beeldgids van de wijk
 
 
-      26 mei & 2 juni — 17u40-20u — Kleur in Botanique
+      26 mei — 17u40-20u — Kleur in Botanique
 
 
       6 juni — 10u-13u Ruimtelijke ervaring van Brussel
