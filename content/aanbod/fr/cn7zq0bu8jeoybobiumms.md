@@ -34,7 +34,7 @@ ateliers:
       **Januari** (lezing + les) 
 
 
-      Dinsdag (exacte datum binnenkort te bepalen door de kunstenaar) 
+      Maandag 26 januari
 
 
       Lezing Adriaan Verwée (1 uur). Nabespreking en praktische oefeningen over scenografie-Display. Mogelijkheden van presentatie. 
@@ -76,13 +76,22 @@ ateliers:
       **Mei** (les + monteren van de expo)
 
 
-      Zaterdag 2 mei of 9 mei Scenografie testen, maken afhankelijk van de gekozen vorm (mogelijk in een werkplaats in de buurt)
+      Zaterdag 9 mei Scenografie testen, maken afhankelijk van de gekozen vorm (mogelijk in een werkplaats in de buurt)
 
 
-      Dinsdag 25 mei (avond): Opbouw Woensdag 26 mei (avond): Opbouw
+      Dinsdag 25 mei (avond): Opbouw
 
 
-      Donderdag 28 mei (avond): Opbouw EXPO weekend: vrijdag 29 mei t/m 31 mei 2025 EXPO afbouw: mogelijk om eigen werk meenemen zondag net na afsluit expo 
+      Woensdag 26 mei (avond): Opbouw
+
+
+      Donderdag 28 mei (avond): Opbouw
+
+
+      EXPO weekend: vrijdag 29 mei t/m 31 mei 2025
+
+
+      EXPO afbouw: mogelijk om eigen werk meenemen zondag net na afsluit expo 
 
 
       **Juni** 
