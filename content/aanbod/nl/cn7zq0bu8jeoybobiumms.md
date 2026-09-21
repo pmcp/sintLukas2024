@@ -151,19 +151,43 @@ ateliers:
       ### Planning 2025-2026
 
 
-      13 november — 17u40-20u — Model in perspectief
+      15 oktober — 17u40-21u — Model in perspectief
 
 
-      7 februari — 10u-13u — Dieren schetsen in het Natuurhistorisch Museum
+      24 oktober — 13u-15u — KMSKB Rondleiding
 
 
-      11 maart — 17u40-20u — Snelschetsen op café
+      14 november — 10u-12u — Instrumenten tekenen in het MIM
 
 
-      14 maart — 10u-13u — Rondleiding in KMSK Brussel: Kijken, verwoorden, tekenen: De Tenhemelopneming van Maria
+      24 november — 18u-20u — Jazz muzikanten
 
 
-      18 maart — 17u40-20u — Stadschetsen
+      9 december — 16u-18u & 19u-21u — Snelschetsen op café
+
+
+      16 februari — 10u-12u — Dieren schetsen in het Natuurhistorisch Museum
+
+
+      21 januari — 14u-16u — KMSKB Rondleiding
+
+
+      25 januari — 17u40-21u — Dieren tot leven tekenen
+
+
+      10 februari — 18u-20u — Lettertypes ontleden
+
+
+      24 februari — 18u-20u — Kleurverschillen (calibratie)
+
+
+      13 maart — 10u-12u — Buurtgids voorbereiding
+
+
+      17 maart — 18u-20u — Buurtgids materiaal verzamelen
+
+
+      20 maart — 10-12u — Buurtgids publicatie opmaak
 
 
       25 maart — 17u40-20u — Beeldroutes van de wijk
@@ -172,13 +196,13 @@ ateliers:
       28 maart — 10u-13u — Beeldgids van de wijk
 
 
-      21 mei — 14u-16u — Rondleiding in KMSK Brussel: De kunst van het portret-kijken
+      14 april — 16u-18u & 19u-21u — Stadsindrukken
 
 
-      26 mei — 17u40-20u — Kleur in Botanique
+      12 mei — 18-20u — Toonmoment
 
 
-      6 juni — 10u-13u Ruimtelijke ervaring van Brussel
+      19 juni — 10u-12u & 14u-16u — Natuurprenten in Plantentuin Meise
 
 
       ### Inhoud

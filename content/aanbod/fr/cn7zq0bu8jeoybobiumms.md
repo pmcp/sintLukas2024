@@ -155,6 +155,9 @@ ateliers:
       11 maart — 17u40-20u — Snelschetsen op café
 
 
+      14 maart — 10u-13u — Rondleiding in KMSK Brussel: Kijken, verwoorden, tekenen: De Tenhemelopneming van Maria
+
+
       18 maart — 17u40-20u — Stadschetsen
 
 
@@ -162,6 +165,9 @@ ateliers:
 
 
       28 maart — 10u-13u — Beeldgids van de wijk
+
+
+      21 mei — 14u-16u — Rondleiding in KMSK Brussel: De kunst van het portret-kijken
 
 
       26 mei — 17u40-20u — Kleur in Botanique
