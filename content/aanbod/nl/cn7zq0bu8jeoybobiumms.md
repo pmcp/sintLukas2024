@@ -219,7 +219,7 @@ ateliers:
       Mail [info.academie@sintlukas.brussels](mailto:info.academie@sintlukas.brussels) of spreek jouw atelier leerkracht aan!
 
 
-      **Inschrijving is verplicht:** <https://tally.so/r/mOW22a>
+      **Inschrijving is verplicht:** *start binnenkort*
 
 
       * Gratis voor studenten (uitgezonderd eventuele toegangstickets voor locaties)
