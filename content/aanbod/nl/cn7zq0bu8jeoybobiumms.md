@@ -190,7 +190,7 @@ ateliers:
       20 maart — 10-12u — Buurtgids publicatie opmaak
 
 
-      25 maart — 17u40-20u — Beeldroutes van de wijk
+      25 maart — 18u-20u — Beeldroutes van de wijk
 
 
       28 maart — 10u-13u — Beeldgids van de wijk
