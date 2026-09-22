@@ -193,7 +193,7 @@ ateliers:
       25 maart — 18u-20u — Beeldroutes van de wijk
 
 
-      28 maart — 10u-13u — Beeldgids van de wijk
+      27 maart — 10u-13u — Beeldgids van de wijk
 
 
       14 april — 16u-18u & 19u-21u — Stadsindrukken
