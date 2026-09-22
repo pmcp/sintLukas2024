@@ -166,7 +166,7 @@ ateliers:
       9 december — 16u-18u & 19u-21u — Snelschetsen op café
 
 
-      16 februari — 10u-12u — Dieren schetsen in het Natuurhistorisch Museum
+      16 januari — 10u-12u — Dieren schetsen in het Natuurhistorisch Museum
 
 
       21 januari — 14u-16u — KMSKB Rondleiding
