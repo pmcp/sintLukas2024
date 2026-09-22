@@ -148,7 +148,7 @@ ateliers:
       waarneming.
 
 
-      ### Planning 2025-2026
+      ### Planning 2026-2027
 
 
       15 oktober — 17u40-21u — Model in perspectief
