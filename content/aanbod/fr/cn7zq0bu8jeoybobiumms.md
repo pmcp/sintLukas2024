@@ -143,7 +143,7 @@ ateliers:
       waarneming.
 
 
-      ### Planning 2025-2026
+      ### Planning 2026-2027
 
 
       15 oktober — 17u40-21u — Model in perspectief
@@ -161,7 +161,7 @@ ateliers:
       9 december — 16u-18u & 19u-21u — Snelschetsen op café
 
 
-      16 februari — 10u-12u — Dieren schetsen in het Natuurhistorisch Museum
+      16 januari — 10u-12u — Dieren schetsen in het Natuurhistorisch Museum
 
 
       21 januari — 14u-16u — KMSKB Rondleiding
@@ -188,7 +188,7 @@ ateliers:
       25 maart — 18u-20u — Beeldroutes van de wijk
 
 
-      28 maart — 10u-13u — Beeldgids van de wijk
+      27 maart — 10u-13u — Beeldgids van de wijk
 
 
       14 april — 16u-18u & 19u-21u — Stadsindrukken
