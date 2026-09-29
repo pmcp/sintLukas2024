@@ -97,7 +97,7 @@ ateliers:
       25 januari — 17u40-21u — Dieren tot leven tekenen
 
 
-      10 februari — 18u-20u — Lettertypes ontleden
+      3 februari — 18u-20u — Lettertypes ontleden
 
 
       24 februari — 18u-20u — Kleurverschillen (calibratie)
