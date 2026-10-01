@@ -73,28 +73,16 @@ ateliers:
       ### Planning 2026-2027
 
 
-      15 oktober — 17u40-21u — Model in perspectief
+      15 oktober — 17u40-21u — Model in perspectief — i[nschrijven](https://forms.cloud.microsoft/e/X6GU6Jk5eF)
 
 
-      [Inschrijving — do 15/10 · 17:40-21:00 · Model in perspectief – Fill in form](https://forms.cloud.microsoft/e/X6GU6Jk5eF)
+      24 oktober — 13u-15u — KMSKB Rondleiding — i[nschrijven (enkel studenten)](https://forms.cloud.microsoft/e/GTtJAwBFxL)
 
 
-      24 oktober — 13u-15u — KMSKB Rondleiding
+      14 november — 10u-12u — Instrumenten tekenen in het MIM — i[nschrijven](https://forms.cloud.microsoft/e/03s55ajL6p)
 
 
-      [Inschrijving — za 24/10 · 13:00-15:00 · KMSKB Rondleiding – Fill in form (enkel studenten)](https://forms.cloud.microsoft/e/GTtJAwBFxL)
-
-
-      14 november — 10u-12u — Instrumenten tekenen in het MIM
-
-
-      [Inschrijving — za 14/11 · 10:00-12:00 · Instrumenten tekenen in het MIM – Fill in form](https://forms.cloud.microsoft/e/03s55ajL6p)
-
-
-      24 november — 18u-20u — Jazz muzikanten
-
-
-      [Inschrijving — di 24/11 · 18:00-20:00 · Jazz muzikanten – Fill in form](https://forms.cloud.microsoft/e/xpStrZwMXK)
+      24 november — 18u-20u — Jazz muzikanten — i[nschrijving](https://forms.cloud.microsoft/e/xpStrZwMXK)
 
 
       9 december — 16u-18u & 19u-21u — Snelschetsen op café
