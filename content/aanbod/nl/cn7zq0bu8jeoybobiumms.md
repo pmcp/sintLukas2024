@@ -82,7 +82,7 @@ ateliers:
       14 november — 10u-12u — Instrumenten tekenen in het MIM — i[nschrijven](https://forms.cloud.microsoft/e/03s55ajL6p)
 
 
-      24 november — 18u-20u — Jazz muzikanten — i[nschrijving](https://forms.cloud.microsoft/e/xpStrZwMXK)
+      24 november — 18u-20u — Jazz muzikanten — i[nschrijven](https://forms.cloud.microsoft/e/xpStrZwMXK)
 
 
       9 december — 16u-18u & 19u-21u — Snelschetsen op café
